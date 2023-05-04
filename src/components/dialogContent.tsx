@@ -29,7 +29,8 @@ export default function DialogContent(props: dialogContentProps) {
                         </Typography>}>
                         <TreeItem nodeId="2" label={
                             <Box padding={1}>
-                                <Typography variant='body1' align='justify'>
+                                <Typography variant='body1' >
+
                                     {filterContent([key, value])}
                                 </Typography>
                             </Box>
