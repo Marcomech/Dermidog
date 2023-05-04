@@ -23,7 +23,7 @@ export default function DialogContent(props: dialogContentProps) {
             sx={{ flexGrow: 1, Width: 400, }}>
             {Object.entries(data).map(([key, value]) => {
                 if (value != "") {
-                    return <TreeItem nodeId={key} label=
+                    return <TreeItem key={key} nodeId={key} label=
                         {<Typography variant='h6'>
                             {filterEmpty([key, value])}
                         </Typography>}>
