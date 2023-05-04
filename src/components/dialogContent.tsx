@@ -20,7 +20,7 @@ export default function DialogContent(props: dialogContentProps) {
             aria-label="controlled"
             defaultCollapseIcon={<ExpandMore />}
             defaultExpandIcon={<ChevronRight />}
-            sx={{ flexGrow: 1, Width: 400, }}>
+            sx={{ flexGrow: 1, }}>
             {Object.entries(data).map(([key, value]) => {
                 if (value != "") {
                     return <TreeItem key={key} nodeId={key} label=
