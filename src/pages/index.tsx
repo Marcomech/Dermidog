@@ -1,41 +1,51 @@
-import React from 'react';
-import { Box, Typography } from '@mui/material';
-import GlobalLayout from "@/layouts";
-import DataGrid from '@/components/dataGrid';
-import { Charapters } from '../../public/data/Capitulos';
+import GlobalLayout from '@/layouts'
+import { Expand } from '@mui/icons-material'
+import { Typography, Box, Grid, Button } from '@mui/material'
+import { useRouter } from 'next/router'
 
 export default function Home() {
-  return (
+  const router = useRouter()
+  function handleClick(page: string) {
+    router.push(page)
+  }
+
+  return (<>
     <GlobalLayout>
-      <Typography align='center' variant='h1' marginTop={1} >Dermidog</Typography>
-      < Box sx={{ flexGrow: 1 }} marginX={2}>
-        {
-          Charapters.map((capitulos) => (
-            <>
-              <Typography variant='h4' marginBottom={1} marginTop={4}>
-                {capitulos.TITULO}
-              </Typography>
-              <DataGrid capitulos={capitulos} />
-            </>
-          ))}
+      <Typography variant='body1' >
+        Sistema de apoyo al diagnostico y aprendizaje de las enfgermedades mas frecuentes de la piel de los caninos
+      </Typography>
+      <Grid container direction="row" justifyContent="space-evenly" justifyItems="center"
+        style={{ marginTop: '10vh', marginBottom: '15vh', paddingBottom: '20vh' }}
+      >
+        <Grid >
+          <Button variant='outlined'
+            style={{ margin: '2vh', width: '25vh', height: '15vh', minWidth: '150px', minHeight: '80px' }}
+            onClick={() => handleClick("/informacion_patologica")}>
+            Información Patológica
+          </Button>
+        </Grid>
+        <Grid >
+          <Button variant='outlined'
+            style={{ margin: '2vh', width: '25vh', height: '15vh', minWidth: '150px', minHeight: '80px' }}
+            onClick={() => handleClick("/ayuda_diagnostica")}>
+            Ayuda Diagnóstica
+          </Button>
+        </Grid>
+      </Grid>
+      <Box
+        display="flex"
+        justifyContent="flex-end"
+        alignItems="flex-end"
+        position="fixed"
+        bottom={0}
+        right={0}
+        margin={2}
+      >
+        <Typography variant="body1">
+          Creado por E. Freire y E. Hutter, 1997
+        </Typography>
       </Box>
-    </GlobalLayout>
+    </GlobalLayout >
+  </>
   )
 }
-
-//import { Charapters } from '../../public/data/Capitulos'
-//import { FullDataBase } from '../../public/data/newData';
-//
-//
-//export default function Home() {
-//  return (
-//    <GlobalLayout>
-//      {
-//        FullDataBase.map((enfermedades) => (
-//          <Typography variant='body2' >
-//            {enfermedades.name}
-//          </Typography>)
-//        )}
-//    </GlobalLayout>
-//  )
-//}

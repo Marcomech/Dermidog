@@ -1,0 +1,9 @@
+Este sistema ha sido concebido para satisfacer las necesidades de información actualizada en relación al diagnóstico y manejo de la terapia de los pacientes con problemas dermatológicos.
+
+Este sistema consta de 2 ambientes de opciones,presentados bajo la forma de menues interactivos.
+
+Seleccione el área en que desea trabajar, moviendo las teclas flechas. Luego presione la tecla <Enter>  este requerimiento, el sistema responderá con la resentación de una  pantalla que le permitirá cumplir con ese propósito específico.
+
+Cada pantalla se acompaña de oportunos mensajes de tipo conversacional que sirven de guía.
+
+

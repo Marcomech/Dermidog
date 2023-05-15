@@ -1,23 +1,5 @@
 import { createTheme } from '@mui/material/styles';
-/*
-export const theme = createTheme({
-    typography: {
-        "fontFamily": `"Roboto", "Helvetica", "Arial", sans-serif`,
-        h1: {
-            color: '#fff',
-        },
-        h6: {
-            color: '#000000',
-        },
-        body1: {
-
-            color: '#000000',
-        },
-    },
-});
-
-*/
-import { green, grey, red } from '@mui/material/colors';
+import { green, red } from '@mui/material/colors';
 
 const rawTheme = createTheme({
     palette: {
@@ -41,7 +23,7 @@ const rawTheme = createTheme({
         },
         text: {
             primary: '#fff',
-            secondary: '#000000',
+            secondary: '#282c34',
         },
     },
     typography: {
@@ -58,10 +40,17 @@ const fontHeader = {
     fontWeight: rawTheme.typography.fontWeightMedium,
     fontFamily: "'Roboto Condensed', sans-serif",
     textTransform: 'uppercase',
+};
+
+const styles = {
+
+    heading2: "font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
+    paragraph: "font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]",
 
 };
 
 const theme = {
+    ...styles,
     ...rawTheme,
     palette: {
         ...rawTheme.palette,
