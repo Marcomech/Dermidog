@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Grid from "@mui/material/Unstable_Grid2"
-import { DropDown, Text } from './customFormFields';
+import DropDown from './CustomFormFields/DropDown';
+import Text from './CustomFormFields/Text';
 import { FormFields } from '../../../../public/data/index';
 import { gif1, gif2, gif3 } from "../../../assets/index"
 
@@ -11,7 +12,7 @@ interface PageContProps {
   actualPage: number
 }
 
-export function Page(data: PageContProps) {
+export default function Page(data: PageContProps) {
   const { actualPage } = data;
 
   if (actualPage < 5) {

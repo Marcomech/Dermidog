@@ -1,5 +1,4 @@
 import { ReactNode, createContext, useState } from "react";
-import { PruritoDetail, SeborreaDetail } from "../constants/DiagnosticoTypes"
 
 interface FormData {
   [key: string]: string;

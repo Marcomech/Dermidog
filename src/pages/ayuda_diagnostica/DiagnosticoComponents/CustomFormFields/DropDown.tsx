@@ -8,31 +8,7 @@ type FieldProps = {
   options?: string[];
 }
 
-export function Text(data: FieldProps) {
-  const { id } = data;
-
-  const { formData, setFormData } = useContext(FormContext);
-
-  const handleChange = (event: React.FocusEvent<HTMLInputElement>, fieldId: string) => {
-    const newValue = event.target.value;
-    setFormData({ ...formData, [fieldId]: newValue });
-  };
-
-  return (
-    <FormControl
-      focused={true}>
-
-      <TextField
-        id={id}
-        focused={true}
-        label='Nombre'
-        onBlur={(event: React.FocusEvent<HTMLInputElement>) =>
-          handleChange(event, id)
-        } />
-    </FormControl >)
-}
-
-export function DropDown(data: FieldProps) {
+export default function DropDown(data: FieldProps) {
   const { id, options } = data;
   const { formData, setFormData } = useContext(FormContext);
 
