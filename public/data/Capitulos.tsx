@@ -1,8 +1,8 @@
 export const Charapters: FullCharapters[] = [
     {
-        "ID": "CAPITULO I",
-        "TITULO": "PIODERMIAS",
-        "ENFERMEDADES": [
+        ID: "CAPITULO I",
+        TITULO: "PIODERMIAS",
+        ENFERMEDADES: [
             "Dermatitis de los pliegues",
             "Dermatitis húmeda aguda",
             "Impétigo",
@@ -18,9 +18,9 @@ export const Charapters: FullCharapters[] = [
         ]
     },
     {
-        "ID": "CAPITULO II",
-        "TITULO": "DERMATITIS POR HIPERSENSIBILIDADES",
-        "ENFERMEDADES": [
+        ID: "CAPITULO II",
+        TITULO: "DERMATITIS POR HIPERSENSIBILIDADES",
+        ENFERMEDADES: [
             "Dermatitis alérgica por pulgas Est. I",
             "Dermatitis alérgica por pulgas Est. II",
             "Dermatitis alérgica por pulgas Est. III",
@@ -31,9 +31,9 @@ export const Charapters: FullCharapters[] = [
         ]
     },
     {
-        "ID": "CAPITULO III",
-        "TITULO": "DERMATITIS AUTOINMUNES E INMUNOMEDIADAS",
-        "ENFERMEDADES": [
+        ID: "CAPITULO III",
+        TITULO: "DERMATITIS AUTOINMUNES E INMUNOMEDIADAS",
+        ENFERMEDADES: [
             "Pénfigo foliáceo",
             "Pénfigo vulgar",
             "/*/Pénfigo eritematoso",
@@ -46,9 +46,9 @@ export const Charapters: FullCharapters[] = [
         ]
     },
     {
-        "ID": "CAPITULO IV",
-        "TITULO": "DERMATITIS POR ECTOPARASITOSIS",
-        "ENFERMEDADES": [
+        ID: "CAPITULO IV",
+        TITULO: "DERMATITIS POR ECTOPARASITOSIS",
+        ENFERMEDADES: [
             "/*/Demodicosis localizada",
             "/*/Demodicosis generalizada",
             "Sarna sarcóptica",
@@ -57,9 +57,9 @@ export const Charapters: FullCharapters[] = [
         ]
     },
     {
-        "ID": "CAPITULO V",
-        "TITULO": "DERMATOSIS DE ORIGEN HORMONAL",
-        "ENFERMEDADES": [
+        ID: "CAPITULO V",
+        TITULO: "DERMATOSIS DE ORIGEN HORMONAL",
+        ENFERMEDADES: [
             "Dermatosis por hiperadrenocortisismo",
             "Dermatosis por hipotiroidismo",
             "/*/Alopecia X",
@@ -69,18 +69,18 @@ export const Charapters: FullCharapters[] = [
         ]
     },
     {
-        "ID": "CAPITULO VI",
-        "TITULO": "DERMATOMICOSIS",
-        "ENFERMEDADES": [
+        ID: "CAPITULO VI",
+        TITULO: "DERMATOMICOSIS",
+        ENFERMEDADES: [
             "Dermatofitosis por microsporum",
             "Dermatofitosis por tricophyiton",
             "Dermatitis por malassezia",
         ]
     },
     {
-        "ID": "CAPITULO VII",
-        "TITULO": "DERMATOSIS POR ALTERACIONES DE LA QUERATINIZACIÓN Y NUTRICIONALES",
-        "ENFERMEDADES": [
+        ID: "CAPITULO VII",
+        TITULO: "DERMATOSIS POR ALTERACIONES DE LA QUERATINIZACIÓN Y NUTRICIONALES",
+        ENFERMEDADES: [
             "Seborrea primaria",
             "Seborrea secundaria",
             "Seborrea del borde de las orejas",
@@ -91,9 +91,9 @@ export const Charapters: FullCharapters[] = [
         ]
     },
     {
-        "ID": "CAPITULO VIII",
-        "TITULO": "DERMATOSIS DIVERSAS",
-        "ENFERMEDADES": [
+        ID: "CAPITULO VIII",
+        TITULO: "DERMATOSIS DIVERSAS",
+        ENFERMEDADES: [
             "Fístulas perianales",
             "Celulitis juvenil",
             "/*/Alopecía por color diluido",

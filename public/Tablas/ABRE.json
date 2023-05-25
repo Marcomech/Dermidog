@@ -1,0 +1,58 @@
+[
+    {
+        "NOMBRE": "DERMATOFITOSIS POR MICROSPORUM",
+        "ABRE": "Alopecía circular",
+        "PONDE": 0.65,
+        "NO": "7MIC",
+        "DEFI": "Falta de Pelo. Puede ser primaria o secundaria"
+    },
+    {
+        "NOMBRE": "DEMODECCIA GENERALIZADA",
+        "ABRE": "Costras",
+        "PONDE": 0.17,
+        "NO": "5DEMG",
+        "DEFI": "Exudado seco que se adhiere a la superficie de la  piel, formado por suero, pus, sangre, células, escamas o restos de medicamentos."
+    },
+    {
+        "NOMBRE": "DEMODECCIA GENERALIZADA",
+        "ABRE": "Descamaciones",
+        "PONDE": 0.12,
+        "NO": "5DEMG",
+        "DEFI": "Acumulo de células epidérmicas muertas que se desprenden del estrato córneo. Puede ser seca u oleosa."
+    },
+    {
+        "NOMBRE": "DEMODECCIA GENERALIZADA",
+        "ABRE": "Edema",
+        "PONDE": 0.24,
+        "NO": "5DEMG",
+        "DEFI": "Concepto elemental. No se entrega definición."
+    },
+    {
+        "NOMBRE": "DEMODECCIA GENERALIZADA",
+        "ABRE": "Exudados",
+        "PONDE": 0.17,
+        "NO": "5DEMG",
+        "DEFI": "Material que rezume a través de la piel."
+    },
+    {
+        "NOMBRE": "DERMATOFITOSIS POR MICROSPORUM",
+        "ABRE": "Foliculitis",
+        "PONDE": 0.17,
+        "NO": "7MIC",
+        "DEFI": "Inflamación folicular. Acumulo de células inflamatorias en la luz folicular."
+    },
+    {
+        "NOMBRE": "DEMODECCIA GENERALIZADA",
+        "ABRE": "Otitis",
+        "PONDE": 0.1,
+        "NO": "5DEMG",
+        "DEFI": "Concepto elemental. No se entrega definición."
+    },
+    {
+        "NOMBRE": "DEMODECCIA GENERALIZADA",
+        "ABRE": "Pápulas",
+        "PONDE": 0.2,
+        "NO": "5DEMG",
+        "DEFI": "Elevación sólida y circunscrita de la piel de hasta 1 cm de diámetro. Puede involucrar al folículo piloso."
+    }
+]

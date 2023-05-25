@@ -1,0 +1,542 @@
+[
+    {
+        "ABRE": "I-Dermatitis pseudobacteriana",
+        "CAPIT": "Dermatitis pseudobacteriana",
+        "NOMBRE": "DERMATITIS HUMEDA AGUDA",
+        "NO": "1BCAL",
+        "I_N": 0.0,
+        "INTEN": 1.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "I-Dermatitis pseudobacteriana",
+        "CAPIT": "Dermatitis pseudobacteriana",
+        "NOMBRE": "PODODERMATITIS",
+        "NO": "1BPOD",
+        "I_N": 0.0,
+        "INTEN": 2.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "I-Dermatitis pseudobacteriana",
+        "CAPIT": "Dermatitis pseudobacteriana",
+        "NOMBRE": "DERMATITIS DE LOS PLIEGUES",
+        "NO": "1BPLI",
+        "I_N": 0.0,
+        "INTEN": 3.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "I-Dermatitis pseudobacteriana",
+        "CAPIT": "Dermatitis pseudobacteriana",
+        "NOMBRE": "FOLICULITIS Y FORUNCULOSIS DEL MENTON",
+        "NO": "1BMEN",
+        "I_N": 0.0,
+        "INTEN": 4.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "I-Dermatitis pseudobacteriana",
+        "CAPIT": "Dermatitis pseudobacteriana",
+        "NOMBRE": "PIODERMIA DE LOS CALLOS",
+        "NO": "1BCAY",
+        "I_N": 0.0,
+        "INTEN": 5.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "II-Dermatitis bacteriana",
+        "CAPIT": "Dermatitis bacteriana",
+        "NOMBRE": "IMPETIGO",
+        "NO": "1SIMP",
+        "I_N": 0.0,
+        "INTEN": 6.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "II-Dermatitis bacteriana",
+        "CAPIT": "Dermatitis bacteriana",
+        "NOMBRE": "FOLICULITIS BACTERIANA SUPERFICIAL",
+        "NO": "1SFOL",
+        "I_N": 0.0,
+        "INTEN": 7.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "II-Dermatitis bacteriana",
+        "CAPIT": "Dermatitis bacteriana",
+        "NOMBRE": "FOLICULITIS BACTERIANA",
+        "NO": "1SCAL",
+        "I_N": 0.0,
+        "INTEN": 8.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "I-Dermatitis pseudobacteriana",
+        "CAPIT": "Dermatitis bacteriana",
+        "NOMBRE": "PIODERMIA DEL OVEJERO ALEMAN",
+        "NO": "1POV",
+        "I_N": 0.0,
+        "INTEN": 9.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "I-Dermatitis pseudobacteriana",
+        "CAPIT": "Dermatitis pseudobacteriana",
+        "NOMBRE": "FISTULAS PERIANALES",
+        "NO": "9FIS",
+        "I_N": 0.0,
+        "INTEN": 10.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "III-Dermatitis por hipersensibilidades",
+        "CAPIT": "Dermatitis por hipersensibilidades",
+        "NOMBRE": "DERMATITIS ALERGICA POR PULGAS EST I",
+        "NO": "2PUL",
+        "I_N": 0.0,
+        "INTEN": 11.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "III-Dermatitis por hipersensibilidades",
+        "CAPIT": "Dermatitis por hipersensibilidades",
+        "NOMBRE": "DERMATITIS ALERGICA POR PULGAS EST II",
+        "NO": "2PUL2",
+        "I_N": 0.0,
+        "INTEN": 12.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "III-Dermatitis por hipersensibilidades",
+        "CAPIT": "Dermatitis por hipersensibilidades",
+        "NOMBRE": "DERMATITIS ALERGICA POR PULGAS EST III",
+        "NO": "2PUL3",
+        "I_N": 0.0,
+        "INTEN": 13.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "III-Dermatitis por hipersensibilidades",
+        "CAPIT": "Dermatitis por hipersensibilidades",
+        "NOMBRE": "ATOPIA CANINA EST I",
+        "NO": "2ATO",
+        "I_N": 0.0,
+        "INTEN": 14.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "III-Dermatitis por hipersensibilidades",
+        "CAPIT": "Dermatitis por hipersensibilidades",
+        "NOMBRE": "ATOPIA CANINA EST II",
+        "NO": "2ATO2",
+        "I_N": 0.0,
+        "INTEN": 15.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "III-Dermatitis por hipersensibilidades",
+        "CAPIT": "Dermatitis por hipersensibilidades",
+        "NOMBRE": "ATOPIA CANINA EST III",
+        "NO": "2ATO3",
+        "I_N": 0.0,
+        "INTEN": 16.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "III-Dermatitis por hipersensibilidades",
+        "CAPIT": "Dermatitis por hipersensibilidades",
+        "NOMBRE": "DERMATITIS ALERGICA POR CONTACTO EST I",
+        "NO": "2CONT",
+        "I_N": 0.0,
+        "INTEN": 17.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "III-Dermatitis por hipersensibilidades",
+        "CAPIT": "Dermatitis por hipersensibilidades",
+        "NOMBRE": "DERMATITIS ALERGICA POR CONTACTO EST II",
+        "NO": "2CONT2",
+        "I_N": 0.0,
+        "INTEN": 18.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "III-Dermatitis por hipersensibilidades",
+        "CAPIT": "Dermatitis por hipersensibilidades",
+        "NOMBRE": "ALERGIA ALIMENTARIA",
+        "NO": "2ALIM",
+        "I_N": 0.0,
+        "INTEN": 19.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "IV-Dermatitis autoinmunes, inmunomediadas que responden al zinc",
+        "CAPIT": "Dermatitis autoinmunes, inmunomediadas que responden al zinc.",
+        "NOMBRE": "PENFIGO FOLIACEO",
+        "NO": "4PFOL",
+        "I_N": 0.0,
+        "INTEN": 20.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "I-Dermatitis pseudobacteriana",
+        "CAPIT": "Dermatitis pseudobacteriana",
+        "NOMBRE": "CELULITIS JUVENIL",
+        "NO": "4JUV",
+        "I_N": 0.0,
+        "INTEN": 21.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "V-Dermatitis por ectoparasitosis",
+        "CAPIT": "Dermatitis por ectoparasitosis",
+        "NOMBRE": "SARNA SARCOPTICA",
+        "NO": "5SARC",
+        "I_N": 0.0,
+        "INTEN": 22.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "V-Dermatitis por ectoparasitosis",
+        "CAPIT": "Dermatitis por ectoparasitosis",
+        "NOMBRE": "DEMODECCIA GENERALIZADA",
+        "NO": "5DEMG",
+        "I_N": 0.0,
+        "INTEN": 23.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "V-Dermatitis por ectoparasitosis",
+        "CAPIT": "Dermatitis por ectoparasitosis",
+        "NOMBRE": "DEMODECCIA LOCALIZADA",
+        "NO": "5DEML",
+        "I_N": 0.0,
+        "INTEN": 24.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "V-Dermatitis por ectoparasitosis",
+        "CAPIT": "Dermatitis por ectoparasitosis",
+        "NOMBRE": "SARNA OTODECTICA",
+        "NO": "5OTO",
+        "I_N": 0.0,
+        "INTEN": 25.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "V-Dermatitis por ectoparasitosis",
+        "CAPIT": "Dermatitis por ectoparasitosis",
+        "NOMBRE": "CHEILETIELOSIS",
+        "NO": "5CHEL",
+        "I_N": 0.0,
+        "INTEN": 26.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "VI-Dermatosis de origen hormonal.",
+        "CAPIT": "Dermatosis de origen hormonal.",
+        "NOMBRE": "DERMATOSIS POR HIPERADRENOCORTISISMO.",
+        "NO": "6CUSH",
+        "I_N": 0.0,
+        "INTEN": 27.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "VI-Dermatosis de origen hormonal.",
+        "CAPIT": "Dermatosis de origen hormonal.",
+        "NOMBRE": "DERMATOSIS POR HIPOTIROIDISMO",
+        "NO": "6HTIR",
+        "I_N": 0.0,
+        "INTEN": 28.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "VI-Dermatosis de origen hormonal.",
+        "CAPIT": "Dermatosis de origen hormonal.",
+        "NOMBRE": "DERMATOSIS POR HIPERESTROGENISMO",
+        "NO": "6HEST",
+        "I_N": 0.0,
+        "INTEN": 29.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "VI-Dermatosis de origen hormonal.",
+        "CAPIT": "Dermatosis de origen hormonal.",
+        "NOMBRE": "DERMATOSIS POR HIPOESTROGENISMO",
+        "NO": "6HIP",
+        "I_N": 0.0,
+        "INTEN": 30.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "VI-Dermatosis de origen hormonal.",
+        "CAPIT": "Dermatosis de origen hormonal.",
+        "NOMBRE": "DERMATOSIS POR HIPOANDROGENISMO",
+        "NO": "6AND",
+        "I_N": 0.0,
+        "INTEN": 31.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "VI-Dermatosis de origen hormonal.",
+        "CAPIT": "Dermatosis de origen hormonal.",
+        "NOMBRE": "DERMATOSIS POR TUMOR DE CELULAS DE SERTOLI",
+        "NO": "6SER",
+        "I_N": 0.0,
+        "INTEN": 32.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "VI-Dermatosis de origen hormonal.",
+        "CAPIT": "Dermatosis de origen hormonal.",
+        "NOMBRE": "DERMATOSIS POR HIPOSOMATOTROFISMO DEL ADULTO",
+        "NO": "6SOM",
+        "I_N": 0.0,
+        "INTEN": 33.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "VII-Dermatomicosis.",
+        "CAPIT": "Dermatomicosis.",
+        "NOMBRE": "DERMATOFITOSIS POR MICROSPORUM",
+        "NO": "7MIC",
+        "I_N": 0.0,
+        "INTEN": 34.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "VII-Dermatomicosis.",
+        "CAPIT": "Dermatomicosis.",
+        "NOMBRE": "DERMATOFITOSIS POR TRICOFITON",
+        "NO": "7TRI",
+        "I_N": 0.0,
+        "INTEN": 35.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "VII-Dermatomicosis.",
+        "CAPIT": "Dermatomicosis.",
+        "NOMBRE": "DERMATITIS POR MALASSEZIA",
+        "NO": "7MAL",
+        "I_N": 0.0,
+        "INTEN": 36.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "I-Dermatitis pseudobacteriana",
+        "CAPIT": "Dermatitis pseudobacteriana",
+        "NOMBRE": "ESPOROTRICOSIS",
+        "NO": "7SPO",
+        "I_N": 0.0,
+        "INTEN": 37.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "VIII-Dermatosis por alteraci\u00f3n de las gl\u00e1ndulas seb\u00e1ceas, queratinizaci\u00f3n y nutrici\u00f3n",
+        "CAPIT": "Dermatosis por alteraci\u00f3n de las gl\u00e1ndulas seb\u00e1ceas, queratinizaci\u00f3n y nutrici\u00f3n",
+        "NOMBRE": "SEBORREA PRIMARIA",
+        "NO": "8APRI",
+        "I_N": 0.0,
+        "INTEN": 38.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "VIII-Dermatosis por alteraci\u00f3n de las gl\u00e1ndulas seb\u00e1ceas, queratinizaci\u00f3n y nutrici\u00f3n",
+        "CAPIT": "Dermatosis por alteraci\u00f3n de las gl\u00e1ndulas seb\u00e1ceas, queratinizaci\u00f3n y nutrici\u00f3n",
+        "NOMBRE": "SEBORREA SECUNDARIA",
+        "NO": "8ASEC",
+        "I_N": 0.0,
+        "INTEN": 39.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "VIII-Dermatosis por alteraci\u00f3n de las gl\u00e1ndulas seb\u00e1ceas, queratinizaci\u00f3n y nutrici\u00f3n",
+        "CAPIT": "Dermatosis por alteraci\u00f3n de las gl\u00e1ndulas seb\u00e1ceas, queratinizaci\u00f3n y nutrici\u00f3n",
+        "NOMBRE": "SEBORREA DEL BORDE DE LAS OREJAS",
+        "NO": "8AORE",
+        "I_N": 0.0,
+        "INTEN": 40.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "VIII-Dermatosis por alteraci\u00f3n de las gl\u00e1ndulas seb\u00e1ceas, queratinizaci\u00f3n y nutrici\u00f3n",
+        "CAPIT": "Dermatosis por alteraci\u00f3n de las gl\u00e1ndulas seb\u00e1ceas, queratinizaci\u00f3n y nutrici\u00f3n",
+        "NOMBRE": "HIPERPLASIA DE LA GLANDULA DE LA COLA",
+        "NO": "8ACOL",
+        "I_N": 0.0,
+        "INTEN": 41.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "VIII-Dermatosis por alteraci\u00f3n de las gl\u00e1ndulas seb\u00e1ceas, queratinizaci\u00f3n y nutrici\u00f3n",
+        "CAPIT": "Dermatosis por alteraci\u00f3n de las gl\u00e1ndulas seb\u00e1ceas, queratinizaci\u00f3n y nutrici\u00f3n",
+        "NOMBRE": "HIPERQUERATOSIS NASO-DIGITAL IDIOPATICA",
+        "NO": "8BNAS",
+        "I_N": 0.0,
+        "INTEN": 42.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "VIII-Dermatosis por alteraci\u00f3n de las gl\u00e1ndulas seb\u00e1ceas, queratinizaci\u00f3n y nutrici\u00f3n",
+        "CAPIT": "Dermatosis por alteraci\u00f3n de las gl\u00e1ndulas seb\u00e1ceas, queratinizaci\u00f3n y nutrici\u00f3n",
+        "NOMBRE": "DERMATOSIS QUE RESPONDE A LA VITAMINA A",
+        "NO": "8CVIT",
+        "I_N": 0.0,
+        "INTEN": 43.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "IV-Dermatitis autoinmunes, inmunomediadas que responden al zinc",
+        "CAPIT": "Dermatitis autoinmunes, inmunomediadas que responden al zinc.",
+        "NOMBRE": "DERMATOSIS QUE RESPONDE AL ZINC-I",
+        "NO": "8CZ1",
+        "I_N": 0.0,
+        "INTEN": 44.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "IV-Dermatitis autoinmunes, inmunomediadas que responden al zinc",
+        "CAPIT": "Dermatitis autoinmunes, inmunomediadas que responden al zinc.",
+        "NOMBRE": "DERMATOSIS QUE RESPONDE AL ZINC-II",
+        "NO": "8CZ2",
+        "I_N": 0.0,
+        "INTEN": 45.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "VI-Dermatosis de origen hormonal.",
+        "CAPIT": "Dermatosis de origen hormonal.",
+        "NOMBRE": "ACANTOSIS NIGRICANS PRIMARIA",
+        "NO": "9ACA",
+        "I_N": 0.0,
+        "INTEN": 46.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "VI-Dermatosis de origen hormonal.",
+        "CAPIT": "Dermatosis de origen hormonal.",
+        "NOMBRE": "ACANTOSIS NIGRICANS SECUNDARIA",
+        "NO": "9ACA2",
+        "I_N": 0.0,
+        "INTEN": 47.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "VI-Dermatosis de origen hormonal.",
+        "CAPIT": "Dermatosis de origen hormonal.",
+        "NOMBRE": "ALOPECIA POR MUTACION DE COLOR",
+        "NO": "9MUT",
+        "I_N": 0.0,
+        "INTEN": 48.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "V-Dermatitis por ectoparasitosis",
+        "CAPIT": "Dermatitis por ectoparasitosis",
+        "NOMBRE": "DERMATOMIOSITIS",
+        "NO": "9EPI",
+        "I_N": 0.0,
+        "INTEN": 49.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "VII-Dermatomicosis.",
+        "CAPIT": "Dermatomicosis.",
+        "NOMBRE": "DERMATITIS ACRAL POR LAMIDO",
+        "NO": "9LICK",
+        "I_N": 0.0,
+        "INTEN": 50.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "VIII-Dermatosis por alteraci\u00f3n de las gl\u00e1ndulas seb\u00e1ceas, queratinizaci\u00f3n y nutrici\u00f3n",
+        "CAPIT": "Dermatosis por alteraci\u00f3n de las gl\u00e1ndulas seb\u00e1ceas, queratinizaci\u00f3n y nutrici\u00f3n",
+        "NOMBRE": "OTITIS EXTERNA",
+        "NO": "9OTI",
+        "I_N": 0.0,
+        "INTEN": 51.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "I-Dermatitis pseudobacteriana",
+        "CAPIT": "Dermatitis pseudobacteriana",
+        "NOMBRE": "ENFERMEDAD DE LOS SACOS ANALES",
+        "NO": "9ANO",
+        "I_N": 0.0,
+        "INTEN": 52.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "II-Dermatitis bacteriana",
+        "CAPIT": "Dermatitis bacteriana",
+        "NOMBRE": "FORUNCULOSIS NASAL",
+        "NO": "1BNAS",
+        "I_N": 0.0,
+        "INTEN": 53.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "II-Dermatitis bacteriana",
+        "CAPIT": "Dermatitis bacteriana",
+        "NOMBRE": "HIPERSENSIBILIDAD BACTERIANA NO VERDADERA",
+        "NO": "1SHSE",
+        "I_N": 0.0,
+        "INTEN": 54.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "II-Dermatitis bacteriana",
+        "CAPIT": "Dermatitis bacteriana",
+        "NOMBRE": "FORUNCULOSIS Y CELULITIS",
+        "NO": "1PFFC",
+        "I_N": 0.0,
+        "INTEN": 55.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "IV-Dermatitis autoinmunes, inmunomediadas que responden al zinc",
+        "CAPIT": "Dermatitis autoinmunes, inmunomediadas que responden al zinc.",
+        "NOMBRE": "PENFIGO VULGARIS",
+        "NO": "1PVUL",
+        "I_N": 0.0,
+        "INTEN": 56.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "IV-Dermatitis autoinmunes, inmunomediadas que responden al zinc",
+        "CAPIT": "Dermatitis autoinmunes, inmunomediadas que responden al zinc.",
+        "NOMBRE": "PENFIGOIDE BULLOSO",
+        "NO": "1PBUL",
+        "I_N": 0.0,
+        "INTEN": 57.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "IV-Dermatitis autoinmunes, inmunomediadas que responden al zinc",
+        "CAPIT": "Dermatitis autoinmunes, inmunomediadas que responden al zinc.",
+        "NOMBRE": "LUPUS ERITEMATOSO SISTEMICO",
+        "NO": "1PLES",
+        "I_N": 0.0,
+        "INTEN": 58.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "IV-Dermatitis autoinmunes, inmunomediadas que responden al zinc",
+        "CAPIT": "Dermatitis autoinmunes, inmunomediadas que responden al zinc.",
+        "NOMBRE": "LUPUS ERITEMATOSO DISCOIDE",
+        "NO": "1PLED",
+        "I_N": 0.0,
+        "INTEN": 59.0,
+        "NUMERO": 0
+    },
+    {
+        "ABRE": "III-Dermatitis por hipersensibilidades",
+        "CAPIT": "Dermatitis por hipersensibilidades",
+        "NOMBRE": "DERMATITIS POR SUCCION DEL FLANCO",
+        "NO": "9FLAN",
+        "I_N": 0.0,
+        "INTEN": 60.0,
+        "NUMERO": 0
+    }
+]

@@ -1,7 +1,7 @@
 type FullData = {
-    id: string,
-    name: string,
-    data: Data,
+    ID: string,
+    NAME: string,
+    DATA: Data,
 }
 type FullCharapters = {
     ID: string,

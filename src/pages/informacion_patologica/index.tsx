@@ -1,8 +1,8 @@
 import React from 'react';
 import { Box, Typography } from '@mui/material';
 import GlobalLayout from "@/layouts";
-import DataGrid from '@/InformacionComponents/dataGrid';
-import { Charapters } from '../../../public/data/Capitulos';
+import DataGrid from '@/pages/informacion_patologica/InformacionComponents/dataGrid';
+import { Charapters } from '../../../public/data/index';
 
 
 export default function InformacionPatologica() {
