@@ -1,0 +1,714 @@
+[
+    {
+        "Area": [
+            "Muslos(Cara externa)",
+            "Regi\u00c3\u00b3n isqui\u00c3\u00a1tica",
+            "No tiene un patr\u00c3\u00b3n Caracter\u00c3\u00adstico",
+            "Cabeza",
+            "Cuello",
+            "T\u00c3\u00b3rax Lateral",
+            "T\u00c3\u00b3rax",
+            "Abdomen Lateral"
+        ],
+        "ID": "1BCAL"
+    },
+    {
+        "Area": [
+            "Codos",
+            "Tarsos",
+            "Codos",
+            "Tarsos",
+            "Estern\u00c3\u00b3n"
+        ],
+        "ID": "1BCAY"
+    },
+    {
+        "Area": [
+            "Ment\u00c3\u00b3n"
+        ],
+        "ID": "1BMEN"
+    },
+    {
+        "Area": [
+            "Nariz",
+            "Planum nasale",
+            "Area periocular",
+            "Interior del Pabell\u00c3\u00b3n auricular"
+        ],
+        "ID": "1BNAS"
+    },
+    {
+        "Area": [
+            "Area de pliegues",
+            "Nariz",
+            "Cola",
+            "Vulva",
+            "Labios inferiores"
+        ],
+        "ID": "1BPLI"
+    },
+    {
+        "Area": [
+            "Espacios interdigitales",
+            "Pies"
+        ],
+        "ID": "1BPOD"
+    },
+    {
+        "Area": [
+            "Nariz",
+            "Area inguinal",
+            "Axilas",
+            "Area inguinal",
+            "Cara interna muslos",
+            "Puntos de presi\u00c3\u00b3n",
+            "Tarsos",
+            "Muslos(Cara externa)",
+            "Regi\u00c3\u00b3n lumbo-sacra",
+            "Espacios interdigitales"
+        ],
+        "ID": "1PFFC"
+    },
+    {
+        "Area": [
+            "Muslos(Cara externa)",
+            "Regi\u00c3\u00b3n isqui\u00c3\u00a1tica",
+            "Caderas",
+            "T\u00c3\u00b3rax",
+            "Espacios interdigitales",
+            "Cuello",
+            "Abdomen",
+            "T\u00c3\u00b3rax",
+            "Espacios interdigitales"
+        ],
+        "ID": "1POV"
+    },
+    {
+        "Area": [
+            "Abdomen",
+            "Muslos(Cara interna)",
+            "T\u00c3\u00b3rax",
+            "Cuello",
+            "Cabeza"
+        ],
+        "ID": "1SFOL"
+    },
+    {
+        "Area": [
+            "Area inguinal",
+            "Axilas",
+            "Abdomen",
+            "Muslos(Cara interna)"
+        ],
+        "ID": "1SHSE"
+    },
+    {
+        "Area": [
+            "Area inguinal",
+            "Axilas",
+            "Abdomen",
+            "Muslos(Cara interna)"
+        ],
+        "ID": "1SIMP"
+    },
+    {
+        "Area": [
+            "Miembros",
+            "Perin\u00c3\u00a9",
+            "Regi\u00c3\u00b3n lumbo-sacra",
+            "Axilas",
+            "T\u00c3\u00b3rax Ventral",
+            "Area inguinal",
+            "Cuello",
+            "Pabell\u00c3\u00b3n auricular"
+        ],
+        "ID": "2ALIM"
+    },
+    {
+        "Area": [
+            "Area periocular",
+            "Espacios interdigitales",
+            "Area perilabial"
+        ],
+        "ID": "2ATO"
+    },
+    {
+        "Area": [
+            "Area periocular",
+            "Espacios interdigitales",
+            "Area perilabial",
+            "Area periocular",
+            "Ingles",
+            "Otitis",
+            "Axilas",
+            "Area inguinal",
+            "Abdomen",
+            "Perin\u00c3\u00a9",
+            "Espacios interdigitales",
+            "Pabell\u00c3\u00b3n auricular",
+            "Area perilabial"
+        ],
+        "ID": "2ATO2"
+    },
+    {
+        "Area": [
+            "Area periocular",
+            "Espacios interdigitales",
+            "Area perilabial",
+            "T\u00c3\u00b3rax",
+            "Dorsal",
+            "T\u00c3\u00b3rax Lateral",
+            "Area periocular",
+            "Espacios interdigitales",
+            "Toda la superficie corporal",
+            "Axilas",
+            "Area inguinal",
+            "Abdomen",
+            "Perin\u00c3\u00a9",
+            "Espacios interdigitales",
+            "Pabell\u00c3\u00b3n auricular",
+            "Area perilabial"
+        ],
+        "ID": "2ATO3"
+    },
+    {
+        "Area": [
+            "Espacios interdigitales",
+            "Espacios interdigitales",
+            "Axilas",
+            "Area inguinal",
+            "Abdomen",
+            "Escroto",
+            "Vulva",
+            "Perin\u00c3\u00a9",
+            "Cuello",
+            "Espacios interdigitales",
+            "Nariz",
+            "Area perilabial",
+            "Codos",
+            "Tarsos",
+            "Area perilabial",
+            "Ment\u00c3\u00b3n",
+            "Codos",
+            "Tarsos"
+        ],
+        "ID": "2CONT"
+    },
+    {
+        "Area": [
+            "Espacios interdigitales",
+            "Axilas",
+            "Area inguinal",
+            "Abdomen",
+            "Escroto",
+            "Vulva",
+            "Perin\u00c3\u00a9",
+            "Cuello",
+            "Espacios interdigitales",
+            "Nariz",
+            "Area perilabial",
+            "Codos",
+            "Tarsos",
+            "Area perilabial",
+            "Ment\u00c3\u00b3n",
+            "Codos",
+            "Tarsos"
+        ],
+        "ID": "2CONT2"
+    },
+    {
+        "Area": [
+            "Regi\u00c3\u00b3n lumbo-sacra",
+            "Base de la Cola en forma tri\u00c3\u00a1ngular con v\u00c3\u00a9rtice hacia craneal",
+            "Cara interna muslos"
+        ],
+        "ID": "2PUL"
+    },
+    {
+        "Area": [
+            "Regi\u00c3\u00b3n lumbo-sacra",
+            "Base de la Cola en forma tri\u00c3\u00a1ngular con v\u00c3\u00a9rtice hacia craneal",
+            "Cara interna muslos",
+            "Perin\u00c3\u00a9",
+            "Regi\u00c3\u00b3n popl\u00c3\u00adtea",
+            "Cara interna muslos",
+            "Area umbilical",
+            "Cuello",
+            "Parcial orejas",
+            "Pabell\u00c3\u00b3n auricular(Cara interna)"
+        ],
+        "ID": "2PUL2"
+    },
+    {
+        "Area": [
+            "Regi\u00c3\u00b3n lumbo-sacra",
+            "Base de la Cola en forma tri\u00c3\u00a1ngular con v\u00c3\u00a9rtice hacia craneal",
+            "Perin\u00c3\u00a9",
+            "Regi\u00c3\u00b3n popl\u00c3\u00adtea",
+            "Toda la superficie corporal",
+            "Cara interna muslos",
+            "Area umbilical",
+            "Cuello",
+            "Regi\u00c3\u00b3n esternal",
+            "Axilas",
+            "Abdomen",
+            "T\u00c3\u00b3rax",
+            "Dorsal",
+            "T\u00c3\u00b3rax Lateral",
+            "Pabell\u00c3\u00b3n auricular(Cara externa)"
+        ],
+        "ID": "2PUL3"
+    },
+    {
+        "Area": [
+            "Hocico",
+            "Nariz",
+            "Area perilabial superior",
+            "Area periocular",
+            "Area perilabial",
+            "Pabell\u00c3\u00b3n auricular"
+        ],
+        "ID": "4JUV"
+    },
+    {
+        "Area": [
+            "Dentro de la cavidad bucal",
+            "Uniones muco-cut\u00c3\u00a1neas",
+            "Area periocular",
+            "Almohadillas plantares",
+            "U\u00c3\u00b1as",
+            "Uniones muco-cut\u00c3\u00a1neas",
+            "Almohadillas plantares",
+            "U\u00c3\u00b1as"
+        ],
+        "ID": "4PBUL"
+    },
+    {
+        "Area": [
+            "Hocico",
+            "Nariz",
+            "Area periocular",
+            "Orejas(Cara externa)",
+            "Almohadillas plantares",
+            "U\u00c3\u00b1as",
+            "Area inguinal",
+            "Area inguinal",
+            "Toda la superficie corporal"
+        ],
+        "ID": "4PFOL"
+    },
+    {
+        "Area": [
+            "Nariz",
+            "Puente nasal",
+            "Area periocular",
+            "Distal de las extremidades",
+            "Area perilabial",
+            "Pabell\u00c3\u00b3n auricular",
+            "Distal de las extremidades"
+        ],
+        "ID": "4PLED"
+    },
+    {
+        "Area": [
+            "Nariz",
+            "Area periocular en forma de mariposa",
+            "Almohadillas plantares",
+            "Almohadillas plantares",
+            "Pabell\u00c3\u00b3n auricular"
+        ],
+        "ID": "4PLES"
+    },
+    {
+        "Area": [
+            "Dentro de la cavidad bucal",
+            "Uniones muco-cut\u00c3\u00a1neas",
+            "Parpado-conjuntiva",
+            "Uniones muco-cut\u00c3\u00a1neas",
+            "Area inguinal",
+            "Axilas",
+            "Almohadillas plantares"
+        ],
+        "ID": "4PVUL"
+    },
+    {
+        "Area": [
+            "Cabeza",
+            "Cuello",
+            "T\u00c3\u00b3rax",
+            "Dorsal"
+        ],
+        "ID": "5CHEL"
+    },
+    {
+        "Area": [
+            "Areas de pelos m\u00c3\u00a1s cortos",
+            "Toda la superficie corporal",
+            "Cabeza",
+            "Miembros en la Regi\u00c3\u00b3n Lateral",
+            "Hocico",
+            "Nariz",
+            "Cuello",
+            "Espacios interdigitales"
+        ],
+        "ID": "5DEMG"
+    },
+    {
+        "Area": [
+            "T\u00c3\u00b3rax Dorsal",
+            "Carpo",
+            "Area periocular",
+            "No tiene un patr\u00c3\u00b3n Caracter\u00c3\u00adstico",
+            "Cabeza",
+            "Regi\u00c3\u00b3n maset\u00c3\u00a9rica",
+            "Hocico",
+            "Nariz",
+            "T\u00c3\u00b3rax Lateral"
+        ],
+        "ID": "5DEML"
+    },
+    {
+        "Area": [
+            "Conducto auditivo externo"
+        ],
+        "ID": "5OTO"
+    },
+    {
+        "Area": [
+            "Borde orejas",
+            "Codos",
+            "Tarsos",
+            "Abdomen",
+            "T\u00c3\u00b3rax"
+        ],
+        "ID": "5SARC"
+    },
+    {
+        "Area": [
+            "Abdomen Lateral",
+            "Regi\u00c3\u00b3n popl\u00c3\u00adtea",
+            "Cuello",
+            "Desde el area inguinal hasta las Axilas",
+            "Acantosis en las Axilas",
+            "Ginecomast\u00c3\u00ada",
+            "Pabell\u00c3\u00b3n auricular(Cara interna)"
+        ],
+        "ID": "6AND"
+    },
+    {
+        "Area": [
+            "T\u00c3\u00b3rax Lateral",
+            "T\u00c3\u00b3rax Ventral",
+            "Cuello",
+            "Abdomen",
+            "Desde el area inguinal hasta las Axilas",
+            "Cola",
+            "Cuello",
+            "Las venas mamarias son claramente visible"
+        ],
+        "ID": "6CUSH"
+    },
+    {
+        "Area": [
+            "Perin\u00c3\u00a9",
+            "Abdomen Lateral",
+            "Desde el area inguinal hasta las Axilas",
+            "Ginecomast\u00c3\u00ada",
+            "Pezones hiperpigmentados agrandados",
+            "Conductos auditivos"
+        ],
+        "ID": "6HEST"
+    },
+    {
+        "Area": [
+            "Abdomen Lateral",
+            "Perin\u00c3\u00a9",
+            "Regi\u00c3\u00b3n popl\u00c3\u00adtea",
+            "Cuello",
+            "Desde el area inguinal hasta las Axilas",
+            "Cuello",
+            "Pabell\u00c3\u00b3n auricular(Cara interna)"
+        ],
+        "ID": "6HIP"
+    },
+    {
+        "Area": [
+            "T\u00c3\u00b3rax Lateral",
+            "T\u00c3\u00b3rax Ventral",
+            "Cuello",
+            "Pabell\u00c3\u00b3n auricular(Cara externa)",
+            "Abdomen",
+            "T\u00c3\u00b3rax",
+            "Cuello",
+            "Cola"
+        ],
+        "ID": "6HTIR"
+    },
+    {
+        "Area": [
+            "Cuello",
+            "Perin\u00c3\u00a9",
+            "Abdomen Lateral",
+            "Regi\u00c3\u00b3n popl\u00c3\u00adtea",
+            "Ginecomast\u00c3\u00ada",
+            "Desde el area inguinal hasta las Axilas"
+        ],
+        "ID": "6SER"
+    },
+    {
+        "Area": [
+            "T\u00c3\u00b3rax Lateral",
+            "T\u00c3\u00b3rax Ventral",
+            "Perin\u00c3\u00a9",
+            "Regi\u00c3\u00b3n popl\u00c3\u00adtea",
+            "Cola",
+            "Cuello",
+            "Cuello",
+            "Abdomen",
+            "Cola"
+        ],
+        "ID": "6SOM"
+    },
+    {
+        "Area": [
+            "Hocico",
+            "Regi\u00c3\u00b3n perianal",
+            "Espacios interdigitales",
+            "Pabell\u00c3\u00b3n auricular(Cara interna)",
+            "Area perilabial",
+            "Cuello",
+            "Espacios interdigitales"
+        ],
+        "ID": "7MAL"
+    },
+    {
+        "Area": [
+            "No tiene un patr\u00c3\u00b3n Caracter\u00c3\u00adstico",
+            "Regiones con pelos m\u00c3\u00a1s cortos",
+            "Pabell\u00c3\u00b3n auricular",
+            "Cara",
+            "Miembros"
+        ],
+        "ID": "7MIC"
+    },
+    {
+        "Area": [
+            "Cabeza",
+            "T\u00c3\u00b3rax",
+            "T\u00c3\u00b3rax Lateral",
+            "T\u00c3\u00b3rax Dorsal",
+            "T\u00c3\u00b3rax Ventral",
+            "Cuello",
+            "Todo el cuerpo"
+        ],
+        "ID": "7SPO"
+    },
+    {
+        "Area": [
+            "Nariz",
+            "Area periocular",
+            "T\u00c3\u00b3rax Lateral",
+            "Dedos matriz de las u\u00c3\u00b1as"
+        ],
+        "ID": "7TRI"
+    },
+    {
+        "Area": [
+            "Cola en el 1/3 superior Dorsal"
+        ],
+        "ID": "8ACOL"
+    },
+    {
+        "Area": [
+            "Borde orejas"
+        ],
+        "ID": "8AORE"
+    },
+    {
+        "Area": [
+            "Nariz",
+            "Almohadillas plantares",
+            "Borde orejas"
+        ],
+        "ID": "8APRI"
+    },
+    {
+        "Area": [
+            "Regi\u00c3\u00b3n isqui\u00c3\u00a1tica",
+            "Parches seborreicos"
+        ],
+        "ID": "8ASEC"
+    },
+    {
+        "Area": [
+            "Hocico",
+            "Almohadillas plantares",
+            "Nariz",
+            "Almohadillas plantares",
+            "Nariz"
+        ],
+        "ID": "8BNAS"
+    },
+    {
+        "Area": [
+            "T\u00c3\u00b3rax",
+            "T\u00c3\u00b3rax Lateral",
+            "T\u00c3\u00b3rax",
+            "Abdomen",
+            "Pabell\u00c3\u00b3n auricular(Cara interna)"
+        ],
+        "ID": "8CVIT"
+    },
+    {
+        "Area": [
+            "Hocico",
+            "Area periocular",
+            "Codos",
+            "Tarsos",
+            "Almohadillas plantares",
+            "Area perilabial",
+            "Pabell\u00c3\u00b3n auricular(Cara interna)",
+            "Escroto",
+            "Prepucio",
+            "Vulva",
+            "Codos",
+            "Almohadillas plantares"
+        ],
+        "ID": "8CZ1"
+    },
+    {
+        "Area": [
+            "Hocico",
+            "Area periocular",
+            "Codos",
+            "Tarsos",
+            "Almohadillas plantares",
+            "Area perilabial",
+            "Pabell\u00c3\u00b3n auricular(Cara interna)",
+            "Escroto",
+            "Prepucio",
+            "Vulva",
+            "Codos",
+            "Almohadillas plantares"
+        ],
+        "ID": "8CZ2"
+    },
+    {
+        "Area": [
+            "Axilas",
+            "Axilas",
+            "Area inguinal",
+            "T\u00c3\u00b3rax Ventral",
+            "T\u00c3\u00b3rax Lateral",
+            "Abdomen Lateral",
+            "Abdomen Ventral",
+            "Area periocular",
+            "Craneal",
+            "Carpo",
+            "Metacarpo",
+            "Axilas",
+            "Area inguinal",
+            "T\u00c3\u00b3rax",
+            "Abdomen",
+            "Craneal",
+            "Tarsos",
+            "Metatarsos",
+            "Tarsos",
+            "Perin\u00c3\u00a9",
+            "Cola",
+            "Cuello"
+        ],
+        "ID": "9ACA"
+    },
+    {
+        "Area": [
+            "Axilas",
+            "Axilas",
+            "Area inguinal",
+            "T\u00c3\u00b3rax Ventral",
+            "T\u00c3\u00b3rax Lateral",
+            "T\u00c3\u00b3rax Ventral",
+            "Abdomen Ventral",
+            "Abdomen Lateral",
+            "Area periocular",
+            "Craneal",
+            "Carpo",
+            "Metacarpo",
+            "Axilas",
+            "Area inguinal",
+            "T\u00c3\u00b3rax",
+            "Abdomen",
+            "Craneal",
+            "Tarsos",
+            "Metatarsos",
+            "Tarsos",
+            "Perin\u00c3\u00a9",
+            "Cola",
+            "Cuello"
+        ],
+        "ID": "9ACA2"
+    },
+    {
+        "Area": [
+            "Perin\u00c3\u00a9",
+            "Regi\u00c3\u00b3n perianal"
+        ],
+        "ID": "9ANO"
+    },
+    {
+        "Area": [
+            "Nariz",
+            "Area periocular",
+            "Borde orejas",
+            "Carpo",
+            "Punta de la Cola",
+            "Tarsos"
+        ],
+        "ID": "9EPI"
+    },
+    {
+        "Area": [
+            "Perin\u00c3\u00a9",
+            "Regi\u00c3\u00b3n perianal"
+        ],
+        "ID": "9FIS"
+    },
+    {
+        "Area": [
+            "Abdomen Lateral"
+        ],
+        "ID": "9FLAN"
+    },
+    {
+        "Area": [
+            "Craneal",
+            "Carpo",
+            "Metacarpo",
+            "Area periocular",
+            "Craneal",
+            "Tarsos",
+            "Metatarsos",
+            "Tarsos",
+            "Tibias"
+        ],
+        "ID": "9LICK"
+    },
+    {
+        "Area": [
+            "T\u00c3\u00b3rax Dorsal",
+            "T\u00c3\u00b3rax Lateral",
+            "Cuello",
+            "Cabeza",
+            "Miembros"
+        ],
+        "ID": "9MUT"
+    },
+    {
+        "Area": [
+            "Cara interna",
+            "Pabell\u00c3\u00b3n auricular",
+            "Conducto auditivo externo"
+        ],
+        "ID": "9OTI"
+    }
+]

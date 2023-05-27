@@ -1,4 +1,4 @@
-import { PruritoType } from "../../../src/constants/DiagnosticoTypes";
+import { PruritoType } from "../../src/constants/DiagnosticoTypes";
 
 export const Prurito: PruritoType[] = [
     {

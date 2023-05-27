@@ -1,4 +1,4 @@
-import { SimetriaType } from "../../../src/constants/DiagnosticoTypes";
+import { SimetriaType } from "../../src/constants/DiagnosticoTypes";
 
 export const Simetria: SimetriaType[] = [
     {

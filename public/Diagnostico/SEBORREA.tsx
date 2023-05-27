@@ -1,4 +1,4 @@
-import { SeborreaType } from "../../../src/constants/DiagnosticoTypes";
+import { SeborreaType } from "../../src/constants/DiagnosticoTypes";
 export const Seborrea: SeborreaType[] = [
     {
         CodigoSeborrea: 0,

@@ -1,1402 +1,1122 @@
 [
     {
         "DIAGNDIF": "Pr\u00e1cticamente NO tiene.",
-        "NOMBRE": "DERMATITIS HUMEDA AGUDA",
         "NO": "1BCAL"
     },
     {
         "DIAGNDIF": "Se realiza entre las patolog\u00edas se\u00f1aladas en la etiolog\u00eda.",
-        "NOMBRE": "PODODERMATITIS",
         "NO": "1BPOD"
     },
     {
         "DIAGNDIF": "Piodermia juvenil.",
-        "NOMBRE": "FORUNCULOSIS NASAL",
         "NO": "1BNAS"
     },
     {
         "DIAGNDIF": "Dermatitis nasal solar.",
-        "NOMBRE": "FORUNCULOSIS NASAL",
         "NO": "1BNAS"
     },
     {
         "DIAGNDIF": "Dermatofitosis con infecci\u00f3n secundaria.",
-        "NOMBRE": "FORUNCULOSIS NASAL",
         "NO": "1BNAS"
     },
     {
         "DIAGNDIF": "Lupus eritematosus sist\u00e9mico o discoide.",
-        "NOMBRE": "FORUNCULOSIS NASAL",
         "NO": "1BNAS"
     },
     {
         "DIAGNDIF": "P\u00e9nfigos.",
-        "NOMBRE": "FORUNCULOSIS NASAL",
         "NO": "1BNAS"
     },
     {
         "DIAGNDIF": "Demodeccia.",
-        "NOMBRE": "FORUNCULOSIS NASAL",
         "NO": "1BNAS"
     },
     {
         "DIAGNDIF": "Carencia de Zinc.",
-        "NOMBRE": "FORUNCULOSIS NASAL",
         "NO": "1BNAS"
     },
     {
         "DIAGNDIF": "Dermatofitosis con infecci\u00f3n bacteriana secundaria.",
-        "NOMBRE": "DERMATITIS DE LOS PLIEGUES",
         "NO": "1BPLI"
     },
     {
         "DIAGNDIF": "Demodeccia.",
-        "NOMBRE": "DERMATITIS DE LOS PLIEGUES",
         "NO": "1BPLI"
     },
     {
         "DIAGNDIF": "Candidiasis.",
-        "NOMBRE": "DERMATITIS DE LOS PLIEGUES",
         "NO": "1BPLI"
     },
     {
         "DIAGNDIF": "Demodeccia localizada.",
-        "NOMBRE": "FOLICULITIS Y FORUNCULOSIS DEL MENTON",
         "NO": "1BMEN"
     },
     {
         "DIAGNDIF": "Celulitis juvenil.",
-        "NOMBRE": "FOLICULITIS Y FORUNCULOSIS DEL MENTON",
         "NO": "1BMEN"
     },
     {
         "DIAGNDIF": "Dermatofitosis microsporica.",
-        "NOMBRE": "FOLICULITIS Y FORUNCULOSIS DEL MENTON",
         "NO": "1BMEN"
     },
     {
         "DIAGNDIF": "Neoplasias.",
-        "NOMBRE": "PIODERMIA DE LOS CALLOS",
         "NO": "1BCAY"
     },
     {
         "DIAGNDIF": "Cuerpos extra\u00f1os.",
-        "NOMBRE": "PIODERMIA DE LOS CALLOS",
         "NO": "1BCAY"
     },
     {
         "DIAGNDIF": "Bursitis.",
-        "NOMBRE": "PIODERMIA DE LOS CALLOS",
         "NO": "1BCAY"
     },
     {
         "DIAGNDIF": "Hipersensibilidad bacteriana NO verdadera.",
-        "NOMBRE": "IMPETIGO",
         "NO": "1SIMP"
     },
     {
         "DIAGNDIF": "Foliculitis bacteriana.",
-        "NOMBRE": "IMPETIGO",
         "NO": "1SIMP"
     },
     {
         "DIAGNDIF": "Demodeccia.",
-        "NOMBRE": "IMPETIGO",
         "NO": "1SIMP"
     },
     {
         "DIAGNDIF": "Dermatofitosis por microsporum.",
-        "NOMBRE": "IMPETIGO",
         "NO": "1SIMP"
     },
     {
         "DIAGNDIF": "Dermatofitosis por Microsporum.",
-        "NOMBRE": "FOLICULITIS BACTERIANA SUPERFICIAL",
         "NO": "1SFOL"
     },
     {
         "DIAGNDIF": "Demodeccia localizada.",
-        "NOMBRE": "FOLICULITIS BACTERIANA SUPERFICIAL",
         "NO": "1SFOL"
     },
     {
         "DIAGNDIF": "Sarna sarc\u00f3ptica.",
-        "NOMBRE": "FOLICULITIS BACTERIANA SUPERFICIAL",
         "NO": "1SFOL"
     },
     {
         "DIAGNDIF": "Urticaria.",
-        "NOMBRE": "FOLICULITIS BACTERIANA SUPERFICIAL",
         "NO": "1SFOL"
     },
     {
         "DIAGNDIF": "P\u00e9nfigo foliaceo.",
-        "NOMBRE": "FOLICULITIS BACTERIANA SUPERFICIAL",
         "NO": "1SFOL"
     },
     {
         "DIAGNDIF": "Lupus eritematoso.",
-        "NOMBRE": "FOLICULITIS BACTERIANA SUPERFICIAL",
         "NO": "1SFOL"
     },
     {
         "DIAGNDIF": "Dermatofitosis por microsporum.",
-        "NOMBRE": "FOLICULITIS BACTERIANA",
         "NO": "1SCAL"
     },
     {
         "DIAGNDIF": "Demodeccia localizada.",
-        "NOMBRE": "FOLICULITIS BACTERIANA",
         "NO": "1SCAL"
     },
     {
         "DIAGNDIF": "Sarna sarc\u00f3ptica.",
-        "NOMBRE": "FOLICULITIS BACTERIANA",
         "NO": "1SCAL"
     },
     {
         "DIAGNDIF": "Urticaria.",
-        "NOMBRE": "FOLICULITIS BACTERIANA",
         "NO": "1SCAL"
     },
     {
         "DIAGNDIF": "P\u00e9nfigo foliaceo.",
-        "NOMBRE": "FOLICULITIS BACTERIANA",
         "NO": "1SCAL"
     },
     {
         "DIAGNDIF": "Lupus eritematoso.",
-        "NOMBRE": "FOLICULITIS BACTERIANA",
         "NO": "1SCAL"
     },
     {
         "DIAGNDIF": "Ti\u00f1a microsp\u00f3rica.",
-        "NOMBRE": "HIPERSENSIBILIDAD BACTERIANA NO VERDADERA",
         "NO": "1SHSE"
     },
     {
         "DIAGNDIF": "Parches seborreicos.",
-        "NOMBRE": "HIPERSENSIBILIDAD BACTERIANA NO VERDADERA",
         "NO": "1SHSE"
     },
     {
         "DIAGNDIF": "Demodeccia localizada.",
-        "NOMBRE": "HIPERSENSIBILIDAD BACTERIANA NO VERDADERA",
         "NO": "1SHSE"
     },
     {
         "DIAGNDIF": "Hipersensibilidad bacteriana verdadera.",
-        "NOMBRE": "HIPERSENSIBILIDAD BACTERIANA NO VERDADERA",
         "NO": "1SHSE"
     },
     {
         "DIAGNDIF": "Demodeccia generalizada.",
-        "NOMBRE": "FURUNCULOSIS Y CELULITIS",
         "NO": "1PFFC"
     },
     {
         "DIAGNDIF": "Dermatofitosis generalizada.",
-        "NOMBRE": "FURUNCULOSIS Y CELULITIS",
         "NO": "1PFFC"
     },
     {
         "DIAGNDIF": "Infecci\u00f3n por mycobacterias at\u00edpicas.",
-        "NOMBRE": "FURUNCULOSIS Y CELULITIS",
         "NO": "1PFFC"
     },
     {
         "DIAGNDIF": "Demodeccia.",
-        "NOMBRE": "PIODERMIA DEL OVEJERO ALEMAN",
         "NO": "1POV"
     },
     {
         "DIAGNDIF": "Mycobacterias.",
-        "NOMBRE": "PIODERMIA DEL OVEJERO ALEMAN",
         "NO": "1POV"
     },
     {
         "DIAGNDIF": "Micosis sist\u00e9micas y subcut\u00e1neas.",
-        "NOMBRE": "PIODERMIA DEL OVEJERO ALEMAN",
         "NO": "1POV"
     },
     {
         "DIAGNDIF": "Enfermedades autoinmunes.",
-        "NOMBRE": "FISTULAS PERIANALES",
         "NO": "9FIS"
     },
     {
         "DIAGNDIF": "Neoplasia.",
-        "NOMBRE": "FISTULAS PERIANALES",
         "NO": "9FIS"
     },
     {
         "DIAGNDIF": "Traumas.",
-        "NOMBRE": "FISTULAS PERIANALES",
         "NO": "9FIS"
     },
     {
         "DIAGNDIF": "Lesi\u00f3n por contiguidad de los sacos anales.",
-        "NOMBRE": "FISTULAS PERIANALES",
         "NO": "9FIS"
     },
     {
         "DIAGNDIF": "Tumor de gl\u00e1ndulas circunanales.",
-        "NOMBRE": "FISTULAS PERIANALES",
         "NO": "9FIS"
     },
     {
         "DIAGNDIF": "Atop\u00eda con la que puede coexistir.",
-        "NOMBRE": "DERMATITIS ALERGICA POR PULGAS EST I",
         "NO": "2PUL"
     },
     {
         "DIAGNDIF": "Alerg\u00eda alimentaria, con la que puede coexistir.",
-        "NOMBRE": "DERMATITIS ALERGICA POR PULGAS EST I",
         "NO": "2PUL"
     },
     {
         "DIAGNDIF": "Piodermia superficial.",
-        "NOMBRE": "DERMATITIS ALERGICA POR PULGAS EST I",
         "NO": "2PUL"
     },
     {
         "DIAGNDIF": "Hipersensibilidad a los par\u00e1sitos intestinales.",
-        "NOMBRE": "DERMATITIS ALERGICA POR PULGAS EST I",
         "NO": "2PUL"
     },
     {
         "DIAGNDIF": "Otras dermatitis seborreicas.",
-        "NOMBRE": "DERMATITIS ALERGICA POR PULGAS EST I",
         "NO": "2PUL"
     },
     {
         "DIAGNDIF": "Sarna sarc\u00f3ptica.",
-        "NOMBRE": "ATOPIA CANINA EST I",
         "NO": "2ATO"
     },
     {
         "DIAGNDIF": "Alergia alimentaria.",
-        "NOMBRE": "ATOPIA CANINA EST I",
         "NO": "2ATO"
     },
     {
         "DIAGNDIF": "Dermatitis al\u00e9rgica por contacto.",
-        "NOMBRE": "ATOPIA CANINA EST I",
         "NO": "2ATO"
     },
     {
         "DIAGNDIF": "Dermatitis al\u00e9rgica a las pulgas.",
-        "NOMBRE": "ATOPIA CANINA EST I",
         "NO": "2ATO"
     },
     {
         "DIAGNDIF": "Hipersensibilidad bacteriana.",
-        "NOMBRE": "ATOPIA CANINA EST I",
         "NO": "2ATO"
     },
     {
         "DIAGNDIF": "Piodermia de superficie.",
-        "NOMBRE": "ATOPIA CANINA EST I",
         "NO": "2ATO"
     },
     {
         "DIAGNDIF": "Dermatitis irritativa de contacto.",
-        "NOMBRE": "DERMATITIS ALERGICA POR CONTACTO (PISO)",
         "NO": "2CONT"
     },
     {
         "DIAGNDIF": "Atop\u00eda.",
-        "NOMBRE": "DERMATITIS ALERGICA POR CONTACTO (PISO)",
         "NO": "2CONT"
     },
     {
         "DIAGNDIF": "Sarna sarc\u00f3ptica.",
-        "NOMBRE": "DERMATITIS ALERGICA POR CONTACTO (PISO)",
         "NO": "2CONT"
     },
     {
         "DIAGNDIF": "Todas las hipersensibilidades.",
-        "NOMBRE": "DERMATITIS ALERGICA POR CONTACTO (PISO)",
         "NO": "2CONT"
     },
     {
         "DIAGNDIF": "Todas las seborreas secundarias.",
-        "NOMBRE": "DERMATITIS ALERGICA POR CONTACTO (PISO)",
         "NO": "2CONT"
     },
     {
         "DIAGNDIF": "Piod\u00e9rmia superficial.",
-        "NOMBRE": "DERMATITIS ALERGICA POR CONTACTO (PISO)",
         "NO": "2CONT"
     },
     {
         "DIAGNDIF": "Atop\u00eda.",
-        "NOMBRE": "ALERGIA ALIMENTARIA",
         "NO": "2ALIM"
     },
     {
         "DIAGNDIF": "Dermatitis al\u00e9rgica a las pulgas.",
-        "NOMBRE": "ALERGIA ALIMENTARIA",
         "NO": "2ALIM"
     },
     {
         "DIAGNDIF": "Sarna sarc\u00f3ptica.",
-        "NOMBRE": "ALERGIA ALIMENTARIA",
         "NO": "2ALIM"
     },
     {
         "DIAGNDIF": "Otras hipersensibilidades.",
-        "NOMBRE": "ALERGIA ALIMENTARIA",
         "NO": "2ALIM"
     },
     {
         "DIAGNDIF": "Seborreas primarias y secundarias.",
-        "NOMBRE": "ALERGIA ALIMENTARIA",
         "NO": "2ALIM"
     },
     {
         "DIAGNDIF": "Dermatitis al\u00e9rgica de contacto.",
-        "NOMBRE": "ALERGIA ALIMENTARIA",
         "NO": "2ALIM"
     },
     {
         "DIAGNDIF": "Foliculitis bacterianas.",
-        "NOMBRE": "ALERGIA ALIMENTARIA",
         "NO": "2ALIM"
     },
     {
         "DIAGNDIF": "Otros tipos de p\u00e9nfigos.",
-        "NOMBRE": "PENFIGO FOLIACEO",
         "NO": "4PFOL"
     },
     {
         "DIAGNDIF": "Lupus eritematoso sist\u00e9mico.",
-        "NOMBRE": "PENFIGO FOLIACEO",
         "NO": "4PFOL"
     },
     {
         "DIAGNDIF": "Lupus discoideo.",
-        "NOMBRE": "PENFIGO FOLIACEO",
         "NO": "4PFOL"
     },
     {
         "DIAGNDIF": "Dermatitis que responde al Zinc.",
-        "NOMBRE": "PENFIGO FOLIACEO",
         "NO": "4PFOL"
     },
     {
         "DIAGNDIF": "Dermatofitosis.",
-        "NOMBRE": "PENFIGO FOLIACEO",
         "NO": "4PFOL"
     },
     {
         "DIAGNDIF": "Foliculitis bacteriana.",
-        "NOMBRE": "PENFIGO FOLIACEO",
         "NO": "4PFOL"
     },
     {
         "DIAGNDIF": "Seborreas.",
-        "NOMBRE": "PENFIGO FOLIACEO",
         "NO": "4PFOL"
     },
     {
         "DIAGNDIF": "S\u00edndrome hepatocut\u00e1neo.",
-        "NOMBRE": "PENFIGO FOLIACEO",
         "NO": "4PFOL"
     },
     {
         "DIAGNDIF": "Otros tipos de p\u00e9nfigos.",
-        "NOMBRE": "PENFIGO VULGARIS",
         "NO": "4PVUL"
     },
     {
         "DIAGNDIF": "Lupus eritematoso sist\u00e9mico.",
-        "NOMBRE": "PENFIGO VULGARIS",
         "NO": "4PVUL"
     },
     {
         "DIAGNDIF": "Penfigoide bulloso",
-        "NOMBRE": "PENFIGO VULGARIS",
         "NO": "4PVUL"
     },
     {
         "DIAGNDIF": "Necr\u00f3lisis epid\u00e9rmica t\u00f3xica.",
-        "NOMBRE": "PENFIGO VULGARIS",
         "NO": "4PVUL"
     },
     {
         "DIAGNDIF": "Candidiasis.",
-        "NOMBRE": "PENFIGO VULGARIS",
         "NO": "4PVUL"
     },
     {
         "DIAGNDIF": "Estomatitis ulcerativa.",
-        "NOMBRE": "PENFIGO VULGARIS",
         "NO": "4PVUL"
     },
     {
         "DIAGNDIF": "Seborreas.",
-        "NOMBRE": "PENFIGO VULGARIS",
         "NO": "4PVUL"
     },
     {
         "DIAGNDIF": "P\u00e9nfigo vulgar.",
-        "NOMBRE": "PENFIGOIDE BULLOSO",
         "NO": "4PBUL"
     },
     {
         "DIAGNDIF": "Lupus eritematoso sist\u00e9mico.",
-        "NOMBRE": "PENFIGOIDE BULLOSO",
         "NO": "4PBUL"
     },
     {
         "DIAGNDIF": "Necr\u00f3lisis epid\u00e9rmica t\u00f3xica.",
-        "NOMBRE": "PENFIGOIDE BULLOSO",
         "NO": "4PBUL"
     },
     {
         "DIAGNDIF": "Erupci\u00f3n por f\u00e1rmacos.",
-        "NOMBRE": "PENFIGOIDE BULLOSO",
         "NO": "4PBUL"
     },
     {
         "DIAGNDIF": "P\u00e9nfigo vulgar,",
-        "NOMBRE": "LUPUS ERITEMATOSO SISTEMICO",
         "NO": "4PLES"
     },
     {
         "DIAGNDIF": "Lupus eritematoso discoideo.",
-        "NOMBRE": "LUPUS ERITEMATOSO SISTEMICO",
         "NO": "4PLES"
     },
     {
         "DIAGNDIF": "Penfigoide bulloso",
-        "NOMBRE": "LUPUS ERITEMATOSO SISTEMICO",
         "NO": "4PLES"
     },
     {
         "DIAGNDIF": "Demodeccia.",
-        "NOMBRE": "LUPUS ERITEMATOSO SISTEMICO",
         "NO": "4PLES"
     },
     {
         "DIAGNDIF": "Dermatofitosis.",
-        "NOMBRE": "LUPUS ERITEMATOSO SISTEMICO",
         "NO": "4PLES"
     },
     {
         "DIAGNDIF": "S\u00edndrome hepato-cut\u00e1neo",
-        "NOMBRE": "LUPUS ERITEMATOSO SISTEMICO",
         "NO": "4PLES"
     },
     {
         "DIAGNDIF": "Seborreas.",
-        "NOMBRE": "LUPUS ERITEMATOSO SISTEMICO",
         "NO": "4PLES"
     },
     {
         "DIAGNDIF": "Foliculitis bacterianas.",
-        "NOMBRE": "LUPUS ERITEMATOSO SISTEMICO",
         "NO": "4PLES"
     },
     {
         "DIAGNDIF": "Alergia alimentaria.",
-        "NOMBRE": "LUPUS ERITEMATOSO SISTEMICO",
         "NO": "4PLES"
     },
     {
         "DIAGNDIF": "Sarna sarc\u00f3ptica.",
-        "NOMBRE": "LUPUS ERITEMATOSO SISTEMICO",
         "NO": "4PLES"
     },
     {
         "DIAGNDIF": "P\u00e9nfigo eritematoso.",
-        "NOMBRE": "LUPUS ERITEMATOSO DISCOIDE",
         "NO": "4PLED"
     },
     {
         "DIAGNDIF": "P\u00e9nfigo foli\u00e1ceo.",
-        "NOMBRE": "LUPUS ERITEMATOSO DISCOIDE",
         "NO": "4PLED"
     },
     {
         "DIAGNDIF": "Lupus eritematoso sist\u00e9mico.",
-        "NOMBRE": "LUPUS ERITEMATOSO DISCOIDE",
         "NO": "4PLED"
     },
     {
         "DIAGNDIF": "Hiperqueratosis nasal.",
-        "NOMBRE": "LUPUS ERITEMATOSO DISCOIDE",
         "NO": "4PLED"
     },
     {
         "DIAGNDIF": "Dermatofitosis.",
-        "NOMBRE": "LUPUS ERITEMATOSO DISCOIDE",
         "NO": "4PLED"
     },
     {
         "DIAGNDIF": "Vit\u00edligo.",
-        "NOMBRE": "LUPUS ERITEMATOSO DISCOIDE",
         "NO": "4PLED"
     },
     {
         "DIAGNDIF": "Piodermia profunda.",
-        "NOMBRE": "CELULITIS JUVENIL",
         "NO": "4JUV"
     },
     {
         "DIAGNDIF": "Demodeccia.",
-        "NOMBRE": "CELULITIS JUVENIL",
         "NO": "4JUV"
     },
     {
         "DIAGNDIF": "Carencia de Zinc.",
-        "NOMBRE": "CELULITIS JUVENIL",
         "NO": "4JUV"
     },
     {
         "DIAGNDIF": "Atop\u00eda.",
-        "NOMBRE": "SARNA SARCOPTICA",
         "NO": "5SARC"
     },
     {
         "DIAGNDIF": "Foliculitis bacterianas.",
-        "NOMBRE": "SARNA SARCOPTICA",
         "NO": "5SARC"
     },
     {
         "DIAGNDIF": "Alerg\u00eda alimentaria.",
-        "NOMBRE": "SARNA SARCOPTICA",
         "NO": "5SARC"
     },
     {
         "DIAGNDIF": "Dermatitis de contacto.",
-        "NOMBRE": "SARNA SARCOPTICA",
         "NO": "5SARC"
     },
     {
         "DIAGNDIF": "Dermatitis por Malassezia",
-        "NOMBRE": "SARNA SARCOPTICA",
         "NO": "5SARC"
     },
     {
         "DIAGNDIF": "Dermatitis por otodectes.",
-        "NOMBRE": "SARNA SARCOPTICA",
         "NO": "5SARC"
     },
     {
         "DIAGNDIF": "Dermatitis por Cheyletiella.",
-        "NOMBRE": "SARNA SARCOPTICA",
         "NO": "5SARC"
     },
     {
         "DIAGNDIF": "Foliculitis bacteriana.",
-        "NOMBRE": "DEMODECCIA GENERALIZADA",
         "NO": "5DEMG"
     },
     {
         "DIAGNDIF": "Ti\u00f1a tricof\u00edticas con infecci\u00f3n secundaria.",
-        "NOMBRE": "DEMODECCIA GENERALIZADA",
         "NO": "5DEMG"
     },
     {
         "DIAGNDIF": "P\u00e9nfigo fol\u00edaceo y vulgaris.",
-        "NOMBRE": "DEMODECCIA GENERALIZADA",
         "NO": "5DEMG"
     },
     {
         "DIAGNDIF": "Lupus eritematoso.",
-        "NOMBRE": "DEMODECCIA GENERALIZADA",
         "NO": "5DEMG"
     },
     {
         "DIAGNDIF": "Seborreas.",
-        "NOMBRE": "DEMODECCIA GENERALIZADA",
         "NO": "5DEMG"
     },
     {
         "DIAGNDIF": "ALOPECIA POR MUTACION DE COLOR",
-        "NOMBRE": "DEMODECCIA GENERALIZADA",
         "NO": "5DEMG"
     },
     {
         "DIAGNDIF": "CELULITIS JUVENIL",
-        "NOMBRE": "DEMODECCIA GENERALIZADA",
         "NO": "5DEMG"
     },
     {
         "DIAGNDIF": "DERMATITIS DE LOS PLIEGUES",
-        "NOMBRE": "DEMODECCIA GENERALIZADA",
         "NO": "5DEMG"
     },
     {
         "DIAGNDIF": "DERMATITIS POR MALASSEZIA",
-        "NOMBRE": "DEMODECCIA GENERALIZADA",
         "NO": "5DEMG"
     },
     {
         "DIAGNDIF": "DERMATOFITOSIS POR MICROSPORUM",
-        "NOMBRE": "DEMODECCIA GENERALIZADA",
         "NO": "5DEMG"
     },
     {
         "DIAGNDIF": "DERMATOFITOSIS POR TRICOFITON",
-        "NOMBRE": "DEMODECCIA GENERALIZADA",
         "NO": "5DEMG"
     },
     {
         "DIAGNDIF": "DERMATOMIOSITIS",
-        "NOMBRE": "DEMODECCIA GENERALIZADA",
         "NO": "5DEMG"
     },
     {
         "DIAGNDIF": "DERMATOSIS QUE RESPONDE AL ZINC-I",
-        "NOMBRE": "DEMODECCIA GENERALIZADA",
         "NO": "5DEMG"
     },
     {
         "DIAGNDIF": "DERMATOSIS QUE RESPONDE AL ZINC-II",
-        "NOMBRE": "DEMODECCIA GENERALIZADA",
         "NO": "5DEMG"
     },
     {
         "DIAGNDIF": "FOLICULITIS BACTERIANA",
-        "NOMBRE": "DEMODECCIA GENERALIZADA",
         "NO": "5DEMG"
     },
     {
         "DIAGNDIF": "FOLICULITIS BACTERIANA SUPERFICIAL",
-        "NOMBRE": "DEMODECCIA GENERALIZADA",
         "NO": "5DEMG"
     },
     {
         "DIAGNDIF": "FOLICULITIS Y FORUNCULOSIS DEL MENTON",
-        "NOMBRE": "DEMODECCIA GENERALIZADA",
         "NO": "5DEMG"
     },
     {
         "DIAGNDIF": "FOLICULITIS Y FORUNCULOSIS NASAL",
-        "NOMBRE": "DEMODECCIA GENERALIZADA",
         "NO": "5DEMG"
     },
     {
         "DIAGNDIF": "FOLICULITIS, FURUNCULOSIS Y CELULITIS",
-        "NOMBRE": "DEMODECCIA GENERALIZADA",
         "NO": "5DEMG"
     },
     {
         "DIAGNDIF": "HIPERSENSIBILIDAD BACTERIANA NO VERDADERA",
-        "NOMBRE": "DEMODECCIA GENERALIZADA",
         "NO": "5DEMG"
     },
     {
         "DIAGNDIF": "IMPETIGO",
-        "NOMBRE": "DEMODECCIA GENERALIZADA",
         "NO": "5DEMG"
     },
     {
         "DIAGNDIF": "LUPUS ERITEMATOSO SISTEMICO",
-        "NOMBRE": "DEMODECCIA GENERALIZADA",
         "NO": "5DEMG"
     },
     {
         "DIAGNDIF": "PIODERMIA DEL OVEJERO ALEMAN",
-        "NOMBRE": "DEMODECCIA GENERALIZADA",
         "NO": "5DEMG"
     },
     {
         "DIAGNDIF": "Ti\u00f1a microsp\u00f3rica.",
-        "NOMBRE": "DEMODECCIA LOCALIZADA",
         "NO": "5DEML"
     },
     {
         "DIAGNDIF": "Parches seborreicos.",
-        "NOMBRE": "DEMODECCIA LOCALIZADA",
         "NO": "5DEML"
     },
     {
         "DIAGNDIF": "Hipersensibilidad bacteriana.",
-        "NOMBRE": "DEMODECCIA LOCALIZADA",
         "NO": "5DEML"
     },
     {
         "DIAGNDIF": "Dermatomiositis.",
-        "NOMBRE": "DEMODECCIA LOCALIZADA",
         "NO": "5DEML"
     },
     {
         "DIAGNDIF": "Atop\u00eda.",
-        "NOMBRE": "SARNA OTODECTICA",
         "NO": "5OTO"
     },
     {
         "DIAGNDIF": "Alerg\u00eda alimentaria.",
-        "NOMBRE": "SARNA OTODECTICA",
         "NO": "5OTO"
     },
     {
         "DIAGNDIF": "Dermatitis al\u00e9rgica a las pulgas.",
-        "NOMBRE": "SARNA OTODECTICA",
         "NO": "5OTO"
     },
     {
         "DIAGNDIF": "Sarna sarc\u00f3ptica.",
-        "NOMBRE": "SARNA OTODECTICA",
         "NO": "5OTO"
     },
     {
         "DIAGNDIF": "Dermatitis por cheyletiella.",
-        "NOMBRE": "SARNA OTODECTICA",
         "NO": "5OTO"
     },
     {
         "DIAGNDIF": "Dermatitis por Mallazesia.",
-        "NOMBRE": "SARNA OTODECTICA",
         "NO": "5OTO"
     },
     {
         "DIAGNDIF": "Seborreas.",
-        "NOMBRE": "CHEILETIELOSIS",
         "NO": "5CHEL"
     },
     {
         "DIAGNDIF": "Sarna otod\u00e9ctica.",
-        "NOMBRE": "CHEILETIELOSIS",
         "NO": "5CHEL"
     },
     {
         "DIAGNDIF": "Sarna sarc\u00f3ptica.",
-        "NOMBRE": "CHEILETIELOSIS",
         "NO": "5CHEL"
     },
     {
         "DIAGNDIF": "Hiposomatotrofismo.",
-        "NOMBRE": "DERMATOSIS POR HIPERADRENOCORTISISMO.",
         "NO": "6CUSH"
     },
     {
         "DIAGNDIF": "Hipotiroidismo.",
-        "NOMBRE": "DERMATOSIS POR HIPERADRENOCORTISISMO.",
         "NO": "6CUSH"
     },
     {
         "DIAGNDIF": "Otros desbalances hormonales.",
-        "NOMBRE": "DERMATOSIS POR HIPERADRENOCORTISISMO.",
         "NO": "6CUSH"
     },
     {
         "DIAGNDIF": "Hiperadrenocortisismo.Hiposomatotrofismo.",
-        "NOMBRE": "DERMATOSIS POR HIPOTIROIDISMO",
         "NO": "6HTIR"
     },
     {
         "DIAGNDIF": "Otros desbalances hormonales.",
-        "NOMBRE": "DERMATOSIS POR HIPOTIROIDISMO",
         "NO": "6HTIR"
     },
     {
         "DIAGNDIF": "Con las otras dermatopat\u00edas hormonales.",
-        "NOMBRE": "DERMATOSIS POR HIPERESTROGENISMO",
         "NO": "6HEST"
     },
     {
         "DIAGNDIF": "Con dermatitis seborreicas idiop\u00e1ticas.",
-        "NOMBRE": "DERMATOSIS POR HIPERESTROGENISMO",
         "NO": "6HEST"
     },
     {
         "DIAGNDIF": "Si hay mucho prurito con hipersensibilidades como atop\u00eda, hipersensibilidad hormonal, dermatitis al\u00e9rgica de contacto.",
-        "NOMBRE": "DERMATOSIS POR HIPERESTROGENISMO",
         "NO": "6HEST"
     },
     {
         "DIAGNDIF": "Con el resto de las dermatopat\u00edas de origen hormonal.",
-        "NOMBRE": "DERMATOSIS POR HIPOESTROGENISMO",
         "NO": "6HIP"
     },
     {
         "DIAGNDIF": "Con las otras dermatopat\u00edas de origen hormonal, particularmente con el tumor de c\u00e9lulas de Sertoli.",
-        "NOMBRE": "DERMATOSIS POR HIPOANDROGENISMO",
         "NO": "6AND"
     },
     {
         "DIAGNDIF": "Con las hipersensibilidades, particularmente la alimentaria y con atop\u00eda.",
-        "NOMBRE": "DERMATOSIS POR HIPOANDROGENISMO",
         "NO": "6AND"
     },
     {
         "DIAGNDIF": "El m\u00e1s importante es con el s\u00edndrome de feminizaci\u00f3n o hipoandrogenismo con el que comparte la mayor\u00eda de los signos cl\u00ednicos.",
-        "NOMBRE": "DERMATOSIS POR TUMOR DE CELULAS DE SERTOLI",
         "NO": "6SER"
     },
     {
         "DIAGNDIF": "Hiperadrenocorticoidismo.",
-        "NOMBRE": "DERMATOSIS POR TUMOR DE CELULAS DE SERTOLI",
         "NO": "6SER"
     },
     {
         "DIAGNDIF": "Con desbalance de las hormonas sexuales adrenales.",
-        "NOMBRE": "DERMATOSIS POR TUMOR DE CELULAS DE SERTOLI",
         "NO": "6SER"
     },
     {
         "DIAGNDIF": "Hipotiroidismo.",
-        "NOMBRE": "DERMATOSIS POR TUMOR DE CELULAS DE SERTOLI",
         "NO": "6SER"
     },
     {
         "DIAGNDIF": "Hipersomatotrofismo.",
-        "NOMBRE": "DERMATOSIS POR TUMOR DE CELULAS DE SERTOLI",
         "NO": "6SER"
     },
     {
         "DIAGNDIF": "Hipotiroidismo.",
-        "NOMBRE": "DERMATOSIS POR HIPOSOMATOTROFISMO DEL ADULTO",
         "NO": "6SOM"
     },
     {
         "DIAGNDIF": "Hiperadrenocorticoidismo.",
-        "NOMBRE": "DERMATOSIS POR HIPOSOMATOTROFISMO DEL ADULTO",
         "NO": "6SOM"
     },
     {
         "DIAGNDIF": "Con hipersensibilidad bacteriana, \u00e9stas tienen la localizaci\u00f3n de las piodermias y adem\u00e1s siempre tienen alg\u00fan pelo en su interior.",
-        "NOMBRE": "DERMATOFITOSIS POR MICROSPORUM",
         "NO": "7MIC"
     },
     {
         "DIAGNDIF": "Demodeccia localizada.",
-        "NOMBRE": "DERMATOFITOSIS POR MICROSPORUM",
         "NO": "7MIC"
     },
     {
         "DIAGNDIF": "Parches seborreicos, siempre hay pelos en su interior.",
-        "NOMBRE": "DERMATOFITOSIS POR MICROSPORUM",
         "NO": "7MIC"
     },
     {
         "DIAGNDIF": "Mastocitomas.",
-        "NOMBRE": "DERMATOFITOSIS POR MICROSPORUM",
         "NO": "7MIC"
     },
     {
         "DIAGNDIF": "Histiocitomas.",
-        "NOMBRE": "DERMATOFITOSIS POR MICROSPORUM",
         "NO": "7MIC"
     },
     {
         "DIAGNDIF": "Neurodermatitis.",
-        "NOMBRE": "DERMATOFITOSIS POR MICROSPORUM",
         "NO": "7MIC"
     },
     {
         "DIAGNDIF": "Parche caliente incipiente.",
-        "NOMBRE": "DERMATOFITOSIS POR MICROSPORUM",
         "NO": "7MIC"
     },
     {
         "DIAGNDIF": "Demodeccia generalizada.",
-        "NOMBRE": "DERMATOFITOSIS POR TRICOFITON",
         "NO": "7TRI"
     },
     {
         "DIAGNDIF": "P\u00e9nfigo foli\u00e1ceo y eritematoso.",
-        "NOMBRE": "DERMATOFITOSIS POR TRICOFITON",
         "NO": "7TRI"
     },
     {
         "DIAGNDIF": "Dermatitis pustular subcorneal.",
-        "NOMBRE": "DERMATOFITOSIS POR TRICOFITON",
         "NO": "7TRI"
     },
     {
         "DIAGNDIF": "Atop\u00eda.",
-        "NOMBRE": "DERMATITIS POR MALASSEZIA",
         "NO": "7MAL"
     },
     {
         "DIAGNDIF": "Piodermia superficial.",
-        "NOMBRE": "DERMATITIS POR MALASSEZIA",
         "NO": "7MAL"
     },
     {
         "DIAGNDIF": "Alergia alimentaria.",
-        "NOMBRE": "DERMATITIS POR MALASSEZIA",
         "NO": "7MAL"
     },
     {
         "DIAGNDIF": "Demodeccia.",
-        "NOMBRE": "DERMATITIS POR MALASSEZIA",
         "NO": "7MAL"
     },
     {
         "DIAGNDIF": "Sarna sarc\u00f3ptica",
-        "NOMBRE": "DERMATITIS POR MALASSEZIA",
         "NO": "7MAL"
     },
     {
         "DIAGNDIF": "Con otras micosis sist\u00e9micas como histoplasmosis, criptococcosis, blastomicosis, phaeohypomicosis y micetomas.",
-        "NOMBRE": "ESPOROTRICOSIS",
         "NO": "7SPO"
     },
     {
         "DIAGNDIF": "Piodermia profunda.",
-        "NOMBRE": "ESPOROTRICOSIS",
         "NO": "7SPO"
     },
     {
         "DIAGNDIF": "F\u00edstulas cr\u00f3nicas.",
-        "NOMBRE": "ESPOROTRICOSIS",
         "NO": "7SPO"
     },
     {
         "DIAGNDIF": "Neoplasias.",
-        "NOMBRE": "ESPOROTRICOSIS",
         "NO": "7SPO"
     },
     {
         "DIAGNDIF": "Seborreas secundarias.",
-        "NOMBRE": "SEBORREA PRIMARIA",
         "NO": "8APRI"
     },
     {
         "DIAGNDIF": "Displasia epid\u00e9rmica.",
-        "NOMBRE": "SEBORREA PRIMARIA",
         "NO": "8APRI"
     },
     {
         "DIAGNDIF": "Adenitis seb\u00e1cea.",
-        "NOMBRE": "SEBORREA PRIMARIA",
         "NO": "8APRI"
     },
     {
         "DIAGNDIF": "Distrofia folicular.",
-        "NOMBRE": "SEBORREA PRIMARIA",
         "NO": "8APRI"
     },
     {
         "DIAGNDIF": "Comedones del Schnauzer.",
-        "NOMBRE": "SEBORREA PRIMARIA",
         "NO": "8APRI"
     },
     {
         "DIAGNDIF": "ALOPECIA POR MUTACION DE COLOR               9MUT",
-        "NOMBRE": "SEBORREA SECUNDARIA",
         "NO": "8ASEC"
     },
     {
         "DIAGNDIF": "DEMODECCIA LOCALIZADA                        5DEML",
-        "NOMBRE": "SEBORREA SECUNDARIA",
         "NO": "8ASEC"
     },
     {
         "DIAGNDIF": "DERMATITIS ALERGICA POR CONTACTO             2CONT",
-        "NOMBRE": "SEBORREA SECUNDARIA",
         "NO": "8ASEC"
     },
     {
         "DIAGNDIF": "DERMATITIS ALERGICA POR PULGAS               2PUL",
-        "NOMBRE": "SEBORREA SECUNDARIA",
         "NO": "8ASEC"
     },
     {
         "DIAGNDIF": "DERMATOFITOSIS POR MICROSPORUM               7MIC",
-        "NOMBRE": "SEBORREA SECUNDARIA",
         "NO": "8ASEC"
     },
     {
         "DIAGNDIF": "DERMATOSIS POR HIPERESTROGENISMO             6HEST",
-        "NOMBRE": "SEBORREA SECUNDARIA",
         "NO": "8ASEC"
     },
     {
         "DIAGNDIF": "HIPERSENSIBILIDAD BACTERIANA NO VERDADERA    1SHSE",
-        "NOMBRE": "SEBORREA SECUNDARIA",
         "NO": "8ASEC"
     },
     {
         "DIAGNDIF": "Sarna sarc\u00f3ptica.",
-        "NOMBRE": "SEBORREA DEL BORDE DE LAS OREJAS",
         "NO": "8AORE"
     },
     {
         "DIAGNDIF": "Hipotiroidismo.",
-        "NOMBRE": "SEBORREA DEL BORDE DE LAS OREJAS",
         "NO": "8AORE"
     },
     {
         "DIAGNDIF": "Fisuras de las orejas.",
-        "NOMBRE": "SEBORREA DEL BORDE DE LAS OREJAS",
         "NO": "8AORE"
     },
     {
         "DIAGNDIF": "P\u00e9nfigo foli\u00e1ceo.",
-        "NOMBRE": "SEBORREA DEL BORDE DE LAS OREJAS",
         "NO": "8AORE"
     },
     {
         "DIAGNDIF": "Picadura de la mosca de la punta de oreja.",
-        "NOMBRE": "SEBORREA DEL BORDE DE LAS OREJAS",
         "NO": "8AORE"
     },
     {
         "DIAGNDIF": "Dermatofitosis microsp\u00f3rica.",
-        "NOMBRE": "HIPERPLASIA DE LA GLANDULA DE LA COLA",
         "NO": "8ACOL"
     },
     {
         "DIAGNDIF": "Moquillo de las almohadillas plantares (Hard-pad Disease).",
-        "NOMBRE": "HIPERQUERATOSIS NASO-DIGITAL IDIOPATICA",
         "NO": "8BNAS"
     },
     {
         "DIAGNDIF": "Dermatosis que responden al Zinc.",
-        "NOMBRE": "HIPERQUERATOSIS NASO-DIGITAL IDIOPATICA",
         "NO": "8BNAS"
     },
     {
         "DIAGNDIF": "P\u00e9nfigo foli\u00e1ceo, lupus eritematoso sist\u00e9mico.",
-        "NOMBRE": "HIPERQUERATOSIS NASO-DIGITAL IDIOPATICA",
         "NO": "8BNAS"
     },
     {
         "DIAGNDIF": "P\u00e9nfigo eritematoso.",
-        "NOMBRE": "HIPERQUERATOSIS NASO-DIGITAL IDIOPATICA",
         "NO": "8BNAS"
     },
     {
         "DIAGNDIF": "Lupus discoideo.",
-        "NOMBRE": "HIPERQUERATOSIS NASO-DIGITAL IDIOPATICA",
         "NO": "8BNAS"
     },
     {
         "DIAGNDIF": "Carencia de zinc.",
-        "NOMBRE": "HIPERQUERATOSIS NASO-DIGITAL IDIOPATICA",
         "NO": "8BNAS"
     },
     {
         "DIAGNDIF": "Leishmaniasis.",
-        "NOMBRE": "HIPERQUERATOSIS NASO-DIGITAL IDIOPATICA",
         "NO": "8BNAS"
     },
     {
         "DIAGNDIF": "S\u00edndrome hepatocut\u00e1neo.",
-        "NOMBRE": "HIPERQUERATOSIS NASO-DIGITAL IDIOPATICA",
         "NO": "8BNAS"
     },
     {
         "DIAGNDIF": "Seborreas primarias o secundarias.",
-        "NOMBRE": "DERMATOSIS QUE RESPONDE A LA VITAMINA A",
         "NO": "8CVIT"
     },
     {
         "DIAGNDIF": "Dermatosis que responden al zinc.",
-        "NOMBRE": "DERMATOSIS QUE RESPONDE A LA VITAMINA A",
         "NO": "8CVIT"
     },
     {
         "DIAGNDIF": "Callos.",
-        "NOMBRE": "DERMATOSIS QUE RESPONDE A LA VITAMINA A",
         "NO": "8CVIT"
     },
     {
         "DIAGNDIF": "Adenitis seb\u00e1cea.",
-        "NOMBRE": "DERMATOSIS QUE RESPONDE A LA VITAMINA A",
         "NO": "8CVIT"
     },
     {
         "DIAGNDIF": "Demodeccia.",
-        "NOMBRE": "DERMATOSIS QUE RESPONDE AL ZINC-I",
         "NO": "8CZ1"
     },
     {
         "DIAGNDIF": "Dermatofitosis.",
-        "NOMBRE": "DERMATOSIS QUE RESPONDE AL ZINC-I",
         "NO": "8CZ1"
     },
     {
         "DIAGNDIF": "Piodermias.",
-        "NOMBRE": "DERMATOSIS QUE RESPONDE AL ZINC-I",
         "NO": "8CZ1"
     },
     {
         "DIAGNDIF": "P\u00e9nfigo foliaceo.",
-        "NOMBRE": "DERMATOSIS QUE RESPONDE AL ZINC-I",
         "NO": "8CZ1"
     },
     {
         "DIAGNDIF": "S\u00edndrome hepato-cut\u00e1neo.",
-        "NOMBRE": "DERMATOSIS QUE RESPONDE AL ZINC-I",
         "NO": "8CZ1"
     },
     {
         "DIAGNDIF": "Demodeccia.",
-        "NOMBRE": "DERMATOSIS QUE RESPONDE AL ZINC-II",
         "NO": "8CZ2"
     },
     {
         "DIAGNDIF": "Dermatofitosis.",
-        "NOMBRE": "DERMATOSIS QUE RESPONDE AL ZINC-II",
         "NO": "8CZ2"
     },
     {
         "DIAGNDIF": "Piodermias.",
-        "NOMBRE": "DERMATOSIS QUE RESPONDE AL ZINC-II",
         "NO": "8CZ2"
     },
     {
         "DIAGNDIF": "P\u00e9nfigo foli\u00e1ceo.",
-        "NOMBRE": "DERMATOSIS QUE RESPONDE AL ZINC-II",
         "NO": "8CZ2"
     },
     {
         "DIAGNDIF": "Acantosis nigricans secundaria.",
-        "NOMBRE": "ACANTOSIS NIGRICANS PRIMARIA",
         "NO": "9ACA"
     },
     {
         "DIAGNDIF": "Se deben buscar entre las causas se\u00f1aladas en la etiolog\u00eda.",
-        "NOMBRE": "ACANTOSIS NIGRICANS SECUNDARIA",
         "NO": "9ACA2"
     },
     {
         "DIAGNDIF": "Demodeccia.",
-        "NOMBRE": "ALOPECIA POR MUTACION DE COLOR",
         "NO": "9MUT"
     },
     {
         "DIAGNDIF": "Hipotiroidismo.",
-        "NOMBRE": "ALOPECIA POR MUTACION DE COLOR",
         "NO": "9MUT"
     },
     {
         "DIAGNDIF": "Otras endocrinopat\u00edas.",
-        "NOMBRE": "ALOPECIA POR MUTACION DE COLOR",
         "NO": "9MUT"
     },
     {
         "DIAGNDIF": "Dermatitis seborreicas.",
-        "NOMBRE": "ALOPECIA POR MUTACION DE COLOR",
         "NO": "9MUT"
     },
     {
         "DIAGNDIF": "Demodeccia.",
-        "NOMBRE": "DERMATOMIOSITIS",
         "NO": "9EPI"
     },
     {
         "DIAGNDIF": "Dermatofitosis por microsporum.",
-        "NOMBRE": "DERMATOMIOSITIS",
         "NO": "9EPI"
     },
     {
         "DIAGNDIF": "Foliculitis bacteriana.",
-        "NOMBRE": "DERMATOMIOSITIS",
         "NO": "9EPI"
     },
     {
         "DIAGNDIF": "P\u00e9nfigo eritematoso.",
-        "NOMBRE": "DERMATOMIOSITIS",
         "NO": "9EPI"
     },
     {
         "DIAGNDIF": "Lupus discoideo.",
-        "NOMBRE": "DERMATOMIOSITIS",
         "NO": "9EPI"
     },
     {
         "DIAGNDIF": "Callos de apoyo.",
-        "NOMBRE": "DERMATITIS ACRAL POR LAMIDO",
         "NO": "9LICK"
     },
     {
         "DIAGNDIF": "Dermatofitosis por microsporum.",
-        "NOMBRE": "DERMATITIS ACRAL POR LAMIDO",
         "NO": "9LICK"
     },
     {
         "DIAGNDIF": "Granulomas mic\u00f3ticos.",
-        "NOMBRE": "DERMATITIS ACRAL POR LAMIDO",
         "NO": "9LICK"
     },
     {
         "DIAGNDIF": "Neoplasias.",
-        "NOMBRE": "DERMATITIS ACRAL POR LAMIDO",
         "NO": "9LICK"
     },
     {
         "DIAGNDIF": "Hipersensibilidades todas.",
-        "NOMBRE": "DERMATITIS POR SUCCION DEL FLANCO",
         "NO": "9FLAN"
     },
     {
         "DIAGNDIF": "Hipersensibilidad a par\u00e1sitos intestinales.",
-        "NOMBRE": "DERMATITIS POR SUCCION DEL FLANCO",
         "NO": "9FLAN"
     },
     {
         "DIAGNDIF": "El de las etiolog\u00edas.",
-        "NOMBRE": "OTITIS EXTERNA",
         "NO": "9OTI"
     },
     {
         "DIAGNDIF": "Tumores de los sacos anales.",
-        "NOMBRE": "ENFERMEDAD DE LOS SACOS ANALES",
         "NO": "9ANO"
     },
     {
         "DIAGNDIF": "Hiperplasias glandulares.",
-        "NOMBRE": "ENFERMEDAD DE LOS SACOS ANALES",
         "NO": "9ANO"
     },
     {
         "DIAGNDIF": "Tumores de las gl\u00e1ndulas perianales.",
-        "NOMBRE": "ENFERMEDAD DE LOS SACOS ANALES",
         "NO": "9ANO"
     },
     {
         "DIAGNDIF": "F\u00edstulas perianales incipientes.",
-        "NOMBRE": "ENFERMEDAD DE LOS SACOS ANALES",
         "NO": "9ANO"
     },
     {
         "DIAGNDIF": "Atop\u00eda con la que puede coexistir.",
-        "NOMBRE": "DERMATITIS ALERGICA POR PULGAS EST II",
         "NO": "2PUL2"
     },
     {
         "DIAGNDIF": "Alerg\u00eda alimentaria, con la que puede coexistir.",
-        "NOMBRE": "DERMATITIS ALERGICA POR PULGAS EST II",
         "NO": "2PUL2"
     },
     {
         "DIAGNDIF": "Piodermia superficial.",
-        "NOMBRE": "DERMATITIS ALERGICA POR PULGAS EST II",
         "NO": "2PUL2"
     },
     {
         "DIAGNDIF": "Hipersensibilidad a los par\u00e1sitos intestinales.",
-        "NOMBRE": "DERMATITIS ALERGICA POR PULGAS EST II",
         "NO": "2PUL2"
     },
     {
         "DIAGNDIF": "Otras dermatitis seborreicas.",
-        "NOMBRE": "DERMATITIS ALERGICA POR PULGAS EST II",
         "NO": "2PUL2"
     },
     {
         "DIAGNDIF": "Atop\u00eda con la que puede coexistir.",
-        "NOMBRE": "DERMATITIS ALERGICA POR PULGAS EST III",
         "NO": "2PUL3"
     },
     {
         "DIAGNDIF": "Alerg\u00eda alimentaria, con la que puede coexistir.",
-        "NOMBRE": "DERMATITIS ALERGICA POR PULGAS EST III",
         "NO": "2PUL3"
     },
     {
         "DIAGNDIF": "Piodermia superficial.",
-        "NOMBRE": "DERMATITIS ALERGICA POR PULGAS EST III",
         "NO": "2PUL3"
     },
     {
         "DIAGNDIF": "Hipersensibilidad a los par\u00e1sitos intestinales.",
-        "NOMBRE": "DERMATITIS ALERGICA POR PULGAS EST III",
         "NO": "2PUL3"
     },
     {
         "DIAGNDIF": "Otras dermatitis seborreicas.",
-        "NOMBRE": "DERMATITIS ALERGICA POR PULGAS EST III",
         "NO": "2PUL3"
     },
     {
         "DIAGNDIF": "Sarna sarc\u00f3ptica.",
-        "NOMBRE": "ATOPIA CANINA EST II",
         "NO": "2ATO2"
     },
     {
         "DIAGNDIF": "Alergia alimentaria.",
-        "NOMBRE": "ATOPIA CANINA EST II",
         "NO": "2ATO2"
     },
     {
         "DIAGNDIF": "Dermatitis al\u00e9rgica por contacto.",
-        "NOMBRE": "ATOPIA CANINA EST II",
         "NO": "2ATO2"
     },
     {
         "DIAGNDIF": "Dermatitis al\u00e9rgica a las pulgas.",
-        "NOMBRE": "ATOPIA CANINA EST II",
         "NO": "2ATO2"
     },
     {
         "DIAGNDIF": "Hipersensibilidad bacteriana.",
-        "NOMBRE": "ATOPIA CANINA EST II",
         "NO": "2ATO2"
     },
     {
         "DIAGNDIF": "Piodermia de superficie.",
-        "NOMBRE": "ATOPIA CANINA EST II",
         "NO": "2ATO2"
     },
     {
         "DIAGNDIF": "Sarna sarc\u00f3ptica.",
-        "NOMBRE": "ATOPIA CANINA EST III",
         "NO": "2ATO3"
     },
     {
         "DIAGNDIF": "Alergia alimentaria.",
-        "NOMBRE": "ATOPIA CANINA EST III",
         "NO": "2ATO3"
     },
     {
         "DIAGNDIF": "Dermatitis al\u00e9rgica por contacto.",
-        "NOMBRE": "ATOPIA CANINA EST III",
         "NO": "2ATO3"
     },
     {
         "DIAGNDIF": "Dermatitis al\u00e9rgica a las pulgas.",
-        "NOMBRE": "ATOPIA CANINA EST III",
         "NO": "2ATO3"
     },
     {
         "DIAGNDIF": "Hipersensibilidad bacteriana.",
-        "NOMBRE": "ATOPIA CANINA EST III",
         "NO": "2ATO3"
     },
     {
         "DIAGNDIF": "Piodermia de superficie.",
-        "NOMBRE": "ATOPIA CANINA EST III",
         "NO": "2ATO3"
     },
     {
         "DIAGNDIF": "Dermatitis irritativa de contacto.",
-        "NOMBRE": "DERMATITIS ALERGICA POR CONTACTO (PLASTICO)",
         "NO": "2CONT2"
     },
     {
         "DIAGNDIF": "Atop\u00eda.",
-        "NOMBRE": "DERMATITIS ALERGICA POR CONTACTO (PLASTICO)",
         "NO": "2CONT2"
     },
     {
         "DIAGNDIF": "Sarna sarc\u00f3ptica.",
-        "NOMBRE": "DERMATITIS ALERGICA POR CONTACTO (PLASTICO)",
         "NO": "2CONT2"
     },
     {
         "DIAGNDIF": "Todas las hipersensibilidades.",
-        "NOMBRE": "DERMATITIS ALERGICA POR CONTACTO (PLASTICO)",
         "NO": "2CONT2"
     },
     {
         "DIAGNDIF": "Todas las seborreas secundarias.",
-        "NOMBRE": "DERMATITIS ALERGICA POR CONTACTO (PLASTICO)",
         "NO": "2CONT2"
     },
     {
         "DIAGNDIF": "Piod\u00e9rmia superficial.",
-        "NOMBRE": "DERMATITIS ALERGICA POR CONTACTO (PLASTICO)",
         "NO": "2CONT2"
     }
 ]

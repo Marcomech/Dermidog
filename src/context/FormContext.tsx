@@ -20,7 +20,7 @@ export function FormContextProvider({ children }: { children: ReactNode }) {
     'Raza': "",
     'Sexo': "",
     'Edad': "",
-    'Area': "",
+    'AreaInvolurada': "",
     'Prurito': "",
     'Seborrea': "",
     'Simetria': "",

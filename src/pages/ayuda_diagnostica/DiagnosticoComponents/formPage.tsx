@@ -1,12 +1,9 @@
-import * as React from 'react';
-import Grid from "@mui/material/Unstable_Grid2"
-import DropDown from './CustomFormFields/DropDown';
-import Text from './CustomFormFields/Text';
-import { FormFields } from '../../../../public/data/index';
-import { gif1, gif2, gif3 } from "../../../assets/index"
-
+import React, { useState, useEffect } from 'react';
+import { gif1 } from "../../../assets/index"
 import Image from 'next/image';
 import EncontrarDiagnostico from '@/functions/diagnostico';
+import GridData from './pageData';
+import { Box } from '@mui/material';
 
 interface PageContProps {
   actualPage: number
@@ -14,70 +11,49 @@ interface PageContProps {
 
 export default function Page(data: PageContProps) {
   const { actualPage } = data;
-
-  if (actualPage < 5) {
-    return (<GridData actualPage={actualPage} />)
-  } else {
-    return (<ImgData />)
-  }
-
+  return (
+    <Box height={250}>
+      {actualPage < 5
+        ? <GridData actualPage={actualPage} />
+        : <ImgData />
+      }
+    </Box>
+  )
 }
 
 const ImgData = () => {
-  return <>
-    <EncontrarDiagnostico />
-    <Image
-      alt=''
-      src={gif1}
-      style={{
-        'display': 'block',
-        'marginLeft': 'auto',
-        'marginRight': 'auto',
-        'height': '190px',
-        'objectFit': 'contain'
-      }}
-      width="200" height="200" />
-  </>
+  const [showImage, setShowImage] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowImage(false);
+    }, 3000);
+
+    return () => {
+      clearTimeout(timer);
+    };
+  }, []);
+
+  return (
+    <>
+      {showImage
+        ?
+        <Image
+          alt=''
+          src={gif1}
+          style={{
+            display: 'block',
+            marginLeft: 'auto',
+            marginRight: 'auto',
+            height: '190px',
+            objectFit: 'contain',
+          }}
+          width={200}
+          height={200}
+        />
+
+        : <EncontrarDiagnostico />}
+    </>
+  )
 }
 
-function GridData(data: PageContProps) {
-  const univen = (FormFields[data.actualPage].fields.length) % 2 === 0;
-
-  return <div >
-    <Image
-      alt=''
-      src={data.actualPage < 2 ? gif3 : gif2}
-      style={{
-        'display': 'block',
-        'marginLeft': 'auto',
-        'marginRight': 'auto',
-        'height': '190px',
-        'objectFit': 'contain'
-      }}
-      width="200" height="200" />
-    <Grid
-      container
-      direction="row"
-      justifyContent={univen ? 'space-evenly' : 'flex-start'}
-      alignItems='flex-end'
-      paddingX={3}
-      spacing={2}
-      paddingTop={3}
-      key={data.actualPage}
-    >
-      {
-        FormFields[data.actualPage].fields.map((field) => {
-          return (
-            <Grid key={data.actualPage + field.id}>
-              {field.type == 'Text'
-                ? <Text id={field.id} />
-                : <DropDown
-                  id={field.id}
-                  options={field.options} />
-              }
-            </Grid>)
-        })
-      }
-    </ Grid >
-  </div>
-}
