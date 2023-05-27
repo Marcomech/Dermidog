@@ -44,9 +44,9 @@ export default function EncontrarDiagnostico() {
     })
   }
 
-  console.log("     Posibles:" + enfermedadesPosibles.length)
+  //console.log("     Posibles:" + enfermedadesPosibles.length)
   for (var key in enfermedadesPosibles) {
-    console.log(Codigos[enfermedadesPosibles[key]])
+    //console.log(Codigos[enfermedadesPosibles[key]])
   };
 
 

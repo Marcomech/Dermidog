@@ -47,24 +47,25 @@ export default function PageStepper({ steps,
     });
   };
 
-
-
   return (
     <Box sx={{ width: '100%' }}>
       <Stepper activeStep={activePage}>
-        {steps.map((label, index) => {
-          const stepProps: { completed?: boolean } = {};
-          if (isStepSkipped(index)) {
-            stepProps.completed = false;
-          }
-          return (
-            <Step key={label} {...stepProps}>
-              <StepLabel>
-                {(activePage == index) ? label : ""}
-              </StepLabel>
-            </Step>
-          );
-        })}
+
+        {
+          steps.map((label, index) => {
+            const stepProps: { completed?: boolean } = {};
+            if (isStepSkipped(index)) {
+              stepProps.completed = false;
+            }
+            return (
+              <Step key={label} {...stepProps}>
+                <StepLabel>
+                  {(activePage == index) ? label : ""}
+                </StepLabel>
+              </Step>
+            );
+          })
+        }
       </Stepper>
       {activePage === steps.length
         ? (

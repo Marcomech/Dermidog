@@ -23,19 +23,20 @@ export default function DialogContent(props: dialogContentProps) {
             sx={{ flexGrow: 1, }}>
             {Object.entries(data).map(([key, value]) => {
                 if (value != "") {
-                    return <TreeItem key={key} nodeId={key} label=
-                        {<Typography variant='h6'>
-                            {filterEmpty([key, value])}
-                        </Typography>}>
-                        <TreeItem nodeId="2" label={
-                            <Box padding={1}>
-                                <Typography variant='body1' >
-
-                                    {filterContent([key, value])}
-                                </Typography>
-                            </Box>
-                        } />
-                    </TreeItem>
+                    return (
+                        <TreeItem key={key} nodeId={key} label=
+                            {<Typography variant='h6'>
+                                {filterEmpty([key, value])}
+                            </Typography>}>
+                            <TreeItem nodeId="2" label={
+                                <Box padding={1}>
+                                    <Typography variant='body1' >
+                                        {filterContent([key, value])}
+                                    </Typography>
+                                </Box>
+                            } />
+                        </TreeItem>
+                    )
                 }
             })}
         </TreeView>

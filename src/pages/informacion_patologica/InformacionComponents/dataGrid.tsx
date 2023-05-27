@@ -8,24 +8,31 @@ interface DataGridProps {
 }
 
 export default function DataGrid({ capitulos }: DataGridProps) {
-    return <Grid
-        container
-        spacing={2}>
-        {capitulos.ENFERMEDADES.map((enfermedadCap) => (
-            FullDataBase.map((enfermedadData, index) => {
-                const string_1 = enfermedadData.NAME.normalize('NFD').replace(/\p{Diacritic}/gu, '').toUpperCase();
-                const string_2 = enfermedadCap.normalize('NFKD').replace(/\p{Diacritic}/gu, '').toUpperCase();
-                if (string_1 === string_2) {
-                    return (
-                        <Grid xs={12} sm={6} md={4} lg={3} key={index} >
-                            <GridItem
-                                id={enfermedadData.ID}
-                                data={enfermedadData.DATA}
-                                name={enfermedadData.NAME} />
-                        </Grid>
-                    )
-                }
-            })
-        ))}
-    </Grid>
+    return (
+        <Grid
+            container
+            spacing={2}>
+            {
+                (capitulos) ?
+                    capitulos.ENFERMEDADES.map((enfermedadCap: string) => (
+                        FullDataBase.map((enfermedadData: FullData, index: number) => {
+                            const string_1 = enfermedadData.NAME.normalize('NFD').replace(/\p{Diacritic}/gu, '').toUpperCase();
+                            const string_2 = enfermedadCap.normalize('NFKD').replace(/\p{Diacritic}/gu, '').toUpperCase();
+                            if (string_1 === string_2) {
+                                return (
+                                    <Grid xs={12} sm={6} md={4} lg={3} key={index} >
+                                        <GridItem
+                                            id={enfermedadData.ID}
+                                            data={enfermedadData.DATA}
+                                            name={enfermedadData.NAME} />
+                                    </Grid>
+                                );
+                            }
+                            return null
+                        })
+                    ))
+                    : null
+            }
+        </Grid>
+    )
 }

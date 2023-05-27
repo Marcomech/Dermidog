@@ -17,15 +17,22 @@ export default function DropDown(data: FieldProps) {
     setFormData({ ...formData, [fieldId]: newValue });
   };
 
-  const menuOptions = [
+  var menuOptions = [
     <MenuItem key='default' value="">
       <em>No Definido</em>
     </MenuItem>,
-    options!.map((option) => (
-      <MenuItem key={option} value={option}>
-        {option}
-      </MenuItem>
-    ))]
+  ]
+
+  if (options && Array.isArray(options)) {
+    options.map((option) => (
+      menuOptions = menuOptions.concat(
+        <MenuItem key={option} value={option}>
+          {option}
+        </MenuItem>
+      )
+    ))
+  }
+
 
   return (
     <FormControl
