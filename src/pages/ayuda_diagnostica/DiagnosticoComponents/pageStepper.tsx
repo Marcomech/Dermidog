@@ -14,10 +14,8 @@ interface PageStepperProps {
   setActivePage: React.Dispatch<React.SetStateAction<number>>
 }
 
-export default function PageStepper({ steps,
-  activePage,
-  onClose,
-  setActivePage, }: PageStepperProps) {
+export default function PageStepper({ steps, activePage, onClose, setActivePage }: PageStepperProps) {
+
   const [skipped, setSkipped] = useState(new Set<number>());
 
   const isStepSkipped = (step: number) => {
@@ -48,6 +46,7 @@ export default function PageStepper({ steps,
   };
 
   return <Box sx={{ width: '100%' }}>
+    {/*
     <Stepper activeStep={activePage}>
 
       {
@@ -92,6 +91,7 @@ export default function PageStepper({ steps,
           </Box>
         </React.Fragment>
       )}
+     */}
   </Box>
 
 
