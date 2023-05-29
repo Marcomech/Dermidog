@@ -47,8 +47,9 @@ export default function PageStepper({ steps,
     });
   };
 
-  return (
-    <Box sx={{ width: '100%' }}>
+  return <a></a >
+  {/*
+<Box sx={{ width: '100%' }}>
       <Stepper activeStep={activePage}>
 
         {
@@ -94,5 +95,7 @@ export default function PageStepper({ steps,
           </React.Fragment>
         )}
     </Box>
-  );
+
+*/
+  };
 }

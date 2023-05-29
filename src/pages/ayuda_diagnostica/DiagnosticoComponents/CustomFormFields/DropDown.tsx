@@ -34,21 +34,22 @@ export default function DropDown(data: FieldProps) {
   }
 
   return (
-    <FormControl
-      sx={{ width: '225px' }}
-      focused={true}>
-      <InputLabel id="DropDown">{id.replace(/([a-z])([A-Z])/g, "$1 $2")}</InputLabel>
-      <Select
-        MenuProps={{ PaperProps: { sx: { bgcolor: theme.palette.primary.light, } } }}
-        labelId="SelectLabelId"
-        id={id}
-        value={(typeof formData[id] == 'undefined'
-          ? '' : formData[id])}
-        onChange={(event: SelectChangeEvent<string>) =>
-          handleChange(event, id)}
-        input={<OutlinedInput label={id} />}>
-        {menuOptions}
-      </Select>
-    </FormControl >
+    <a></a>
+    //<FormControl
+    //  sx={{ width: '225px' }}
+    //  focused={true}>
+    //  <InputLabel id="DropDown">{id.replace(/([a-z])([A-Z])/g, "$1 $2")}</InputLabel>
+    //  <Select
+    //    MenuProps={{ PaperProps: { sx: { bgcolor: theme.palette.primary.light, } } }}
+    //    labelId="SelectLabelId"
+    //    id={id}
+    //    value={(typeof formData[id] == 'undefined'
+    //      ? '' : formData[id])}
+    //    onChange={(event: SelectChangeEvent<string>) =>
+    //      handleChange(event, id)}
+    //    input={<OutlinedInput label={id} />}>
+    //    {menuOptions}
+    //  </Select>
+    //</FormControl >
   );
 }
