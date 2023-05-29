@@ -15,8 +15,7 @@ export default function GridData(data: PageContProps) {
     const Fields = FormFields[data.actualPage].fields ?? {};
     const univen = (Fields.length) % 2 === 0;
 
-    return <a></a>
-    {/*<div >
+    return < div >
         <Image
             alt=''
             src={data.actualPage < 2 ? gif3 : gif2}
@@ -28,6 +27,7 @@ export default function GridData(data: PageContProps) {
                 'objectFit': 'contain'
             }}
             width={200} height={200} />
+        {/*
         <Grid
             container
             direction="row"
@@ -52,5 +52,6 @@ export default function GridData(data: PageContProps) {
                 )
             })}
         </ Grid >
-        </div>*/}
+        */}
+    </div >
 }

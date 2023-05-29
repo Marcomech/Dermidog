@@ -1,3 +1,4 @@
+/*
 import React, { useContext, useState } from 'react';
 import Box from '@mui/material/Box';
 import Stepper from '@mui/material/Stepper';
@@ -47,8 +48,7 @@ export default function PageStepper({ steps,
     });
   };
 
-  return <a></a >
-  {/*
+  return 
 <Box sx={{ width: '100%' }}>
       <Stepper activeStep={activePage}>
 
@@ -96,6 +96,7 @@ export default function PageStepper({ steps,
         )}
     </Box>
 
-*/
+
   };
 }
+*/

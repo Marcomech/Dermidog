@@ -1,3 +1,4 @@
+/*
 import React, { useState, useEffect } from 'react';
 import { gif1 } from "../../../assets/index"
 import Image from 'next/image';
@@ -57,3 +58,4 @@ const ImgData = () => {
   )
 }
 
+*/
