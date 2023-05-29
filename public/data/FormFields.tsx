@@ -78,4 +78,22 @@ export const FormFields: formType[] = [
         options: ['1', '2', '3', '4',]
       }]
   },
+  {
+    page: 6,
+    fields: [
+      {
+        type: "DropDown",
+        id: 'LesionesElementales',
+        options: ['1', '2', '3', '4',]
+      }]
+  },
+  {
+    page: 7,
+    fields: [
+      {
+        type: "DropDown",
+        id: 'LesionesElementales',
+        options: ['1', '2', '3', '4',]
+      }]
+  }
 ]
