@@ -10,9 +10,10 @@ import Image from 'next/image';
 interface PageContProps {
     actualPage: number
 }
-
 export default function GridData(data: PageContProps) {
-    const univen = (FormFields[data.actualPage].fields.length) % 2 === 0;
+
+    const Fields = FormFields[data.actualPage].fields ?? {};
+    const univen = (Fields.length) % 2 === 0;
 
     return <a></a>
     {/*<div >
