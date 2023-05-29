@@ -24,7 +24,7 @@ export function FormContextProvider({ children }: { children: ReactNode }) {
     'Prurito': "",
     'Seborrea': "",
     'Simetria': "",
-    'LesionesElementales': "",
+    'LesionesElementales': ""
   });
 
   return (
