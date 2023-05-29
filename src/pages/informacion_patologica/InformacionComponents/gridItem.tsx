@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Button, Dialog, Card, CardActions } from '@mui/material';
-import DialogContent from './dialogContent';
+import DetailInfo from './detailInfo';
 
 interface DialogProps {
     id: string
@@ -33,7 +33,7 @@ export default function GridItem(props: DialogProps) {
                         style: { backgroundColor: '#282c34' }
                     }}
                 >
-                    <DialogContent
+                    <DetailInfo
                         data={data}
                         id={id}
                         title={name} />

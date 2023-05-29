@@ -3,14 +3,38 @@ import { Box, Typography } from '@mui/material';
 import { TreeView, TreeItem } from '@mui/lab';
 import { ExpandMore, ChevronRight } from '@mui/icons-material';
 
-interface dialogContentProps {
+interface detailInfoProps {
     data: Data
     title: string
     id: string
 }
 
-export default function DialogContent(props: dialogContentProps) {
+export default function DetailInfo(props: detailInfoProps) {
     const { data, title, id } = props;
+    let TreeItems = null;
+
+    if (!data) {
+        return <p>No data available</p>;
+    } else {
+        TreeItems = Object.entries(data).map(([key, value]) => {
+            if (value != "") {
+                return (
+                    <TreeItem key={key} nodeId={key} label=
+                        {<Typography variant='h6'>
+                            {filterEmpty([key, value])}
+                        </Typography>}>
+                        <TreeItem nodeId="2" label={
+                            <Box padding={1}>
+                                <Typography variant='body1' >
+                                    {filterContent([key, value])}
+                                </Typography>
+                            </Box>
+                        } />
+                    </TreeItem>
+                )
+            }
+        })
+    }
 
     return (<Box padding={2}>
         <Typography variant='h4' align='center' padding={1}>
@@ -20,25 +44,9 @@ export default function DialogContent(props: dialogContentProps) {
             aria-label="controlled"
             defaultCollapseIcon={<ExpandMore />}
             defaultExpandIcon={<ChevronRight />}
-            sx={{ flexGrow: 1, }}>
-            {Object.entries(data).map(([key, value]) => {
-                if (value != "") {
-                    return (
-                        <TreeItem key={key} nodeId={key} label=
-                            {<Typography variant='h6'>
-                                {filterEmpty([key, value])}
-                            </Typography>}>
-                            <TreeItem nodeId="2" label={
-                                <Box padding={1}>
-                                    <Typography variant='body1' >
-                                        {filterContent([key, value])}
-                                    </Typography>
-                                </Box>
-                            } />
-                        </TreeItem>
-                    )
-                }
-            })}
+            sx={{ flexGrow: 1, }}
+        >
+            {TreeItems}
         </TreeView>
     </Box>
     );
