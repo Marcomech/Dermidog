@@ -36,20 +36,19 @@ export default function GridData(data: PageContProps) {
             paddingTop={3}
             key={data.actualPage}
         >
-            {
-                FormFields[data.actualPage].fields.map((field) => {
-                    return (
-                        <Grid key={data.actualPage + field.id}>
-                            {field.type === 'Text'
-                                ? <Text id={field.id} />
-                                : field.type === 'DropDown' && field.id ? (
-                                    <DropDown
-                                        id={field.id}
-                                        options={field.options} />
-                                ) : null}
-                        </Grid>)
-                })
-            }
+            {FormFields[data.actualPage].fields.map((field) => {
+                return (
+                    <Grid key={data.actualPage + field.id}>
+                        {field.type === 'Text'
+                            ? <Text id={field.id} />
+                            : field.type === 'DropDown' && field.id
+                                ? <DropDown
+                                    id={field.id}
+                                    options={field.options} />
+                                : null}
+                    </Grid>
+                )
+            })}
         </ Grid >
     </div>
 }

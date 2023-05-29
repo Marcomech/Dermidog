@@ -1,6 +1,15 @@
 import { AreaDetail, PruritoDetail, SeborreaDetail } from "../../public/Listas/index";
 
-export const FormFields = [
+type formType = {
+  page: number,
+  fields: {
+    type: string,
+    id: string,
+    options?: string[]
+  }[]
+}
+
+export const FormFields: formType[] = [
   {
     page: 1,
     fields: [
