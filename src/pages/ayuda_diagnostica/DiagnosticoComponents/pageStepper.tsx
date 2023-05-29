@@ -1,4 +1,3 @@
-/*
 import React, { useContext, useState } from 'react';
 import Box from '@mui/material/Box';
 import Stepper from '@mui/material/Stepper';
@@ -48,55 +47,53 @@ export default function PageStepper({ steps,
     });
   };
 
-  return 
-<Box sx={{ width: '100%' }}>
-      <Stepper activeStep={activePage}>
+  return <Box sx={{ width: '100%' }}>
+    <Stepper activeStep={activePage}>
 
-        {
-          steps.map((label, index) => {
-            const stepProps: { completed?: boolean } = {};
-            if (isStepSkipped(index)) {
-              stepProps.completed = false;
-            }
-            return (
-              <Step key={label} {...stepProps}>
-                <StepLabel>
-                  {(activePage == index) ? label : ""}
-                </StepLabel>
-              </Step>
-            );
-          })
-        }
-      </Stepper>
-      {activePage === steps.length
-        ? (
-          <React.Fragment>
-            <Box sx={{ display: 'flex', flexDirection: 'row', pt: 2 }}>
-              <Box sx={{ flex: '1 1 auto' }} />
-              <Button onClick={onClose}>Cerrar</Button>
-            </Box>
-          </React.Fragment>
-        ) : (
-          <React.Fragment>
-            <Box sx={{ display: 'flex', flexDirection: 'row', pt: 2 }}>
-              <Button color="inherit" disabled={activePage === 0} onClick={handleBack}>
-                Previo
-              </Button>
-              <Box sx={{ flex: '1 1 auto' }} />
-              <Button color="inherit" onClick={handleSkip}>
-                Saltear
-              </Button>
-              <Button onClick={handleNext}>
-                {activePage === steps.length - 1 ?
-                  'Terminar' :
-                  'Proximo'}
-              </Button>
-            </Box>
-          </React.Fragment>
-        )}
-    </Box>
+      {
+        steps.map((label, index) => {
+          const stepProps: { completed?: boolean } = {};
+          if (isStepSkipped(index)) {
+            stepProps.completed = false;
+          }
+          return (
+            <Step key={label} {...stepProps}>
+              <StepLabel>
+                {(activePage == index) ? label : ""}
+              </StepLabel>
+            </Step>
+          );
+        })
+      }
+    </Stepper>
+    {activePage === steps.length
+      ? (
+        <React.Fragment>
+          <Box sx={{ display: 'flex', flexDirection: 'row', pt: 2 }}>
+            <Box sx={{ flex: '1 1 auto' }} />
+            <Button onClick={onClose}>Cerrar</Button>
+          </Box>
+        </React.Fragment>
+      ) : (
+        <React.Fragment>
+          <Box sx={{ display: 'flex', flexDirection: 'row', pt: 2 }}>
+            <Button color="inherit" disabled={activePage === 0} onClick={handleBack}>
+              Previo
+            </Button>
+            <Box sx={{ flex: '1 1 auto' }} />
+            <Button color="inherit" onClick={handleSkip}>
+              Saltear
+            </Button>
+            <Button onClick={handleNext}>
+              {activePage === steps.length - 1 ?
+                'Terminar' :
+                'Proximo'}
+            </Button>
+          </Box>
+        </React.Fragment>
+      )}
+  </Box>
 
 
-  };
 }
-*/
+

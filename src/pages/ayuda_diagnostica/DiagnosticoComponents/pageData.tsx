@@ -12,8 +12,8 @@ interface PageContProps {
 }
 export default function GridData(data: PageContProps) {
 
-    const Fields = FormFields[data.actualPage].fields ?? {};
-    const univen = (Fields.length) % 2 === 0;
+    //const Fields = FormFields[data.actualPage].fields ?? {};
+    //const univen = (Fields.length) % 2 === 0;
 
     return < div >
         <Image

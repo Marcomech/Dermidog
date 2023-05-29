@@ -1,4 +1,3 @@
-/*
 import React, { useContext, useState } from 'react';
 import Button from '@mui/material/Button';
 import Dialog from '@mui/material/Dialog';
@@ -39,6 +38,7 @@ export default function FormDialog() {
       <Button variant="outlined" onClick={handleClickOpen}>
         Comenzar Diagnostico
       </Button>
+      {/*
 
       <Dialog
         open={open}
@@ -68,8 +68,8 @@ export default function FormDialog() {
           />
         </DialogActions>
       </Dialog>
+      */}
     </div >
   );
 }
 
-*/
