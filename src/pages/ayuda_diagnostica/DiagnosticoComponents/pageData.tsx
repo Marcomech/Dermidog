@@ -40,12 +40,13 @@ export default function GridData(data: PageContProps) {
                 FormFields[data.actualPage].fields.map((field) => {
                     return (
                         <Grid key={data.actualPage + field.id}>
-                            {field.type == 'Text'
+                            {field.type === 'Text'
                                 ? <Text id={field.id} />
-                                : <DropDown
-                                    id={field.id}
-                                    options={field.options} />
-                            }
+                                : field.type === 'DropDown' && field.id ? (
+                                    <DropDown
+                                        id={field.id}
+                                        options={field.options} />
+                                ) : null}
                         </Grid>)
                 })
             }
