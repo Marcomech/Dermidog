@@ -1,8 +1,7 @@
 import { FormContext } from "@/context/FormContext";
 import { useContext } from "react";
-import { AreaDetail, PruritoDetail, SeborreaDetail } from "../../public/Listas/index"
 import { Codigos } from "../../public/data/index"
-import { Prurito, Seborrea, Simetria, Area } from "../../public/Diagnostico/index";
+import { Prurito, Seborrea, Area } from "../../public/Diagnostico/index";
 import { Typography } from "@mui/material";
 
 export default function EncontrarDiagnostico() {
@@ -26,12 +25,6 @@ export default function EncontrarDiagnostico() {
   filterEnfermedades(formData.Prurito, Prurito, 'Prurito');
   filterEnfermedades(formData.Seborrea, Seborrea, 'Seborrea');
 
-
-  //console.log("     Posibles:" + enfermedadesPosibles.length)
-  //for (var key in enfermedadesPosibles) {
-  //  (Codigos[enfermedadesPosibles[key]])
-  //};
-
   return (
     <>
       <Typography >
@@ -45,33 +38,3 @@ export default function EncontrarDiagnostico() {
     </>
   )
 }
-
-
-
-
-/*
-    if (formData.AreaInvolucrada != undefined) {
-      Area.map((enfermedad) => {
-        if (!enfermedad.Area.includes(formData.AreaInvolucrada)) {
-          enfermedadesPosibles = enfermedadesPosibles.filter((value) => value !== enfermedad.ID)
-        }
-      });
-    }
-  
-    if (formData.Prurito != undefined) {
-      Prurito.map((enfermedad) => {
-        if (!enfermedad.Prurito.includes(formData.Prurito)) {
-          enfermedadesPosibles = enfermedadesPosibles.filter((value) => value !== enfermedad.ID)
-        }
-      });
-    }
-  
-  
-    if (formData.Seborrea != undefined) {
-      Seborrea.map((enfermedad) => {
-        if (!enfermedad.Seborrea.includes(formData.Seborrea)) {
-          enfermedadesPosibles = enfermedadesPosibles.filter((value) => value !== enfermedad.ID)
-        }
-      });
-    }
-    */
