@@ -25,6 +25,7 @@ export default function EncontrarDiagnostico() {
         }
       });
     }
+    console.log(enfermedadesPosibles)
     return (enfermedadesPosibles)
   };
 
