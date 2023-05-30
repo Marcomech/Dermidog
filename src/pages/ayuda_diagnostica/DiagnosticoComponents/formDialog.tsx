@@ -52,7 +52,7 @@ export default function FormDialog() {
         }}
       >
         <DialogTitle >Ayuda Diagnostica</DialogTitle>
-        {/*
+
         <DialogContent>
           <Page actualPage={activePage} />
         </DialogContent>
@@ -65,7 +65,7 @@ export default function FormDialog() {
             onClose={handleClose}
           />
         </DialogActions>
-      */}
+
       </Dialog>
     </div >
   );
