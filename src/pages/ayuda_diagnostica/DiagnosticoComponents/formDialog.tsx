@@ -38,8 +38,6 @@ export default function FormDialog() {
       <Button variant="outlined" onClick={handleClickOpen}>
         Comenzar Diagnostico
       </Button>
-      {/*
-
       <Dialog
         open={open}
         fullWidth={true}
@@ -54,7 +52,7 @@ export default function FormDialog() {
         }}
       >
         <DialogTitle >Ayuda Diagnostica</DialogTitle>
-
+        {/*
         <DialogContent>
           <Page actualPage={activePage} />
         </DialogContent>
@@ -67,8 +65,8 @@ export default function FormDialog() {
             onClose={handleClose}
           />
         </DialogActions>
-      </Dialog>
       */}
+      </Dialog>
     </div >
   );
 }

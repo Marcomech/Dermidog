@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Typography } from '@mui/material';
 import GlobalLayout from "@/layouts";
 import FormDialog from '@/pages/ayuda_diagnostica/DiagnosticoComponents/formDialog';
