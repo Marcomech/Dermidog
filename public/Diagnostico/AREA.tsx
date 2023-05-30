@@ -598,8 +598,6 @@ export const Area: AreaType[] =
         },
         {
             "Area": [
-                "Axilas",
-                "Axilas",
                 "Area inguinal",
                 "Tórax Ventral",
                 "Tórax Lateral",
@@ -625,8 +623,6 @@ export const Area: AreaType[] =
         },
         {
             "Area": [
-                "Axilas",
-                "Axilas",
                 "Area inguinal",
                 "Tórax Ventral",
                 "Tórax Lateral",

@@ -13,31 +13,30 @@ export default function EncontrarDiagnostico() {
   var enfermedadesPosibles: string[] = Object.keys(Codigos);
 
   const [loading, setLoading] = useState(true);
+  const [Diagnostico, setDiagnostico] = useState(enfermedadesPosibles);
 
   //console.log('Total:' + enfermedadesPosibles)
 
-  const filterEnfermedades = (formData: string, datos: any, propiedad: string) => {
-    if (formData !== undefined) {
+  const filterEnfermedades = (formDataFilter: string, datos: any, propiedad: string) => {
+    if (formDataFilter !== undefined) {
       datos.map((enfermedad: any) => {
-        if (!enfermedad[propiedad].includes(formData)) {
+        if (!enfermedad[propiedad].includes(formDataFilter)) {
           enfermedadesPosibles = enfermedadesPosibles.filter((value) => value !== enfermedad.ID);
         }
       });
     }
+    return (enfermedadesPosibles)
   };
+
   useEffect(() => {
-    filterEnfermedades(formData.AreaInvolucrada, Area, 'Area');
-    filterEnfermedades(formData.Prurito, Prurito, 'Prurito');
-    filterEnfermedades(formData.Seborrea, Seborrea, 'Seborrea');
+
+    setDiagnostico(filterEnfermedades(formData.AreaInvolucrada, Area, 'Area'));
+    setDiagnostico(filterEnfermedades(formData.Prurito, Prurito, 'Prurito'));
+    setDiagnostico(filterEnfermedades(formData.Seborrea, Seborrea, 'Seborrea'));
 
     setLoading(false);
-  }, [formData]);
+  }, []);
 
-  //filterEnfermedades(formData.AreaInvolucrada, Area, 'Area');
-  //filterEnfermedades(formData.Prurito, Prurito, 'Prurito');
-  //filterEnfermedades(formData.Seborrea, Seborrea, 'Seborrea');
-
-  //setLoading(false);
 
   return (
     <>
@@ -63,9 +62,9 @@ export default function EncontrarDiagnostico() {
             />
           )
           : (
-            enfermedadesPosibles.map((item, index) => (
+            Diagnostico.map((item, index) => (
               <Typography variant="body2" key={index}>
-                {Codigos[enfermedadesPosibles[index]]}
+                {Codigos[item]}
               </Typography>
             ))
           )
