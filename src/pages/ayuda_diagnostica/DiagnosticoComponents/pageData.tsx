@@ -4,7 +4,6 @@ import DropDown from './CustomFormFields/DropDown';
 import Text from './CustomFormFields/Text';
 import { FormFields } from '../../../../public/data/index';
 import { gif2, gif3 } from "../../../assets/index"
-
 import Image from 'next/image';
 
 interface PageContProps {
@@ -27,7 +26,8 @@ export default function GridData({ actualPage }: PageContProps) {
                 'objectFit': 'contain'
             }}
             width={200} height={200} />
-        {/*
+
+
         <Grid
             container
             direction="row"
@@ -36,11 +36,11 @@ export default function GridData({ actualPage }: PageContProps) {
             paddingX={3}
             spacing={2}
             paddingTop={3}
-            key={data.actualPage}
+            key={actualPage}
         >
-            {FormFields[data.actualPage].fields.map((field) => {
+            {Fields.map((field) => {
                 return (
-                    <Grid key={data.actualPage + field.id}>
+                    <Grid key={actualPage + field.id}>
                         {field.type === 'Text'
                             ? <Text id={field.id} />
                             : field.type === 'DropDown' && field.id
@@ -52,6 +52,5 @@ export default function GridData({ actualPage }: PageContProps) {
                 )
             })}
         </ Grid >
-        */}
     </div >
 }

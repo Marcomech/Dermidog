@@ -3,9 +3,9 @@ import { AreaDetail, PruritoDetail, SeborreaDetail } from "../../public/Listas/i
 type formType = {
   page: number,
   fields: {
-    type: string,
+    type: "Text" | "DropDown",
     id: string,
-    options?: string[]
+    options: string[] | undefined
   }[]
 }
 
@@ -15,7 +15,8 @@ export const FormFields: formType[] = [
     fields: [
       {
         type: "Text",
-        id: "Nombre"
+        id: "Nombre",
+        options: []
       }, {
         type: "DropDown",
         id: "Raza",
@@ -71,24 +72,6 @@ export const FormFields: formType[] = [
   },
   {
     page: 5,
-    fields: [
-      {
-        type: "DropDown",
-        id: 'LesionesElementales',
-        options: ['1', '2', '3', '4',]
-      }]
-  },
-  {
-    page: 6,
-    fields: [
-      {
-        type: "DropDown",
-        id: 'LesionesElementales',
-        options: ['1', '2', '3', '4',]
-      }]
-  },
-  {
-    page: 7,
     fields: [
       {
         type: "DropDown",
