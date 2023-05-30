@@ -11,7 +11,7 @@ type formType = {
 
 export const FormFields: formType[] = [
   {
-    page: 1,
+    page: 0,
     fields: [
       {
         type: "Text",
@@ -34,7 +34,7 @@ export const FormFields: formType[] = [
       }]
   },
   {
-    page: 2,
+    page: 1,
     fields: [
       {
         type: "DropDown",
@@ -43,7 +43,7 @@ export const FormFields: formType[] = [
       }]
   },
   {
-    page: 3,
+    page: 2,
     fields: [
       {
         type: "DropDown",
@@ -57,7 +57,7 @@ export const FormFields: formType[] = [
       }]
   },
   {
-    page: 4,
+    page: 3,
     fields: [
       {
         type: "DropDown",
@@ -71,7 +71,7 @@ export const FormFields: formType[] = [
       }]
   },
   {
-    page: 5,
+    page: 4,
     fields: [
       {
         type: "DropDown",
