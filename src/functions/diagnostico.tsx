@@ -15,18 +15,18 @@ export default function EncontrarDiagnostico() {
   const [loading, setLoading] = useState(true);
   const [Diagnostico, setDiagnostico] = useState(enfermedadesPosibles);
 
-  //console.log('Total:' + enfermedadesPosibles)
-
   const filterEnfermedades = (formDataFilter: string, datos: any, propiedad: string) => {
     if (formDataFilter !== undefined) {
       datos.map((enfermedad: any) => {
         if (!enfermedad[propiedad].includes(formDataFilter)) {
-          enfermedadesPosibles = enfermedadesPosibles.filter((value) => value !== enfermedad.ID);
+          setDiagnostico(
+            Diagnostico.filter((value) => value !== enfermedad.ID)
+          )
         }
       });
     }
-    console.log(enfermedadesPosibles)
-    return (enfermedadesPosibles)
+    console.log(Diagnostico)
+    return (Diagnostico)
   };
 
   useEffect(() => {
