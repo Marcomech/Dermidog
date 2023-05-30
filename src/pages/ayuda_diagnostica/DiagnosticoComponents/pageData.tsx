@@ -11,8 +11,14 @@ interface PageContProps {
 }
 export default function GridData({ actualPage }: PageContProps) {
 
-    const Fields = FormFields[actualPage].fields ?? {};
-    const univen = (Fields.length) % 2 === 0;
+
+    const pageFields = FormFields.find((formField) => formField.page === actualPage);
+    if (!pageFields) {
+        return <div>No fields found for page {actualPage}</div>;
+    }
+
+    const Fields = pageFields.fields ?? [];
+    const univen = Fields.length % 2 === 0;
 
     return < div >
         <Image
