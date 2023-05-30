@@ -2,7 +2,7 @@ import { AreaDetail, PruritoDetail, SeborreaDetail } from "../../public/Listas/i
 
 export type SeborreaType = {
   CodigoSeborrea: number
-  Seborrea: typeof SeborreaDetail[number]
+  Seborrea: typeof SeborreaDetail[number][]
   ID: string
 }
 export type PruritoType = {
