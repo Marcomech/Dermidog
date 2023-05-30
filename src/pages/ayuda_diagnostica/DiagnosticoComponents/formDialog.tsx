@@ -35,9 +35,15 @@ export default function FormDialog() {
 
   return (
     <div>
-      <Button variant="outlined" onClick={handleClickOpen}>
+      <Button variant="outlined" onClick={handleClickOpen}
+        style={{
+          margin: '60px',
+          height: '15vh', minWidth: '150px', minHeight: '80px'
+        }}
+      >
         Comenzar Diagnostico
       </Button>
+
       <Dialog
         open={open}
         fullWidth={true}
