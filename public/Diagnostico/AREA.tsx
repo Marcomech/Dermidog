@@ -557,7 +557,6 @@ export const Area: AreaType[] =
             "Area": [
                 "Hocico",
                 "Area periocular",
-                "Codos",
                 "Tarsos",
                 "Almohadillas plantares",
                 "Area perilabial",
@@ -574,7 +573,6 @@ export const Area: AreaType[] =
             "Area": [
                 "Hocico",
                 "Area periocular",
-                "Codos",
                 "Tarsos",
                 "Almohadillas plantares",
                 "Area perilabial",
