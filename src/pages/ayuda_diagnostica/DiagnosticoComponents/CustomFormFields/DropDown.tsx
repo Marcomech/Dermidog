@@ -12,6 +12,10 @@ export default function DropDown(data: FieldProps) {
   const { id, options } = data;
   const { formData, setFormData } = useContext(FormContext);
 
+  if (!id) {
+    return <div>No id</div>;
+  }
+
   const handleChange = (event: SelectChangeEvent<string>, fieldId: string) => {
     const newValue = event.target.value;
     setFormData({ ...formData, [fieldId]: newValue });
