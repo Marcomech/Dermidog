@@ -56,10 +56,8 @@ function filterContent([key, value]: any) {
     if (key === "AREA_INVOLUCRADA_DERMOGRAMA") {
         return ""
     } else {
-        value = value.replaceAll(" - ", " ")
-        value = value.replaceAll(".- ", ". ")
-        value = value.replaceAll("  ", " ")
-        value = value.replaceAll("   ", " ")
+        value = value.replaceAll(" - ", "\n")
+        value = value.replaceAll(".- ", ".\n ")
         return value
     }
 }
