@@ -10,15 +10,15 @@ import Image from 'next/image';
 interface PageContProps {
     actualPage: number
 }
-export default function GridData(data: PageContProps) {
+export default function GridData({ actualPage }: PageContProps) {
 
-    const Fields = FormFields[data.actualPage].fields ?? {};
+    const Fields = FormFields[actualPage].fields ?? {};
     const univen = (Fields.length) % 2 === 0;
 
     return < div >
         <Image
             alt=''
-            src={data.actualPage < 2 ? gif3 : gif2}
+            src={actualPage < 2 ? gif3 : gif2}
             style={{
                 'display': 'block',
                 'marginLeft': 'auto',
