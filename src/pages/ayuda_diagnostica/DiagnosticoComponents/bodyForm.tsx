@@ -6,10 +6,11 @@ import { FormFields } from '../../../../public/data/index';
 import { gif2, gif3 } from "../../../assets/index"
 import Image from 'next/image';
 
-interface PageContProps {
+
+interface BodyFormProps {
     actualPage: number
 }
-export default function GridData({ actualPage }: PageContProps) {
+export default function BodyForm({ actualPage }: BodyFormProps) {
 
 
     const pageFields = FormFields.find((formField) => formField.page === actualPage);
@@ -21,6 +22,7 @@ export default function GridData({ actualPage }: PageContProps) {
     const univen = Fields.length % 2 === 0;
 
     return < div >
+        {/*
         <Image
             alt=''
             src={actualPage < 2 ? gif3 : gif2}
@@ -32,7 +34,7 @@ export default function GridData({ actualPage }: PageContProps) {
                 'objectFit': 'contain'
             }}
             width={200} height={200} />
-
+        */}
 
         <Grid
             container

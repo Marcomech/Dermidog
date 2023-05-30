@@ -4,9 +4,9 @@ import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogTitle from '@mui/material/DialogTitle';
-import PageStepper from '@/pages/ayuda_diagnostica/DiagnosticoComponents/pageStepper';
 import theme from '@/constants/themes';
-import Page from './dialogPage';
+import PageBody from './pageBody';
+import PageFooter from './pageFooter';
 import { FormContext } from '@/context/FormContext';
 
 export default function FormDialog() {
@@ -54,11 +54,11 @@ export default function FormDialog() {
         <DialogTitle >Ayuda Diagnostica</DialogTitle>
 
         <DialogContent>
-          <Page actualPage={activePage} />
+          <PageBody actualPage={activePage} />
         </DialogContent>
 
         <DialogActions>
-          <PageStepper
+          <PageFooter
             steps={steps}
             activePage={activePage}
             setActivePage={setActivePage}

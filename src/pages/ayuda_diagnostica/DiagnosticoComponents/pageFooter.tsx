@@ -7,14 +7,14 @@ import Button from '@mui/material/Button';
 import { FormContext } from '@/context/FormContext';
 
 
-interface PageStepperProps {
+interface PageFooterProps {
   steps: string[];
   activePage: number,
   onClose: () => void,
   setActivePage: React.Dispatch<React.SetStateAction<number>>
 }
 
-export default function PageStepper({ onClose, setActivePage, steps, activePage }: PageStepperProps) {
+export default function PageFooter({ onClose, setActivePage, steps, activePage }: PageFooterProps) {
 
   const [skipped, setSkipped] = useState(new Set<number>());
   const isStepSkipped = (step: number) => {
