@@ -52,8 +52,7 @@ const ImgData = () => {
           height={200}
         />
 
-        : //<EncontrarDiagnostico />
-        <a></a>
+        : <EncontrarDiagnostico />
       }
     </>
   )

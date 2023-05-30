@@ -59,7 +59,7 @@ export default function PageStepper({ onClose, setActivePage, steps, activePage 
         return (
           <Step key={label} {...stepProps}>
             <StepLabel>
-              {(activePage == index) ? label : ""}
+              {(activePage === index) ? label : ""}
             </StepLabel>
           </Step>
         );
