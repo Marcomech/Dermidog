@@ -22,19 +22,19 @@ export default function BodyForm({ actualPage }: BodyFormProps) {
     const univen = Fields.length % 2 === 0;
 
     return < div >
-        {/*
-        <Image
-            alt=''
-            src={actualPage < 2 ? gif3 : gif2}
-            style={{
-                'display': 'block',
-                'marginLeft': 'auto',
-                'marginRight': 'auto',
-                'height': '190px',
-                'objectFit': 'contain'
-            }}
-            width={200} height={200} />
-        */}
+        {
+            <Image
+                alt=''
+                src={actualPage < 2 ? gif3 : gif2}
+                style={{
+                    'display': 'block',
+                    'marginLeft': 'auto',
+                    'marginRight': 'auto',
+                    'height': '190px',
+                    'objectFit': 'contain'
+                }}
+                width={200} height={200} />
+        }
 
         <Grid
             container
@@ -54,7 +54,9 @@ export default function BodyForm({ actualPage }: BodyFormProps) {
                             : field.type === 'DropDown' && field.id
                                 ? <DropDown
                                     id={field.id}
-                                    options={field.options} />
+                                    options={field.options}
+                                    disabled={field.disabled}
+                                />
                                 : null}
                     </Grid>
                 )

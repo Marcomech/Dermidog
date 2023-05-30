@@ -6,10 +6,11 @@ import { useContext } from "react";
 type FieldProps = {
   id: string;
   options?: string[];
+  disabled: boolean,
 }
 
 export default function DropDown(data: FieldProps) {
-  const { id, options } = data;
+  const { id, options, disabled } = data;
   const { formData, setFormData } = useContext(FormContext);
 
   if (!id) {
@@ -50,7 +51,9 @@ export default function DropDown(data: FieldProps) {
           ? '' : formData[id])}
         onChange={(event: SelectChangeEvent<string>) =>
           handleChange(event, id)}
-        input={<OutlinedInput label={id} />}>
+        input={<OutlinedInput label={id} />}
+        disabled={disabled}
+      >
         {menuOptions}
       </Select>
     </FormControl >

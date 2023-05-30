@@ -14,15 +14,6 @@ export default function EncontrarDiagnostico() {
 
   const [loading, setLoading] = useState(true);
 
-  //useEffect(() => {
-  //  const timer = setTimeout(() => {
-  //    setShowImage(false);
-  //  }, 2000);
-  //  return () => {
-  //    clearTimeout(timer);
-  //  };
-  //}, []);
-
   //console.log('Total:' + enfermedadesPosibles)
 
   const filterEnfermedades = (formData: string, datos: any, propiedad: string) => {

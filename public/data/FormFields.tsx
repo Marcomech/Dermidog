@@ -5,7 +5,8 @@ type formType = {
   fields: {
     type: "Text" | "DropDown",
     id: string,
-    options: string[] | undefined
+    options: string[]
+    disabled: boolean
   }[]
 }
 
@@ -16,21 +17,25 @@ export const FormFields: formType[] = [
       {
         type: "Text",
         id: "Nombre",
-        options: []
+        options: [],
+        disabled: false,
       }, {
         type: "DropDown",
         id: "Raza",
-        options: ['Pittbull', 'Doberman', 'Rotweiller', 'BullDog']
+        options: ['Pittbull', 'Doberman', 'Rotweiller', 'BullDog'],
+        disabled: true,
       },
       {
         type: "DropDown",
         id: "Sexo",
-        options: ['Macho', 'Hembra']
+        options: ['Macho', 'Hembra'],
+        disabled: true,
       },
       {
         type: "DropDown",
         id: "Edad",
-        options: ['Cachorro', 'Adulto', 'Joven']
+        options: ['Cachorro', 'Adulto', 'Joven'],
+        disabled: true,
       }]
   },
   {
@@ -39,7 +44,8 @@ export const FormFields: formType[] = [
       {
         type: "DropDown",
         id: 'AreaInvolucrada',
-        options: AreaDetail
+        options: AreaDetail,
+        disabled: false,
       }]
   },
   {
@@ -48,12 +54,14 @@ export const FormFields: formType[] = [
       {
         type: "DropDown",
         id: 'Prurito',
-        options: PruritoDetail
+        options: PruritoDetail,
+        disabled: false,
       },
       {
         type: "DropDown",
         id: 'Seborrea',
-        options: SeborreaDetail
+        options: SeborreaDetail,
+        disabled: false,
       }]
   },
   {
@@ -67,7 +75,8 @@ export const FormFields: formType[] = [
           'Mas bien, diria que esta "al medio"',
           'No, son asimetricas y/o unilaterales',
           'Si, son simetricas y/o bilaterales',
-        ]
+        ],
+        disabled: true,
       }]
   },
   {
@@ -76,7 +85,8 @@ export const FormFields: formType[] = [
       {
         type: "DropDown",
         id: 'LesionesElementales',
-        options: ['1', '2', '3', '4',]
+        options: ['1', '2', '3', '4',],
+        disabled: true,
       }]
   }
 ]
