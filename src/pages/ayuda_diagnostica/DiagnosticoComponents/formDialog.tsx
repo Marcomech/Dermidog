@@ -6,7 +6,7 @@ import DialogContent from '@mui/material/DialogContent';
 import DialogTitle from '@mui/material/DialogTitle';
 import PageStepper from '@/pages/ayuda_diagnostica/DiagnosticoComponents/pageStepper';
 import theme from '@/constants/themes';
-import Page from './formPage';
+import Page from './dialogPage';
 import { FormContext } from '@/context/FormContext';
 
 export default function FormDialog() {
