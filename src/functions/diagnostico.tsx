@@ -34,10 +34,19 @@ export default function EncontrarDiagnostico() {
       });
     }
   };
+  useEffect(() => {
+    filterEnfermedades(formData.AreaInvolucrada, Area, 'Area');
+    filterEnfermedades(formData.Prurito, Prurito, 'Prurito');
+    filterEnfermedades(formData.Seborrea, Seborrea, 'Seborrea');
 
-  filterEnfermedades(formData.AreaInvolucrada, Area, 'Area');
-  filterEnfermedades(formData.Prurito, Prurito, 'Prurito');
-  filterEnfermedades(formData.Seborrea, Seborrea, 'Seborrea');
+    setLoading(false);
+  }, [formData]);
+
+  //filterEnfermedades(formData.AreaInvolucrada, Area, 'Area');
+  //filterEnfermedades(formData.Prurito, Prurito, 'Prurito');
+  //filterEnfermedades(formData.Seborrea, Seborrea, 'Seborrea');
+
+  //setLoading(false);
 
   return (
     <>
@@ -60,7 +69,8 @@ export default function EncontrarDiagnostico() {
               }}
               width={200}
               height={200}
-            />)
+            />
+          )
           : (
             enfermedadesPosibles.map((item, index) => (
               <Typography variant="body2" key={index}>
@@ -68,10 +78,7 @@ export default function EncontrarDiagnostico() {
               </Typography>
             ))
           )
-
       }
-
-
     </>
   )
 }
