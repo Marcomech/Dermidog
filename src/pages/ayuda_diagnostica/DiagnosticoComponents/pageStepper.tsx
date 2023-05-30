@@ -46,23 +46,21 @@ export default function PageStepper({ steps, activePage, onClose, setActivePage 
   };
 
   return <Box sx={{ width: '100%' }}>
-    {/*
-    <Stepper activeStep={activePage}>
 
-      {
-        steps.map((label, index) => {
-          const stepProps: { completed?: boolean } = {};
-          if (isStepSkipped(index)) {
-            stepProps.completed = false;
-          }
-          return (
-            <Step key={label} {...stepProps}>
-              <StepLabel>
-                {(activePage == index) ? label : ""}
-              </StepLabel>
-            </Step>
-          );
-        })
+    <Stepper activeStep={activePage}>
+      {steps.map((label, index) => {
+        const stepProps: { completed?: boolean } = {};
+        if (isStepSkipped(index)) {
+          stepProps.completed = false;
+        }
+        return (
+          <Step key={label} {...stepProps}>
+            <StepLabel>
+              {(activePage == index) ? label : ""}
+            </StepLabel>
+          </Step>
+        );
+      })
       }
     </Stepper>
     {activePage === steps.length
@@ -73,7 +71,8 @@ export default function PageStepper({ steps, activePage, onClose, setActivePage 
             <Button onClick={onClose}>Cerrar</Button>
           </Box>
         </React.Fragment>
-      ) : (
+      )
+      : (
         <React.Fragment>
           <Box sx={{ display: 'flex', flexDirection: 'row', pt: 2 }}>
             <Button color="inherit" disabled={activePage === 0} onClick={handleBack}>
@@ -91,7 +90,7 @@ export default function PageStepper({ steps, activePage, onClose, setActivePage 
           </Box>
         </React.Fragment>
       )}
-     */}
+
   </Box>
 
 
