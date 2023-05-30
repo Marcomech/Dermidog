@@ -14,29 +14,30 @@ export default function EncontrarDiagnostico() {
 
   const [loading, setLoading] = useState(true);
   const [Diagnostico, setDiagnostico] = useState(enfermedadesPosibles);
+  let filteredDiagnostico = Diagnostico;
 
   const filterEnfermedades = (formDataFilter: string, datos: any, propiedad: string) => {
+
+
     if (formDataFilter !== undefined) {
-      datos.map((enfermedad: any) => {
+      datos.forEach((enfermedad: any) => {
         if (!enfermedad[propiedad].includes(formDataFilter)) {
-          setDiagnostico(
-            Diagnostico.filter((value) => value !== enfermedad.ID)
-          )
+          filteredDiagnostico = filteredDiagnostico.filter((value) =>
+            value !== enfermedad.ID)
         }
       });
     }
-    console.log(Diagnostico)
-    return (Diagnostico)
+    console.log(filteredDiagnostico);
+    return filteredDiagnostico;
   };
 
   useEffect(() => {
-
-    setDiagnostico(filterEnfermedades(formData.AreaInvolucrada, Area, 'Area'));
-    setDiagnostico(filterEnfermedades(formData.Prurito, Prurito, 'Prurito'));
-    setDiagnostico(filterEnfermedades(formData.Seborrea, Seborrea, 'Seborrea'));
-
+    let filteredDiagnostico = filterEnfermedades(formData.AreaInvolucrada, Area, 'Area');
+    filteredDiagnostico = filterEnfermedades(formData.Prurito, Prurito, 'Prurito');
+    filteredDiagnostico = filterEnfermedades(formData.Seborrea, Seborrea, 'Seborrea');
+    setDiagnostico(filteredDiagnostico);
     setLoading(false);
-  }, []);
+  }, [formData]);
 
 
   return (

@@ -19,8 +19,6 @@ export const Area: AreaType[] =
             "Area": [
                 "Codos",
                 "Tarsos",
-                "Codos",
-                "Tarsos",
                 "Esternón"
             ],
             "ID": "1BCAY"
@@ -77,7 +75,6 @@ export const Area: AreaType[] =
                 "Muslos(Cara externa)",
                 "Región isquiática",
                 "Caderas",
-                "Tórax",
                 "Espacios interdigitales",
                 "Cuello",
                 "Abdomen",
@@ -158,7 +155,6 @@ export const Area: AreaType[] =
                 "Area periocular",
                 "Espacios interdigitales",
                 "Area perilabial",
-                "Tórax",
                 "Dorsal",
                 "Tórax Lateral",
                 "Area periocular",
@@ -255,7 +251,6 @@ export const Area: AreaType[] =
                 "Región esternal",
                 "Axilas",
                 "Abdomen",
-                "Tórax",
                 "Dorsal",
                 "Tórax Lateral",
                 "Pabellón auricular(Cara externa)"
@@ -276,10 +271,8 @@ export const Area: AreaType[] =
         {
             "Area": [
                 "Dentro de la cavidad bucal",
-                "Uniones muco-cutáneas",
                 "Area periocular",
                 "Almohadillas plantares",
-                "Uñas",
                 "Uniones muco-cutáneas",
                 "Almohadillas plantares",
                 "Uñas"
@@ -327,7 +320,6 @@ export const Area: AreaType[] =
                 "Dentro de la cavidad bucal",
                 "Uniones muco-cutáneas",
                 "Parpado-conjuntiva",
-                "Uniones muco-cutáneas",
                 "Area inguinal",
                 "Axilas",
                 "Almohadillas plantares"
@@ -556,7 +548,6 @@ export const Area: AreaType[] =
             "Area": [
                 "Tórax",
                 "Tórax Lateral",
-                "Tórax",
                 "Abdomen",
                 "Pabellón auricular(Cara interna)"
             ],
