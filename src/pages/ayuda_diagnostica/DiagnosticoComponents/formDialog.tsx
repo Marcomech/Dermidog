@@ -35,7 +35,7 @@ export default function FormDialog() {
 
   return (
     <div>
-      <Button variant="outlined" onClick={handleClickOpen}
+      <Button variant="contained" onClick={handleClickOpen}
         style={{
           margin: '60px',
           height: '15vh', minWidth: '150px', minHeight: '80px'

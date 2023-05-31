@@ -27,7 +27,19 @@ const rawTheme = createTheme({
         },
     },
     typography: {
-        fontFamily: "'Work Sans', sans-serif",
+        //fontFamily: "'Work Sans', sans-serif",
+        fontFamily: [
+            '-apple-system',
+            'BlinkMacSystemFont',
+            '"Segoe UI"',
+            'Roboto',
+            '"Helvetica Neue"',
+            'Arial',
+            'sans-serif',
+            '"Apple Color Emoji"',
+            '"Segoe UI Emoji"',
+            '"Segoe UI Symbol"',
+        ].join(','),
         fontSize: 14,
         fontWeightLight: 300,
         fontWeightRegular: 400,
@@ -42,15 +54,7 @@ const fontHeader = {
     textTransform: 'uppercase',
 };
 
-const styles = {
-
-    heading2: "font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
-    paragraph: "font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]",
-
-};
-
 const theme = {
-    ...styles,
     ...rawTheme,
     palette: {
         ...rawTheme.palette,
@@ -62,17 +66,23 @@ const theme = {
             ...rawTheme.typography.h1,
             ...fontHeader,
             letterSpacing: 0,
-            fontSize: 60,
+            fontSize: '3.25rem',
+            '@media (max-width:600px)': {
+                fontSize: '2.5rem',
+            },
+            '@media (max-width:450px)': {
+                fontSize: '2rem',
+            },
         },
         h2: {
             ...rawTheme.typography.h2,
             ...fontHeader,
-            fontSize: 48,
+            fontSize: 36,
         },
         h3: {
             ...rawTheme.typography.h3,
             ...fontHeader,
-            fontSize: 42,
+            fontSize: 32,
         },
         h4: {
             ...rawTheme.typography.h4,
@@ -81,13 +91,15 @@ const theme = {
         },
         h5: {
             ...rawTheme.typography.h5,
-            fontSize: 20,
+            ...fontHeader,
+            fontSize: 24,
         },
         h6: {
             ...rawTheme.typography.h6,
             ...fontHeader,
-            fontSize: 18,
+            fontSize: 20,
         },
+
         subtitle1: {
             ...rawTheme.typography.subtitle1,
             fontSize: 18,

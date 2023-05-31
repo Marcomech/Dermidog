@@ -27,7 +27,9 @@ export default function GlobalLayout({ children }: Props) {
           height: '100vh',
         }}>
           <GlobalMenu />
-          <Typography align='center' variant='h1' marginTop={1} >Dermidog</Typography>
+          <Typography align='center' variant='h1' marginTop={1} >
+            Dermidog
+          </Typography>
           <Box height={50} />
           {children}
           <CssBaseline />

@@ -18,14 +18,14 @@ export default function Home() {
         style={{ marginTop: '10vh', marginBottom: '15vh', paddingBottom: '20vh' }}
       >
         <Grid >
-          <Button variant='outlined'
+          <Button variant='contained'
             style={{ margin: '2vh', width: '25vh', height: '15vh', minWidth: '150px', minHeight: '80px' }}
             onClick={() => handleClick("/informacion_patologica")}>
             Información Patológica
           </Button>
         </Grid>
         <Grid >
-          <Button variant='outlined'
+          <Button variant='contained'
             style={{ margin: '2vh', width: '25vh', height: '15vh', minWidth: '150px', minHeight: '80px' }}
             onClick={() => handleClick("/ayuda_diagnostica")}>
             Ayuda Diagnóstica

@@ -25,34 +25,35 @@ export default function GlobalMenu() {
     handleClose();
   };
   return (
-    <Box sx={{ transform: 'translateZ(0px)', flexGrow: 1 }}>
-      <SpeedDial
-        ariaLabel="SpeedDial"
-        sx={{
-          position: 'absolute', top: 0, right: 0,
-          '& .MuiFab-primary': {
-            '& .MuiSpeedDialIcon-icon': { fontSize: 26 },
-            '& .MuiSpeedDialIcon-openIcon': { fontSize: 26 }
-          }
-        }}
-        icon={<SpeedDialIcon
-          icon={<Menu />}
-          openIcon={<Close />}
-          sx={{ position: 'relative', top: 0, right: 0 }} />}
-        onClose={handleClose}
-        onOpen={handleOpen}
-        open={open}
-        direction='down'
-      >
-        {actions.map((action) => (
-          <SpeedDialAction
-            key={action.name}
-            icon={action.icon}
-            tooltipTitle={action.name}
-            onClick={() => handleOnClick(action.path)}
-          />
-        ))}
-      </SpeedDial>
-    </Box>
+    <SpeedDial
+      ariaLabel="SpeedDial"
+      sx={{
+        marginTop: 2,
+        marginRight: 1,
+        position: 'absolute', top: 0, right: 0,
+        '& .MuiFab-primary': {
+          '& .MuiSpeedDialIcon-icon': { fontSize: 26 },
+          '& .MuiSpeedDialIcon-openIcon': { fontSize: 26 }
+        }
+      }}
+      icon={<SpeedDialIcon
+        icon={<Menu />}
+        openIcon={<Close />}
+      //sx={{ position: 'relative', top: 0, right: 0 }} 
+      />}
+      onClose={handleClose}
+      onOpen={handleOpen}
+      open={open}
+      direction='down'
+    >
+      {actions.map((action) => (
+        <SpeedDialAction
+          key={action.name}
+          icon={action.icon}
+          tooltipTitle={action.name}
+          onClick={() => handleOnClick(action.path)}
+        />
+      ))}
+    </SpeedDial>
   );
 }

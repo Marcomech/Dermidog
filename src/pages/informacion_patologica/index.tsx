@@ -21,9 +21,9 @@ export default function InformacionPatologica() {
               </Typography>
               <DataList capitulos={capitulos} />
             </>
-          ))}
+          ))
+        }
       </Box>
-
     </GlobalLayout >
   );
 }
