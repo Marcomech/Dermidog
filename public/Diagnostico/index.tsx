@@ -4,6 +4,8 @@ import { Simetria } from "./SIMETRIA";
 import { Area } from "./AREA";
 import { SignoGral } from "./SIGNO_GENERAL";
 import { Signo } from "./SIGNO";
+import { Lesiones } from "./LESION";
+import { Sexo } from "./SEXO";
 
 export {
   Prurito,
@@ -11,5 +13,7 @@ export {
   Simetria,
   Area,
   SignoGral,
-  Signo
+  Signo,
+  Lesiones,
+  Sexo
 }

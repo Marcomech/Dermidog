@@ -33,7 +33,6 @@ function compareNames(enfermedadCap: string, enfermedadData: FullData, index: nu
         return (
             <ListItem
                 id={enfermedadData.ID}
-                //data={enfermedadData.DATA}
                 name={enfermedadData.NAME} />
         );
     }

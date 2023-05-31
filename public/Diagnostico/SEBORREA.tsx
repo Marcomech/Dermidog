@@ -1,4 +1,11 @@
-import { SeborreaType } from "../../src/constants/DiagnosticoTypes";
+import { SeborreaDetail } from "../../public/Listas/index"
+
+export type SeborreaType = {
+    CodigoSeborrea: number
+    Seborrea: typeof SeborreaDetail[number][]
+    ID: string
+}
+
 export const Seborrea: SeborreaType[] = [
     {
         CodigoSeborrea: 0,

@@ -4,15 +4,12 @@ import { TreeView, TreeItem } from '@mui/lab';
 import { ExpandMore, ChevronRight } from '@mui/icons-material';
 import { FullDataBase } from '../../../../public/data';
 interface detailInfoProps {
-    //data: Data
     title: string
     id: string
 }
 
 export default function DetailInfo(props: detailInfoProps) {
-    const {
-        //data, 
-        title, id } = props;
+    const { title, id } = props;
 
     let TreeItems = null;
     let data = FullDataBase.find((data) => data.ID === id)?.DATA

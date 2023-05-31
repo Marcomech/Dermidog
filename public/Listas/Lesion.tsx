@@ -1,0 +1,21 @@
+export const LesionDetail = [
+  'Alopecía parcial',
+  'Eritema leve',
+  'Pápulas',
+  'Pústulas',
+  'Cerúmen seco y oscuro',
+  'Costras',
+  'Eritema',
+  'Edema',
+  'Pústulas estériles',
+  'Bullas acantolíticas',
+  'Alopecía',
+  'Piel delgada',
+  'Hiperpigmentación',
+  'Hiperqueratosis',
+  'Calcinosis',
+  'Collaretes epidérmicos',
+  'Collaretes epidérmicos pigmentados',
+  'Forunculosis',
+  'Descamación'
+]

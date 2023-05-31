@@ -1,4 +1,4 @@
-import { CodigosType } from "../../src/constants/DiagnosticoTypes";
+export type CodigosType = Record<string, string>;
 
 export const Codigos: CodigosType = {
     "1BCAL": "DERMATITIS HUMEDA AGUDA",

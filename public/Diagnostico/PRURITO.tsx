@@ -1,4 +1,10 @@
-import { PruritoType } from "../../src/constants/DiagnosticoTypes";
+import { PruritoDetail } from "../../public/Listas/index"
+
+export type PruritoType = {
+    CodigoPrurito: number
+    Prurito: typeof PruritoDetail[number][]
+    ID: string
+}
 
 export const Prurito: PruritoType[] = [
     {
