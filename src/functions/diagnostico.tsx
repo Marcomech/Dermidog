@@ -16,18 +16,18 @@ export default function EncontrarDiagnostico() {
   const [Diagnostico, setDiagnostico] = useState(enfermedadesPosibles);
   let filteredDiagnostico = Diagnostico;
 
+  console.log(formData)
+
   const filterEnfermedades = (formDataFilter: string, datos: any, propiedad: string) => {
-
-
-    if (formDataFilter !== undefined) {
+    if (formDataFilter !== undefined && formDataFilter !== '') {
       datos.forEach((enfermedad: any) => {
         if (!enfermedad[propiedad].includes(formDataFilter)) {
           filteredDiagnostico = filteredDiagnostico.filter((value) =>
             value !== enfermedad.ID)
         }
       });
+      console.log(filteredDiagnostico + propiedad);
     }
-    console.log(filteredDiagnostico);
     return filteredDiagnostico;
   };
 
@@ -50,17 +50,18 @@ export default function EncontrarDiagnostico() {
         loading ?
           (
             <Image
-              alt=''
               src={gif1}
+              alt=''
+              width="0"
+              height="0"
+              sizes="100vw"
               style={{
+                width: '36%',
+                height: 'auto',
                 display: 'block',
                 marginLeft: 'auto',
                 marginRight: 'auto',
-                height: '190px',
-                objectFit: 'contain',
               }}
-              width={200}
-              height={200}
             />
           )
           : (

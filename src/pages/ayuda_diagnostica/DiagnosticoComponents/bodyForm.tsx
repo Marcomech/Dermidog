@@ -24,16 +24,19 @@ export default function BodyForm({ actualPage }: BodyFormProps) {
     return < div >
         {
             <Image
-                alt=''
                 src={actualPage < 2 ? gif3 : gif2}
+                alt=''
+                width="0"
+                height="0"
+                sizes="100vw"
                 style={{
-                    'display': 'block',
-                    'marginLeft': 'auto',
-                    'marginRight': 'auto',
-                    'height': '190px',
-                    'objectFit': 'contain'
+                    width: '36%',
+                    height: 'auto',
+                    display: 'block',
+                    marginLeft: 'auto',
+                    marginRight: 'auto',
                 }}
-                width={200} height={200} />
+            />
         }
 
         <Grid
