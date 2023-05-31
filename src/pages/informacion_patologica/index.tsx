@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Typography } from '@mui/material';
 import GlobalLayout from "@/layouts";
-import DataGrid from '@/pages/informacion_patologica/InformacionComponents/dataGrid';
+import DataList from '@/pages/informacion_patologica/InformacionComponents/dataList';
 import { Charapters } from '../../../public/data/index';
 
 
@@ -19,7 +19,7 @@ export default function InformacionPatologica() {
               <Typography variant='h4' marginBottom={1} marginTop={4} key={capitulos.ID}>
                 {capitulos.TITULO}
               </Typography>
-              <DataGrid capitulos={capitulos} />
+              <DataList capitulos={capitulos} />
             </>
           ))}
       </Box>
