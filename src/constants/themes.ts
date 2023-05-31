@@ -70,9 +70,7 @@ const theme = {
             '@media (max-width:600px)': {
                 fontSize: '2.5rem',
             },
-            '@media (max-width:450px)': {
-                fontSize: '2rem',
-            },
+            
         },
         h2: {
             ...rawTheme.typography.h2,
