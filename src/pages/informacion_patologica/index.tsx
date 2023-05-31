@@ -4,7 +4,6 @@ import GlobalLayout from "@/layouts";
 import DataList from '@/pages/informacion_patologica/InformacionComponents/dataList';
 import { Charapters } from '../../../public/data/index';
 
-
 export default function InformacionPatologica() {
   return (
     <GlobalLayout>

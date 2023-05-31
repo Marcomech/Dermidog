@@ -2,20 +2,26 @@ import * as React from 'react';
 import { Box, Typography } from '@mui/material';
 import { TreeView, TreeItem } from '@mui/lab';
 import { ExpandMore, ChevronRight } from '@mui/icons-material';
-
+import { FullDataBase } from '../../../../public/data';
 interface detailInfoProps {
-    data: Data
+    //data: Data
     title: string
     id: string
 }
 
 export default function DetailInfo(props: detailInfoProps) {
-    const { data, title, id } = props;
+    const {
+        //data, 
+        title, id } = props;
+
     let TreeItems = null;
+    let data = FullDataBase.find((data) => data.ID === id)?.DATA
+    console.log(data)
 
     if (!data) {
         return <p>No data available</p>;
-    } else {
+    }
+    else {
         TreeItems = Object.entries(data).map(([key, value]) => {
             if (value != "") {
                 return (

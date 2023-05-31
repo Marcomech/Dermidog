@@ -1,7 +1,7 @@
 import React from 'react';
 import { FullDataBase } from '../../../../public/data/index'
 import ListItem from './ListItem';
-import { Box, List } from '@mui/material';
+import { List } from '@mui/material';
 
 interface DataListProps {
     capitulos: FullCharapters
@@ -33,7 +33,7 @@ function compareNames(enfermedadCap: string, enfermedadData: FullData, index: nu
         return (
             <ListItem
                 id={enfermedadData.ID}
-                data={enfermedadData.DATA}
+                //data={enfermedadData.DATA}
                 name={enfermedadData.NAME} />
         );
     }

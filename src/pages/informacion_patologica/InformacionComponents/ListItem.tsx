@@ -5,11 +5,13 @@ import DetailInfo from './detailInfo';
 interface ListItemProps {
     id: string
     name: string
-    data: Data
+    //data: Data
 }
 
 export default function ListItem(props: ListItemProps) {
-    const { id, name, data } = props;
+    const { id, name
+        // , data 
+    } = props;
 
     const [open, setOpen] = useState(false)
     const handleOpen = () => { setOpen(true) };
@@ -38,7 +40,7 @@ export default function ListItem(props: ListItemProps) {
             }}
         >
             <DetailInfo
-                data={data}
+                //data={data}
                 id={id}
                 title={name} />
         </Dialog>
