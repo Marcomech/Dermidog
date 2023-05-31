@@ -14,7 +14,8 @@ export default function DataList({ capitulos }: DataListProps) {
     }
 
     return (
-        <List>
+        <List
+            sx={{ textAlign: 'center' }}>
             {capitulos.ENFERMEDADES.map((enfermedadCap: string) => (
                 FullDataBase.map((enfermedadData: FullData, index: number) => {
                     return (
@@ -29,12 +30,12 @@ function compareNames(enfermedadCap: string, enfermedadData: FullData, index: nu
     const string_1 = enfermedadData.NAME.normalize('NFD').replace(/\p{Diacritic}/gu, '').toUpperCase();
     const string_2 = enfermedadCap.normalize('NFKD').replace(/\p{Diacritic}/gu, '').toUpperCase();
     if (string_1 === string_2) {
-        return (<Box marginBottom={2}>
+        return (
             <ListItem
                 id={enfermedadData.ID}
                 data={enfermedadData.DATA}
                 name={enfermedadData.NAME} />
-        </Box>);
+        );
     }
     return null
 }

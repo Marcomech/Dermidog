@@ -18,8 +18,10 @@ export default function ListItem(props: ListItemProps) {
     return (<>
         <Button
             sx={{
+                marginBottom: 2,
                 padding: 1,
-
+                maxWidth: '800px',
+                border: '4px solid black'
             }}
             variant="contained" onClick={handleOpen} fullWidth>
             {name}
