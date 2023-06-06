@@ -19,9 +19,9 @@ export default function ListItem(props: ListItemProps) {
             key={id}
             sx={{
                 marginBottom: 2,
-                padding: 1,
-                maxWidth: '800px',
-                border: '4px solid black'
+                //padding: 1,
+                //maxWidth: '800px',
+                //border: '4px solid black'
             }}
             variant="contained" onClick={handleOpen} fullWidth>
             {name}

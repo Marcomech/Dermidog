@@ -188,7 +188,7 @@ export const FullDataBase: FullData[] = [
     },
     {
         ID: "11",
-        NAME: "FURUNCULOSIS Y CELULITIS",
+        NAME: "FORUNCULOSIS Y CELULITIS",
         DATA: {
             SINÓNIMO: "Piodermia profunda",
             ETIOLOGÍA: "En su forma localizada la patología folicular es desencadenada por bacterias, hongos o parásitos. Cuando se generaliza posiblemente tenga como sustrato a",
@@ -242,7 +242,7 @@ export const FullDataBase: FullData[] = [
     },
     {
         ID: "14",
-        NAME: "DERMATITIS ALÉRGICA POR PULGAS Est. I",
+        NAME: "DERMATITIS ALÉRGICA POR PULGAS EST. I",
         DATA: {
             SINÓNIMO: "Hipersensibilidad a la picadura de las pulgas",
             ETIOLOGÍA: "Hipersensibilidad mediata e inmediata a la saliva y a los extractos de pulga",
@@ -267,7 +267,7 @@ export const FullDataBase: FullData[] = [
     },
     {
         ID: "15",
-        NAME: "DERMATITIS ALÉRGICA POR PULGAS Est. II",
+        NAME: "DERMATITIS ALÉRGICA POR PULGAS EST. II",
         DATA: {
             SINÓNIMO: "Hipersensibilidad a la picadura de las pulgas",
             ETIOLOGÍA: "Hipersensibilidad mediata e inmediata a la saliva y a los extractos de pulga",
@@ -293,13 +293,13 @@ export const FullDataBase: FullData[] = [
     },
     {
         ID: "16",
-        NAME: "DERMATITIS ALÉRGICA POR PULGAS Est. III",
+        NAME: "DERMATITIS ALÉRGICA POR PULGAS EST. III",
         DATA: {
             SINÓNIMO: "Hipersensibilidad a la picadura de las pulgas",
             ETIOLOGÍA: "Hipersensibilidad mediata e inmediata a la saliva y a los extractos de pulga",
             AREA_INVOLUCRADA_DERMOGRAMA: {
                 "GENERAL": "Se suma al Est. II",
-                DE_DORSAL: "Área periocular, tórax dorsal y lateral. Cara externa de los pabellones auriculares. ",
+                DE_DORSAL: "Área periocular, tórax dorsal y lateral. Cara externa de los pabellones auriculares.",
                 DE_VENTRAL: "Abdomen, región esternal y axilas. Cara interna de los pabellones auriculares"
             },
             PRURITO: "Intenso",
@@ -319,7 +319,7 @@ export const FullDataBase: FullData[] = [
     },
     {
         ID: "17",
-        NAME: "ATOPIA CANINA Est. I",
+        NAME: "ATOPIA CANINA EST. I",
         DATA: {
             SINÓNIMO: "Dermatitis atópica. Dermatitis alérgica por inhalantes",
             ETIOLOGÍA: "Hipersensibilidad tipo I, son pacientes genéticamente predispuestos",
@@ -338,7 +338,7 @@ export const FullDataBase: FullData[] = [
     },
     {
         ID: "18",
-        NAME: "ATOPIA CANINA Est. II",
+        NAME: "ATOPIA CANINA EST. II",
         DATA: {
             SINÓNIMO: "Dermatitis atópica. Dermatitis alérgica por inhalantes",
             ETIOLOGÍA: "Hipersensibilidad tipo I, son pacientes genéticamente predispuestos",
@@ -357,7 +357,7 @@ export const FullDataBase: FullData[] = [
     },
     {
         ID: "19",
-        NAME: "ATOPIA CANINA Est. III",
+        NAME: "ATOPIA CANINA EST. III",
         DATA: {
             SINÓNIMO: "Dermatitis atópica. Dermatitis alérgica por inhalantes",
             ETIOLOGÍA: "Hipersensibilidad tipo I, son pacientes genéticamente predispuestos",
@@ -573,7 +573,7 @@ export const FullDataBase: FullData[] = [
             ETIOLOGÍA: "Sarcoptes scabei var. canis",
             AREA_INVOLUCRADA_DERMOGRAMA: {
                 DE_DORSAL: " En los adultos y cachorros: bordes de las orejas, codos, tarsos",
-                DE_VENTRAL: "En los adultos el abdomen y tórax están afectado en menor grado que en los cachorros. ",
+                DE_VENTRAL: "En los adultos el abdomen y tórax están afectado en menor grado que en los cachorros.",
                 "GENERAL": "Est. I es un cuadro con pocas lesiones dérmicas y gran prurito. Est. II es el cuadro típico y característico. Est. III es el cuadro crónico que exige mós del diagnóstico diferencial"
             },
             PRURITO: "Intenso",
@@ -692,7 +692,7 @@ export const FullDataBase: FullData[] = [
             SINÓNIMO: "Dermatosis por síndrome de ''Cushing''. Síndrome de ''Cushing'' cutáneo",
             ETIOLOGÍA: "Producido por excesiva cantidad de corticoides endógenos o exógenos",
             AREA_INVOLUCRADA_DERMOGRAMA: {
-                EN_GENERAL: "Alopecia difusa parcial o generalizada. ",
+                EN_GENERAL: "Alopecia difusa parcial o generalizada.",
                 DE_DORSAL: "en el tronco llegando hasta el cuello, codos y tarsos",
                 DE_VENTRAL: "en todo el área desde las axilas a las ingles"
             },
@@ -920,8 +920,8 @@ export const FullDataBase: FullData[] = [
             SINÓNIMO: "Seborrea. Dermatitis seborreica secundaria",
             ETIOLOGÍA: "Son defectos de la queratinización desencadenados por injurias internas o externas que afectan a la piel como",
             AREA_INVOLUCRADA_DERMOGRAMA: {
-                EN_GENERAL: "No tiene una específica, sigue el patrón de la enfermedad que le dió origen. ",
-                DE_DORSAL: "en muchos animales con seborrea se observan unos callos seborreicos como áreas redondeadas y simétricas en relación con cada tuberosidad isquiática o parches seborreicos. , ",
+                EN_GENERAL: "No tiene una específica, sigue el patrón de la enfermedad que le dió origen.",
+                DE_DORSAL: "en muchos animales con seborrea se observan unos callos seborreicos como áreas redondeadas y simétricas en relación con cada tuberosidad isquiática o parches seborreicos. ,",
                 DE_VENTRAL: "parches seborreicos"
             },
             PRURITO: "Intenso. Aunque depende de la etiología",

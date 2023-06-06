@@ -1,10 +1,9 @@
-import { LesionDetail } from "../../public/Listas/index"
+import { LesionDetail } from "../../Listas/index"
 
 export type LesionType = {
     Lesion: typeof LesionDetail[number][]
     ID: string
 }
-//TODO: check
 
 export const Lesiones: LesionType[] = [
     {

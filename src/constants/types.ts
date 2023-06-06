@@ -3,11 +3,7 @@ type FullData = {
     NAME: string,
     DATA: Data,
 }
-type FullCharapters = {
-    ID: string,
-    TITULO: string,
-    ENFERMEDADES: string[],
-}
+
 type Data = {
     SINÓNIMO?: string,
     ETIOLOGÍA?: string,

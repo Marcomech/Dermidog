@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Typography } from '@mui/material';
 import GlobalLayout from "@/layouts";
 import DataList from '@/pages/informacion_patologica/InformacionComponents/dataList';
-import { Charapters } from '../../../public/data/index';
+import { Capitulos } from '../../../public/data/index';
 
 export default function InformacionPatologica() {
   return (
@@ -13,12 +13,12 @@ export default function InformacionPatologica() {
 
       < Box sx={{ flexGrow: 1 }} marginX={2}>
         {
-          Charapters.map((capitulos) => (
+          Capitulos.map((capitulos) => (
             <>
-              <Typography variant='h4' marginBottom={1} marginTop={4} key={capitulos.ID}>
-                {capitulos.TITULO}
+              <Typography variant='h4' marginBottom={1} marginTop={4} key={capitulos.Titulo}>
+                {capitulos.Titulo}
               </Typography>
-              <DataList capitulos={capitulos} />
+              <DataList enfermedades={capitulos.Items} />
             </>
           ))
         }
