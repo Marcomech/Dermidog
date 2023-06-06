@@ -3,12 +3,11 @@ import { Button, Dialog, Card, CardActions } from '@mui/material';
 import DetailInfo from './detailInfo';
 
 interface ListItemProps {
-    id: string
     name: string
 }
 
 export default function ListItem(props: ListItemProps) {
-    const { id, name } = props;
+    const { name } = props;
 
     const [open, setOpen] = useState(false)
     const handleOpen = () => { setOpen(true) };
@@ -16,20 +15,14 @@ export default function ListItem(props: ListItemProps) {
 
     return (<>
         <Button
-            key={id}
-            sx={{
-                marginBottom: 2,
-                //padding: 1,
-                //maxWidth: '800px',
-                //border: '4px solid black'
-            }}
+            key={name}
+            sx={{ marginBottom: 2, }}
             variant="contained" onClick={handleOpen} fullWidth>
             {name}
         </Button>
         <Dialog
-            maxWidth='sm'
-            scroll='body'
-            id={id}
+            fullWidth={true}
+            style={{ paddingRight: "10vw", paddingLeft: "10vw" }}
             open={open}
             onClose={handleClose}
             PaperProps={{
@@ -37,7 +30,6 @@ export default function ListItem(props: ListItemProps) {
             }}
         >
             <DetailInfo
-                id={id}
                 title={name} />
         </Dialog>
     </>

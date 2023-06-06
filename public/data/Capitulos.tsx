@@ -7,7 +7,7 @@ type FullCharapters = {
 }
 export const Capitulos: FullCharapters[] = [
     {
-        Titulo: 'I-Dermatitis pseudobacteriana',
+        Titulo: 'I - Dermatitis pseudobacteriana',
         Items: [
             { ID: '1BCAL', NroItem: 1 },
             { ID: '1BPOD', NroItem: 2 },
@@ -22,7 +22,7 @@ export const Capitulos: FullCharapters[] = [
         ]
     },
     {
-        Titulo: 'II-Dermatitis bacteriana',
+        Titulo: 'II - Dermatitis bacteriana',
         Items: [
             { ID: '1SIMP', NroItem: 6 },
             { ID: '1SFOL', NroItem: 7 },
@@ -33,7 +33,7 @@ export const Capitulos: FullCharapters[] = [
         ]
     },
     {
-        Titulo: 'III-Dermatitis por hipersensibilidades',
+        Titulo: 'III - Dermatitis por hipersensibilidades',
         Items: [
             { ID: '2PUL', NroItem: 11 },
             { ID: '2PUL2', NroItem: 12 },
@@ -48,7 +48,7 @@ export const Capitulos: FullCharapters[] = [
         ]
     },
     {
-        Titulo: 'IV-Dermatitis autoinmunes, inmunomediadas que responden al zinc',
+        Titulo: 'IV - Dermatitis autoinmunes',//, inmunomediadas que responden al zinc',
         Items: [
             { ID: '4PFOL', NroItem: 20 },
             { ID: '8CZ1', NroItem: 44 },
@@ -60,7 +60,7 @@ export const Capitulos: FullCharapters[] = [
         ]
     },
     {
-        Titulo: 'V-Dermatitis por ectoparasitosis',
+        Titulo: 'V - Dermatitis por ectoparasitosis',
         Items: [
             { ID: '5SARC', NroItem: 22 },
             { ID: '5DEMG', NroItem: 23 },
@@ -71,7 +71,7 @@ export const Capitulos: FullCharapters[] = [
         ]
     },
     {
-        Titulo: 'VI-Dermatosis de origen hormonal.',
+        Titulo: 'VI - Dermatosis de origen hormonal',
         Items: [
             { ID: '6CUSH', NroItem: 27 },
             { ID: '6HTIR', NroItem: 28 },
@@ -86,7 +86,7 @@ export const Capitulos: FullCharapters[] = [
         ]
     },
     {
-        Titulo: 'VII-Dermatomicosis.',
+        Titulo: 'VII - Dermatomicosis',
         Items: [
             { ID: '7MIC', NroItem: 34 },
             { ID: '7TRI', NroItem: 35 },
@@ -95,7 +95,7 @@ export const Capitulos: FullCharapters[] = [
         ]
     },
     {
-        Titulo: 'VIII-Dermatosis por alteración de las glándulas sebáceas, queratinización y nutrición',
+        Titulo: 'VIII - Dermatosis por alteración de las glándulas sebáceas, queratinización y nutrición',
         Items: [
             { ID: '8APRI', NroItem: 38 },
             { ID: '8ASEC', NroItem: 39 },

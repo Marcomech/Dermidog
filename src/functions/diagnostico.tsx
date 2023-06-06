@@ -6,6 +6,7 @@ import { Prurito, Seborrea, Area } from "../../public/Diagnostico/index";
 import { Typography } from "@mui/material";
 import { gif1 } from "@/assets";
 import Image from "next/image";
+import ListItem from "@/pages/informacion_patologica/InformacionComponents/ListItem";
 
 export default function EncontrarDiagnostico() {
 
@@ -66,9 +67,10 @@ export default function EncontrarDiagnostico() {
           )
           : (
             Diagnostico.map((item, index) => (
-              <Typography variant="body2" key={index}>
-                {Codigos[item]}
-              </Typography>
+              <ListItem
+                key={index}
+                name={Codigos[item]}
+              />
             ))
           )
       }

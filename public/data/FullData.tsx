@@ -5,11 +5,11 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "Parche caliente. Mancha caliente",
             ETIOLOGÍA: "Erosión cutánea producida como consecuencia del rascado-lamido-mordedura generado por prurito y /o dolor",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                EN_GENERAL: "cualquiera",
-                DE_DORSAL: "frecuentemente en la cara externa de los muslos y región isquiática",
-                DE_VENTRAL: "en la cabeza y cuello"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            ////EN_GENERAL: "cualquiera",
+            //DE_DORSAL: "frecuentemente en la cara externa de los muslos y región isquiática",
+            //DE_VENTRAL: "en la cabeza y cuello"
+            //},
             PRURITO: "Intenso y compulsivo manifestado por lamido y/o rascado con los dientes o con los miembros posteriores",
             SEBORREA_O_DESCAMACIÓN: "Ausente",
             SIGNOS_CLINICOS_DERMICOS: "Erosión amarillenta-roja, húmeda de evolución aguda. Pelos periféricos húmedos y pegoteados. Exudados seroso o serosanguinolentos. Alopecia de forma circular y tamaño variable. Pelos periféricos pegoteados. El tamaño varía desde un pequeño medallón, hasta alcanzar grandes extensiones y perder su contorno circular, a medida que continúa el autotrauma",
@@ -20,9 +20,9 @@ export const FullDataBase: FullData[] = [
             PRONÓSTICO: "Bueno",
             TRATAMIENTO: "Evitar que continúe el autotrauma con sedantes, collares isabelinos, o cubriendo toda la superficie corporal con un liencillo. Corticoides por vía general para calmar el prurito. Raramente son necesarios antibióticos",
             OBSERVACION_HISTOPATOLOGICA: "Vesículas esponjosas. -Edema intercelular. -Edema dérmico. -Vasculitis",
-            OTRAS_OBSERVACIONES: "'Los factores primarios puede ser-Dermatitis alérgicas a las pulgas -Infección de los sacos anales.-Lesiones de peinado o por mal cepillado. ó Dermatitis atópica canina-Alergia alimentaria -Otitis por otodectes '",
+            OTRAS_OBSERVACIONES: "Los factores primarios puede ser-Dermatitis alérgicas a las pulgas -Infección de los sacos anales.-Lesiones de peinado o por mal cepillado. ó Dermatitis atópica canina-Alergia alimentaria -Otitis por otodectes",
             LECTURA_SUGERIDA: "",
-            CLASIFICACION_PATOLOGICA_O_GRUPO_PATOLOGICO: "Piodermias",
+            CLASIFICACION_O_GRUPO_PATOLOGICO: "Piodermias",
             SIMETRÍA: "asimétrica"
         }
     },
@@ -31,11 +31,11 @@ export const FullDataBase: FullData[] = [
         NAME: "PODODERMATITIS",
         DATA: {
             SINÓNIMO: "Piodermia interdigital. Foliculitis y forunculosis podal",
-            ETIOLOGÍA: "'Es un complejo multifactorial o síndrome idiopótico con contaminación bacteriana secundaria",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                DE_DORSAL: " en los espacios interdigitales y tejidos vecinos, de una o de las dos manos",
-                DE_VENTRAL: "Los pies pueden estar involucrados"
-            },
+            ETIOLOGÍA: "Es un complejo multifactorial o síndrome idiopótico con contaminación bacteriana secundaria",
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //DE_DORSAL: " en los espacios interdigitales y tejidos vecinos, de una o de las dos manos",
+            //DE_VENTRAL: "Los pies pueden estar involucrados"
+            //},
             PRURITO: "Leve a intenso en las hipersensibilidades",
             SEBORREA_O_DESCAMACIÓN: "Ausente",
             SIGNOS_CLINICOS_DERMICOS: "Exudados sero-sanguinolientos o seropurulentos. Edema. Fístulas",
@@ -48,26 +48,26 @@ export const FullDataBase: FullData[] = [
             OBSERVACION_HISTOPATOLOGICA: "Las lesiones pueden corresponder a las observadas en las foliculitis-forunculosis. -Cuerpos extraños. -Microorganismos como bacterias, hongos o parásitos",
             OTRAS_OBSERVACIONES: "",
             LECTURA_SUGERIDA: "",
-            CLASIFICACION_PATOLOGICA_O_GRUPO_PATOLOGICO: "Piodermias"
+            CLASIFICACION_O_GRUPO_PATOLOGICO: "Piodermias"
         }
     },
     {
         ID: "3",
         NAME: "FORUNCULOSIS NASAL",
         DATA: {
-            SINÓNIMO: "'''Piodermia'' nasal'",
+            SINÓNIMO: "''Piodermia'' nasal",
             ETIOLOGÍA: "Aparentemente en una reacción alérgica consecutiva a la picadura de algún insecto",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                DE_DORSAL: " región lateral de la nariz, planum nasale y alrededor de los ojos",
-                DE_VENTRAL: "en el interior de los pabellones auriculares"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //DE_DORSAL: " región lateral de la nariz, planum nasale y alrededor de los ojos",
+            //DE_VENTRAL: "en el interior de los pabellones auriculares"
+            //},
             PRURITO: "Ausente",
             SEBORREA_O_DESCAMACIÓN: "Ausente",
             SIGNOS_CLINICOS_DERMICOS: "Edema Exudado sero-hemopurulento. Forunculosis",
             SIGNOS_CLINICOS_GENERALES: "Solamente dolor",
             EDAD_RAZA_Y_SEXO_DE_PRESENTACION: "cualquier edad, cualquier sexo. Es mós frecuente en los animales de hocico largo",
             DIAGNÓSTICO: "Por la localización de la lesión. Por los signos clínicos dérmicos. Impronta de las secreciones, y observación citológica. Cultivo y antibiograma. Cultivo micológico. Biopsia y diagnóstico histopatológico",
-            DIAGNOSTICO_DIFERENCIAL: "'Dermatitis nasal solar.- Dermatofitosis con infección secundaria.- Lupus discoide.- Pénfigos foliáceo y eritematoso- Demodicosis- Dermatomiositis'",
+            DIAGNOSTICO_DIFERENCIAL: "Dermatitis nasal solar.- Dermatofitosis con infección secundaria.- Lupus discoide.- Pénfigos foliáceo y eritematoso- Demodicosis- Dermatomiositis",
             PRONÓSTICO: "Bueno, evoluciona favorablemente dentro de las 3 semanas",
             TRATAMIENTO: "Realizar si de los métodos complementarios de diagnóstico surge que las bacterias son la causa primaria y no una contaminación. Se utilizó el antibiótico específico durante un mínimo de 21 días. Evitar aumentar el trauma cuando se realiza la limpieza local. Utilizar analgósicos y considerar colocar un collar isabelino",
             OBSERVACION_HISTOPATOLOGICA: "Foliculitis: acumulo de células inflamatorias dentro del lumen folicular (generalmente neutrófilos)"
@@ -79,11 +79,11 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "Intertrigo. Erosión de los pliegues",
             ETIOLOGÍA: "Lesiones producidas por fricción entre los tejidos, asociado a defectos anatómicos propios de ciertas razas",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                EN_GENERAL: "áreas de los pliegues",
-                DE_DORSAL: "nariz y cola",
-                DE_VENTRAL: "vulva y labios inferiores"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //EN_GENERAL: "áreas de los pliegues",
+            //DE_DORSAL: "nariz y cola",
+            //DE_VENTRAL: "vulva y labios inferiores"
+            //},
             PRURITO: "Ausente a leve por contaminación bacteriana",
             SEBORREA_O_DESCAMACIÓN: "Ausente",
             SIGNOS_CLINICOS_DERMICOS: "Erosión amarillenta-roja y húmeda. Exudado seroso o sero-sanguinolento",
@@ -96,7 +96,7 @@ export const FullDataBase: FullData[] = [
             OBSERVACION_HISTOPATOLOGICA: "Vesículas esponjosas. -Edema intercelular. -Edema dérmico. -Vasculitis",
             OTRAS_OBSERVACIONES: "Las lesiones se producen por una inadecuada ventilación, roce entre las superficies dérmicas, acúmulos de descamaciones cutáneas, a las que se agregan secreciones sebáceas, saliva, lágrimas, orina. Todo esto es un campo propicio para el desarrollo bacteriano",
             LECTURA_SUGERIDA: "",
-            CLASIFICACION_PATOLOGICA_O_GRUPO_PATOLOGICO: "Piodermias",
+            CLASIFICACION_O_GRUPO_PATOLOGICO: "Piodermias",
             SIMETRÍA: "asimétrica"
         }
     },
@@ -104,11 +104,11 @@ export const FullDataBase: FullData[] = [
         ID: "5",
         NAME: "FOLICULITIS Y FORUNCULOSIS DEL MENTÓN",
         DATA: {
-            SINÓNIMO: "'''Piodermia'' del mentón. '",
+            SINÓNIMO: "''Piodermia'' del mentón.",
             ETIOLOGÍA: "Desconocida. No se puede aislar bacterias, y en caso de estar presentes es una contaminación secundaria. Aparentemente producido por factores predisponentes",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                DE_VENTRAL: " región del mentón, alrededor de los labios inferiores y superiores"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //DE_VENTRAL: " región del mentón, alrededor de los labios inferiores y superiores"
+            //},
             PRURITO: "Ausente a leve",
             SEBORREA_O_DESCAMACIÓN: "Ausente",
             SIGNOS_CLINICOS_DERMICOS: "Pústulas. Exudado hemopurulento o seropurulento",
@@ -117,11 +117,11 @@ export const FullDataBase: FullData[] = [
             DIAGNÓSTICO: "Por la localización de la lesión. Biopsia y diagnóstico histopatológico",
             DIAGNOSTICO_DIFERENCIAL: "Demodicosis localizada. Celulitis juvenil. Dermatofitosis por microsporum",
             PRONÓSTICO: "Bueno",
-            TRATAMIENTO: "'-Antibioticoterapia -Tratamiento de la causa primaria o de base-Mantener limpia la región mediante pediluvios con champú de peróxido de o clorhexidina.-Evitar el trauma del lamido.-Calmar el dolor con analgósico.-Considerar la escisión quirórgica del tejido afectado.'",
+            TRATAMIENTO: "-Antibioticoterapia -Tratamiento de la causa primaria o de base-Mantener limpia la región mediante pediluvios con champú de peróxido de o clorhexidina.-Evitar el trauma del lamido.-Calmar el dolor con analgósico.-Considerar la escisión quirórgica del tejido afectado.",
             OBSERVACION_HISTOPATOLOGICA: "Foliculitis: acúmulo de células inflamatorias dentro del lumen folicular generalmente neutrófilos. Forunculosis: ruptura del folículo piloso con extensión de la reacción inflamatoria piogranulomatosa a la dermis circundante. Celulitis: proceso inflamatorio de celularidad mixta como polimorfonucleares y mononucleares que afecta al tejido celular subcutáneo. En todos los casos puede o No observarse el agente etiológico como bacterias, parásitos, hongos",
             OTRAS_OBSERVACIONES: "Evitar que el mentón y los labios se traumaticen, ya sea comiendo huesos, jugando con discos plásticos, frotando la región en el pasto y/o alfombras",
             LECTURA_SUGERIDA: "",
-            CLASIFICACION_PATOLOGICA_O_GRUPO_PATOLOGICO: "Dermatitis bacteriana"
+            CLASIFICACION_O_GRUPO_PATOLOGICO: "Dermatitis bacteriana"
         }
     },
     {
@@ -130,10 +130,10 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "Dermatitis de los callos",
             ETIOLOGÍA: "Proliferación de la capa córnea de la epidermis como consecuencia de un trauma repetido entre una prominencia ósea y una superficie dura donde el animal se acuesta",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                DE_DORSAL: " codos y tarsos",
-                DE_VENTRAL: "codos, tarsos y esternón"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //DE_DORSAL: " codos y tarsos",
+            //DE_VENTRAL: "codos, tarsos y esternón"
+            //},
             PRURITO: "Ausente",
             SEBORREA_O_DESCAMACIÓN: "Ausente",
             SIGNOS_CLINICOS_DERMICOS: "Exudado hemopurulento. Proliferación de tejido con hendiduras. Fístulas",
@@ -152,9 +152,9 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "Dermatitis pustular superficial. Piodermia del cachorro",
             ETIOLOGÍA: "Staphylococcus coagulasa positivo, se desarrolla por lo general cuando existen causas predisponentes como falta de higiene, virus, parásitos intestinales, enfermedades inmunomediadas, mala nutrición",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                DE_VENTRAL: " ingles, axilas y cara interna del muslo"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //DE_VENTRAL: " ingles, axilas y cara interna del muslo"
+            //},
             PRURITO: "Ausente o leve. Si se encuentra presente es porque están involucrados los folículos con lo que deja de ser un verdadero impétigo",
             SEBORREA_O_DESCAMACIÓN: "Leve",
             SIGNOS_CLINICOS_DERMICOS: "Pústulas subcorneales que se rompen fácilmente. Collarete epidérmico",
@@ -167,7 +167,7 @@ export const FullDataBase: FullData[] = [
             OBSERVACION_HISTOPATOLOGICA: "Pústulas subcorneales con predominio de polimorfonucleares neutrófilos. -Ausencia de células acantolíticas.-NO estar afectado el folículo piloso. -Bacterias pueden o NO estar dentro de las pústulas",
             OTRAS_OBSERVACIONES: "No es contagioso",
             LECTURA_SUGERIDA: "",
-            CLASIFICACION_PATOLOGICA_O_GRUPO_PATOLOGICO: "Dermatitis bacteriana"
+            CLASIFICACION_O_GRUPO_PATOLOGICO: "Dermatitis bacteriana"
         }
     },
     {
@@ -182,7 +182,7 @@ export const FullDataBase: FullData[] = [
         ID: "10",
         NAME: "HIPERSENSIBILIDAD BACTERIANA NO VERDADERA",
         DATA: {
-            SINÓNIMO: "'''Hipersensibilidad bacteriana''. Dermatitis parecida a una hipersensibilidad bacteriana.'",
+            SINÓNIMO: "''Hipersensibilidad bacteriana''. Dermatitis parecida a una hipersensibilidad bacteriana.",
             ETIOLOGÍA: "Dermatitis bacteriana que se produce como consecuencia de una causa subyacente (ver 15)"
         }
     },
@@ -200,11 +200,11 @@ export const FullDataBase: FullData[] = [
         NAME: "PIODERMIA DEL OVEJERO ALEMÁN",
         DATA: {
             SINÓNIMO: "Foliculitis, forunculosis y celulitis del ovejero alemán",
-            ETIOLOGÍA: "'''Idiopática'', se teoriza sobre desórdenes inmunitarios varios.'",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                DE_DORSAL: " cara externa de los muslos, en la región isquiática y lumbosacra, tórax, espacios interdigitales, cuello",
-                DE_VENTRAL: "abdomen, tórax y espacios interdigitales"
-            },
+            ETIOLOGÍA: "''Idiopática'', se teoriza sobre desórdenes inmunitarios varios.",
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //DE_DORSAL: " cara externa de los muslos, en la región isquiática y lumbosacra, tórax, espacios interdigitales, cuello",
+            //DE_VENTRAL: "abdomen, tórax y espacios interdigitales"
+            //},
             PRURITO: "Leve",
             SEBORREA_O_DESCAMACIÓN: "Ausente",
             SIGNOS_CLINICOS_DERMICOS: "Forunculosis. Celulitis. Fístulas. Edemas. Exudado sero-hemopurulento. Hiperpigmentación. Pelos pegados y aglutinados por el exudado",
@@ -222,9 +222,9 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "Furunculosis perianal",
             ETIOLOGÍA: "La causa todavía no ha sido determinada",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                DE_DORSAL: " área perianal, en uno o en ambos lados del ano"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //DE_DORSAL: " área perianal, en uno o en ambos lados del ano"
+            //},
             PRURITO: "Leve",
             SEBORREA_O_DESCAMACIÓN: "Ausente",
             SIGNOS_CLINICOS_DERMICOS: "Exudado seroso o sero-hemorrágico o seropurulento. Fístulas",
@@ -237,7 +237,7 @@ export const FullDataBase: FullData[] = [
             OBSERVACION_HISTOPATOLOGICA: "Inflamación aguda o crónica con neutrófilos polimorfonucleares y linfocitos mononucleares. - Focos abscedados. - Trayectos fistulosos hacia la superficie. - Erosiones. - Ulceraciones superficiales",
             OTRAS_OBSERVACIONES: "",
             LECTURA_SUGERIDA: "",
-            CLASIFICACION_PATOLOGICA_O_GRUPO_PATOLOGICO: "Dermatitis pseudobacteriana"
+            CLASIFICACION_O_GRUPO_PATOLOGICO: "Dermatitis pseudobacteriana"
         }
     },
     {
@@ -246,10 +246,10 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "Hipersensibilidad a la picadura de las pulgas",
             ETIOLOGÍA: "Hipersensibilidad mediata e inmediata a la saliva y a los extractos de pulga",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                DE_DORSAL: " Comienza en la base de la cola y se extiende en forma de triángulo con vértice hacia craneal. Periné y región poplítea o región lumbo-sacra",
-                DE_VENTRAL: "Cara interna de los muslos"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //DE_DORSAL: " Comienza en la base de la cola y se extiende en forma de triángulo con vértice hacia craneal. Periné y región poplítea o región lumbo-sacra",
+            //DE_VENTRAL: "Cara interna de los muslos"
+            //},
             PRURITO: "Leve a intenso",
             SEBORREA_O_DESCAMACIÓN: "Ausente a leve",
             SIGNOS_CLINICOS_DERMICOS: "Foliculitis. Costras",
@@ -262,7 +262,7 @@ export const FullDataBase: FullData[] = [
             OBSERVACION_HISTOPATOLOGICA: "Dermatitis perivascular superficial, con moderado predominio de eosinofilos. -Microabscesos intraepidérmicos con eosinofilia. -Edema epidérmico y dérmico",
             OTRAS_OBSERVACIONES: "",
             LECTURA_SUGERIDA: "",
-            CLASIFICACION_PATOLOGICA_O_GRUPO_PATOLOGICO: "Dermatitis por hipersensibilidades"
+            CLASIFICACION_O_GRUPO_PATOLOGICO: "Dermatitis por hipersensibilidades"
         }
     },
     {
@@ -271,11 +271,11 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "Hipersensibilidad a la picadura de las pulgas",
             ETIOLOGÍA: "Hipersensibilidad mediata e inmediata a la saliva y a los extractos de pulga",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                "GENERAL": "se suma al Est. I",
-                DE_DORSAL: "Las áreas alopécicas se distribuyen desde región lumbo-sacra se extiende en forma de triángulo con vértice hacia craneal, inserción de la cola, periné, región poplítea",
-                DE_VENTRAL: "En abdomen, región inguinal y umbilical, cuello, cara interna de los pabellones auriculares"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //"GENERAL": "se suma al Est. I",
+            //DE_DORSAL: "Las áreas alopécicas se distribuyen desde región lumbo-sacra se extiende en forma de triángulo con vértice hacia craneal, inserción de la cola, periné, región poplítea",
+            //DE_VENTRAL: "En abdomen, región inguinal y umbilical, cuello, cara interna de los pabellones auriculares"
+            //},
             PRURITO: "Intenso",
             SEBORREA_O_DESCAMACIÓN: "Intenso",
             SIGNOS_CLINICOS_DERMICOS: "Pápulas. Costras",
@@ -288,7 +288,7 @@ export const FullDataBase: FullData[] = [
             OBSERVACION_HISTOPATOLOGICA: "Dermatitis perivascular superficial, con moderado predominio de eosinofilos. -Microabscesos intraepidérmicos con eosinofilia. -Edema epidérmico y dérmico",
             OTRAS_OBSERVACIONES: "",
             LECTURA_SUGERIDA: "",
-            CLASIFICACION_PATOLOGICA_O_GRUPO_PATOLOGICO: "Dermatitis por hipersensibilidades"
+            CLASIFICACION_O_GRUPO_PATOLOGICO: "Dermatitis por hipersensibilidades"
         }
     },
     {
@@ -297,11 +297,11 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "Hipersensibilidad a la picadura de las pulgas",
             ETIOLOGÍA: "Hipersensibilidad mediata e inmediata a la saliva y a los extractos de pulga",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                "GENERAL": "Se suma al Est. II",
-                DE_DORSAL: "Área periocular, tórax dorsal y lateral. Cara externa de los pabellones auriculares.",
-                DE_VENTRAL: "Abdomen, región esternal y axilas. Cara interna de los pabellones auriculares"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //"GENERAL": "Se suma al Est. II",
+            //DE_DORSAL: "Área periocular, tórax dorsal y lateral. Cara externa de los pabellones auriculares.",
+            //DE_VENTRAL: "Abdomen, región esternal y axilas. Cara interna de los pabellones auriculares"
+            //},
             PRURITO: "Intenso",
             SEBORREA_O_DESCAMACIÓN: "Intenso",
             SIGNOS_CLINICOS_DERMICOS: "Foliculitis Pápulas. Costras. Hiperpigmentación. Hiperqueratosis",
@@ -314,7 +314,7 @@ export const FullDataBase: FullData[] = [
             OBSERVACION_HISTOPATOLOGICA: "Dermatitis perivascular superficial, con moderado predominio de eosinofilos. -Microabscesos intraepidérmicos con eosinofilia. -Edema epidérmico y dérmico",
             OTRAS_OBSERVACIONES: "",
             LECTURA_SUGERIDA: "",
-            CLASIFICACION_PATOLOGICA_O_GRUPO_PATOLOGICO: "Dermatitis por hipersensibilidades"
+            CLASIFICACION_O_GRUPO_PATOLOGICO: "Dermatitis por hipersensibilidades"
         }
     },
     {
@@ -323,11 +323,11 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "Dermatitis atópica. Dermatitis alérgica por inhalantes",
             ETIOLOGÍA: "Hipersensibilidad tipo I, son pacientes genéticamente predispuestos",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                "GENERAL": "Se inicia sin lesión dérmica",
-                DE_DORSAL: "área periocular e interdigital",
-                DE_VENTRAL: "área perilabial"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //"GENERAL": "Se inicia sin lesión dérmica",
+            //DE_DORSAL: "área periocular e interdigital",
+            //DE_VENTRAL: "área perilabial"
+            //},
             PRURITO: "Intenso aún sin lesión dérmica",
             SEBORREA_O_DESCAMACIÓN: "Ausente a leve",
             SIGNOS_CLINICOS_DERMICOS: "Eritema. Foliculitis. Prurito sin lesión dérmica",
@@ -342,11 +342,11 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "Dermatitis atópica. Dermatitis alérgica por inhalantes",
             ETIOLOGÍA: "Hipersensibilidad tipo I, son pacientes genéticamente predispuestos",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                "GENERAL": "se suma al Est. I",
-                DE_DORSAL: "área periocular e interdigital",
-                DE_VENTRAL: "axilas, ingles, abdomen, periné, interdigital, pabellones auriculares y perilabial"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //"GENERAL": "se suma al Est. I",
+            //DE_DORSAL: "área periocular e interdigital",
+            //DE_VENTRAL: "axilas, ingles, abdomen, periné, interdigital, pabellones auriculares y perilabial"
+            //},
             PRURITO: "Intenso aún sin lesión dérmica",
             SEBORREA_O_DESCAMACIÓN: "Intensa",
             SIGNOS_CLINICOS_DERMICOS: "Eritema. Pústulas. Pápulas. Costras. Foliculitis Otitis. Prurito sin lesión dérmica",
@@ -361,11 +361,11 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "Dermatitis atópica. Dermatitis alérgica por inhalantes",
             ETIOLOGÍA: "Hipersensibilidad tipo I, son pacientes genéticamente predispuestos",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                "GENERAL": "se suma al Est. II",
-                DE_DORSAL: "área periocular e interdigital, tórax dorsal y lateral",
-                DE_VENTRAL: "axilas, ingles, abdomen, periné, interdigital, cara interna de los pabellones auriculares y perilabial"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //"GENERAL": "se suma al Est. II",
+            //DE_DORSAL: "área periocular e interdigital, tórax dorsal y lateral",
+            //DE_VENTRAL: "axilas, ingles, abdomen, periné, interdigital, cara interna de los pabellones auriculares y perilabial"
+            //},
             PRURITO: "Intenso aún sin lesión dérmica",
             SEBORREA_O_DESCAMACIÓN: "Intensa",
             SIGNOS_CLINICOS_DERMICOS: "Eritema. Foliculitis. Pústulas. Pápulas. Costras. Hiperqueratosis. Hiperpigmentación. Otitis. Prurito sin lesión dérmica",
@@ -380,10 +380,10 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "Hipersensibilidad por contacto. Alergia por contacto",
             ETIOLOGÍA: "Es una hipersensibilidad tipo IV, producida por diferentes alergenos, vegetales, minerales, industriales, etc",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                DE_DORSAL: "espacios interdigitales",
-                DE_VENTRAL: "afecta a las áreas sin pelo como las axilas, ingles, abdomen, escroto, vulva, periné, cuello y espacios interdigitales"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //DE_DORSAL: "espacios interdigitales",
+            //DE_VENTRAL: "afecta a las áreas sin pelo como las axilas, ingles, abdomen, escroto, vulva, periné, cuello y espacios interdigitales"
+            //},
             PRURITO: "Intenso",
             SEBORREA_O_DESCAMACIÓN: "Leve a Intensa",
             SIGNOS_CLINICOS_DERMICOS: "Eritema. Pústulas. Hiperpigmentación. Hiperqueratosis. Otitis",
@@ -396,7 +396,7 @@ export const FullDataBase: FullData[] = [
             OBSERVACION_HISTOPATOLOGICA: "Dermatitis perivascular superficial",
             OTRAS_OBSERVACIONES: "Puede coexistir con atopía ya que prácticamente las bases inmunológicas son las mismas. Es difícil de diferenciar con dermatitis irritativa de contacto",
             LECTURA_SUGERIDA: "",
-            CLASIFICACION_PATOLOGICA_O_GRUPO_PATOLOGICO: "Dermatitis por hipersensibilidades"
+            CLASIFICACION_O_GRUPO_PATOLOGICO: "Dermatitis por hipersensibilidades"
         }
     },
     {
@@ -405,10 +405,10 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "Hipersensibilidad por contacto. Alergia por contacto",
             ETIOLOGÍA: "Es una hipersensibilidad tipo IV, producida por diferentes alergenos, vegetales, minerales, industriales, etc",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                DE_DORSAL: "nariz y labio superior.Codos y garrones",
-                DE_VENTRAL: "labio inferior y mentón.Codos y garrones"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //DE_DORSAL: "nariz y labio superior.Codos y garrones",
+            //DE_VENTRAL: "labio inferior y mentón.Codos y garrones"
+            //},
             PRURITO: "Intenso",
             SEBORREA_O_DESCAMACIÓN: "Leve a Intensa",
             SIGNOS_CLINICOS_DERMICOS: "Eritema. Pústulas. Hiperpigmentación. Hiperqueratosis. Otitis",
@@ -421,7 +421,7 @@ export const FullDataBase: FullData[] = [
             OBSERVACION_HISTOPATOLOGICA: "Dermatitis perivascular superficial",
             OTRAS_OBSERVACIONES: "Puede coexistir con atopía ya que prácticamente las bases inmunológicas son las mismas. Es difícil de diferenciar con dermatitis irritativa de contacto",
             LECTURA_SUGERIDA: "",
-            CLASIFICACION_PATOLOGICA_O_GRUPO_PATOLOGICO: "Dermatitis por hipersensibilidades"
+            CLASIFICACION_O_GRUPO_PATOLOGICO: "Dermatitis por hipersensibilidades"
         }
     },
     {
@@ -430,11 +430,11 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "Hipersensibilidad alimentaria",
             ETIOLOGÍA: "Es una hipersensibilidad, aparentemente estarían involucrados los tipos I, III y IV",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                EN_GENERAL: "puede tener cualquier distribución",
-                DE_DORSAL: "en los miembros, periné y región lumbosacra en la misma localización que en la dermatitis alérgica a las pulgas",
-                DE_VENTRAL: "axilas, pecho, ingles, cuello y pabellones auriculares"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //EN_GENERAL: "puede tener cualquier distribución",
+            //DE_DORSAL: "en los miembros, periné y región lumbosacra en la misma localización que en la dermatitis alérgica a las pulgas",
+            //DE_VENTRAL: "axilas, pecho, ingles, cuello y pabellones auriculares"
+            //},
             PRURITO: "Intenso. Se presenta con o sin lesión dérmica. Difícil de controlar con corticoides",
             SEBORREA_O_DESCAMACIÓN: "Intensa",
             SIGNOS_CLINICOS_DERMICOS: "Prurito sin lesión dérmica. Eritemas. Pápulas. Pústulas. Costras. Hiperpigmentación. Complicaciones bacterianas y por Malassezia. Hiperqueratosis Otitis",
@@ -449,16 +449,16 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "",
             ETIOLOGÍA: "Está producido por anticuerpos o linfocitos activados contra compuestos del propio organismo. No se sabe qué factor inicia la formación de los autoanticuerpos",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                DE_DORSAL: " hocico, nariz, periocular, cara externa de orejas, almohadillas plantares, y uñas",
-                DE_VENTRAL: "Ingles. Después de 6 meses afecta toda la superficie corporal"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //DE_DORSAL: " hocico, nariz, periocular, cara externa de orejas, almohadillas plantares, y uñas",
+            //DE_VENTRAL: "Ingles. Después de 6 meses afecta toda la superficie corporal"
+            //},
             PRURITO: "Leve. Por contaminación bacteriana",
             SEBORREA_O_DESCAMACIÓN: "Intensa",
             SIGNOS_CLINICOS_DERMICOS: "Máculas eritematosas. Pústulas. Signo de Nikolsky positivo. Collarete epidérmico. Úlceras bucales. Costras. Eritema. Descamaciones. Lesiones mucocutáneas. Otitis Hiperqueratosis plantar",
             SIGNOS_CLINICOS_GENERALES: "En los casos avanzados hay depresión, fiebre, anorexia, pérdida de peso. Linfoadenopatía. Dolor variable que se manifiesta por lamido",
             EDAD_RAZA_Y_SEXO_DE_PRESENTACION: "En adultos jovenes cualquier sexo,. Hay razas en la que es más frecuente como los Dachshund de pelo corto, Doberman, Akita, Chow chow",
-            METODOS_DE_DIAGNÓSTICO: "-Biopsia para: Histopatología. Inmunofluorescencia directa, positiva. Inmunofluorescencia indirecta negativo. -Anticuerpos antinucleares negativos",
+            METODOS_DE_DIAGNÓSTICO: "Biopsia para: Histopatología. Inmunofluorescencia directa, positiva. Inmunofluorescencia indirecta negativo. -Anticuerpos antinucleares negativos",
             DIAGNOSTICO_DIFERENCIAL: "Otros tipos de pénfigos. Lupus eritematoso sistémico. Lupus discoideo. Dermatitis que responde al Zinc. Dermatofitosis. Foliculitis bacteriana. Seborreas. Síndrome hepatocutáneo",
             PRONÓSTICO: "Reservado. Malo sin tratamiento",
             TRATAMIENTO: "Terapia inmunosupresora",
@@ -472,17 +472,17 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "Pénfigo vulgar",
             ETIOLOGÍA: "Está producido por anticuerpos o linfocitos activados contra compuestos del propio organismo. No se sabe qué factor inicia la formación de autoanticuerpos. Ver Pénfigo foliáceo, ítem 15, para la etiología común a todo el grupo",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                EN_GENERAL: " dentro de la cavidad bucal y en todas las uniones mucocutáneas",
-                DE_DORSAL: "bordes palpebrales y almohadillas plantares",
-                DE_VENTRAL: "labios - piel, fosas nasales - piel, prepucio - piel, vulva - piel, ano - piel, ingles, axilas y almohadillas plantares"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //EN_GENERAL: " dentro de la cavidad bucal y en todas las uniones mucocutáneas",
+            //DE_DORSAL: "bordes palpebrales y almohadillas plantares",
+            //DE_VENTRAL: "labios - piel, fosas nasales - piel, prepucio - piel, vulva - piel, ano - piel, ingles, axilas y almohadillas plantares"
+            //},
             PRURITO: "Leve. Por contaminación bacteriana",
             SEBORREA_O_DESCAMACIÓN: "Intensa",
             SIGNOS_CLINICOS_DERMICOS: "Erosiones mucocutáneas. Eritema. Costras. Descamaciones. Collarete epidérmico. Úlceras bucales. Signo de Nikolsky positivo. Hiperqueratosis plantar",
             SIGNOS_CLINICOS_GENERALES: "En los casos avanzados hay depresión, fiebre, anorexia, pérdida de peso. Halitosis y salivación excesiva. Linfoadonopatía. Dolor variable manifestado por medio del lamido",
             EDAD_RAZA_Y_SEXO_DE_PRESENTACION: "cualquier edad, cualquier sexo, Afecta preferentemente a adultos jovenes. Hay razas en la que se encuentra una mayor frecuencia como los Dachshund de pelo corto, Doberman, Akita, Chow chow",
-            METODOS_DE_DIAGNÓSTICO: "-Biopsia para: Histopatología. Inmunofluorescencia directa, positiva. Inmunofluorescencia indirecta negativo. -Anticuerpos antinucleares negativos",
+            METODOS_DE_DIAGNÓSTICO: "Biopsia para: Histopatología. Inmunofluorescencia directa, positiva. Inmunofluorescencia indirecta negativo. -Anticuerpos antinucleares negativos",
             DIAGNOSTICO_DIFERENCIAL: "Otros tipos de pénfigos. Lupus eritematoso sistémico. PÉNFIGOide bulloso Necrólisis epidérmica tóxica. Candidiasis. Estomatitis ulcerativa. Seborreas",
             PRONÓSTICO: "Grave, aún con tratamiento. Fatal, sin él",
             TRATAMIENTO: "Terapia inmunosupresora"
@@ -494,24 +494,24 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "Bulla PÉNFIGOidea. PÉNFIGOide ampollar. PÉNFIGOide canino",
             ETIOLOGÍA: "Como consecuencia de fármacos como sulfamidas, penicilinas, furosemida. Ver Pénfigo foliáceo, ítem 15 donde se encuentra la etiología común a todo el grupo",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                EN_GENERAL: "dentro de la cavidad bucal en el 80% de los casos, y en todas las uniones mucocutáneas",
-                DE_DORSAL: "bordes palpebrales, úlceras plantares y paroniquia",
-                DE_VENTRAL: "uniones mucocutánea: labios - piel, fosas nasales - piel, prepucio - piel, vulva - piel, ano - piel, ingles, axilas, úlceras plantares y paroniquia"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //EN_GENERAL: "dentro de la cavidad bucal en el 80% de los casos, y en todas las uniones mucocutáneas",
+            //DE_DORSAL: "bordes palpebrales, úlceras plantares y paroniquia",
+            //DE_VENTRAL: "uniones mucocutánea: labios - piel, fosas nasales - piel, prepucio - piel, vulva - piel, ano - piel, ingles, axilas, úlceras plantares y paroniquia"
+            //},
             PRURITO: "Leve. Por contaminación bacteriana",
             SEBORREA_O_DESCAMACIÓN: "Intensa",
             SIGNOS_CLINICOS_DERMICOS: "Lesiones mucocutáneas. Eritema. Costras. Descamaciones. Lesiones rodeadas por collarete epidérmico. Úlceras bucales. Pseudo signo de Nikolsky positivo",
             SIGNOS_CLINICOS_GENERALES: "En los casos avanzados hay depresión, fiebre, anorexia, pérdida de peso. Dolor variable que se manifiesta a través del lamido",
             EDAD_RAZA_Y_SEXO_DE_PRESENTACION: "Afecta a animales de edad mediana a viejos, sin predisposición por alguno de los sexos. Los Collies y Shetland sheepdogs son las razas más predispuestas",
-            METODOS_DE_DIAGNÓSTICO: "-Biopsia para: Histopatología. Inmunofluorescencia directa, positiva. Inmunofluorescencia indirecta negativo. -Anticuerpos antinucleares negativos en suero",
+            METODOS_DE_DIAGNÓSTICO: "Biopsia para: Histopatología. Inmunofluorescencia directa, positiva. Inmunofluorescencia indirecta negativo. -Anticuerpos antinucleares negativos en suero",
             DIAGNOSTICO_DIFERENCIAL: "Pénfigo vulgar. Lupus eritematoso sistémico. Necrólisis epidérmica tóxica. Erupción por fármacos",
             PRONÓSTICO: "Reservado a grave, según la extensión de las lesiones y la respuesta a la terapéutica y a su iatrogenia",
             TRATAMIENTO: "Terapia inmunosupresora",
             OBSERVACION_HISTOPATOLOGICA: "Vesículas sub-epidérmicas, con ausencia de acantólisis. -Infiltrados perivasculares leves a liquenoides donde predominan los neutrófilos y las células mononucleares",
             OTRAS_OBSERVACIONES: "Las lesiones cutánea y bucales aparecen al mismo tiempo. En el pénfigo vulgar, la lesión bucal es anterior a los otros signos dérmicos. Los signos clínicos dérmicos son iguales o semejantes a los del Pénfigo vulgaris. El PÉNFIGOide bulloso se debe sospechar cuando se ven vesículas intactas o bullas. En el pasado se la denominaba como hidradenitis supurativa",
             LECTURA_SUGERIDA: "",
-            CLASIFICACION_PATOLOGICA_O_GRUPO_PATOLOGICO: "Dermatitis autoinmunes, inmunomediadas que responden al zinc",
+            CLASIFICACION_O_GRUPO_PATOLOGICO: "Dermatitis autoinmunes, inmunomediadas que responden al zinc",
             SIMETRÍA: "simétrica"
         }
     },
@@ -521,17 +521,17 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "L.E.S",
             ETIOLOGÍA: "",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                EN_GENERAL: "sin un área definida y seborrea",
-                DE_DORSAL: "cara y ojos en forma de mariposa y almohadillas plantares",
-                DE_VENTRAL: "almohadillas plantares, en los pabellones auriculares"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //EN_GENERAL: "sin un área definida y seborrea",
+            //DE_DORSAL: "cara y ojos en forma de mariposa y almohadillas plantares",
+            //DE_VENTRAL: "almohadillas plantares, en los pabellones auriculares"
+            //},
             PRURITO: "Leve. Por contaminación bacteriana",
             SEBORREA_O_DESCAMACIÓN: "Intensa",
             SIGNOS_CLINICOS_DERMICOS: "Cualquier manifestación cutánea puede ser entregada por L.E.S Eritemas. Costras. Ulceración de almohadillas plantares. Descamaciones. Hiperqueratosis plantar",
             SIGNOS_CLINICOS_GENERALES: "",
             EDAD_RAZA_Y_SEXO_DE_PRESENTACION: "En adultos jóvenes. cualquier edad, cualquier sexo, Hay razas que es mós frecuente como los Collies y Ovejeros alemanes",
-            METODOS_DE_DIAGNÓSTICO: "-Biopsia para: histopatología, esta puede no ser útil. inmunofluorescencia directa, positiva. inmunofluorescencia indirecta negativo. anticuerpos antinucleares positivos (90% de los casos)"
+            METODOS_DE_DIAGNÓSTICO: "Biopsia para: histopatología, esta puede no ser útil. inmunofluorescencia directa, positiva. inmunofluorescencia indirecta negativo. anticuerpos antinucleares positivos (90% de los casos)"
         }
     },
     {
@@ -540,16 +540,16 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "Lupus eritematoso cutáneo. L.E.D",
             ETIOLOGÍA: "La fotosensibilización juega un rol en la etiopatogenia. Linfocitos B también están implicados",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                DE_DORSAL: " nariz, puente nasal, área periocular y distal de las extremidades",
-                DE_VENTRAL: "labios, orejas y distal de las extremidades"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //DE_DORSAL: " nariz, puente nasal, área periocular y distal de las extremidades",
+            //DE_VENTRAL: "labios, orejas y distal de las extremidades"
+            //},
             PRURITO: "Ausente a leve. Secundario por contaminación bacteriana",
             SEBORREA_O_DESCAMACIÓN: "Leve a intensa",
             SIGNOS_CLINICOS_DERMICOS: "Despigmentación del plano nasal. Eritema. Descamaciones. Erosiones. Costras",
             SIGNOS_CLINICOS_GENERALES: "No tiene",
             EDAD_RAZA_Y_SEXO_DE_PRESENTACION: "cualquier edad, cualquier sexo. Hay razas en las que se presenta con más frecuencia como Collies, Ovejeros alemanes, Siberian huskies",
-            METODOS_DE_DIAGNÓSTICO: "-Biopsia para: Histopatología. Inmunofluorescencia directa, positiva. -Anticuerpos antinucleares negativos",
+            METODOS_DE_DIAGNÓSTICO: "Biopsia para: Histopatología. Inmunofluorescencia directa, positiva. -Anticuerpos antinucleares negativos",
             DIAGNOSTICO_DIFERENCIAL: "Pénfigo eritematoso. Pénfigo foliáceo. Lupus eritematoso sistémico. Hiperqueratosis nasal. Dermatofitosis. Vitíligo",
             PRONÓSTICO: "Bueno con tratamiento",
             TRATAMIENTO: "Corticoides en forma tópica. Vitamina E. Filtros solares",
@@ -561,7 +561,7 @@ export const FullDataBase: FullData[] = [
         ID: "28",
         NAME: "CELULITIS JUVENIL",
         DATA: {
-            SINÓNIMO: "'''Piodermia'' juvenil. Dermatitis granulomatosa estéril.'",
+            SINÓNIMO: "''Piodermia'' juvenil. Dermatitis granulomatosa estéril.",
             ETIOLOGÍA: "Desconocida, probablemente se trate de una disfunción inmunológica (Ver item 15)"
         }
     },
@@ -571,11 +571,11 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "Sarna canina. Escabiosis canina",
             ETIOLOGÍA: "Sarcoptes scabei var. canis",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                DE_DORSAL: " En los adultos y cachorros: bordes de las orejas, codos, tarsos",
-                DE_VENTRAL: "En los adultos el abdomen y tórax están afectado en menor grado que en los cachorros.",
-                "GENERAL": "Est. I es un cuadro con pocas lesiones dérmicas y gran prurito. Est. II es el cuadro típico y característico. Est. III es el cuadro crónico que exige mós del diagnóstico diferencial"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //DE_DORSAL: " En los adultos y cachorros: bordes de las orejas, codos, tarsos",
+            //DE_VENTRAL: "En los adultos el abdomen y tórax están afectado en menor grado que en los cachorros.",
+            //"GENERAL": "Est. I es un cuadro con pocas lesiones dérmicas y gran prurito. Est. II es el cuadro típico y característico. Est. III es el cuadro crónico que exige mós del diagnóstico diferencial"
+            //},
             PRURITO: "Intenso",
             SEBORREA_O_DESCAMACIÓN: "Intensa",
             SIGNOS_CLINICOS_DERMICOS: "Pápulas. Costras. Alopecia parcial. Reflejo oto pruriginoso positivo. Hiperpigmentación. Hiperqueratosis",
@@ -588,7 +588,7 @@ export const FullDataBase: FullData[] = [
             OBSERVACION_HISTOPATOLOGICA: "Dermatitis perivascular superficial. -Pueden observarse ácaros o restos de los mismos. -Edema epidérmico. -Necrosis. -Grado variable de eosinofilia",
             OTRAS_OBSERVACIONES: "Los seres humanos se contagian y en éstos el prurito se incrementa con el calor de la cama. En el perro es casi una característica que el paciente NO puede dejar de rascarse aón frente al estrés del consultorio",
             LECTURA_SUGERIDA: "",
-            CLASIFICACION_PATOLOGICA_O_GRUPO_PATOLOGICO: "Dermatitis por ectoparasitosis"
+            CLASIFICACION_O_GRUPO_PATOLOGICO: "Dermatitis por ectoparasitosis"
         }
     },
     {
@@ -597,11 +597,11 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "Sarna demodéctica. Sarna roja",
             ETIOLOGÍA: "Demodex canis",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                EN_GENERAL: " cualquiera, aunque más frecuentemente en áreas de pelos más cortos",
-                DE_DORSAL: "cabeza miembros y región costal",
-                DE_VENTRAL: "cuello espacios interdigitales"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //EN_GENERAL: " cualquiera, aunque más frecuentemente en áreas de pelos más cortos",
+            //DE_DORSAL: "cabeza miembros y región costal",
+            //DE_VENTRAL: "cuello espacios interdigitales"
+            //},
             PRURITO: "Leve. Por contaminación bacteriana",
             SEBORREA_O_DESCAMACIÓN: "Leve",
             SIGNOS_CLINICOS_DERMICOS: "Alopecia con foliculitis. Edema. Exudación de secreciones sero-hemopurulentas. Costras. Descamaciones",
@@ -614,7 +614,7 @@ export const FullDataBase: FullData[] = [
             OBSERVACION_HISTOPATOLOGICA: "Presencia de elevada cantidad de ácaros. -Grado variable de dermatitis",
             OTRAS_OBSERVACIONES: "La relación entre huevos, ninfas, larvas y adultos es pronóstica e indica la respuesta de la enfermedad al tratamiento. Es de buen pronóstico hallar adultos muertos, y que existan pocas o no existan larvas, ninfas o huevos",
             LECTURA_SUGERIDA: "",
-            CLASIFICACION_PATOLOGICA_O_GRUPO_PATOLOGICO: "Dermatitis por ectoparasitosis",
+            CLASIFICACION_O_GRUPO_PATOLOGICO: "Dermatitis por ectoparasitosis",
             SIMETRÍA: "asimétrica"
         }
     },
@@ -624,10 +624,10 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "Sarna demodóctica localizada. Sarna roja localizada",
             ETIOLOGÍA: "Demodex canis",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                EN_GENERAL: " la Alopecia parcial ésto distribuidas en cualquier parte de la superficie dérmica, aunque tiene predilección por regiones dorsales",
-                DE_DORSAL: " cabeza miembros y región costal"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //EN_GENERAL: " la Alopecia parcial ésto distribuidas en cualquier parte de la superficie dérmica, aunque tiene predilección por regiones dorsales",
+            //DE_DORSAL: " cabeza miembros y región costal"
+            //},
             PRURITO: "Ausente a leve cuando hay contaminación bacteriana",
             SEBORREA_O_DESCAMACIÓN: "Ausente a leve cuando hay contaminación bacteriana",
             SIGNOS_CLINICOS_DERMICOS: "Alopecia parcial con algunos pelos en su interior. Foliculitis",
@@ -640,7 +640,7 @@ export const FullDataBase: FullData[] = [
             OBSERVACION_HISTOPATOLOGICA: "Presencia de ácaros en los folículos pilosos. -Grado variable de dermatitis",
             OTRAS_OBSERVACIONES: "",
             LECTURA_SUGERIDA: "",
-            CLASIFICACION_PATOLOGICA_O_GRUPO_PATOLOGICO: "Dermatitis por ectoparasitosis",
+            CLASIFICACION_O_GRUPO_PATOLOGICO: "Dermatitis por ectoparasitosis",
             SIMETRÍA: "asimétrica"
         }
     },
@@ -650,9 +650,9 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "Sarna auricular. Sarna de la oreja",
             ETIOLOGÍA: "Otodectes cynotis",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                "GENERAL": "Conductos auditivos externos"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //"GENERAL": "Conductos auditivos externos"
+            //},
             PRURITO: "Intenso",
             SEBORREA_O_DESCAMACIÓN: "Intenso",
             SIGNOS_CLINICOS_DERMICOS: "Secreción ceruminosa y negra del conducto. Descamaciones con cerumen seco. Prurito generalizado. Otitis",
@@ -665,7 +665,7 @@ export const FullDataBase: FullData[] = [
             OBSERVACION_HISTOPATOLOGICA: "Dermatitis espongiosa. -Presencia de formas parasitarias",
             OTRAS_OBSERVACIONES: "Algunos animales pueden tener una dermatitis generalizada que simula las patologías señaladas en los diagnósticos diferenciales. Es muy contagiosa, particularmente entre cachorros. Hay criaderos donde es endémica",
             LECTURA_SUGERIDA: "",
-            CLASIFICACION_PATOLOGICA_O_GRUPO_PATOLOGICO: "Dermatitis por ectoparasitosis"
+            CLASIFICACION_O_GRUPO_PATOLOGICO: "Dermatitis por ectoparasitosis"
         }
     },
     {
@@ -674,15 +674,15 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "Caspa ambulante. Caspa que camina",
             ETIOLOGÍA: "Cheyletiella yasguri",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                "GENERAL": "No tiene dermograma definido. Los parásitos se observan en la superficie de los pelos, especialmente en cabeza, cuello y columna dorsal"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //"GENERAL": "No tiene dermograma definido. Los parásitos se observan en la superficie de los pelos, especialmente en cabeza, cuello y columna dorsal"
+            //},
             PRURITO: "Intenso",
             SEBORREA_O_DESCAMACIÓN: "Intensa",
             SIGNOS_CLINICOS_DERMICOS: "''Escamas'' furfuráceas cubriendo el manto piloso",
             SIGNOS_CLINICOS_GENERALES: "No tiene",
             EDAD_RAZA_Y_SEXO_DE_PRESENTACION: "cualquier edad, cualquier raza, cualquier sexo",
-            DIAGNÓSTICO: "-Examen con lupa o microscopio de: las descamaciones. del material recolectado con una cinta de acetato de celulosa. del material recolectado con un peine para extraer pulgas (efectividad del 85%)"
+            DIAGNÓSTICO: "Examen con lupa o microscopio de: las descamaciones. del material recolectado con una cinta de acetato de celulosa. del material recolectado con un peine para extraer pulgas (efectividad del 85%)"
         }
     },
     {
@@ -691,11 +691,11 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "Dermatosis por síndrome de ''Cushing''. Síndrome de ''Cushing'' cutáneo",
             ETIOLOGÍA: "Producido por excesiva cantidad de corticoides endógenos o exógenos",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                EN_GENERAL: "Alopecia difusa parcial o generalizada.",
-                DE_DORSAL: "en el tronco llegando hasta el cuello, codos y tarsos",
-                DE_VENTRAL: "en todo el área desde las axilas a las ingles"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //EN_GENERAL: "Alopecia difusa parcial o generalizada.",
+            //DE_DORSAL: "en el tronco llegando hasta el cuello, codos y tarsos",
+            //DE_VENTRAL: "en todo el área desde las axilas a las ingles"
+            //},
             PRURITO: "Leve. Por contaminación bacteriana y/o por Malassezia",
             SEBORREA_O_DESCAMACIÓN: "Leve",
             SIGNOS_CLINICOS_DERMICOS: "Dermis alopécica sin inflamación. Hiperpigmentación en manchas. Piel fina e hipotónica. Pelo opaco y decolorado. Piodermia secundaria, parches seborreicos, comedones. Calcinosis cutánea, venas mamarias visibles",
@@ -713,10 +713,10 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "",
             ETIOLOGÍA: "El hipotiroidismo primario adquirido es producido por una tiroiditis linfocítica, o por una atrofia tiroidea idiopática",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                EN_GENERAL: "Alopecia parcial o total dependiendo del tiempo de evolución",
-                DE_DORSAL: "en la región torácica en forma de silla de montar"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //EN_GENERAL: "Alopecia parcial o total dependiendo del tiempo de evolución",
+            //DE_DORSAL: "en la región torácica en forma de silla de montar"
+            //},
             PRURITO: "Ausente. Secundario por contaminación bacteriana o Malassezia",
             SEBORREA_O_DESCAMACIÓN: "Ausente a leve",
             SIGNOS_CLINICOS_DERMICOS: "Pelo seco, opaco y descolorido, que se cae fácilmente. Hiperpigmentación uniforme. El pelo se mantiene en la cabeza y extremidades (ver ítem 15)"
@@ -728,9 +728,9 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "Desbalance ovárico hiperestrogénico. Desbalance ovárico tipo I",
             ETIOLOGÍA: "La causa del hiperestrogenismo no se conoce exactamente. Posiblemente se trata de una falla en la conversión de los estrógenos. O que haya una producción ectópica. Es frecuente encontrar ovarios quísticos en estos pacientes",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                DE_DORSAL: "Alopecias en el periné"
-            }
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //DE_DORSAL: "Alopecias en el periné"
+            //}
         }
     },
     {
@@ -739,9 +739,9 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "Dermatosis que responde a los estrógenos. Desbalance ovárico tipo II",
             ETIOLOGÍA: "Se produce en algunas hembras castradas",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                DE_DORSAL: "Alopecia:las depilaciones comienzan en los flancos"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //DE_DORSAL: "Alopecia:las depilaciones comienzan en los flancos"
+            //},
             PRURITO: "Ausente",
             SEBORREA_O_DESCAMACIÓN: "Ausente",
             SIGNOS_CLINICOS_DERMICOS: "Piel fina. Hipopigmentada. Vulva infantil. Dermis alopécica sin inflamación. Atrofia de los pezones Otitis",
@@ -754,7 +754,7 @@ export const FullDataBase: FullData[] = [
             OBSERVACION_HISTOPATOLOGICA: "Lesiones inespecíficas: Hiperqueratosis ortoqueratósica superficial folicular. -Dilatación folicular. -Atrofia folicular. -Folículos telogónicos",
             OTRAS_OBSERVACIONES: "También puede producirse en hembras no castradas",
             LECTURA_SUGERIDA: "Diethylbestrol. Clinical Pharmacology And Alternatives in Small Animal Practice. Hampden R. & Artarson. Aust. Vet. J. 68",
-            CLASIFICACION_PATOLOGICA_O_GRUPO_PATOLOGICO: "Dermatosis de origen hormonal"
+            CLASIFICACION_O_GRUPO_PATOLOGICO: "Dermatosis de origen hormonal"
         }
     },
     {
@@ -771,11 +771,11 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "Hiperestrogenismo de los machos",
             ETIOLOGÍA: "Neoplasia testicular secretora de estrógenos",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                EN_GENERAL: "Alopecia: comienza alrededor del cuello y el periné",
-                DE_DORSAL: "las depilaciones involucran el cuello, los flancos y el área poplítea",
-                DE_VENTRAL: "en toda el área desde las ingles hasta las axilas, con acantosis en las axilas, ginecomastia y cara interna de las orejas"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //EN_GENERAL: "Alopecia: comienza alrededor del cuello y el periné",
+            //DE_DORSAL: "las depilaciones involucran el cuello, los flancos y el área poplítea",
+            //DE_VENTRAL: "en toda el área desde las ingles hasta las axilas, con acantosis en las axilas, ginecomastia y cara interna de las orejas"
+            //},
             PRURITO: "Ausente. Secundario, por contaminación bacteriana y/o Malassezia",
             SEBORREA_O_DESCAMACIÓN: "Ausente a leve",
             SIGNOS_CLINICOS_DERMICOS: "Dermis alopécica sin inflamación. Piel gruesa. Hiperpigmentación. Hipertrofia de los pezones. Otitis Prepucio pendular",
@@ -790,9 +790,9 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "Dermatosis por falta de hormona de crecimiento. Seudocushing",
             ETIOLOGÍA: "Desconocida. Aparentemente relacionada con la hormona de crecimiento",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                DE_DORSAL: "Alopecia: en la región torácica en forma de silla de montar"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //DE_DORSAL: "Alopecia: en la región torácica en forma de silla de montar"
+            //},
             PRURITO: "Ausente. Secundario por contaminación bacteriana y/o Malassezia",
             SEBORREA_O_DESCAMACIÓN: "Ausente a leve",
             SIGNOS_CLINICOS_DERMICOS: "Dermis alopécica sin inflamación. Hiperpigmentación uniforme. Piel fina e hipertónica. Hipertrofia o atrofia de los pezones Otitis",
@@ -805,7 +805,7 @@ export const FullDataBase: FullData[] = [
             OBSERVACION_HISTOPATOLOGICA: "Hiperqueratosis ortoqueratósica superficial y folicular. -Dilatación folicular. -Melanosis. -Atrofia de glándulas sebáceas. En los casos con más de 1,5 años de evolución se puede observar una disminución del tamaño y cantidad de fibras elásticas",
             OTRAS_OBSERVACIONES: "",
             LECTURA_SUGERIDA: "",
-            CLASIFICACION_PATOLOGICA_O_GRUPO_PATOLOGICO: "Dermatosis de origen hormonal"
+            CLASIFICACION_O_GRUPO_PATOLOGICO: "Dermatosis de origen hormonal"
         }
     },
     {
@@ -814,11 +814,11 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "Tiña por microsporum",
             ETIOLOGÍA: "Microsporum canis",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                EN_GENERAL: "cualquier área puede estar afectada",
-                DE_DORSAL: "tiene predilección por las regiones con pelos más cortos como orejas, cara y miembros",
-                DE_VENTRAL: "miembros"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //EN_GENERAL: "cualquier área puede estar afectada",
+            //DE_DORSAL: "tiene predilección por las regiones con pelos más cortos como orejas, cara y miembros",
+            //DE_VENTRAL: "miembros"
+            //},
             PRURITO: "Ausente. Secundario por contaminación bacteriana",
             SEBORREA_O_DESCAMACIÓN: "Leve",
             SIGNOS_CLINICOS_DERMICOS: "Alopecia circular y no simétrica. Áreas alopécicas con ausencia de pelos en su interior. Foliculitis por contaminación bacteriana",
@@ -834,10 +834,10 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "Tiña por tricofitosis. Tricofitosis",
             ETIOLOGÍA: "Trichophyton mentagrophytes",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                EN_GENERAL: "involucra superficies relativamente grandes",
-                DE_DORSAL: "Frecuentemente afecta la nariz, y se extiende hacia un ojo"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //EN_GENERAL: "involucra superficies relativamente grandes",
+            //DE_DORSAL: "Frecuentemente afecta la nariz, y se extiende hacia un ojo"
+            //},
             PRURITO: "Ausente. Secundario por contaminación bacteriana",
             SEBORREA_O_DESCAMACIÓN: "Leve",
             SIGNOS_CLINICOS_DERMICOS: "Alopecia irregular, expansiva no circulares. Foliculitis. Forunculosis con trayectos fistulosos. Onicomicosis",
@@ -853,11 +853,11 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "",
             ETIOLOGÍA: "Malassezia pachydermatis, llamada también Pityrosporum ovale var. canis, es flora normal y anormal de la piel",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                EN_GENERAL: "como contaminantes de seborreas",
-                DE_DORSAL: "en el hocico, región perianal, e interdigital",
-                DE_VENTRAL: "en la cara interna de las orejas, labios, cuello e interdigital"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //EN_GENERAL: "como contaminantes de seborreas",
+            //DE_DORSAL: "en el hocico, región perianal, e interdigital",
+            //DE_VENTRAL: "en la cara interna de las orejas, labios, cuello e interdigital"
+            //},
             PRURITO: "Intenso. Causante de prurito secundario, cuando actúa como contaminante de otras patologías dérmicas",
             SEBORREA_O_DESCAMACIÓN: "Leve",
             SIGNOS_CLINICOS_DERMICOS: "Piel arrugada, de color amarillento. Seborrea intensa. Olor seborreico. Otitis",
@@ -870,7 +870,7 @@ export const FullDataBase: FullData[] = [
             OBSERVACION_HISTOPATOLOGICA: "Hiperqueratosis paraqueratosica y acantosis severa. -Formaciones costrosas superficiales. -Presencia de microorganismos ovales entre las capas de queratina. -Dermatitis superficial. -Perifoliculitis",
             OTRAS_OBSERVACIONES: "Es una dermatopatía que día a día es más reconocida por los médicos veterinarios",
             LECTURA_SUGERIDA: "",
-            CLASIFICACION_PATOLOGICA_O_GRUPO_PATOLOGICO: "Dermatomicosis"
+            CLASIFICACION_O_GRUPO_PATOLOGICO: "Dermatomicosis"
         }
     },
     {
@@ -879,10 +879,10 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "",
             ETIOLOGÍA: "Sporothrix schenckii",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                EN_GENERAL: " afecta a cualquier área",
-                DE_DORSAL: "frecuentemente en la nariz, cabeza, todo el tórax y distal de los miembros"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //EN_GENERAL: " afecta a cualquier área",
+            //DE_DORSAL: "frecuentemente en la nariz, cabeza, todo el tórax y distal de los miembros"
+            //},
             PRURITO: "Ausente",
             SEBORREA_O_DESCAMACIÓN: "Ausente",
             SIGNOS_CLINICOS_DERMICOS: "Nódulos granulomatosos, alopécicos, circunscriptos e indoloros. Fístulas. Exudados sero-hemopurulento. Cambio de color del pelo periférico",
@@ -895,7 +895,7 @@ export const FullDataBase: FullData[] = [
             OBSERVACION_HISTOPATOLOGICA: "Dermatitis piogranulomatosa de celularidad mixta, nodular o difuso, pudiéndose observar en el centro de los mismos, a los microorganismos agrupados de forma alargada. -Moviendo el micrométrico puede observarse la pared refractil de los microorganismos",
             OTRAS_OBSERVACIONES: "La infección ocurre generalmente por contaminación de heridas, es de baja incidencia y potencialmente una zoonosis",
             LECTURA_SUGERIDA: "",
-            CLASIFICACION_PATOLOGICA_O_GRUPO_PATOLOGICO: "Dermatitis pseudo bacteriana",
+            CLASIFICACION_O_GRUPO_PATOLOGICO: "Dermatitis pseudo bacteriana",
             SIMETRÍA: "asimétrica"
         }
     },
@@ -905,9 +905,9 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "",
             ETIOLOGÍA: "Desorden hereditario de la queratinización y cornificación",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                "GENERAL": "CONSULTAR EL CORRESPONDIENTE A CADA UNA DE LAS SIGUIENTES ENTIDADES: Otitis seborreicas. Hiperqueratosis naso-digital. Seborrea del borde de las orejas. Dermatosis que responde a la vitamina A. Alopecía por mutación de color. Dermatosis que responden al Zinc"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //"GENERAL": "CONSULTAR EL CORRESPONDIENTE A CADA UNA DE LAS SIGUIENTES ENTIDADES: Otitis seborreicas. Hiperqueratosis naso-digital. Seborrea del borde de las orejas. Dermatosis que responde a la vitamina A. Alopecía por mutación de color. Dermatosis que responden al Zinc"
+            //},
             PRURITO: "Leve. Secundario por contaminación bacteriana y/o Malassezia",
             SEBORREA_O_DESCAMACIÓN: "Intensa",
             SIGNOS_CLINICOS_DERMICOS: "(ver cada entidad en forma particular)"
@@ -919,11 +919,11 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "Seborrea. Dermatitis seborreica secundaria",
             ETIOLOGÍA: "Son defectos de la queratinización desencadenados por injurias internas o externas que afectan a la piel como",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                EN_GENERAL: "No tiene una específica, sigue el patrón de la enfermedad que le dió origen.",
-                DE_DORSAL: "en muchos animales con seborrea se observan unos callos seborreicos como áreas redondeadas y simétricas en relación con cada tuberosidad isquiática o parches seborreicos. ,",
-                DE_VENTRAL: "parches seborreicos"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //EN_GENERAL: "No tiene una específica, sigue el patrón de la enfermedad que le dió origen.",
+            //DE_DORSAL: "en muchos animales con seborrea se observan unos callos seborreicos como áreas redondeadas y simétricas en relación con cada tuberosidad isquiática o parches seborreicos. ,",
+            //DE_VENTRAL: "parches seborreicos"
+            //},
             PRURITO: "Intenso. Aunque depende de la etiología",
             SEBORREA_O_DESCAMACIÓN: "Intenso",
             SIGNOS_CLINICOS_DERMICOS: "Descamaciones Parches seborreicos en áreas circunscritas Olor seborreico Otitis",
@@ -941,10 +941,10 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "Dermatosis del borde de las orejas",
             ETIOLOGÍA: "Seborrea primaria o hereditaria",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                DE_DORSAL: " Alopecia parcial o total y simétrica en los bordes de las orejas",
-                DE_VENTRAL: "igual"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //DE_DORSAL: " Alopecia parcial o total y simétrica en los bordes de las orejas",
+            //DE_VENTRAL: "igual"
+            //},
             PRURITO: "Leve. Por contaminación bacteriana y/o Malassezia",
             SEBORREA_O_DESCAMACIÓN: "Leve",
             SIGNOS_CLINICOS_DERMICOS: "Fisuras, úlceras. Hemorragias. Descamaciones",
@@ -957,7 +957,7 @@ export const FullDataBase: FullData[] = [
             OBSERVACION_HISTOPATOLOGICA: "Hiperqueratosis orto y para-queratósica superficial y folicular. -Dermatitis perivascular hiperplásica superficial. -Si hay infección bacteriana secundaria se puede observar dermatitis pustulosa intraepidérmica. -Perifoliculitis y foliculitis",
             OTRAS_OBSERVACIONES: "",
             LECTURA_SUGERIDA: "",
-            CLASIFICACION_PATOLOGICA_O_GRUPO_PATOLOGICO: "Dermatosis por alteración de las glándulas sebáceas, queratinización y nutrición"
+            CLASIFICACION_O_GRUPO_PATOLOGICO: "Dermatosis por alteración de las glándulas sebáceas, queratinización y nutrición"
         }
     },
     {
@@ -966,9 +966,9 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "Hiperplasia de la glándula de preen",
             ETIOLOGÍA: "Por seborreas primarias o secundarias. Por elevación absoluta o relativa de andrógenos",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                DE_DORSAL: " Alopecia ovoidea y total, en el 1 / 3 superior y dorsal de la cola"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //DE_DORSAL: " Alopecia ovoidea y total, en el 1 / 3 superior y dorsal de la cola"
+            //},
             PRURITO: "Ausente",
             SEBORREA_O_DESCAMACIÓN: "Leve",
             SIGNOS_CLINICOS_DERMICOS: "Área alopécica circular. Descamaciones",
@@ -981,7 +981,7 @@ export const FullDataBase: FullData[] = [
             OBSERVACION_HISTOPATOLOGICA: "Hiperqueratosis orto y paraqueratósica superficial y folicular. -Dermatitis peri-vascular hiperplásica superficial. -Cuando hay infección bacteriana secundaria se puede observar dermatitis pustulosa intraepidérmica. -Perifoliculitis y folicular",
             OTRAS_OBSERVACIONES: "Puede haber contaminación bacteriana secundaria",
             LECTURA_SUGERIDA: "",
-            CLASIFICACION_PATOLOGICA_O_GRUPO_PATOLOGICO: "Dermatosis por alteración de las glándulas sebáceas, queratinización y nutrición"
+            CLASIFICACION_O_GRUPO_PATOLOGICO: "Dermatosis por alteración de las glándulas sebáceas, queratinización y nutrición"
         }
     },
     {
@@ -990,10 +990,10 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "",
             ETIOLOGÍA: "Idiopática",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                DE_DORSAL: " hocico y almohadillas plantares",
-                DE_VENTRAL: "almohadillas plantares"
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //DE_DORSAL: " hocico y almohadillas plantares",
+            //DE_VENTRAL: "almohadillas plantares"
+            //},
             PRURITO: "Ausente",
             SEBORREA_O_DESCAMACIÓN: "Leve",
             SIGNOS_CLINICOS_DERMICOS: "Hiperqueratosis. Fisuras y erosiones",
@@ -1009,10 +1009,10 @@ export const FullDataBase: FullData[] = [
         DATA: {
             SINÓNIMO: "",
             ETIOLOGÍA: "Seborrea del Cocker spaniel que responde a la terapéutica con vitamina A",
-            AREA_INVOLUCRADA_DERMOGRAMA: {
-                DE_VENTRAL: " - Est. I: : en el tórax. - Est. II: tórax, abdomen y caras internas de orejas",
-                DE_DORSAL: " - Est. II: lateral del tórax. "
-            },
+            //AREA_INVOLUCRADA_DERMOGRAMA: {
+            //DE_VENTRAL: " - Est. I: : en el tórax. - Est. II: tórax, abdomen y caras internas de orejas",
+            //DE_DORSAL: " - Est. II: lateral del tórax. "
+            //},
             PRURITO: "Leve. Secundario contaminación bacteriana y/o Malassezia de la seborrea",
             SEBORREA_O_DESCAMACIÓN: "Intensa",
             SIGNOS_CLINICOS_DERMICOS: "Piel seca, pelo sin brillo y se enreda fácilmente. Costras y pápulas foliculares. Descamaciones Hiperqueratosis Olor seborreico Otitis",
@@ -1025,7 +1025,7 @@ export const FullDataBase: FullData[] = [
             OBSERVACION_HISTOPATOLOGICA: "Hiperqueratosis ortoqueratósica severa superficial y folicular con taponamiento folicular",
             OTRAS_OBSERVACIONES: "",
             LECTURA_SUGERIDA: "",
-            CLASIFICACION_PATOLOGICA_O_GRUPO_PATOLOGICO: "Dermatosis por alteración de las glándulas sebáceas, queratinización y nutrición",
+            CLASIFICACION_O_GRUPO_PATOLOGICO: "Dermatosis por alteración de las glándulas sebáceas, queratinización y nutrición",
             SIMETRÍA: "simétrica"
         }
     }
