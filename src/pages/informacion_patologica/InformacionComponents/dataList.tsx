@@ -42,7 +42,7 @@ function compareNames(enfermedadCap: string, enfermedadData: FullData, index: nu
     if (enfermedadCap === enfermedadData.NAME) {
         return (
             <ListItem
-                id={enfermedadData.ID}
+                //id={enfermedadData.ID}
                 name={enfermedadData.NAME}
             />
         );
