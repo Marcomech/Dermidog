@@ -19,7 +19,6 @@ export default function FormDialog() {
     setOpen(true);
   };
   const handleClose = () => {
-    //console.log(formData);
     setOpen(false);
     setFormData({});
     setActivePage(0);

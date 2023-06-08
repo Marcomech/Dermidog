@@ -2,9 +2,10 @@ import React from 'react';
 import { Box, Typography } from '@mui/material';
 import GlobalLayout from "@/layouts";
 import DataList from '@/pages/informacion_patologica/InformacionComponents/dataList';
-import { Capitulos } from '../../../public/data/index';
-
+import { Capitulos, Codigos } from '../../../public/data/index';
+import Image from 'next/image';
 export default function InformacionPatologica() {
+
   return (
     <GlobalLayout>
       <Typography align='left' variant='h4' marginTop={1}>

@@ -1,14 +1,11 @@
 import React from 'react';
-import { Codigos, FullDataBase } from '../../../../public/data/index'
+import { Codigos, FullData } from '../../../../public/data/index'
 import ListItem from './ListItem';
 import { List } from '@mui/material';
+import { FullDataType } from '../../../../public/data/FullData';
 
 interface DataListProps {
-    enfermedades: {
-        ID: string,
-        NroItem: number,
-    }[],
-
+    enfermedades: string[],
 }
 
 export default function DataList({ enfermedades }: DataListProps) {
@@ -17,19 +14,15 @@ export default function DataList({ enfermedades }: DataListProps) {
         return <div>No hay enfermedades disponibles para este capitulo</div>
     }
 
-
-
-    console.log(enfermedades.map((enfermedadCap) => (Codigos[enfermedadCap.ID])))
-
     return (
         <List
             sx={{ textAlign: 'center' }}>
             {enfermedades.map((enfermedadCap) => (
-                FullDataBase.map((enfermedadData: FullData, index: number) => {
+                FullData.map((enfermedadData: FullDataType, index: number) => {
                     return (
                         compareNames(
-                            Codigos[enfermedadCap.ID],
-                            enfermedadData,
+                            enfermedadCap,
+                            enfermedadData.NAME,
                             index)
                     );
                 })
@@ -38,14 +31,9 @@ export default function DataList({ enfermedades }: DataListProps) {
     )
 }
 
-function compareNames(enfermedadCap: string, enfermedadData: FullData, index: number) {
-    if (enfermedadCap === enfermedadData.NAME) {
-        return (
-            <ListItem
-                //id={enfermedadData.ID}
-                name={enfermedadData.NAME}
-            />
-        );
+function compareNames(enfermedadCap: string, enfermedad: string, index: number) {
+    if (enfermedadCap === enfermedad) {
+        return (<ListItem name={enfermedad} />);
     }
     return null
 }

@@ -6,9 +6,10 @@ interface ListItemProps {
     name: string
 }
 
-export default function ListItem(props: ListItemProps) {
-    const { name } = props;
+export default function ListItem({ name }: ListItemProps) {
 
+
+    console.log(name)
     const [open, setOpen] = useState(false)
     const handleOpen = () => { setOpen(true) };
     const handleClose = () => { setOpen(false) };

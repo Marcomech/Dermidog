@@ -2,7 +2,7 @@ import GlobalLayout from '@/layouts'
 import { Expand } from '@mui/icons-material'
 import { Typography, Box, Grid, Button } from '@mui/material'
 import { useRouter } from 'next/router'
-import { FullDataBase } from '../../public/data'
+import { FullData } from '../../public/data'
 
 export default function Home() {
   const router = useRouter()
@@ -43,7 +43,7 @@ export default function Home() {
         margin={2}
       >
         <Typography variant="body1">
-          Creado por E. Freire y E. Hutter, 1997
+          Creado por F. Fogel y E. Hutter, 1997
         </Typography>
       </Box>
     </GlobalLayout >

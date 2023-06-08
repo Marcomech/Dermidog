@@ -46,7 +46,6 @@ export default function EncontrarDiagnostico() {
       <Typography >
         Enfermedades posibles
       </Typography>
-
       {
         loading ?
           (
@@ -67,7 +66,7 @@ export default function EncontrarDiagnostico() {
           )
           : (
             Diagnostico.map((item, index) => (
-              <ListItem
+              < ListItem
                 key={index}
                 name={Codigos[item]}
               />
