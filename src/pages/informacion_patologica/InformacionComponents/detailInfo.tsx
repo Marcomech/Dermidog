@@ -87,7 +87,7 @@ function StyleImage(key: string, value: string | string[]) {
         <TreeItem nodeId="2" label={
             <Box padding={1}>
                 <Image
-                    src={`/Dermogramas/${value}.jpg`}
+                    src={`/Dermogramas/${value}.JPG`}
                     alt={'Dermograma'}
                     width={200}
                     height={200}
