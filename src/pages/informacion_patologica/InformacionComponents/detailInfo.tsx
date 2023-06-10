@@ -44,7 +44,7 @@ function DataToTree(data: Data) {
             TreeItems.push(
                 <TreeItem key={key} nodeId={key} label=
                     {
-                        <Typography variant='h6'>
+                        <Typography variant='h6' key={key + "Title"}>
                             {key.replaceAll("_", " ")}
                         </Typography>
                     }>

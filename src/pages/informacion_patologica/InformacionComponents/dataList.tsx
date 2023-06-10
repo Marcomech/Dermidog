@@ -11,19 +11,15 @@ interface DataListProps {
 export default function DataList({ enfermedades }: DataListProps) {
 
     if (!enfermedades) {
-        return <div>No hay enfermedades disponibles para este capitulo</div>
+        return <p>No hay enfermedades disponibles para este capitulo</p>
     }
-
     return (
         <List
             sx={{ textAlign: 'center' }}>
             {enfermedades.map((enfermedadCap) => (
                 FullData.map((enfermedadData: FullDataType, index: number) => {
                     return (
-                        compareNames(
-                            enfermedadCap,
-                            enfermedadData.NAME,
-                            index)
+                        compareNames(enfermedadCap, enfermedadData.NAME, index)
                     );
                 })
             ))}
@@ -33,7 +29,7 @@ export default function DataList({ enfermedades }: DataListProps) {
 
 function compareNames(enfermedadCap: string, enfermedad: string, index: number) {
     if (enfermedadCap === enfermedad) {
-        return (<ListItem name={enfermedad} />);
+        return (<ListItem name={enfermedad} key={'ListItem' + { enfermedad }} />);
     }
     return null
 }

@@ -1,4 +1,4 @@
-export const RazasDetail = [
+export const RazaDetail = [
     "MESTIZO",
     "AFGANO",
     "AIRDALE TERRIER",
@@ -12,7 +12,7 @@ export const RazasDetail = [
     "BOSTON TERRIER",
     "BOXER",
     "BRACO",
-    "BRETON ESPA\u00d1OL",
+    "BRETON ESPAÑOL",
     "BULL TERRIER",
     "BULLDOG",
     "CANICHE",

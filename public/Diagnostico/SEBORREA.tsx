@@ -1,306 +1,250 @@
-import { SeborreaDetail } from "../../public/Listas/index"
-
+const SeborreaValues = [
+    'Ausente',
+    'Leve',
+    'Moderada',
+    'Intensa',
+    'Por contaminación',
+    'Descamación y costras'
+] as const;
+export type SeborreaDetail = typeof SeborreaValues[number];
 export type SeborreaType = {
-    CodigoSeborrea: number
-    Seborrea: typeof SeborreaDetail[number][]
-    ID: string
-}
+    Seborrea: SeborreaDetail[];
+    NAME: string;
+};
 
 export const Seborrea: SeborreaType[] = [
     {
-        CodigoSeborrea: 0,
-        Seborrea: ["Ausente"],
-        ID: "1BCAL"
+        NAME: 'DERMATITIS DE LOS PLIEGUES',
+        Seborrea: ['Ausente']
     },
     {
-        CodigoSeborrea: 0,
-        Seborrea: ["Ausente"],
-        ID: "1BPOD"
+        NAME: 'DERMATITIS HÚMEDA AGUDA',
+        Seborrea: ['Ausente']
     },
     {
-        CodigoSeborrea: 0,
-        Seborrea: ["Ausente"],
-        ID: "1BNAS"
+        NAME: 'IMPÉTIGO',
+        Seborrea: ['Ausente', 'Leve']
     },
     {
-        CodigoSeborrea: 0,
-        Seborrea: ["Ausente"],
-        ID: "1BPLI"
+        NAME: 'FOLICULITIS BACTERIANA SUPERFICIAL',
+        Seborrea: ['Leve',
+            'Intensa']
     },
     {
-        CodigoSeborrea: 0,
-        Seborrea: ["Ausente"],
-        ID: "1BMEN"
+        NAME: 'PIODERMIA SUPERFICIAL DISEMINADA',
+        Seborrea: ['Leve', 'Moderada']
     },
     {
-        CodigoSeborrea: 0,
-        Seborrea: ["Ausente"],
-        ID: "1BCAY"
+        NAME: 'PIODERMIA MUCOCUTÁNEA',
+        Seborrea: ['Leve', 'Moderada']
     },
     {
-        CodigoSeborrea: 2,
-        Seborrea: ["Leve"],
-        ID: "1SIMP"
+        NAME: 'PIODERMIA PROFUNDA DEL OVEJERO ALEMÁN',
+        Seborrea: ['Ausente']
     },
     {
-        CodigoSeborrea: 3,
-        Seborrea: ["Leve"],
-        ID: "1SFOL"
+        NAME: 'FOLICULITIS-FORUNCULOSIS PIOTRAUMATICA',
+        Seborrea: ['Leve', 'Moderada']
     },
     {
-        CodigoSeborrea: 2,
-        Seborrea: ["Leve"],
-        ID: "1SHSE"
+        NAME: 'FOLICULITIS Y FORUNCULOSIS NASAL',
+        Seborrea: ['Ausente']
     },
     {
-        CodigoSeborrea: 0,
-        Seborrea: ["Ausente"],
-        ID: "1PFFC"
+        NAME: 'FOLICULITIS FORUNCULOSIS DEL MENTÓN Y LABIOS',
+        Seborrea: ['Ausente']
     },
     {
-        CodigoSeborrea: 0,
-        Seborrea: ["Ausente"],
-        ID: "1POV"
+        NAME: 'FOLICULITIS Y FORUNCULOSIS PODAL',
+        Seborrea: ['Ausente']
     },
     {
-        CodigoSeborrea: 0,
-        Seborrea: ["Ausente"],
-        ID: "9FIS"
+        NAME: 'FOLICULITIS FORUNCULOSIS DE LOS CALLOS',
+        Seborrea: ['Leve', 'Moderada']
     },
     {
-        CodigoSeborrea: 4,
-        Seborrea: ["Intenso"],
-        ID: "2PUL2"
+        NAME: 'DERMATITIS ALÉRGICA POR PULGAS EST. I',
+        Seborrea: ['Ausente', 'Leve']
     },
     {
-        CodigoSeborrea: 4,
-        Seborrea: ["Intenso"],
-        ID: "2PUL3"
+        NAME: 'DERMATITIS ALÉRGICA POR PULGAS EST. II',
+        Seborrea: ['Intensa']
     },
     {
-        CodigoSeborrea: 2,
-        Seborrea: ["Ausente", "Leve"],
-        ID: "2PUL"
+        NAME: 'DERMATITIS ALÉRGICA POR PULGAS EST. III',
+        Seborrea: ['Intensa']
     },
     {
-        CodigoSeborrea: 2,
-        Seborrea: ["Ausente", "Leve"],
-        ID: "2ATO"
+        NAME: 'DERMATITIS ATÓPICA CANINA EST. I',
+        Seborrea: ['Ausente']
     },
     {
-        CodigoSeborrea: 4,
-        Seborrea: ["Leve", "Intenso"],
-        ID: "2ATO2"
+        NAME: 'DERMATITIS ATÓPICA CANINA EST. II',
+        Seborrea: ['Intensa']
     },
     {
-        CodigoSeborrea: 4,
-        Seborrea: ["Intenso"],
-        ID: "2ATO3"
+        NAME: 'DERMATITIS ATÓPICA CANINA EST. III',
+        Seborrea: ['Intensa']
     },
     {
-        CodigoSeborrea: 5,
-        Seborrea: ["Ausente", "Leve", "Intenso"],
-        ID: "2CONT"
+        NAME: 'REACCIÓN ADVERSA A LOS ALIMENTOS',
+        Seborrea: []
     },
     {
-        CodigoSeborrea: 3,
-        Seborrea: ["Intenso"],
-        ID: "2CONT2"
+        NAME: 'PÉNFIGO FOLIÁCEO',
+        Seborrea: ['Leve', 'Moderada', 'Intensa']
     },
     {
-        CodigoSeborrea: 5,
-        Seborrea: ["Ausente", "Leve", "Intenso"],
-        ID: "2ALIM"
+        NAME: 'PÉNFIGO VULGAR',
+        Seborrea: ['Intensa']
     },
     {
-        CodigoSeborrea: 3,
-        Seborrea: ["Leve", "Intenso"],
-        ID: "4PFOL"
+        NAME: 'PÉNFIGO ERITEMATOSO',
+        Seborrea: ['Leve']
     },
     {
-        CodigoSeborrea: 4,
-        Seborrea: ["Intenso"],
-        ID: "4PVUL"
+        NAME: 'PENFIGOIDE BULLOSO',
+        Seborrea: ['Leve']
     },
     {
-        CodigoSeborrea: 4,
-        Seborrea: ["Intenso"],
-        ID: "4PBUL"
+        NAME: 'LUPUS ERITEMATOSO SISTÉMICO',
+        Seborrea: ['Intensa']
     },
     {
-        CodigoSeborrea: 3,
-        Seborrea: ["Leve", "Intenso"],
-        ID: "4PLES"
+        NAME: 'LUPUS ERITEMATOSO DISCOIDE',
+        Seborrea: ['Leve']
     },
     {
-        CodigoSeborrea: 3,
-        Seborrea: ["Leve", "Intenso"],
-        ID: "4PLED"
+        NAME: 'LUPUS MUCOCUTÁNEO',
+        Seborrea: ['Leve']
     },
     {
-        CodigoSeborrea: 0,
-        Seborrea: ["Ausente"],
-        ID: "4JUV"
+        NAME: 'LUPUS CUTÁNEO VESICULAR',
+        Seborrea: ['Leve']
     },
     {
-        CodigoSeborrea: 3,
-        Seborrea: ["Leve", "Intenso"],
-        ID: "5SARC"
+        NAME: 'DERMATOMIOSITIS',
+        Seborrea: ['Leve']
     },
     {
-        CodigoSeborrea: 2,
-        Seborrea: ["Leve"],
-        ID: "5DEMG"
+        NAME: 'DEMODICOSIS LOCALIZADA',
+        Seborrea: ['Ausente',
+            'Leve', 'Por contaminación']
     },
     {
-        CodigoSeborrea: 0,
-        Seborrea: ["Ausente"],
-        ID: "5DEML"
+        NAME: 'DEMODICOSIS GENERALIZADA',
+        Seborrea: ['Leve']
     },
     {
-        CodigoSeborrea: 4,
-        Seborrea: ["Intenso"],
-        ID: "5OTO"
+        NAME: 'SARNA SARCÓPTICA',
+        Seborrea: ['Intensa']
     },
     {
-        CodigoSeborrea: 3,
-        Seborrea: ["Leve", "Intenso"],
-        ID: "5CHEL"
+        NAME: 'SARNA OTODÉCTICA',
+        Seborrea: ['Intensa']
     },
     {
-        CodigoSeborrea: 2,
-        Seborrea: ["Leve"],
-        ID: "6CUSH"
+        NAME: 'CHEILETIELOSIS',
+        Seborrea: ['Intensa']
     },
     {
-        CodigoSeborrea: 1,
-        Seborrea: ["Ausente", "Leve"],
-        ID: "6HTIR"
+        NAME: 'DERMATOSIS POR HIPERADRENOCORTISISMO',
+        Seborrea: ['Leve']
     },
     {
-        CodigoSeborrea: 2,
-        Seborrea: ["Leve"],
-        ID: "6HEST"
+        NAME: 'DERMATOSIS POR HIPOTIROIDISMO',
+        Seborrea: ['Leve', 'Moderada']
     },
     {
-        CodigoSeborrea: 0,
-        Seborrea: ["Ausente"],
-        ID: "6HIP"
+        NAME: 'ALOPECÍA X',
+        Seborrea: ['Leve', 'Moderada']
     },
     {
-        CodigoSeborrea: 1,
-        Seborrea: ["Ausente", "Leve"],
-        ID: "6AND"
+        NAME: 'DERMATOSIS POR NEOPLASIA TESTICULAR',
+        Seborrea: ['Ausente', 'Leve']
     },
     {
-        CodigoSeborrea: 1,
-        Seborrea: ["Ausente", "Leve"],
-        ID: "6SER"
+        NAME: 'DERMATOSIS POR HIPERESTROGENISMO EN HEMBRAS',
+        Seborrea: ['Leve']
     },
     {
-        CodigoSeborrea: 1,
-        Seborrea: ["Ausente", "Leve"],
-        ID: "6SOM"
+        NAME: 'DERMATOSIS QUE RESPONDE A LOS ESTRÓGENOS',
+        Seborrea: ['Ausente']
     },
     {
-        CodigoSeborrea: 2,
-        Seborrea: ["Leve"],
-        ID: "7MIC"
+        NAME: 'DERMATOFITOSIS POR MICROSPORUM',
+        Seborrea: ['Leve']
     },
     {
-        CodigoSeborrea: 2,
-        Seborrea: ["Leve"],
-        ID: "7TRI"
+        NAME: 'DERMATOFITOSIS POR TRICOPHYTON',
+        Seborrea: ['Leve', 'Moderada']
     },
     {
-        CodigoSeborrea: 2,
-        Seborrea: ["Leve"],
-        ID: "7MAL"
+        NAME: 'DERMATITIS POR MALASSEZIA',
+        Seborrea: ['Leve', 'Moderada']
     },
     {
-        CodigoSeborrea: 0,
-        Seborrea: ["Ausente"],
-        ID: "7SPO"
+        NAME: 'SEBORREA PRIMARIA',
+        Seborrea: ['Intensa']
     },
     {
-        CodigoSeborrea: 4,
-        Seborrea: ["Intenso"],
-        ID: "8APRI"
+        NAME: 'SEBORREA SECUNDARIA',
+        Seborrea: ['Moderada', 'Intensa']
     },
     {
-        CodigoSeborrea: 4,
-        Seborrea: ["Intenso"],
-        ID: "8ASEC"
+        NAME: 'SEBORREA DEL BORDE DE LAS OREJAS',
+        Seborrea: ['Leve', 'Moderada']
     },
     {
-        CodigoSeborrea: 5,
-        Seborrea: ["Leve", "Intenso"],
-        ID: "8AORE"
+        NAME: 'HIPERPLASIA DE LA GLÁNDULA DE LA COLA',
+        Seborrea: ['Leve']
     },
     {
-        CodigoSeborrea: 2,
-        Seborrea: ["Leve"],
-        ID: "8ACOL"
+        NAME: 'HIPERQUERATOSIS NASO - DIGITAL IDIOPÁTICA',
+        Seborrea: ['Leve', 'Moderada', 'Intensa']
     },
     {
-        CodigoSeborrea: 2,
-        Seborrea: ["Leve"],
-        ID: "8BNAS"
+        NAME: 'DERMATOSIS QUE RESPONDE A LA VITAMINA A',
+        Seborrea: ['Intensa']
     },
     {
-        CodigoSeborrea: 4,
-        Seborrea: ["Intenso"],
-        ID: "8CVIT"
+        NAME: 'DERMATOSIS QUE RESPONDE AL ZINC',
+        Seborrea: ['Intensa']
     },
     {
-        CodigoSeborrea: 4,
-        Seborrea: ["Intenso"],
-        ID: "8CZ1"
+        NAME: 'ALOPECÍA POR MUTACION DE COLOR',
+        Seborrea: ['Leve']
     },
     {
-        CodigoSeborrea: 4,
-        Seborrea: ["Intenso"],
-        ID: "8CZ2"
+        NAME: 'DERMATITIS ACRAL POR LAMIDO',
+        Seborrea: ['Ausente']
     },
     {
-        CodigoSeborrea: 5,
-        Seborrea: ["Ausente", "Leve", "Intenso"],
-        ID: "9ACA"
+        NAME: 'OTITIS EXTERNA',
+        Seborrea: ['Leve', 'Moderada', 'Intensa']
     },
     {
-        CodigoSeborrea: 5,
-        Seborrea: ["Ausente", "Leve", "Intenso"],
-        ID: "9ACA2"
+        NAME: 'ENFERMEDAD DE LOS SACOS ANALES',
+        Seborrea: ['Ausente']
     },
     {
-        CodigoSeborrea: 2,
-        Seborrea: ["Leve"],
-        ID: "9MUT"
+        NAME: 'FÍSTULAS PERIANALES',
+        Seborrea: ['Ausente']
     },
     {
-        CodigoSeborrea: 2,
-        Seborrea: ["Leve"],
-        ID: "9EPI"
+        NAME: 'CELULITIS JUVENIL',
+        Seborrea: ['Ausente']
     },
     {
-        CodigoSeborrea: 0,
-        Seborrea: ["Ausente"],
-        ID: "9LICK"
+        NAME: 'ALOPECÍA O CALVICIE PATRÓN',
+        Seborrea: ['Ausente']
     },
     {
-        CodigoSeborrea: 0,
-        Seborrea: ["Ausente"],
-        ID: "9FLAN"
+        NAME: 'FORUNCULOSIS EOSINOFÍLICA',
+        Seborrea: ['Ausente']
     },
     {
-        CodigoSeborrea: 3,
-        Seborrea: ["Intenso"],
-        ID: "9OTI"
-    },
-    {
-        CodigoSeborrea: 1,
-        Seborrea: ["Ausente", "Leve"],
-        ID: "9ANO"
+        NAME: 'VASCULITIS DEL BORDE DE LAS OREJAS',
+        Seborrea: ['Descamación y costras']
     }
 ]
-

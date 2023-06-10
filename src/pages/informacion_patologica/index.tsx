@@ -5,7 +5,6 @@ import DataList from '@/pages/informacion_patologica/InformacionComponents/dataL
 import { Capitulos, Codigos } from '../../../public/data/index';
 import Image from 'next/image';
 export default function InformacionPatologica() {
-
   return (
     <GlobalLayout>
       <Typography align='left' variant='h4' marginTop={1}>
@@ -15,12 +14,12 @@ export default function InformacionPatologica() {
       < Box sx={{ flexGrow: 1 }} marginX={2}>
         {
           Capitulos.map((capitulos) => (
-            <>
+            <div key={capitulos.Titulo + "Container"}>
               <Typography variant='h4' marginBottom={1} marginTop={4} key={capitulos.Titulo}>
                 {capitulos.Titulo}
               </Typography>
-              <DataList enfermedades={capitulos.Items} />
-            </>
+              <DataList key={capitulos.Titulo + "DataList"} enfermedades={capitulos.Items} />
+            </div>
           ))
         }
       </Box>

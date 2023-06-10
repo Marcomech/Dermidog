@@ -16,7 +16,7 @@ export default function GlobalLayout({ children }: Props) {
       <Head>
         <title>Dermidog</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="../assets/favIcon.ico" />
+        <link rel="icon" href='../favIcon.ico' />
       </Head>
       <ThemeProvider theme={theme}>
         <div style={{

@@ -1,4 +1,4 @@
-import { AreaDetail, PruritoDetail, SeborreaDetail } from "../../public/Listas/index";
+import { AreaDetail, PruritoDetail, SeborreaDetail } from "../Diagnostico/Listas/index";
 
 type formType = {
   page: number,

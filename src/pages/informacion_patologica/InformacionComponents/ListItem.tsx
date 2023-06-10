@@ -8,20 +8,19 @@ interface ListItemProps {
 
 export default function ListItem({ name }: ListItemProps) {
 
-
-    console.log(name)
     const [open, setOpen] = useState(false)
     const handleOpen = () => { setOpen(true) };
     const handleClose = () => { setOpen(false) };
 
     return (<>
         <Button
-            key={name}
+            key={name + "Button"}
             sx={{ marginBottom: 2, }}
             variant="contained" onClick={handleOpen} fullWidth>
             {name}
         </Button>
         <Dialog
+            key={name + "Dialog"}
             fullWidth={true}
             style={{ paddingRight: "10vw", paddingLeft: "10vw" }}
             open={open}
