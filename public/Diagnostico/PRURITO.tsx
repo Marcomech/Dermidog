@@ -1,11 +1,12 @@
-const PruritoValues = [
+export const PruritoValues = [
     'Ausente',
     'Leve',
     'Moderado',
     'Intenso',
     'Por contaminación bacteriana'
 ] as const;
-export type PruritoDetail = typeof PruritoValues[number];
+
+type PruritoDetail = typeof PruritoValues[number];
 
 export type PruritoType = {
     Prurito: PruritoDetail[]

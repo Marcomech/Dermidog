@@ -1,4 +1,4 @@
-const AreaValues = [
+export const AreaValues = [
     'Abdomen',
     'Almohadillas plantares',
     'Alopecia (Parcial)',
@@ -133,7 +133,7 @@ const AreaValues = [
     'Vulva',
 ] as const;
 
-export type AreaDetail = typeof AreaValues[number];
+type AreaDetail = typeof AreaValues[number];
 
 export type AreaType = {
     Area: AreaDetail[];

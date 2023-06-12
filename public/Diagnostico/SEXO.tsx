@@ -1,4 +1,4 @@
-const SexoValues = [
+export const SexoValues = [
   "Afecta particularmente a las razas con pliegues como: Bulldog, Pekines, Pug, Boston terrier, Shar-Pei, San Bernardo, Cocker spaniel, Basset hound.No hay predilección por sexo excepto en caso del pliegue vulvar y entre ambas mamas",
   "Sin predilección de raza o sexo, tiene mayor incidencia en animales adultos y de pelo largo",
   "Preferentemente cachorros de todas las razas y sexo hasta la pubertad",
@@ -59,7 +59,7 @@ const SexoValues = [
   "No hay predilección por edad y sexo.Es más frecuente en la raza Dachshound pero puede ocasionalmente afectar otras razas o mestizos",
 ] as const;
 
-export type SexoDetail = typeof SexoValues[number];
+type SexoDetail = typeof SexoValues[number];
 
 export type SexoType = {
   Sexo: SexoDetail[];

@@ -1,4 +1,4 @@
-const SeborreaValues = [
+export const SeborreaValues = [
     'Ausente',
     'Leve',
     'Moderada',
@@ -6,7 +6,9 @@ const SeborreaValues = [
     'Por contaminación',
     'Descamación y costras'
 ] as const;
-export type SeborreaDetail = typeof SeborreaValues[number];
+
+type SeborreaDetail = typeof SeborreaValues[number];
+
 export type SeborreaType = {
     Seborrea: SeborreaDetail[];
     NAME: string;

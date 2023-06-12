@@ -1,355 +1,598 @@
-const LesionesDermValues = [
-  "a) Exudado seroso o serosanguinolento", "b) Erosión amarillenta-roja y hñameda",
-  "a) Exudado seroso o serosanguinolento", "b) Erosión amarillenta-roja, hñameda de evolución aguda", "c) Alopecia de formas circulares y de tamañ1o variable", "d) Pelos periféricos hñamedos y pegoteados", "El tamañ1o va desde unos 3 cm de diámetro, hasta tomar grandes extensiones y perder su contorno circular, a medida que continñaa el autotrauma",
-  "a) Pápulas", "b) Pñastulas", "c) Collarete epidérmico",
-  "a) Pñastulas y pápulas foliculares.Caracterizado por la presencia de pelos en su interior", "b) Pequeñ1as protuberancias que elevan los pelos en dorso y lateral de tronco, dando una imagen de dermatitis miliar", "e) En los casos crónicos, cuando las pápulas, pñastulas y sus costras se desprenden junto con los pelos, le dan a la piel un aspecto de tela apolillada", "d) También es posible observar el collarete epidérmico hiperpigmentado en su centro, que le da a la lesión el aspecto de ojo de buey,",
-  "a) Pñastulas rotas", "b) collaretes muy grandes", "c) Ojos de buey",
-  "a) Pñastulas rotas", "b) erosión", "c) alopecia", "d) costras", "e) fisuras",
-  "a) Forunculosis, celulitis, ulceras y fistulas", "b) Edema y exudados sero-hemo-purulento", "e) costras, alopecia e hiperpigmentación",
-  "a) Exudado seroso o serosanguinolento", "b) Erosión amarillenta-roja, hñameda de evolución aguda", "c) Alopecia de tamañ1o variable", "d) Pelos periféricos hñamedos y pegoteados", "e) Pápulas satélites", "f) erosiones, excoriaciones, ulceras y costras",
-  "a) Forunculosis", "b) Edema y exudado sero-hemo-purulento",
-  "a) Foliculitis, forunculosis, pñastulas", "b) Exudado serosanguinoliento o seropurulento",
-  "a) Edema", "b) Fístulas", "c) Exudados seroso, serosanguinolientoo seropurulento", "b) nódulos ñanicos o mñaltiples",
-  "a) Exudado serosanguinolento o seropurulento", "b) Fístulas", "e) Proliferación de tejidos con fisuras",
-  "Foliculitis, pápulas, eritema, alopecia, cambio de coloración del pelaje por el lamido frecuente",
-  "a) Foliculitis, alopecia, pápulas, eritema, costras", "b) Leve hiperpigmentación e hiperqueratosis",
-  "a) Foliculitis, alopecia, pápulas, eritema, costras", "b) Hiperpigmentación, liquenificación",
-  "a) Eritema, alopecia, foliculitis, erosiones",
-  "a) Eritema, alopecia, foliculitis, hiperpigmentacion", "b) Pápulas, costras, pñastulas", "c) Otitis", "d) Erosiones, excoriaciones",
-  "a) Eritema, alopecia, foliculitis, hiperpigmentacion, liquenificacion", "b) Pápulas, costras, pñastulas", "c) Otitis", "d) Erosiones, excoriaciones",
-  "a) Eritema, vesículas, pñastulas", "b) Costras, descamaciones", "e) hiperqueratosis de las almohadillas plantares", "d) Signo de Nikolsky positivo",
-  "a) Erosiones mucocutaneas, alopecia", "b) Eritema, costras, descamaciones", "c) LesionesDerm rodeadas por collarete epidérmico", "d) Ulceras bucales", "e) Signo de Nikolsky positivo",
-  "a) Eritema, alopecia, vesículas, pñastulas", "b) Costras, descamaciones",
-  "Eritema, alopecia, erosiones, ulceraciones en piel y ulceras bucales",
-  "a) Cualquier manifestación cutánea puedes ser dada por L.E.S., el LED puede ser una manifestación del LES", "b) Eritema, alopecia, costras, descamaciones", "e) Ulceras e hiperqueratosis de las almohadillas plantaras",
-  "a) Eritema, alopecia, ulceración y costras", "b) Despigmentación de planum nasal", "c) alisamiento de la trufa",
-  "a) Eritema, alopecia, erosión, ulceración y costras",
-  "a) Eritema, alopecia, collaretes, vesículas, ulceración y costras",
-  "a) Alopecia parcial", "b) Eritema, escamas, costras", "e) Erosiones, ulceraciones", "d) Onicomadesis y onicorrexia",
-  "a) Alopecia parcial, eritema", "b) Foliculitis", "c) descamación, costras",
-  "a) Alopecia, foliculitis", "b) Eritema, secreciones sero-hemorragicas-purulentas", "e) Costras, descamaciones",
-  "a) Pápulas, costras", "b) Alopecia parcial", "e) Hiperpigmentación, hiperqueratosis", "d) Reflejo otopruriginoso positivo",
-  "a) Otitis y alopecia cara externa pabellón auricular", "b) Descamación con cerumen seco color marrón", "e) Prurito en cabeza y cuello",
-  "'Escamas' grisaceas cubriendo el manto piloso",
-  "a) Alopecia sin inflamación,", "b) piel fina e hipotónica", "c) Venas mamarias visibles,", "d) calcinosis cutis", "e) Pelo opaco y decolorado", "f) Piodermia secundaria, parches seborreicos, comedones",
-  "a) Alopecia parcial sin inflamación", "b) Hiperpigmentación uniforme", "e) El pelo se mantiene en la cabeza, y en las extremidades", "d) Otitis poco frecuente", "e) sobrecrecimiento de Malassezias y bacterias",
-  "a) Alopecia sin inflamación,", "b) piel fina e hipotónica", "c) Hiperpigmentación", "d) Otitis, foliculitis secundarias",
-  "a) Alopecia sin inflamación", "b) Hiperpigmentación", "c) Hipertrofia de los pezones", "d) Prepucio péndulo", "e) Otitis", "f) piel engrosada", "g) melanosis macular perineal", "h) eritema e hiperpigmentación del rafe prepucial medial",
-  "a) Piel engrosada y alopécica", "b) Hiperpigmentación", "c) Vulva hiperpigmentada y grande", "d) Otitis",
-  "a) alopecia sin inflamación", "b) Hipopigmentada", "e) Vulva infantil", "d) Pezones infantiles", "e) piel muy delgada",
-  "a) Alopecia circular y ausencia total de pelo", "b) Descamaciones seborreicas", "e) Foliculitis por contaminación bacteriana",
-  "a) Alopecia irregular, expansivo no circular, expansiva", "b) Foliculitis", "e) hiperpigmentación", "d ) Onicomicosis",
-  "a) Piel eritematosa y alopécica", "b) LesionesDerm oleosa", "e) Olor seborreico", "d) Otitis", "e) costras amarillentas",
-  "dependen de la etiología pero En General son:", "a) Descamación", "b) Parches seborreicos en areas circunscriptas", "c) Olor seborreico", "d) Otitis", "e) alopecia",
-  "van a incluir los de la enfermedad primaria pero En General son:", "a) Descamación y alopecia", "b) Parches seborreicos en áreas circunscriptas", "c) Olor seborreico intenso", "d) Otitis",
-  "a) Descamación y alopecia", "b) Fisuras, Ulceras", "c) Hemorragias", "d) costras",
-  "a) Area alopécica circular a ovoide", "b) Descamaciones",
-  "a) Hiperqueratosis y alopecia", "b) Fisuras y erosiones",
-  "a) Hiperqueratosis, descamación, alopecia", "b) Olor seborreico", "e) Pelo sin brillo y se enreda fácilmente", "d) Otitis",
-  "a) Eritema, alopecia, costras, descamaciones", "b) Exudados serosos", "e) Hiperpigmentación, hiperqueratosis",
-  "a) Fractura de los pelos, alguno de ellos vuelven a crecer", "y esta tendencia decrece con el tiempo", "b) Alopecia parcial", "e) Descamaciones", "d) Foliculitis bacteriana secundaria",
-  "a) Alopecia central por erosión, ulceras", "b) Borde periférico fibrosos y oscuro",
-  "a) Eritema de la cara interna de pabellón auricular, del conducto vertical y horizontal", "b) Descamaciones", "e) Mal olor", "d) Otitis",
-  "a) Edema y alopecia", "b) prurito dolor manifestado por sentarse y arrastrar el ano contra el piso o por lamido de la región", "c) Abscedación, fístulas", "Responsable de algunas de las dermatitis erosivas hñamedas agudas de la región",
-  "Líquido seroso o serosanguinolento o seropurulento", "Alopecia", "Fístulas", "Ulceras", "cicatrices",
-  "a) Edema y alopecia", "b) Pápulas y pñastulas", "e) Fístulas, supuración hemopurulenta", "d) Costras amarillentas",
-  "a) alopecia parcial", "b) pelo miniaturizado",
-  "a) Forunculosis", "b) Edema y exudado sero-hemo-purulento",
-  "a) inflamación y engrosamiento", "b) ñalceras y costras", "c) pérdida de tejido(lesiones en sacabocados)", "d) cicatriz"
+export const LesionesDermValues = [
+  'Exudado seroso o serosanguinolento',
+  'Erosión amarillenta, roja y húmeda',
+  'Erosión amarillenta, roja, húmeda de evolución aguda',
+  'Alopecia de formas circulares y de tamaño variable',
+  'Pelos periféricos húmedos y pegoteados',
+  'El tamaño va desde unos 3 cm de diámetro, hasta tomar grandes extensiones y perder su contorno circular, a medida que continúa el autotrauma',
+  'Pápulas',
+  'Pústulas',
+  'Collarete epidérmico',
+  'Pústulas y pápulas foliculares.Caracterizado por la presencia de pelos en su interior',
+  'Pequeñas protuberancias que elevan los pelos en dorso y lateral de tronco, dando una imagen de dermatitis miliar',
+  'En los casos crónicos, cuando las pápulas, Pústulas y sus costras se desprenden junto con los pelos, le dan a la piel un aspecto de tela apolillada',
+  'También es posible observar el collarete epidérmico hiperpigmentado en su centro, que le da a la lesión el aspecto de ojo de buey',
+  'Pústulas rotas',
+  'Collaretes muy grandes',
+  'Ojos de buey',
+  'Erosión',
+  'Alopecia',
+  'Costras',
+  'Fisuras',
+  'Forunculosis, celulitis, ulceras y fistulas',
+  'Edema y exudados sero, hemo, purulento',
+  'Costras', 'alopecia e hiperpigmentación',
+  'Alopecia de tamaño variable',
+  'Pápulas satélites',
+  'Erosiones, excoriaciones, ulceras y costras',
+  'Forunculosis',
+  'Edema y exudado sero, hemo, purulento',
+  'Foliculitis, forunculosis, Pústulas',
+  'Exudado serosanguinoliento o seropurulento',
+  'Edema',
+  'Fístulas',
+  'Exudados seroso, serosanguinolientoo seropurulento',
+  'Nódulos únicos o múltiples',
+  'Exudado serosanguinolento o seropurulento',
+  'Proliferación de tejidos con fisuras',
+  'Foliculitis', 'pápulas', 'eritema', 'alopecia', 'cambio de coloración del pelaje por el lamido frecuente',
+  'Foliculitis', 'alopecia, pápulas, eritema, costras',
+  'Leve hiperpigmentación e hiperqueratosis',
+  'Hiperpigmentación, liquenificación',
+  'Eritema', 'alopecia', 'foliculitis', 'erosiones',
+  'Eritema', 'alopecia', 'foliculitis', 'hiperpigmentacion',
+  'Pápulas', 'costras', 'Pústulas',
+  'Otitis',
+  'Erosiones, excoriaciones',
+  'Eritema', 'alopecia', 'foliculitis', 'hiperpigmentacion', 'liquenificacion',
+  'Eritema', 'vesículas', 'Pústulas',
+  'Costras', 'descamaciones',
+  'Hiperqueratosis de las almohadillas plantares',
+  'Signo de Nikolsky positivo',
+  'Erosiones mucocutaneas', 'alopecia',
+  'Eritema, costras, descamaciones',
+  'LesionesDerm rodeadas por collarete epidérmico',
+  'Ulceras bucales',
+  'Eritema', 'alopecia, vesículas, Pústulas',
+  'Eritema', 'alopecia, erosiones, ulceraciones en piel y ulceras bucales',
+  'Cualquier manifestación cutánea puedes ser dada por L.E.S., el LED puede ser una manifestación del LES',
+  'Eritema', 'alopecia, costras, descamaciones',
+  'Ulceras e hiperqueratosis de las almohadillas plantaras',
+  'Eritema', 'alopecia, ulceración y costras',
+  'Despigmentación de planum nasal',
+  'Alisamiento de la trufa',
+  'Eritema', 'alopecia, erosión, ulceración y costras',
+  'Eritema', 'alopecia, collaretes, vesículas, ulceración y costras',
+  'Alopecia parcial',
+  'Eritema', 'escamas', 'costras',
+  'Erosiones, ulceraciones',
+  'Onicomadesis y onicorrexia',
+  'Alopecia parcial', 'eritema',
+  'Foliculitis',
+  'Descamación, costras',
+  'Alopecia', 'foliculitis',
+  'Eritema', 'secreciones sero, hemorragicas, purulentas',
+  'Pápulas, costras',
+  'Hiperpigmentación, hiperqueratosis',
+  'Reflejo otopruriginoso positivo',
+  'Otitis y alopecia cara externa pabellón auricular',
+  'Descamación con cerumen seco color marrón',
+  'Prurito en cabeza y cuello',
+  '"Escamas" grisaceas cubriendo el manto piloso',
+  'Alopecia sin inflamación',
+  'Piel fina e hipotónica',
+  'Venas mamarias visibles',
+  'Calcinosis cutis',
+  'Pelo opaco y decolorado',
+  'Piodermia secundaria, parches seborreicos, comedones',
+  'Alopecia parcial sin inflamación',
+  'Hiperpigmentación uniforme',
+  'El pelo se mantiene en la cabeza, y en las extremidades',
+  'Otitis poco frecuente',
+  'sobrecrecimiento de Malassezias y bacterias',
+  'Hiperpigmentación',
+  'Otitis', 'foliculitis secundarias',
+  'Alopecia sin inflamación',
+  'Hipertrofia de los pezones',
+  'Prepucio péndulo',
+  'Piel engrosada',
+  'melanosis macular perineal',
+  'Eritema e hiperpigmentación del rafe prepucial medial',
+  'Piel engrosada y alopécica',
+  'Vulva hiperpigmentada y grande',
+  'Hipopigmentada',
+  'Vulva infantil',
+  'Pezones infantiles',
+  'Piel muy delgada',
+  'Alopecia circular y ausencia total de pelo',
+  'Descamaciones seborreicas',
+  'Foliculitis por contaminación bacteriana',
+  'Alopecia irregular, expansivo no circular, expansiva',
+  'Onicomicosis',
+  'Piel eritematosa y alopécica',
+  'LesionesDerm oleosa',
+  'Olor seborreico',
+  'Costras amarillentas',
+  'Dependen de la etiología pero En General son:',
+  'Descamación',
+  'Parches seborreicos en areas circunscriptas',
+  'van a incluir los de la enfermedad primaria pero En General son:',
+  'Descamación y alopecia',
+  'Parches seborreicos en áreas circunscriptas',
+  'Olor seborreico intenso',
+  'Fisuras', 'Ulceras',
+  'Hemorragias',
+  'Area alopécica circular a ovoide',
+  'Descamaciones',
+  'Edema y exudados sero, hemo, purulento',
+  'Hiperqueratosis y alopecia',
+  'Fisuras y erosiones',
+  'Hiperqueratosis, descamación', 'alopecia',
+  'Pelo sin brillo y se enreda fácilmente',
+  'Exudados serosos',
+  'Fractura de los pelos, alguno de ellos vuelven a crecer',
+  'Foliculitis bacteriana secundaria',
+  'Alopecia central por erosión, ulceras',
+  'Borde periférico fibrosos y oscuro',
+  'Eritema de la cara interna de pabellón auricular, del conducto vertical y horizontal',
+  'Mal olor',
+  'Edema y alopecia',
+  'Prurito dolor manifestado por sentarse y arrastrar el ano contra el piso o por lamido de la región',
+  'Abscedación, fístulas',
+  'Responsable de algunas de las dermatitis erosivas húmedas agudas de la región',
+  'Líquido seroso o serosanguinolento o seropurulento',
+  'Ulceras',
+  'Cicatrices',
+  'Pápulas y Pústulas',
+  'Fístulas, supuración hemopurulenta',
+  'Pelo miniaturizado',
+  'inflamación y engrosamiento',
+  'úlceras y costras',
+  'Pérdida de tejido(lesiones en sacabocados)',
+  'Cicatriz',
+  'Erosión amarillenta, roja y húmeda',
+  'Erosión amarillenta, roja, húmeda de evolución aguda',
+  'Erosión amarillenta, roja y húmeda',
+  'Edema y exudado sero, hemo, purulento',
+  'Eritema', 'secreciones sero, hemorragicas, purulentas',
+  'Alopecia sin inflamacion',
+  'También es posible observar el collarete epidérmico hiperpigmentado en su centro, que le da a la lesión el aspecto de ojo de buey'
 ] as const;
-export type LesionesDermDetail = typeof LesionesDermValues[number];
+
+type LesionesDermDetail = typeof LesionesDermValues[number];
+
 export type LesionesDermType = {
   LesionesDerm: LesionesDermDetail[];
   NAME: string;
 };
+
 export const LesionesDerm: LesionesDermType[] = [
   {
-    NAME: "DERMATITIS DE LOS PLIEGUES",
+    NAME: 'DERMATITIS DE LOS PLIEGUES',
     LesionesDerm: [
-      "a) Exudado seroso o serosanguinolento", "b) Erosión amarillenta-roja y hñameda"
+      'Exudado seroso o serosanguinolento',
+      'Erosión amarillenta, roja y húmeda'
     ]
   }, {
-    NAME: "DERMATITIS HÚMEDA AGUDA",
+    NAME: 'DERMATITIS HÚMEDA AGUDA',
     LesionesDerm: [
-      "a) Exudado seroso o serosanguinolento", "b) Erosión amarillenta-roja, hñameda de evolución aguda", "c) Alopecia de formas circulares y de tamañ1o variable", "d) Pelos periféricos hñamedos y pegoteados", "El tamañ1o va desde unos 3 cm de diámetro, hasta tomar grandes extensiones y perder su contorno circular, a medida que continñaa el autotrauma"
+      'Exudado seroso o serosanguinolento',
+      'Erosión amarillenta, roja, húmeda de evolución aguda',
+      'Alopecia de formas circulares y de tamaño variable',
+      'Pelos periféricos húmedos y pegoteados',
+      'El tamaño va desde unos 3 cm de diámetro, hasta tomar grandes extensiones y perder su contorno circular, a medida que continúa el autotrauma'
     ]
   }, {
-    NAME: "IMPÉTIGO",
+    NAME: 'IMPÉTIGO',
     LesionesDerm: [
-      "a) Pápulas", "b) Pñastulas", "c) Collarete epidérmico"
+      'Pápulas',
+      'Pústulas',
+      'Collarete epidérmico'
     ]
   }, {
-    NAME: "FOLICULITIS BACTERIANA SUPERFICIAL",
+    NAME: 'FOLICULITIS BACTERIANA SUPERFICIAL',
     LesionesDerm: [
-      "a) Pñastulas y pápulas foliculares.Caracterizado por la presencia de pelos en su interior", "b) Pequeñ1as protuberancias que elevan los pelos en dorso y lateral de tronco, dando una imagen de dermatitis miliar", "e) En los casos crónicos, cuando las pápulas, pñastulas y sus costras se desprenden junto con los pelos, le dan a la piel un aspecto de tela apolillada", "d) También es posible observar el collarete epidérmico hiperpigmentado en su centro, que le da a la lesión el aspecto de ojo de buey,"
+      'Pústulas y pápulas foliculares.Caracterizado por la presencia de pelos en su interior',
+      'Pequeñas protuberancias que elevan los pelos en dorso y lateral de tronco, dando una imagen de dermatitis miliar',
+      'En los casos crónicos, cuando las pápulas, Pústulas y sus costras se desprenden junto con los pelos, le dan a la piel un aspecto de tela apolillada',
+      'También es posible observar el collarete epidérmico hiperpigmentado en su centro, que le da a la lesión el aspecto de ojo de buey'
     ]
   }, {
-    NAME: "PIODERMIA SUPERFICIAL DISEMINADA",
+    NAME: 'PIODERMIA SUPERFICIAL DISEMINADA',
     LesionesDerm: [
-      "a) Pñastulas rotas", "b) collaretes muy grandes", "c) Ojos de buey"
+      'Pústulas rotas',
+      'Collaretes muy grandes',
+      'Ojos de buey'
     ]
   }, {
-    NAME: "PIODERMIA MUCOCUTÁNEA",
+    NAME: 'PIODERMIA MUCOCUTÁNEA',
     LesionesDerm: [
-      "a) Pñastulas rotas", "b) erosión", "c) alopecia", "d) costras", "e) fisuras"
+      'Pústulas rotas',
+      'Erosión',
+      'Alopecia',
+      'Costras',
+      'Fisuras'
     ]
   }, {
-    NAME: "PIODERMIA PROFUNDA DEL OVEJERO ALEMÁN",
+    NAME: 'PIODERMIA PROFUNDA DEL OVEJERO ALEMÁN',
     LesionesDerm: [
-      "a) Forunculosis, celulitis, ulceras y fistulas", "b) Edema y exudados sero-hemo-purulento", "e) costras, alopecia e hiperpigmentación"
+      'Forunculosis, celulitis, ulceras y fistulas',
+      'Edema y exudados sero, hemo, purulento',
+      'Costras', 'alopecia e hiperpigmentación'
     ]
   }, {
-    NAME: "FOLICULITIS-FORUNCULOSIS PIOTRAUMATICA",
+    NAME: 'FOLICULITIS, FORUNCULOSIS PIOTRAUMATICA',
     LesionesDerm: [
-      "a) Exudado seroso o serosanguinolento", "b) Erosión amarillenta-roja, hñameda de evolución aguda", "c) Alopecia de tamañ1o variable", "d) Pelos periféricos hñamedos y pegoteados", "e) Pápulas satélites", "f) erosiones, excoriaciones, ulceras y costras"
+      'Exudado seroso o serosanguinolento',
+      'Erosión amarillenta, roja, húmeda de evolución aguda',
+      'Alopecia de tamaño variable',
+      'Pelos periféricos húmedos y pegoteados',
+      'Pápulas satélites',
+      'Erosiones, excoriaciones, ulceras y costras'
     ]
   }, {
-    NAME: "FOLICULITIS Y FORUNCULOSIS NASAL",
+    NAME: 'FOLICULITIS Y FORUNCULOSIS NASAL',
     LesionesDerm: [
-      "a) Forunculosis", "b) Edema y exudado sero-hemo-purulento"
+      'Forunculosis',
+      'Edema y exudado sero, hemo, purulento'
     ]
   }, {
-    NAME: "FOLICULITIS FORUNCULOSIS DEL MENTÓN Y LABIOS",
+    NAME: 'FOLICULITIS FORUNCULOSIS DEL MENTÓN Y LABIOS',
     LesionesDerm: [
-      "a) Foliculitis, forunculosis, pñastulas", "b) Exudado serosanguinoliento o seropurulento"
+      'Foliculitis, forunculosis, Pústulas',
+      'Exudado serosanguinoliento o seropurulento'
     ]
   }, {
-    NAME: "FOLICULITIS Y FORUNCULOSIS PODAL",
+    NAME: 'FOLICULITIS Y FORUNCULOSIS PODAL',
     LesionesDerm: [
-      "a) Edema", "b) Fístulas", "c) Exudados seroso, serosanguinolientoo seropurulento", "b) nódulos ñanicos o mñaltiples"
+      'Edema',
+      'Fístulas',
+      'Exudados seroso, serosanguinolientoo seropurulento',
+      'Nódulos únicos o múltiples'
     ]
   }, {
-    NAME: "FOLICULITIS FORUNCULOSIS DE LOS CALLOS",
+    NAME: 'FOLICULITIS FORUNCULOSIS DE LOS CALLOS',
     LesionesDerm: [
-      "a) Exudado serosanguinolento o seropurulento", "b) Fístulas", "e) Proliferación de tejidos con fisuras"
+      'Exudado serosanguinolento o seropurulento',
+      'Fístulas',
+      'Proliferación de tejidos con fisuras'
     ]
   }, {
-    NAME: "DERMATITIS ALÉRGICA POR PULGAS EST. I",
+    NAME: 'DERMATITIS ALÉRGICA POR PULGAS EST. I',
     LesionesDerm: [
-      "Foliculitis, pápulas, eritema, alopecia, cambio de coloración del pelaje por el lamido frecuente"
+      'Foliculitis', 'pápulas', 'eritema', 'alopecia', 'cambio de coloración del pelaje por el lamido frecuente'
     ]
   }, {
-    NAME: "DERMATITIS ALÉRGICA POR PULGAS EST. II",
+    NAME: 'DERMATITIS ALÉRGICA POR PULGAS EST. II',
     LesionesDerm: [
-      "a) Foliculitis, alopecia, pápulas, eritema, costras", "b) Leve hiperpigmentación e hiperqueratosis"
+      'Foliculitis', 'alopecia, pápulas, eritema, costras',
+      'Leve hiperpigmentación e hiperqueratosis'
     ]
   }, {
-    NAME: "DERMATITIS ALÉRGICA POR PULGAS EST. III",
+    NAME: 'DERMATITIS ALÉRGICA POR PULGAS EST. III',
     LesionesDerm: [
-      "a) Foliculitis, alopecia, pápulas, eritema, costras", "b) Hiperpigmentación, liquenificación"
+      'Foliculitis', 'alopecia, pápulas, eritema, costras',
+      'Hiperpigmentación, liquenificación'
     ]
   }, {
-    NAME: "DERMATITIS ATÓPICA CANINA EST. I",
+    NAME: 'DERMATITIS ATÓPICA CANINA EST. I',
     LesionesDerm: [
-      "a) Eritema, alopecia, foliculitis, erosiones"
+      'Eritema', 'alopecia', 'foliculitis', 'erosiones'
     ]
   }, {
-    NAME: "DERMATITIS ATÓPICA CANINA EST. II",
+    NAME: 'DERMATITIS ATÓPICA CANINA EST. II',
     LesionesDerm: [
-      "a) Eritema, alopecia, foliculitis, hiperpigmentacion", "b) Pápulas, costras, pñastulas", "c) Otitis", "d) Erosiones, excoriaciones"
+      'Eritema', 'alopecia', 'foliculitis', 'hiperpigmentacion',
+      'Pápulas', 'costras', 'Pústulas',
+      'Otitis',
+      'Erosiones, excoriaciones'
     ]
   }, {
-    NAME: "DERMATITIS ATÓPICA CANINA EST. III",
+    NAME: 'DERMATITIS ATÓPICA CANINA EST. III',
     LesionesDerm: [
-      "a) Eritema, alopecia, foliculitis, hiperpigmentacion, liquenificacion", "b) Pápulas, costras, pñastulas", "c) Otitis", "d) Erosiones, excoriaciones"
+      'Eritema', 'alopecia', 'foliculitis', 'hiperpigmentacion', 'liquenificacion',
+      'Pápulas', 'costras', 'Pústulas',
+      'Otitis',
+      'Erosiones, excoriaciones'
     ]
   }, {
-    NAME: "REACCIÓN ADVERSA A LOS ALIMENTOS",
+    NAME: 'REACCIÓN ADVERSA A LOS ALIMENTOS',
     LesionesDerm: []
   }, {
-    NAME: "PÉNFIGO FOLIÁCEO",
+    NAME: 'PÉNFIGO FOLIÁCEO',
     LesionesDerm: [
-      "a) Eritema, vesículas, pñastulas", "b) Costras, descamaciones", "e) hiperqueratosis de las almohadillas plantares", "d) Signo de Nikolsky positivo"
+      'Eritema', 'vesículas', 'Pústulas',
+      'Costras', 'descamaciones',
+      'Hiperqueratosis de las almohadillas plantares',
+      'Signo de Nikolsky positivo'
     ]
   }, {
-    NAME: "PÉNFIGO VULGAR",
+    NAME: 'PÉNFIGO VULGAR',
     LesionesDerm: [
-      "a) Erosiones mucocutaneas, alopecia", "b) Eritema, costras, descamaciones", "c) LesionesDerm rodeadas por collarete epidérmico", "d) Ulceras bucales", "e) Signo de Nikolsky positivo"
+      'Erosiones mucocutaneas', 'alopecia',
+      'Eritema, costras, descamaciones',
+      'LesionesDerm rodeadas por collarete epidérmico',
+      'Ulceras bucales',
+      'Signo de Nikolsky positivo'
     ]
   }, {
-    NAME: "PÉNFIGO ERITEMATOSO",
+    NAME: 'PÉNFIGO ERITEMATOSO',
     LesionesDerm: [
-      "a) Eritema, alopecia, vesículas, pñastulas", "b) Costras, descamaciones"
+      'Eritema', 'alopecia, vesículas, Pústulas',
+      'Costras', 'descamaciones'
     ]
   }, {
-    NAME: "PENFIGOIDE BULLOSO",
+    NAME: 'PENFIGOIDE BULLOSO',
     LesionesDerm: [
-      "Eritema, alopecia, erosiones, ulceraciones en piel y ulceras bucales"
+      'Eritema', 'alopecia, erosiones, ulceraciones en piel y ulceras bucales'
     ]
   }, {
-    NAME: "LUPUS ERITEMATOSO SISTÉMICO",
+    NAME: 'LUPUS ERITEMATOSO SISTÉMICO',
     LesionesDerm: [
-      "a) Cualquier manifestación cutánea puedes ser dada por L.E.S., el LED puede ser una manifestación del LES", "b) Eritema, alopecia, costras, descamaciones", "e) Ulceras e hiperqueratosis de las almohadillas plantaras"
+      'Cualquier manifestación cutánea puedes ser dada por L.E.S., el LED puede ser una manifestación del LES',
+      'Eritema', 'alopecia, costras, descamaciones',
+      'Ulceras e hiperqueratosis de las almohadillas plantaras'
     ]
   }, {
-    NAME: "LUPUS ERITEMATOSO DISCOIDE",
+    NAME: 'LUPUS ERITEMATOSO DISCOIDE',
     LesionesDerm: [
-      "a) Eritema, alopecia, ulceración y costras", "b) Despigmentación de planum nasal", "c) alisamiento de la trufa"
+      'Eritema', 'alopecia, ulceración y costras',
+      'Despigmentación de planum nasal',
+      'Alisamiento de la trufa'
     ]
   }, {
-    NAME: "LUPUS MUCOCUTÁNEO",
+    NAME: 'LUPUS MUCOCUTÁNEO',
     LesionesDerm: [
-      "a) Eritema, alopecia, erosión, ulceración y costras"
+      'Eritema', 'alopecia, erosión, ulceración y costras'
     ]
   }, {
-    NAME: "LUPUS CUTÁNEO VESICULAR",
+    NAME: 'LUPUS CUTÁNEO VESICULAR',
     LesionesDerm: [
-      "a) Eritema, alopecia, collaretes, vesículas, ulceración y costras"
+      'Eritema', 'alopecia, collaretes, vesículas, ulceración y costras'
     ]
   }, {
-    NAME: "DERMATOMIOSITIS",
+    NAME: 'DERMATOMIOSITIS',
     LesionesDerm: [
-      "a) Alopecia parcial", "b) Eritema, escamas, costras", "e) Erosiones, ulceraciones", "d) Onicomadesis y onicorrexia"
+      'Alopecia parcial',
+      'Eritema', 'escamas', 'costras',
+      'Erosiones, ulceraciones',
+      'Onicomadesis y onicorrexia'
     ]
   }, {
-    NAME: "DEMODICOSIS LOCALIZADA",
+    NAME: 'DEMODICOSIS LOCALIZADA',
     LesionesDerm: [
-      "a) Alopecia parcial, eritema", "b) Foliculitis", "c) descamación, costras"
+      'Alopecia parcial', 'eritema',
+      'Foliculitis',
+      'Descamación, costras'
     ]
   }, {
-    NAME: "DEMODICOSIS GENERALIZADA",
+    NAME: 'DEMODICOSIS GENERALIZADA',
     LesionesDerm: [
-      "a) Alopecia, foliculitis", "b) Eritema, secreciones sero-hemorragicas-purulentas", "e) Costras, descamaciones"
+      'Alopecia', 'foliculitis',
+      'Eritema', 'secreciones sero, hemorragicas, purulentas',
+      'Costras', 'descamaciones'
     ]
   }, {
-    NAME: "SARNA SARCÓPTICA",
+    NAME: 'SARNA SARCÓPTICA',
     LesionesDerm: [
-      "a) Pápulas, costras", "b) Alopecia parcial", "e) Hiperpigmentación, hiperqueratosis", "d) Reflejo otopruriginoso positivo"
+      'Pápulas, costras',
+      'Alopecia parcial',
+      'Hiperpigmentación, hiperqueratosis',
+      'Reflejo otopruriginoso positivo'
     ]
   }, {
-    NAME: "SARNA OTODÉCTICA",
+    NAME: 'SARNA OTODÉCTICA',
     LesionesDerm: [
-      "a) Otitis y alopecia cara externa pabellón auricular", "b) Descamación con cerumen seco color marrón", "e) Prurito en cabeza y cuello"
+      'Otitis y alopecia cara externa pabellón auricular',
+      'Descamación con cerumen seco color marrón',
+      'Prurito en cabeza y cuello'
     ]
   }, {
-    NAME: "CHEILETIELOSIS",
+    NAME: 'CHEILETIELOSIS',
     LesionesDerm: [
-      "'Escamas' grisaceas cubriendo el manto piloso"
+      '"Escamas" grisaceas cubriendo el manto piloso'
     ]
   }, {
-    NAME: "DERMATOSIS POR HIPERADRENOCORTISISMO",
+    NAME: 'DERMATOSIS POR HIPERADRENOCORTISISMO',
     LesionesDerm: [
-      "a) Alopecia sin inflamación,", "b) piel fina e hipotónica", "c) Venas mamarias visibles,", "d) calcinosis cutis", "e) Pelo opaco y decolorado", "f) Piodermia secundaria, parches seborreicos, comedones"
+      'Alopecia sin inflamación',
+      'Piel fina e hipotónica',
+      'Venas mamarias visibles',
+      'Calcinosis cutis',
+      'Pelo opaco y decolorado',
+      'Piodermia secundaria, parches seborreicos, comedones'
     ]
   }, {
-    NAME: "DERMATOSIS POR HIPOTIROIDISMO",
+    NAME: 'DERMATOSIS POR HIPOTIROIDISMO',
     LesionesDerm: [
-      "a) Alopecia parcial sin inflamación", "b) Hiperpigmentación uniforme", "e) El pelo se mantiene en la cabeza, y en las extremidades", "d) Otitis poco frecuente", "e) sobrecrecimiento de Malassezias y bacterias"
+      'Alopecia parcial sin inflamación',
+      'Hiperpigmentación uniforme',
+      'El pelo se mantiene en la cabeza, y en las extremidades',
+      'Otitis poco frecuente',
+      'sobrecrecimiento de Malassezias y bacterias'
     ]
   }, {
-    NAME: "ALOPECÍA X",
+    NAME: 'ALOPECÍA X',
     LesionesDerm: [
-      "a) Alopecia sin inflamación,", "b) piel fina e hipotónica", "c) Hiperpigmentación", "d) Otitis, foliculitis secundarias"
+      'Alopecia sin inflamación',
+      'Piel fina e hipotónica',
+      'Hiperpigmentación',
+      'Otitis', 'foliculitis secundarias'
     ]
   }, {
-    NAME: "DERMATOSIS POR NEOPLASIA TESTICULAR",
+    NAME: 'DERMATOSIS POR NEOPLASIA TESTICULAR',
     LesionesDerm: [
-      "a) Alopecia sin inflamación", "b) Hiperpigmentación", "c) Hipertrofia de los pezones", "d) Prepucio péndulo", "e) Otitis", "f) piel engrosada", "g) melanosis macular perineal", "h) eritema e hiperpigmentación del rafe prepucial medial"
+      'Alopecia sin inflamación',
+      'Hiperpigmentación',
+      'Hipertrofia de los pezones',
+      'Prepucio péndulo',
+      'Otitis',
+      'Piel engrosada',
+      'melanosis macular perineal',
+      'Eritema e hiperpigmentación del rafe prepucial medial'
     ]
   }, {
-    NAME: "DERMATOSIS POR HIPERESTROGENISMO EN HEMBRAS",
+    NAME: 'DERMATOSIS POR HIPERESTROGENISMO EN HEMBRAS',
     LesionesDerm: [
-      "a) Piel engrosada y alopécica", "b) Hiperpigmentación", "c) Vulva hiperpigmentada y grande", "d) Otitis"
+      'Piel engrosada y alopécica',
+      'Hiperpigmentación',
+      'Vulva hiperpigmentada y grande',
+      'Otitis'
     ]
   }, {
-    NAME: "DERMATOSIS QUE RESPONDE A LOS ESTRÓGENOS",
+    NAME: 'DERMATOSIS QUE RESPONDE A LOS ESTRÓGENOS',
     LesionesDerm: [
-      "a) alopecia sin inflamación", "b) Hipopigmentada", "e) Vulva infantil", "d) Pezones infantiles", "e) piel muy delgada"
+      'Alopecia sin inflamación',
+      'Hipopigmentada',
+      'Vulva infantil',
+      'Pezones infantiles',
+      'Piel muy delgada'
     ]
   }, {
-    NAME: "DERMATOFITOSIS POR MICROSPORUM",
+    NAME: 'DERMATOFITOSIS POR MICROSPORUM',
     LesionesDerm: [
-      "a) Alopecia circular y ausencia total de pelo", "b) Descamaciones seborreicas", "e) Foliculitis por contaminación bacteriana"
+      'Alopecia circular y ausencia total de pelo',
+      'Descamaciones seborreicas',
+      'Foliculitis por contaminación bacteriana'
     ]
   }, {
-    NAME: "DERMATOFITOSIS POR TRICOPHYTON",
+    NAME: 'DERMATOFITOSIS POR TRICOPHYTON',
     LesionesDerm: [
-      "a) Alopecia irregular, expansivo no circular, expansiva", "b) Foliculitis", "e) hiperpigmentación", "d ) Onicomicosis"
+      'Alopecia irregular, expansivo no circular, expansiva',
+      'Foliculitis',
+      'Hiperpigmentación',
+      'Onicomicosis'
     ]
   }, {
-    NAME: "DERMATITIS POR MALASSEZIA",
+    NAME: 'DERMATITIS POR MALASSEZIA',
     LesionesDerm: [
-      "a) Piel eritematosa y alopécica", "b) LesionesDerm oleosa", "e) Olor seborreico", "d) Otitis", "e) costras amarillentas"
+      'Piel eritematosa y alopécica',
+      'LesionesDerm oleosa',
+      'Olor seborreico',
+      'Otitis',
+      'Costras amarillentas'
     ]
   }, {
-    NAME: "SEBORREA PRIMARIA",
+    NAME: 'SEBORREA PRIMARIA',
     LesionesDerm: [
-      "dependen de la etiología pero En General son:", "a) Descamación", "b) Parches seborreicos en areas circunscriptas", "c) Olor seborreico", "d) Otitis", "e) alopecia"
+      'Dependen de la etiología pero En General son:',
+      'Descamación',
+      'Parches seborreicos en areas circunscriptas',
+      'Olor seborreico',
+      'Otitis',
+      'Alopecia'
     ]
   }, {
-    NAME: "SEBORREA SECUNDARIA",
+    NAME: 'SEBORREA SECUNDARIA',
     LesionesDerm: [
-      "van a incluir los de la enfermedad primaria pero En General son:", "a) Descamación y alopecia", "b) Parches seborreicos en áreas circunscriptas", "c) Olor seborreico intenso", "d) Otitis"
+      'van a incluir los de la enfermedad primaria pero En General son:',
+      'Descamación y alopecia',
+      'Parches seborreicos en áreas circunscriptas',
+      'Olor seborreico intenso',
+      'Otitis'
     ]
   }, {
-    NAME: "SEBORREA DEL BORDE DE LAS OREJAS",
+    NAME: 'SEBORREA DEL BORDE DE LAS OREJAS',
     LesionesDerm: [
-      "a) Descamación y alopecia", "b) Fisuras, Ulceras", "c) Hemorragias", "d) costras"
+      'Descamación y alopecia',
+      'Fisuras', 'Ulceras',
+      'Hemorragias',
+      'Costras'
     ]
   }, {
-    NAME: "HIPERPLASIA DE LA GLÁNDULA DE LA COLA",
+    NAME: 'HIPERPLASIA DE LA GLÁNDULA DE LA COLA',
     LesionesDerm: [
-      "a) Area alopécica circular a ovoide", "b) Descamaciones"
+      'Area alopécica circular a ovoide',
+      'Descamaciones'
     ]
   }, {
-    NAME: "HIPERQUERATOSIS NASO - DIGITAL IDIOPÁTICA",
+    NAME: 'HIPERQUERATOSIS NASO, DIGITAL IDIOPÁTICA',
     LesionesDerm: [
-      "a) Hiperqueratosis y alopecia", "b) Fisuras y erosiones"
+      'Hiperqueratosis y alopecia',
+      'Fisuras y erosiones'
     ]
   }, {
-    NAME: "DERMATOSIS QUE RESPONDE A LA VITAMINA A",
+    NAME: 'DERMATOSIS QUE RESPONDE A LA VITAMINA A',
     LesionesDerm: [
-      "a) Hiperqueratosis, descamación, alopecia", "b) Olor seborreico", "e) Pelo sin brillo y se enreda fácilmente", "d) Otitis"
+      'Hiperqueratosis, descamación', 'alopecia',
+      'Olor seborreico',
+      'Pelo sin brillo y se enreda fácilmente',
+      'Otitis'
     ]
   }, {
-    NAME: "DERMATOSIS QUE RESPONDE AL ZINC",
+    NAME: 'DERMATOSIS QUE RESPONDE AL ZINC',
     LesionesDerm: [
-      "a) Eritema, alopecia, costras, descamaciones", "b) Exudados serosos", "e) Hiperpigmentación, hiperqueratosis"
+      'Eritema', 'alopecia, costras, descamaciones',
+      'Exudados serosos',
+      'Hiperpigmentación, hiperqueratosis'
     ]
   }, {
-    NAME: "ALOPECÍA POR MUTACION DE COLOR",
+    NAME: 'ALOPECÍA POR MUTACION DE COLOR',
     LesionesDerm: [
-      "a) Fractura de los pelos, alguno de ellos vuelven a crecer", "y esta tendencia decrece con el tiempo", "b) Alopecia parcial", "e) Descamaciones", "d) Foliculitis bacteriana secundaria"
+      'Fractura de los pelos, alguno de ellos vuelven a crecer',
+
+      'Alopecia parcial',
+      'Descamaciones',
+      'Foliculitis bacteriana secundaria'
     ]
   }, {
-    NAME: "DERMATITIS ACRAL POR LAMIDO",
+    NAME: 'DERMATITIS ACRAL POR LAMIDO',
     LesionesDerm: [
-      "a) Alopecia central por erosión, ulceras", "b) Borde periférico fibrosos y oscuro"
+      'Alopecia central por erosión, ulceras',
+      'Borde periférico fibrosos y oscuro'
     ]
   }, {
-    NAME: "OTITIS EXTERNA",
+    NAME: 'OTITIS EXTERNA',
     LesionesDerm: [
-      "a) Eritema de la cara interna de pabellón auricular, del conducto vertical y horizontal", "b) Descamaciones", "e) Mal olor", "d) Otitis"
+      'Eritema de la cara interna de pabellón auricular, del conducto vertical y horizontal',
+      'Descamaciones',
+      'Mal olor',
+      'Otitis'
     ]
   }, {
-    NAME: "ENFERMEDAD DE LOS SACOS ANALES",
+    NAME: 'ENFERMEDAD DE LOS SACOS ANALES',
     LesionesDerm: [
-      "a) Edema y alopecia", "b) prurito dolor manifestado por sentarse y arrastrar el ano contra el piso o por lamido de la región", "c) Abscedación, fístulas", "Responsable de algunas de las dermatitis erosivas hñamedas agudas de la región"
+      'Edema y alopecia',
+      'Prurito dolor manifestado por sentarse y arrastrar el ano contra el piso o por lamido de la región',
+      'Abscedación, fístulas',
+      'Responsable de algunas de las dermatitis erosivas húmedas agudas de la región'
     ]
   }, {
-    NAME: "FÍSTULAS PERIANALES",
+    NAME: 'FÍSTULAS PERIANALES',
     LesionesDerm: [
-      "Líquido seroso o serosanguinolento o seropurulento", "Alopecia", "Fístulas", "Ulceras", "cicatrices"
+      'Líquido seroso o serosanguinolento o seropurulento',
+      'Alopecia',
+      'Fístulas',
+      'Ulceras',
+      'Cicatrices'
     ]
   }, {
-    NAME: "CELULITIS JUVENIL",
+    NAME: 'CELULITIS JUVENIL',
     LesionesDerm: [
-      "a) Edema y alopecia", "b) Pápulas y pñastulas", "e) Fístulas, supuración hemopurulenta", "d) Costras amarillentas"
+      'Edema y alopecia',
+      'Pápulas y Pústulas',
+      'Fístulas, supuración hemopurulenta',
+      'Costras amarillentas'
     ]
   }, {
-    NAME: "ALOPECÍA O CALVICIE PATRÓN",
+    NAME: 'ALOPECÍA O CALVICIE PATRÓN',
     LesionesDerm: [
-      "a) alopecia parcial", "b) pelo miniaturizado"
+      'Alopecia parcial',
+      'Pelo miniaturizado'
     ]
   }, {
-    NAME: "FORUNCULOSIS EOSINOFÍLICA",
+    NAME: 'FORUNCULOSIS EOSINOFÍLICA',
     LesionesDerm: [
-      "a) Forunculosis", "b) Edema y exudado sero-hemo-purulento"
+      'Forunculosis',
+      'Edema y exudado sero, hemo, purulento'
     ]
   }, {
-    NAME: "VASCULITIS DEL BORDE DE LAS OREJAS",
+    NAME: 'VASCULITIS DEL BORDE DE LAS OREJAS',
     LesionesDerm: [
-      "a) inflamación y engrosamiento", "b) ñalceras y costras", "c) pérdida de tejido(lesiones en sacabocados)", "d) cicatriz"
+      'inflamación y engrosamiento',
+      'úlceras y costras',
+      'Pérdida de tejido(lesiones en sacabocados)',
+      'Cicatriz'
     ]
   }
 ]
