@@ -1,4 +1,4 @@
-export const RazaDetail = [
+export const RazaValuesEx = [
     "MESTIZO",
     "AFGANO",
     "AIRDALE TERRIER",

@@ -1,4 +1,4 @@
-export const LesionesDermValues = [
+export const LesionesDermicasValues = [
   'Exudado seroso o serosanguinolento',
   'Erosión amarillenta, roja y húmeda',
   'Erosión amarillenta, roja, húmeda de evolución aguda',
@@ -51,7 +51,7 @@ export const LesionesDermValues = [
   'Signo de Nikolsky positivo',
   'Erosiones mucocutaneas', 'alopecia',
   'Eritema, costras, descamaciones',
-  'LesionesDerm rodeadas por collarete epidérmico',
+  'LesionesDermicas rodeadas por collarete epidérmico',
   'Ulceras bucales',
   'Eritema', 'alopecia, vesículas, Pústulas',
   'Eritema', 'alopecia, erosiones, ulceraciones en piel y ulceras bucales',
@@ -110,7 +110,7 @@ export const LesionesDermValues = [
   'Alopecia irregular, expansivo no circular, expansiva',
   'Onicomicosis',
   'Piel eritematosa y alopécica',
-  'LesionesDerm oleosa',
+  'LesionesDermicas oleosa',
   'Olor seborreico',
   'Costras amarillentas',
   'Dependen de la etiología pero En General son:',
@@ -159,23 +159,23 @@ export const LesionesDermValues = [
   'También es posible observar el collarete epidérmico hiperpigmentado en su centro, que le da a la lesión el aspecto de ojo de buey'
 ] as const;
 
-type LesionesDermDetail = typeof LesionesDermValues[number];
+type LesionesDermicasDetail = typeof LesionesDermicasValues[number];
 
-export type LesionesDermType = {
-  LesionesDerm: LesionesDermDetail[];
+export type LesionesDermicasType = {
+  LesionesDermicas: LesionesDermicasDetail[];
   NAME: string;
 };
 
-export const LesionesDerm: LesionesDermType[] = [
+export const LesionesDermicas: LesionesDermicasType[] = [
   {
     NAME: 'DERMATITIS DE LOS PLIEGUES',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Exudado seroso o serosanguinolento',
       'Erosión amarillenta, roja y húmeda'
     ]
   }, {
     NAME: 'DERMATITIS HÚMEDA AGUDA',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Exudado seroso o serosanguinolento',
       'Erosión amarillenta, roja, húmeda de evolución aguda',
       'Alopecia de formas circulares y de tamaño variable',
@@ -184,14 +184,14 @@ export const LesionesDerm: LesionesDermType[] = [
     ]
   }, {
     NAME: 'IMPÉTIGO',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Pápulas',
       'Pústulas',
       'Collarete epidérmico'
     ]
   }, {
     NAME: 'FOLICULITIS BACTERIANA SUPERFICIAL',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Pústulas y pápulas foliculares.Caracterizado por la presencia de pelos en su interior',
       'Pequeñas protuberancias que elevan los pelos en dorso y lateral de tronco, dando una imagen de dermatitis miliar',
       'En los casos crónicos, cuando las pápulas, Pústulas y sus costras se desprenden junto con los pelos, le dan a la piel un aspecto de tela apolillada',
@@ -199,14 +199,14 @@ export const LesionesDerm: LesionesDermType[] = [
     ]
   }, {
     NAME: 'PIODERMIA SUPERFICIAL DISEMINADA',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Pústulas rotas',
       'Collaretes muy grandes',
       'Ojos de buey'
     ]
   }, {
     NAME: 'PIODERMIA MUCOCUTÁNEA',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Pústulas rotas',
       'Erosión',
       'Alopecia',
@@ -215,14 +215,14 @@ export const LesionesDerm: LesionesDermType[] = [
     ]
   }, {
     NAME: 'PIODERMIA PROFUNDA DEL OVEJERO ALEMÁN',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Forunculosis, celulitis, ulceras y fistulas',
       'Edema y exudados sero, hemo, purulento',
       'Costras', 'alopecia e hiperpigmentación'
     ]
   }, {
     NAME: 'FOLICULITIS, FORUNCULOSIS PIOTRAUMATICA',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Exudado seroso o serosanguinolento',
       'Erosión amarillenta, roja, húmeda de evolución aguda',
       'Alopecia de tamaño variable',
@@ -232,19 +232,19 @@ export const LesionesDerm: LesionesDermType[] = [
     ]
   }, {
     NAME: 'FOLICULITIS Y FORUNCULOSIS NASAL',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Forunculosis',
       'Edema y exudado sero, hemo, purulento'
     ]
   }, {
     NAME: 'FOLICULITIS FORUNCULOSIS DEL MENTÓN Y LABIOS',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Foliculitis, forunculosis, Pústulas',
       'Exudado serosanguinoliento o seropurulento'
     ]
   }, {
     NAME: 'FOLICULITIS Y FORUNCULOSIS PODAL',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Edema',
       'Fístulas',
       'Exudados seroso, serosanguinolientoo seropurulento',
@@ -252,36 +252,36 @@ export const LesionesDerm: LesionesDermType[] = [
     ]
   }, {
     NAME: 'FOLICULITIS FORUNCULOSIS DE LOS CALLOS',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Exudado serosanguinolento o seropurulento',
       'Fístulas',
       'Proliferación de tejidos con fisuras'
     ]
   }, {
     NAME: 'DERMATITIS ALÉRGICA POR PULGAS EST. I',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Foliculitis', 'pápulas', 'eritema', 'alopecia', 'cambio de coloración del pelaje por el lamido frecuente'
     ]
   }, {
     NAME: 'DERMATITIS ALÉRGICA POR PULGAS EST. II',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Foliculitis', 'alopecia, pápulas, eritema, costras',
       'Leve hiperpigmentación e hiperqueratosis'
     ]
   }, {
     NAME: 'DERMATITIS ALÉRGICA POR PULGAS EST. III',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Foliculitis', 'alopecia, pápulas, eritema, costras',
       'Hiperpigmentación, liquenificación'
     ]
   }, {
     NAME: 'DERMATITIS ATÓPICA CANINA EST. I',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Eritema', 'alopecia', 'foliculitis', 'erosiones'
     ]
   }, {
     NAME: 'DERMATITIS ATÓPICA CANINA EST. II',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Eritema', 'alopecia', 'foliculitis', 'hiperpigmentacion',
       'Pápulas', 'costras', 'Pústulas',
       'Otitis',
@@ -289,7 +289,7 @@ export const LesionesDerm: LesionesDermType[] = [
     ]
   }, {
     NAME: 'DERMATITIS ATÓPICA CANINA EST. III',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Eritema', 'alopecia', 'foliculitis', 'hiperpigmentacion', 'liquenificacion',
       'Pápulas', 'costras', 'Pústulas',
       'Otitis',
@@ -297,10 +297,10 @@ export const LesionesDerm: LesionesDermType[] = [
     ]
   }, {
     NAME: 'REACCIÓN ADVERSA A LOS ALIMENTOS',
-    LesionesDerm: []
+    LesionesDermicas: []
   }, {
     NAME: 'PÉNFIGO FOLIÁCEO',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Eritema', 'vesículas', 'Pústulas',
       'Costras', 'descamaciones',
       'Hiperqueratosis de las almohadillas plantares',
@@ -308,51 +308,51 @@ export const LesionesDerm: LesionesDermType[] = [
     ]
   }, {
     NAME: 'PÉNFIGO VULGAR',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Erosiones mucocutaneas', 'alopecia',
       'Eritema, costras, descamaciones',
-      'LesionesDerm rodeadas por collarete epidérmico',
+      'LesionesDermicas rodeadas por collarete epidérmico',
       'Ulceras bucales',
       'Signo de Nikolsky positivo'
     ]
   }, {
     NAME: 'PÉNFIGO ERITEMATOSO',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Eritema', 'alopecia, vesículas, Pústulas',
       'Costras', 'descamaciones'
     ]
   }, {
     NAME: 'PENFIGOIDE BULLOSO',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Eritema', 'alopecia, erosiones, ulceraciones en piel y ulceras bucales'
     ]
   }, {
     NAME: 'LUPUS ERITEMATOSO SISTÉMICO',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Cualquier manifestación cutánea puedes ser dada por L.E.S., el LED puede ser una manifestación del LES',
       'Eritema', 'alopecia, costras, descamaciones',
       'Ulceras e hiperqueratosis de las almohadillas plantaras'
     ]
   }, {
     NAME: 'LUPUS ERITEMATOSO DISCOIDE',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Eritema', 'alopecia, ulceración y costras',
       'Despigmentación de planum nasal',
       'Alisamiento de la trufa'
     ]
   }, {
     NAME: 'LUPUS MUCOCUTÁNEO',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Eritema', 'alopecia, erosión, ulceración y costras'
     ]
   }, {
     NAME: 'LUPUS CUTÁNEO VESICULAR',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Eritema', 'alopecia, collaretes, vesículas, ulceración y costras'
     ]
   }, {
     NAME: 'DERMATOMIOSITIS',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Alopecia parcial',
       'Eritema', 'escamas', 'costras',
       'Erosiones, ulceraciones',
@@ -360,21 +360,21 @@ export const LesionesDerm: LesionesDermType[] = [
     ]
   }, {
     NAME: 'DEMODICOSIS LOCALIZADA',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Alopecia parcial', 'eritema',
       'Foliculitis',
       'Descamación, costras'
     ]
   }, {
     NAME: 'DEMODICOSIS GENERALIZADA',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Alopecia', 'foliculitis',
       'Eritema', 'secreciones sero, hemorragicas, purulentas',
       'Costras', 'descamaciones'
     ]
   }, {
     NAME: 'SARNA SARCÓPTICA',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Pápulas, costras',
       'Alopecia parcial',
       'Hiperpigmentación, hiperqueratosis',
@@ -382,19 +382,19 @@ export const LesionesDerm: LesionesDermType[] = [
     ]
   }, {
     NAME: 'SARNA OTODÉCTICA',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Otitis y alopecia cara externa pabellón auricular',
       'Descamación con cerumen seco color marrón',
       'Prurito en cabeza y cuello'
     ]
   }, {
     NAME: 'CHEILETIELOSIS',
-    LesionesDerm: [
+    LesionesDermicas: [
       '"Escamas" grisaceas cubriendo el manto piloso'
     ]
   }, {
     NAME: 'DERMATOSIS POR HIPERADRENOCORTISISMO',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Alopecia sin inflamación',
       'Piel fina e hipotónica',
       'Venas mamarias visibles',
@@ -404,7 +404,7 @@ export const LesionesDerm: LesionesDermType[] = [
     ]
   }, {
     NAME: 'DERMATOSIS POR HIPOTIROIDISMO',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Alopecia parcial sin inflamación',
       'Hiperpigmentación uniforme',
       'El pelo se mantiene en la cabeza, y en las extremidades',
@@ -413,7 +413,7 @@ export const LesionesDerm: LesionesDermType[] = [
     ]
   }, {
     NAME: 'ALOPECÍA X',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Alopecia sin inflamación',
       'Piel fina e hipotónica',
       'Hiperpigmentación',
@@ -421,7 +421,7 @@ export const LesionesDerm: LesionesDermType[] = [
     ]
   }, {
     NAME: 'DERMATOSIS POR NEOPLASIA TESTICULAR',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Alopecia sin inflamación',
       'Hiperpigmentación',
       'Hipertrofia de los pezones',
@@ -433,7 +433,7 @@ export const LesionesDerm: LesionesDermType[] = [
     ]
   }, {
     NAME: 'DERMATOSIS POR HIPERESTROGENISMO EN HEMBRAS',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Piel engrosada y alopécica',
       'Hiperpigmentación',
       'Vulva hiperpigmentada y grande',
@@ -441,7 +441,7 @@ export const LesionesDerm: LesionesDermType[] = [
     ]
   }, {
     NAME: 'DERMATOSIS QUE RESPONDE A LOS ESTRÓGENOS',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Alopecia sin inflamación',
       'Hipopigmentada',
       'Vulva infantil',
@@ -450,14 +450,14 @@ export const LesionesDerm: LesionesDermType[] = [
     ]
   }, {
     NAME: 'DERMATOFITOSIS POR MICROSPORUM',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Alopecia circular y ausencia total de pelo',
       'Descamaciones seborreicas',
       'Foliculitis por contaminación bacteriana'
     ]
   }, {
     NAME: 'DERMATOFITOSIS POR TRICOPHYTON',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Alopecia irregular, expansivo no circular, expansiva',
       'Foliculitis',
       'Hiperpigmentación',
@@ -465,16 +465,16 @@ export const LesionesDerm: LesionesDermType[] = [
     ]
   }, {
     NAME: 'DERMATITIS POR MALASSEZIA',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Piel eritematosa y alopécica',
-      'LesionesDerm oleosa',
+      'LesionesDermicas oleosa',
       'Olor seborreico',
       'Otitis',
       'Costras amarillentas'
     ]
   }, {
     NAME: 'SEBORREA PRIMARIA',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Dependen de la etiología pero En General son:',
       'Descamación',
       'Parches seborreicos en areas circunscriptas',
@@ -484,7 +484,7 @@ export const LesionesDerm: LesionesDermType[] = [
     ]
   }, {
     NAME: 'SEBORREA SECUNDARIA',
-    LesionesDerm: [
+    LesionesDermicas: [
       'van a incluir los de la enfermedad primaria pero En General son:',
       'Descamación y alopecia',
       'Parches seborreicos en áreas circunscriptas',
@@ -493,7 +493,7 @@ export const LesionesDerm: LesionesDermType[] = [
     ]
   }, {
     NAME: 'SEBORREA DEL BORDE DE LAS OREJAS',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Descamación y alopecia',
       'Fisuras', 'Ulceras',
       'Hemorragias',
@@ -501,19 +501,19 @@ export const LesionesDerm: LesionesDermType[] = [
     ]
   }, {
     NAME: 'HIPERPLASIA DE LA GLÁNDULA DE LA COLA',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Area alopécica circular a ovoide',
       'Descamaciones'
     ]
   }, {
     NAME: 'HIPERQUERATOSIS NASO, DIGITAL IDIOPÁTICA',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Hiperqueratosis y alopecia',
       'Fisuras y erosiones'
     ]
   }, {
     NAME: 'DERMATOSIS QUE RESPONDE A LA VITAMINA A',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Hiperqueratosis, descamación', 'alopecia',
       'Olor seborreico',
       'Pelo sin brillo y se enreda fácilmente',
@@ -521,14 +521,14 @@ export const LesionesDerm: LesionesDermType[] = [
     ]
   }, {
     NAME: 'DERMATOSIS QUE RESPONDE AL ZINC',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Eritema', 'alopecia, costras, descamaciones',
       'Exudados serosos',
       'Hiperpigmentación, hiperqueratosis'
     ]
   }, {
     NAME: 'ALOPECÍA POR MUTACION DE COLOR',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Fractura de los pelos, alguno de ellos vuelven a crecer',
 
       'Alopecia parcial',
@@ -537,13 +537,13 @@ export const LesionesDerm: LesionesDermType[] = [
     ]
   }, {
     NAME: 'DERMATITIS ACRAL POR LAMIDO',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Alopecia central por erosión, ulceras',
       'Borde periférico fibrosos y oscuro'
     ]
   }, {
     NAME: 'OTITIS EXTERNA',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Eritema de la cara interna de pabellón auricular, del conducto vertical y horizontal',
       'Descamaciones',
       'Mal olor',
@@ -551,7 +551,7 @@ export const LesionesDerm: LesionesDermType[] = [
     ]
   }, {
     NAME: 'ENFERMEDAD DE LOS SACOS ANALES',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Edema y alopecia',
       'Prurito dolor manifestado por sentarse y arrastrar el ano contra el piso o por lamido de la región',
       'Abscedación, fístulas',
@@ -559,7 +559,7 @@ export const LesionesDerm: LesionesDermType[] = [
     ]
   }, {
     NAME: 'FÍSTULAS PERIANALES',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Líquido seroso o serosanguinolento o seropurulento',
       'Alopecia',
       'Fístulas',
@@ -568,7 +568,7 @@ export const LesionesDerm: LesionesDermType[] = [
     ]
   }, {
     NAME: 'CELULITIS JUVENIL',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Edema y alopecia',
       'Pápulas y Pústulas',
       'Fístulas, supuración hemopurulenta',
@@ -576,19 +576,19 @@ export const LesionesDerm: LesionesDermType[] = [
     ]
   }, {
     NAME: 'ALOPECÍA O CALVICIE PATRÓN',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Alopecia parcial',
       'Pelo miniaturizado'
     ]
   }, {
     NAME: 'FORUNCULOSIS EOSINOFÍLICA',
-    LesionesDerm: [
+    LesionesDermicas: [
       'Forunculosis',
       'Edema y exudado sero, hemo, purulento'
     ]
   }, {
     NAME: 'VASCULITIS DEL BORDE DE LAS OREJAS',
-    LesionesDerm: [
+    LesionesDermicas: [
       'inflamación y engrosamiento',
       'úlceras y costras',
       'Pérdida de tejido(lesiones en sacabocados)',

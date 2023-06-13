@@ -1,4 +1,4 @@
-export const LesionesGralValues = [
+export const LesionesGeneralesValues = [
   'Adelgazamiento',
   'Algunos animales tienen al mismo tiempo vómitos, diarreas y cólicos',
   'Anemia',
@@ -60,80 +60,80 @@ export const LesionesGralValues = [
   'Un testículo ectópico(cualquiera de las dos posibilidades)'
 ] as const;
 
-type LesionesGralDetail = typeof LesionesGralValues[number];
+type LesionesGeneralesDetail = typeof LesionesGeneralesValues[number];
 
-export type LesionesGralType = {
-  LesionesGral: LesionesGralDetail[];
+export type LesionesGeneralesType = {
+  LesionesGenerales: LesionesGeneralesDetail[];
   NAME: string;
 };
 
-export const LesionesGral: LesionesGralType[] = [
+export const LesionesGenerales: LesionesGeneralesType[] = [
   {
     NAME: 'DERMATITIS DE LOS PLIEGUES',
-    LesionesGral: [
+    LesionesGenerales: [
       'Olor desagradable (particularmente en los pliegues labiales)'
     ]
   },
   {
     NAME: 'DERMATITIS HÚMEDA AGUDA',
-    LesionesGral: [
+    LesionesGenerales: [
       'No hay'
     ]
   },
   {
     NAME: 'IMPÉTIGO',
-    LesionesGral: [
+    LesionesGenerales: [
       'Sólo si existe una enfermedad sistémica como el moquillo'
     ]
   },
   {
     NAME: 'FOLICULITIS BACTERIANA SUPERFICIAL',
-    LesionesGral: [
+    LesionesGenerales: [
       'No hay'
     ]
   },
   {
     NAME: 'PIODERMIA SUPERFICIAL DISEMINADA',
-    LesionesGral: [
+    LesionesGenerales: [
       'No hay'
     ]
   },
   {
     NAME: 'PIODERMIA MUCOCUTÁNEA',
-    LesionesGral: [
+    LesionesGenerales: [
       'No hay'
     ]
   },
   {
     NAME: 'PIODERMIA PROFUNDA DEL OVEJERO ALEMÁN',
-    LesionesGral: [
+    LesionesGenerales: [
       'Pérdida de peso', 'Apetito irregular',
       'Dolor localizado (en los espacios interdigitales)'
     ]
   },
   {
     NAME: 'FOLICULITIS-FORUNCULOSIS PIOTRAUMATICA',
-    LesionesGral: [
+    LesionesGenerales: [
       'No hay'
     ]
   },
   {
     NAME: 'FOLICULITIS Y FORUNCULOSIS NASAL',
-    LesionesGral: [
+    LesionesGenerales: [
       'Dolor',
 
     ]
   },
   {
     NAME: 'FOLICULITIS FORUNCULOSIS DEL MENTÓN Y LABIOS',
-    LesionesGral: [
+    LesionesGenerales: [
       'No hay',
       'Dolor'
     ]
   },
   {
     NAME: 'FOLICULITIS Y FORUNCULOSIS PODAL',
-    LesionesGral: [
+    LesionesGenerales: [
       'Lamido compulsivo',
       'Dolor',
       'Dificultad para caminar'
@@ -141,37 +141,37 @@ export const LesionesGral: LesionesGralType[] = [
   },
   {
     NAME: 'FOLICULITIS FORUNCULOSIS DE LOS CALLOS',
-    LesionesGral: [
+    LesionesGenerales: [
       'No hay'
     ]
   },
   {
     NAME: 'DERMATITIS ALÉRGICA POR PULGAS EST. I',
-    LesionesGral: [
+    LesionesGenerales: [
       'No hay'
     ]
   },
   {
     NAME: 'DERMATITIS ALÉRGICA POR PULGAS EST. II',
-    LesionesGral: [
+    LesionesGenerales: [
       'Adelgazamiento'
     ]
   },
   {
     NAME: 'DERMATITIS ALÉRGICA POR PULGAS EST. III',
-    LesionesGral: [
+    LesionesGenerales: [
       'Adelgazamiento'
     ]
   },
   {
     NAME: 'DERMATITIS ATÓPICA CANINA EST. I',
-    LesionesGral: [
+    LesionesGenerales: [
       'Conjuntivitis', 'Rinitis'
     ]
   },
   {
     NAME: 'DERMATITIS ATÓPICA CANINA EST. II',
-    LesionesGral: [
+    LesionesGenerales: [
       'Conjuntivitis',
       'Rinitis',
       'Adelgazamiento'
@@ -179,7 +179,7 @@ export const LesionesGral: LesionesGralType[] = [
   },
   {
     NAME: 'DERMATITIS ATÓPICA CANINA EST. III',
-    LesionesGral: [
+    LesionesGenerales: [
       'Conjuntivitis',
       'Rinitis',
       'Adelgazamiento'
@@ -187,13 +187,13 @@ export const LesionesGral: LesionesGralType[] = [
   },
   {
     NAME: 'REACCIÓN ADVERSA A LOS ALIMENTOS',
-    LesionesGral: [
+    LesionesGenerales: [
       'Algunos animales tienen al mismo tiempo vómitos, diarreas y cólicos'
     ]
   },
   {
     NAME: 'PÉNFIGO FOLIÁCEO',
-    LesionesGral: [
+    LesionesGenerales: [
       'Depresión',
       'Fiebre',
       'Anorexia',
@@ -204,7 +204,7 @@ export const LesionesGral: LesionesGralType[] = [
   },
   {
     NAME: 'PÉNFIGO VULGAR',
-    LesionesGral: [
+    LesionesGenerales: [
       'Depresión',
       'Fiebre',
       'Anorexia',
@@ -216,13 +216,13 @@ export const LesionesGral: LesionesGralType[] = [
   },
   {
     NAME: 'PÉNFIGO ERITEMATOSO',
-    LesionesGral: [
+    LesionesGenerales: [
       'No hay'
     ]
   },
   {
     NAME: 'PENFIGOIDE BULLOSO',
-    LesionesGral: [
+    LesionesGenerales: [
       'Depresión',
       'Fiebre',
       'Anorexia',
@@ -232,7 +232,7 @@ export const LesionesGral: LesionesGralType[] = [
   },
   {
     NAME: 'LUPUS ERITEMATOSO SISTÉMICO',
-    LesionesGral: [
+    LesionesGenerales: [
       'Enfermedad sistémica',
       'Glomerulonefropatía',
       'Poliartritis',
@@ -243,35 +243,35 @@ export const LesionesGral: LesionesGralType[] = [
   },
   {
     NAME: 'LUPUS ERITEMATOSO DISCOIDE',
-    LesionesGral: [
+    LesionesGenerales: [
     ]
   },
   {
     NAME: 'LUPUS MUCOCUTÁNEO',
-    LesionesGral: [
+    LesionesGenerales: [
     ]
   },
   {
     NAME: 'LUPUS CUTÁNEO VESICULAR',
-    LesionesGral: [
+    LesionesGenerales: [
     ]
   },
   {
     NAME: 'DERMATOMIOSITIS',
-    LesionesGral: [
+    LesionesGenerales: [
       'Miositis y dolor',
       'Todas las manifestaciones clínicas, bioquímicas y electromiográficos'
     ]
   },
   {
     NAME: 'DEMODICOSIS LOCALIZADA',
-    LesionesGral: [
+    LesionesGenerales: [
       'No hay'
     ]
   },
   {
     NAME: 'DEMODICOSIS GENERALIZADA',
-    LesionesGral: [
+    LesionesGenerales: [
       'Dependen del compromiso sistémico',
       'Dependen de la intensidad de la piodermia',
       'Linfoadenopatía'
@@ -279,26 +279,26 @@ export const LesionesGral: LesionesGralType[] = [
   },
   {
     NAME: 'SARNA SARCÓPTICA',
-    LesionesGral: [
+    LesionesGenerales: [
       'Prurito constante',
       'Gran deterioro del estado general'
     ]
   },
   {
     NAME: 'SARNA OTODÉCTICA',
-    LesionesGral: [
+    LesionesGenerales: [
       'Rascado de las orejas',
       'Prurito generalizado'
     ]
   },
   {
     NAME: 'CHEILETIELOSIS',
-    LesionesGral: [
+    LesionesGenerales: [
     ]
   },
   {
     NAME: 'DERMATOSIS POR HIPERADRENOCORTISISMO',
-    LesionesGral: [
+    LesionesGenerales: [
       'Poliuria-polidipsia', 'Polifagia',
       'Debilidad muscular generalizada, abdomen péndulo',
       'Infecciones urinarias',
@@ -308,18 +308,18 @@ export const LesionesGral: LesionesGralType[] = [
   },
   {
     NAME: 'DERMATOSIS POR HIPOTIROIDISMO',
-    LesionesGral: [
+    LesionesGenerales: [
       'Larga lista de signos clínicos, ninguno patognomónico ni correlacionados a las lesiones dérmicas'
     ]
   },
   {
     NAME: 'ALOPECÍA X',
-    LesionesGral: [
+    LesionesGenerales: [
     ]
   },
   {
     NAME: 'DERMATOSIS POR NEOPLASIA TESTICULAR',
-    LesionesGral: [
+    LesionesGenerales: [
       'Un testículo agrandado', 'Un testículo ectópico(cualquiera de las dos posibilidades)',
       'Criptorquidea',
       'Atracción sexual sobre otros machos',
@@ -328,7 +328,7 @@ export const LesionesGral: LesionesGralType[] = [
   },
   {
     NAME: 'DERMATOSIS POR HIPERESTROGENISMO EN HEMBRAS',
-    LesionesGral: [
+    LesionesGenerales: [
       'Estros irregulares',
       'Falsa preñez',
       'Endometrosis',
@@ -337,121 +337,121 @@ export const LesionesGral: LesionesGralType[] = [
   },
   {
     NAME: 'DERMATOSIS QUE RESPONDE A LOS ESTRÓGENOS',
-    LesionesGral: [
+    LesionesGenerales: [
       'Rara vez cursa junto con incontinencia urinaria NO neurogénica'
     ]
   },
   {
     NAME: 'DERMATOFITOSIS POR MICROSPORUM',
-    LesionesGral: [
+    LesionesGenerales: [
       'Ausentes'
     ]
   },
   {
     NAME: 'DERMATOFITOSIS POR TRICOPHYTON',
-    LesionesGral: [
+    LesionesGenerales: [
       'Ausentes'
     ]
   },
   {
     NAME: 'DERMATITIS POR MALASSEZIA',
-    LesionesGral: [
+    LesionesGenerales: [
       'Prurito constante'
     ]
   },
   {
     NAME: 'SEBORREA PRIMARIA',
-    LesionesGral: [
+    LesionesGenerales: [
     ]
   },
   {
     NAME: 'SEBORREA SECUNDARIA',
-    LesionesGral: [
+    LesionesGenerales: [
       'Dependen de la variada etiología que le da origen'
     ]
   },
   {
     NAME: 'SEBORREA DEL BORDE DE LAS OREJAS',
-    LesionesGral: [
+    LesionesGenerales: [
       'Sacuden la cabeza y golpean las orejas contra los temporales contrarios',
       'Rascado de las orejas'
     ]
   },
   {
     NAME: 'HIPERPLASIA DE LA GLÁNDULA DE LA COLA',
-    LesionesGral: [
+    LesionesGenerales: [
       'Adenoma de glándulas circumanales'
     ]
   },
   {
     NAME: 'HIPERQUERATOSIS NASO - DIGITAL IDIOPÁTICA',
-    LesionesGral: [
+    LesionesGenerales: [
       'Dificultad para caminar'
     ]
   },
   {
     NAME: 'DERMATOSIS QUE RESPONDE A LA VITAMINA A',
-    LesionesGral: [
+    LesionesGenerales: [
       'No hay'
     ]
   },
   {
     NAME: 'DERMATOSIS QUE RESPONDE AL ZINC',
-    LesionesGral: [
+    LesionesGenerales: [
       'Disminución de olfato', 'Disminución del gusto',
       'El estrés y el estro precipitan los signos clínicos dérmicos'
     ]
   },
   {
     NAME: 'ALOPECÍA POR MUTACION DE COLOR',
-    LesionesGral: [
+    LesionesGenerales: [
     ]
   },
   {
     NAME: 'DERMATITIS ACRAL POR LAMIDO',
-    LesionesGral: [
+    LesionesGenerales: [
     ]
   },
   {
     NAME: 'OTITIS EXTERNA',
-    LesionesGral: [
+    LesionesGenerales: [
       'Ausentes'
     ]
   },
   {
     NAME: 'ENFERMEDAD DE LOS SACOS ANALES',
-    LesionesGral: [
+    LesionesGenerales: [
       'No hay'
     ]
   },
   {
     NAME: 'FÍSTULAS PERIANALES',
-    LesionesGral: [
+    LesionesGenerales: [
       'Dolor localizado',
       'Lamido constante'
     ]
   },
   {
     NAME: 'CELULITIS JUVENIL',
-    LesionesGral: [
+    LesionesGenerales: [
       'Linfoadenopatía',
       'Dolor'
     ]
   },
   {
     NAME: 'ALOPECÍA O CALVICIE PATRÓN',
-    LesionesGral: [
+    LesionesGenerales: [
     ]
   },
   {
     NAME: 'FORUNCULOSIS EOSINOFÍLICA',
-    LesionesGral: [
+    LesionesGenerales: [
       'Dolor',
     ]
   },
   {
     NAME: 'VASCULITIS DEL BORDE DE LAS OREJAS',
-    LesionesGral: [
+    LesionesGenerales: [
       'No hay',
       'Dolor localizado'
     ]

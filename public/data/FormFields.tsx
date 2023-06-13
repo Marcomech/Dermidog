@@ -1,4 +1,11 @@
-import { AreaDetail, PruritoDetail, SeborreaDetail } from "../Diagnostico/Listas/index";
+import { RazaValuesEx } from "../Diagnostico/Listas/Razas";
+import {
+  AreaValues,
+  LesionesDermicasValues,
+  LesionesGeneralesValues,
+  PruritoValues,
+  SeborreaValues,
+} from "../Diagnostico/index";
 
 type formType = {
   page: number,
@@ -22,7 +29,7 @@ export const FormFields: formType[] = [
       }, {
         type: "DropDown",
         id: "Raza",
-        options: ['Pittbull', 'Doberman', 'Rotweiller', 'BullDog'],
+        options: RazaValuesEx,
         disabled: true,
       },
       {
@@ -34,7 +41,7 @@ export const FormFields: formType[] = [
       {
         type: "DropDown",
         id: "Edad",
-        options: ['Cachorro', 'Adulto', 'Joven'],
+        options: ['Cachorro', 'Joven', 'Adulto'],
         disabled: true,
       }]
   },
@@ -44,7 +51,7 @@ export const FormFields: formType[] = [
       {
         type: "DropDown",
         id: 'AreaInvolucrada',
-        options: AreaDetail,
+        options: AreaValues as unknown as string[],
         disabled: false,
       }]
   },
@@ -54,14 +61,14 @@ export const FormFields: formType[] = [
       {
         type: "DropDown",
         id: 'Prurito',
-        options: PruritoDetail,
+        options: PruritoValues as unknown as string[],
         disabled: false,
       },
       {
         type: "DropDown",
         id: 'Seborrea',
-        options: SeborreaDetail,
-        disabled: false,
+        options: SeborreaValues as unknown as string[],
+        disabled: true,
       }]
   },
   {
@@ -76,7 +83,7 @@ export const FormFields: formType[] = [
           'No, son asimetricas y/o unilaterales',
           'Si, son simetricas y/o bilaterales',
         ],
-        disabled: true,
+        disabled: false,
       }]
   },
   {
@@ -84,9 +91,16 @@ export const FormFields: formType[] = [
     fields: [
       {
         type: "DropDown",
-        id: 'LesionesElementales',
-        options: ['1', '2', '3', '4',],
+        id: 'LesionesGenerales',
+        options: LesionesGeneralesValues as unknown as string[],
         disabled: true,
-      }]
+      },
+      {
+        type: "DropDown",
+        id: 'LesionesDermicas',
+        options: LesionesDermicasValues as unknown as string[],
+        disabled: true,
+      },
+    ]
   }
 ]

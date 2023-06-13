@@ -60,7 +60,6 @@ export const AreaValues = [
     'Ginecomastia con pezones hiperpigmentados y agrandados',
     'Ginecomastia',
     'Hocico',
-    //'Igual',
     'Ingles hasta las axilas',
     'Ingles',
     'Inserción de la cola',

@@ -16,8 +16,7 @@ export type SimetriaType = {
 export const Simetria: SimetriaType[] = [
 
     {
-        Simetria: [
-            'No resulta claro o concluytente',],
+        Simetria: [],
         NAME: "DERMATITIS DE LOS PLIEGUES"
     }
 ]

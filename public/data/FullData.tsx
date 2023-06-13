@@ -26,7 +26,7 @@ export const FullData: FullDataType[] = [
     DATA: {
       CODIGO: "1BPLI",
       SINÓNIMO: [
-        "lntertrigo",
+        "Lntertrigo",
         "Erosión de los pliegues"
       ],
       ETIOLOGÍA: [
@@ -46,14 +46,15 @@ export const FullData: FullDataType[] = [
         "Ausente"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Exudado seroso o serosanguinolento",
-        "b) Erosión amarillenta-roja y húmeda"
+        "A) Exudado seroso o serosanguinolento",
+        "B) Erosión amarillenta-roja y húmeda"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "Olor desagradable, particularmente en los pliegues labiales"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
-        "Afecta particularmente a las razas con pliegues como: Bulldog, Pekines, Pug, Boston terrier, Shar-Pei, San Bernardo, Cocker spaniel, Basset hound.No hay predilección por sexo excepto en caso del pliegue vulvar y entre ambas mamas"
+        "Afecta particularmente a las razas con pliegues como: Bulldog, Pekines, Pug, Boston terrier, Shar-Pei, San Bernardo, Cocker spaniel, Basset hound",
+        "No hay predilección por sexo excepto en caso del pliegue vulvar y entre ambas mamas"
       ],
       DIAGNÓSTICO: [
         "Por la localización de las lesiones"
@@ -105,10 +106,10 @@ export const FullData: FullDataType[] = [
         "Ausente"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Exudado seroso o serosanguinolento",
-        "b) Erosión amarillenta-roja, húmeda de evolución aguda",
-        "c) Alopecia de formas circulares y de tamaño variable",
-        "d) Pelos periféricos húmedos y pegoteados",
+        "A) Exudado seroso o serosanguinolento",
+        "B) Erosión amarillenta-roja, húmeda de evolución aguda",
+        "C) Alopecia de formas circulares y de tamaño variable",
+        "D) Pelos periféricos húmedos y pegoteados",
         "El tamaño va desde unos 3 cm de diámetro, hasta tomar grandes extensiones y perder su contorno circular, a medida que continúa el autotrauma"
       ],
       SIGNOS_CLINICOS_GENERALES: [
@@ -144,7 +145,8 @@ export const FullData: FullDataType[] = [
         "Piodermia del cachorro"
       ],
       ETIOLOGÍA: [
-        "Staphylococcus pseudointermedius.Se desarrolla por lo general cuando existen causas predisponentes como falta de higiene, virus, parásitos intestinales, mala nutrición"
+        "Staphylococcus pseudointermedius",
+        "Se desarrolla por lo general cuando existen causas predisponentes como falta de higiene, virus, parásitos intestinales, mala nutrición"
       ],
       AREA_INVOLUCRADA_DERMOGRAMA: [
         "De Ventral: ingles, axilas y cara interna del muslo"
@@ -156,9 +158,9 @@ export const FullData: FullDataType[] = [
         "Ausente a leve"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Pápulas",
-        "b) Pústulas",
-        "c) Collarete epidérmico"
+        "A) Pápulas",
+        "B) Pústulas",
+        "C) Collarete epidérmico"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "Sólo si existe una enfermedad sistémica como el moquillo"
@@ -182,7 +184,8 @@ export const FullData: FullDataType[] = [
       ],
       TRATAMIENTO: [
         "Si no hay compromiso sistémico, pueden curar espontáneamente",
-        "Tratamientos locales con champú de peróxido de benzoilo o clorhexidina, una vez cada 3 días.-Antibioticos sistémicos.",
+        "Tratamientos locales con champú de peróxido de benzoilo o clorhexidina, una vez cada 3 días",
+        "Antibioticos sistémicos",
         "Tratar la enfermedad sistémica de base",
         "Mejorar las condiciones sanitarias"
       ]
@@ -211,16 +214,17 @@ export const FullData: FullDataType[] = [
         "En algunos casos puede ser intensa"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Pústulas y pápulas foliculares.Caracterizado por la presencia de pelos en su interior",
-        "b) Pequeñas protuberancias que elevan los pelos en dorso y lateral de tronco, dando una imagen de dermatitis miliar",
-        "e) En los casos crónicos, cuando las pápulas, pústulas y sus costras se desprenden junto con los pelos, le dan a la piel un aspecto de tela apolillada",
-        "d) También es posible observar el collarete epidérmico hiperpigmentado en su centro, que le da a la lesión el aspecto de ojo de buey,"
+        "A) Pústulas y pápulas foliculares, caracterizado por la presencia de pelos en su interior",
+        "B) Pequeñas protuberancias que elevan los pelos en dorso y lateral de tronco, dando una imagen de dermatitis miliar",
+        "E) En los casos crónicos, cuando las pápulas, pústulas y sus costras se desprenden junto con los pelos, le dan a la piel un aspecto de tela apolillada",
+        "D) También es posible observar el collarete epidérmico hiperpigmentado en su centro, que le da a la lesión el aspecto de ojo de buey"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "NOhay"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
-        "Más frecuentemente en animales jóvenes, aunque también puede afectar a animales de cualquier edad.Afecta animales de pelo corto con mayor frecuencia pero también a los de pelo largo, sin predilección de sexo"
+        "Más frecuentemente en animales jóvenes, aunque también puede afectar a animales de cualquier edad",
+        "Afecta animales de pelo corto con mayor frecuencia pero también a los de pelo largo, sin predilección de sexo"
       ],
       DIAGNÓSTICO: [
         "Por el aspecto clínico de las lesiones",
@@ -265,15 +269,15 @@ export const FullData: FullDataType[] = [
         "Leve a moderada"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Pústulas rotas",
-        "b) collaretes muy grandes",
-        "c) Ojos de buey"
+        "A) Pústulas rotas",
+        "B) collaretes muy grandes",
+        "C) Ojos de buey"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "NOtiene"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
-        "similar a la foliculitis bacteriana"
+        "Similar a la foliculitis bacteriana"
       ],
       DIAGNÓSTICO: [
         "Porel aspecto clínico de las lesiones",
@@ -293,7 +297,7 @@ export const FullData: FullDataType[] = [
       TRATAMIENTO: [
         "Buscar la causa determinante",
         "Antibiótico durante 3 a 4 semanas",
-        "baños con champú de peróxido de benzoilo o clorhexidina"
+        "Baños con champú de peróxido de benzoilo o clorhexidina"
       ]
     }
   },
@@ -317,21 +321,21 @@ export const FullData: FullDataType[] = [
         "Leve a moderada"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Pústulas rotas",
-        "b) erosión",
-        "c) alopecia",
-        "d) costras",
-        "e) fisuras"
+        "A) Pústulas rotas",
+        "B) erosión",
+        "C) alopecia",
+        "D) costras",
+        "E) fisuras"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "NOtiene"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
-        "se presenta con mayor frecuencia en el Ovejero Aleman pero puede presentarse en cualquier raza principalmente dolicocéfala"
+        "Se presenta con mayor frecuencia en el Ovejero Aleman pero puede presentarse en cualquier raza principalmente dolicocéfala"
       ],
       DIAGNÓSTICO: [
         "Porel aspecto clínico de las lesiones",
-        "por el área involucrada",
+        "Por el área involucrada",
         "Cultivo",
         "Citología",
         "Porhistopatología",
@@ -348,7 +352,7 @@ export const FullData: FullDataType[] = [
       TRATAMIENTO: [
         "Buscar la causa determinante",
         "Antibiótico durante 3 a 4 semanas",
-        "baños con champú de peróxido de benzoilo o clorhexidrina"
+        "Baños con champú de peróxido de benzoilo o clorhexidrina"
       ]
     }
   },
@@ -360,7 +364,8 @@ export const FullData: FullDataType[] = [
         "Foliculitis, forunculosis y celulitis del ovejero alemán"
       ],
       ETIOLOGÍA: [
-        "bacteriana 'idiopática', se teoriza sobre desordenes inmunológicos y hormonales.Puede estar presente estafilococo pseudointermedius pero también en procesos crónicos puede haber flora bacteriana mixta y encontrarse bacilos como pseudomonas y proteus"
+        "Bacteriana 'idiopática', se teoriza sobre desordenes inmunológicos y hormonales",
+        "Puede estar presente estafilococo pseudointermedius pero también en procesos crónicos puede haber flora bacteriana mixta y encontrarse bacilos como pseudomonas y proteus"
       ],
       AREA_INVOLUCRADA_DERMOGRAMA: [
         "De Dorsal: cara externa e interna del muslo, base de la cola, tórax, espacios interdigitales, cuello",
@@ -373,20 +378,21 @@ export const FullData: FullDataType[] = [
         "Ausente"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Forunculosis, celulitis, ulceras y fistulas",
-        "b) Edema y exudados sero-hemo-purulento",
-        "e) costras, alopecia e hiperpigmentación"
+        "A) Forunculosis, celulitis, ulceras y fistulas",
+        "B) Edema y exudados sero-hemo-purulento",
+        "E) costras, alopecia e hiperpigmentación"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "En los casos crónicos puede haber pérdida de peso, apetito irregular",
         "Dolor localizado, particularmente en los espacios interdigitales"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
-        " Afecta animales adultos, de raza Ovejero alemán, y sus cruzas.Sin predilección de sexo"
+        "Afecta animales adultos, de raza Ovejero alemán, y sus cruzas",
+        "Sin predilección de sexo"
       ],
       DIAGNÓSTICO: [
         "Anamnesis",
-        "reseña y área involucrada",
+        "Reseña y área involucrada",
         "Biopsia",
         "Cultivo, aislamiento y antibiograma",
         "Perfil tiroideo"
@@ -397,7 +403,10 @@ export const FullData: FullDataType[] = [
         "Micosis sistémicas y subcutáneas"
       ],
       PRONÓSTICO: [
-        "Reservado a malo.Es una patología con tendencia a la recidiva.La mayoría de las veces es solo transitoria.Los tratamientos son paliativos debido a que aún se ignora la etiología"
+        "Reservado a malo",
+        "Es una patología con tendencia a la recidiva",
+        "La mayoría de las veces es solo transitoria",
+        "Los tratamientos son paliativos debido a que aún se ignora la etiología"
       ],
       TRATAMIENTO: [
         "Toilette de la región por corte del pelo y baños con champú de peróxido de benzoílo, o clorhexidina",
@@ -405,7 +414,7 @@ export const FullData: FullDataType[] = [
         "Antibioticoterapia en pulsos prolongada luego de la curación clínica",
         "Prednisolona es necesario administrar cuando con el antibiótico mejora pero no terminan de controlarse las lesiones",
         "Control de una adecuada nutrición y suplementos nutricionales que contengan Zinc",
-        "Inmunomoduladores, o aplicaciones de células vivas que contengan elementos del sistema retículo endotelial como Timo.Bazo, Hígado, etc"
+        "Inmunomoduladores, o aplicaciones de células vivas que contengan elementos del sistema retículo endotelial como Timo, Bazo, Hígado, etc"
       ]
     }
   },
@@ -420,33 +429,34 @@ export const FullData: FullDataType[] = [
         "Erosión, excoriación y ulceración cutánea caracterizada por la presencia de pápulas satélites y que aparece de manera idiopática en determinadas razas pero que también puede ser producida como consecuencia del rascado y / o lamido",
         "Los factores primarios pueden ser similares a los de la dermatitis aguda húmeda, pero en este caso la lesión es más profunda:",
         "Dermatitis alérgicas a las pulgas-Infección de los sacos anales",
-        "Lesiones de peinado o por mal cepillado. –Dermatitis atópica canina",
+        "Lesiones de peinado o por mal cepillado-Dermatitis atópica canina",
         "Alergia alimentaria",
         "Otitis por otodectes"
       ],
       AREA_INVOLUCRADA_DERMOGRAMA: [
-        "De Dorsal: frecuentemente en cuello y cabeza.Base de la cola",
+        "De Dorsal: frecuentemente en cuello y cabeza, base de la cola",
         "De Ventral: en la cabeza y cuello"
       ],
       PRURITO: [
-        "Muchas veces es intenso y compulsivo manifestado por lamido, mordedura y / o rascado con los dientes o con los miembros posteriores.Pero en algunas ocasiones no hay prurito y hay dolor"
+        "Muchas veces es intenso y compulsivo manifestado por lamido, mordedura y / o rascado con los dientes o con los miembros posteriores",
+        "Pero en algunas ocasiones no hay prurito y hay dolor"
       ],
       SEBORREA_O_DESCAMACIÓN: [
-        "leve a moderada"
+        "Leve a moderada"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Exudado seroso o serosanguinolento",
-        "b) Erosión amarillenta-roja, húmeda de evolución aguda",
-        "c) Alopecia de tamaño variable",
-        "d) Pelos periféricos húmedos y pegoteados",
-        "e) Pápulas satélites",
-        "f) erosiones, excoriaciones, ulceras y costras"
+        "A) Exudado seroso o serosanguinolento",
+        "B) Erosión amarillenta-roja, húmeda de evolución aguda",
+        "C) Alopecia de tamaño variable",
+        "D) Pelos periféricos húmedos y pegoteados",
+        "E) Pápulas satélites",
+        "F) erosiones, excoriaciones, ulceras y costras"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "NO hay"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
-        "aparece con más frecuencia en Labrador, Golden y San Bernardo"
+        "Aparece con más frecuencia en Labrador, Golden y San Bernardo"
       ],
       DIAGNÓSTICO: [
         "El aspecto clínico y la evolución son característicos",
@@ -460,7 +470,7 @@ export const FullData: FullDataType[] = [
         "Bueno"
       ],
       TRATAMIENTO: [
-        "fundamental la antibioticoterapia sistémica ya que es una piodermia profunda",
+        "Fundamental la antibioticoterapia sistémica ya que es una piodermia profunda",
         "Identificar y tratar la causa del prurito y / o dolor",
         "Evitar que continúe el autotrauma con sedantes, collares isabelinos",
         "Corticoides por vía general para calmar el prurito"
@@ -475,7 +485,7 @@ export const FullData: FullDataType[] = [
         "'Piodermia' nasal"
       ],
       ETIOLOGÍA: [
-        "bacteriana y que puede ser desencadenada por pequeños traumas constantes"
+        "Bacteriana y que puede ser desencadenada por pequeños traumas constantes"
       ],
       AREA_INVOLUCRADA_DERMOGRAMA: [
         "De Dorsal: región lateral de la nariz, planum nasal, alrededor de los ojos y borde interno de pabellones auriculares",
@@ -488,19 +498,20 @@ export const FullData: FullDataType[] = [
         "Ausente"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Forunculosis",
-        "b) Edema y exudado sero-hemo-purulento"
+        "A) Forunculosis",
+        "B) Edema y exudado sero-hemo-purulento"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "Solamente dolor"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
-        "No hay predilección por edad y sexo.Es más frecuente en la raza Ovejero Alemán"
+        "No hay predilección por edad y sexo",
+        "Es más frecuente en la raza Ovejero Alemán"
       ],
       DIAGNÓSTICO: [
         "Por la localización de la lesión",
         "Por los signos clínicos dérmicos",
-        "Impronta de las secreciones., y observación citológica",
+        "Impronta de las secreciones y observación citológica",
         "Cultivo y antibiograma",
         "Biopsia y diagnóstico histopatológico"
       ],
@@ -529,7 +540,7 @@ export const FullData: FullDataType[] = [
         "Piodermia del mentón"
       ],
       ETIOLOGÍA: [
-        "bacteriana aunque pueden existir trastornos de la queratinización que predisponen"
+        "Bacteriana aunque pueden existir trastornos de la queratinización que predisponen"
       ],
       AREA_INVOLUCRADA_DERMOGRAMA: [
         "VENTRAL: región del mentón, alrededor de los labios inferiores y superiores"
@@ -541,14 +552,17 @@ export const FullData: FullDataType[] = [
         "Ausente"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Foliculitis, forunculosis, pústulas",
-        "b) Exudado serosanguinoliento o seropurulento"
+        "A) Foliculitis, forunculosis, pústulas",
+        "B) Exudado serosanguinoliento o seropurulento"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "NO hay, en algunos casos puede haber dolor"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
-        "En animales jóvenes hasta el año de edad.Principalmente en razas de pelo corto, como Doberman, Bulldog, Gran danés, Weimaraner, Rotweiler, Pointer, etc.de ambos sexos.Puede observarse ocasionalmente en animales de pelo largo"
+        "En animales jóvenes hasta el año de edad",
+        "Principalmente en razas de pelo corto, como Doberman, Bulldog, Gran danés, Weimaraner, Rotweiler, Pointer, etc",
+        "De ambos sexos",
+        "Puede observarse ocasionalmente en animales de pelo largo"
       ],
       DIAGNÓSTICO: [
         "Por la localización de la lesión",
@@ -605,10 +619,10 @@ export const FullData: FullDataType[] = [
         "Ausente"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Edema",
-        "b) Fístulas",
-        "c) Exudados seroso, serosanguinolientoo seropurulento",
-        "b) nódulos únicos o múltiples"
+        "A) Edema",
+        "B) Fístulas",
+        "C) Exudados seroso, serosanguinolientoo seropurulento",
+        "B) nódulos únicos o múltiples"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "Lamido compulsivo",
@@ -622,7 +636,7 @@ export const FullData: FullDataType[] = [
         "Cultivo bacteriano y antibiograma",
         "Biopsia cutánea",
         "Radiografias",
-        "diagnostico de la enfermedad de base"
+        "Diagnostico de la enfermedad de base"
       ],
       DIAGNÓSTICO_DIFERENCIAL: [
         "Se realiza entre las patologías señaladas en la etiología"
@@ -650,7 +664,8 @@ export const FullData: FullDataType[] = [
         "Piodermia de los callos"
       ],
       ETIOLOGÍA: [
-        "Proliferación de tejido como consecuencia de un trauma repetido entre una prominencia y una superficie dura donde el animal se acuesta.Esto predispone a maceración e infección bacteriana profunda"
+        "Proliferación de tejido como consecuencia de un trauma repetido entre una prominencia y una superficie dura donde el animal se acuesta",
+        "Esto predispone a maceración e infección bacteriana profunda"
       ],
       AREA_INVOLUCRADA_DERMOGRAMA: [
         "De Dorsal: codos y tarsos",
@@ -663,16 +678,17 @@ export const FullData: FullDataType[] = [
         "Leve a moderada"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Exudado serosanguinolento o seropurulento",
-        "b) Fístulas",
-        "e) Proliferación de tejidos con fisuras"
+        "A) Exudado serosanguinolento o seropurulento",
+        "B) Fístulas",
+        "E) Proliferación de tejidos con fisuras"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "NO hay"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
         "Comienza en los animales jóvenes",
-        "Hay mayor predisposición en razas grandes y gigantes como el Gran danés y San Bemardo en los codos y tarsos.En Dachshund, Setter, Boxer, Doberman, el callo suele estar en relación al esternón"
+        "Hay mayor predisposición en razas grandes y gigantes como el Gran danés y San Bemardo en los codos y tarsos",
+        "En Dachshund, Setter, Boxer, Doberman, el callo suele estar en relación al esternón"
       ],
       DIAGNÓSTICO: [
         "Porel aspecto clínico",
@@ -689,7 +705,7 @@ export const FullData: FullDataType[] = [
         "Bueno"
       ],
       TRATAMIENTO: [
-        "Evitar que continúe el trauma, acolchando el lugar donde el animal se acuesta.O colocando vendajes acolchados",
+        "Evitar que continúe el trauma, acolchando el lugar donde el animal se acuesta o colocando vendajes acolchados",
         "En los casos más benignos cremas emolientes, antibioticos con o sin corticoides",
         "En los casos mas severos la resolución es quirúrgica"
       ]
@@ -752,7 +768,7 @@ export const FullData: FullDataType[] = [
         "Hipersensibilidad a la picadura de las pulgas"
       ],
       ETIOLOGÍA: [
-        "Hipersensibilidad mediata e inmediata a alérgenos presentes en la saliva de la pulga. "
+        "Hipersensibilidad mediata e inmediata a alérgenos presentes en la saliva de la pulga"
       ],
       AREA_INVOLUCRADA_DERMOGRAMA: [
         "Se suma al Estadio I:",
@@ -766,8 +782,8 @@ export const FullData: FullDataType[] = [
         "Intensa"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Foliculitis, alopecia, pápulas, eritema, costras",
-        "b) Leve hiperpigmentación e hiperqueratosis"
+        "A) Foliculitis, alopecia, pápulas, eritema, costras",
+        "B) Leve hiperpigmentación e hiperqueratosis"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "Adelgazamiento"
@@ -810,7 +826,7 @@ export const FullData: FullDataType[] = [
         "De Dorsal:",
         "área periocular, tórax, dorsal y lateral, cara externa de los pabellones auriculares",
         "En Ventral:",
-        "todo el abdomen, región esternal y axilar"
+        "Todo el abdomen, región esternal y axilar"
       ],
       PRURITO: [
         "Intenso"
@@ -819,8 +835,8 @@ export const FullData: FullDataType[] = [
         "Intensa"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Foliculitis, alopecia, pápulas, eritema, costras",
-        "b) Hiperpigmentación, liquenificación"
+        "A) Foliculitis, alopecia, pápulas, eritema, costras",
+        "B) Hiperpigmentación, liquenificación"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "Adelgazamiento"
@@ -870,13 +886,13 @@ export const FullData: FullDataType[] = [
         "Ausente"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Eritema, alopecia, foliculitis, erosiones"
+        "A) Eritema, alopecia, foliculitis, erosiones"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "Ocasionalmente conjuntivitis, rinitis"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
-        "Perros menores a 3 años, afecta ambos sexos y todas las razas particularmente a Terriers, Setter irlandes, Caniches.Dálmatas, Schnauzer y Ovejeros alemanes"
+        "Perros menores a 3 años, afecta ambos sexos y todas las razas particularmente a Terriers, Setter irlandes, Caniches, Dálmatas, Schnauzer y Ovejeros alemanes"
       ],
       DIAGNÓSTICO: [
         "Anamnesis, reseña",
@@ -890,7 +906,7 @@ export const FullData: FullDataType[] = [
         "Dermatitis alérgica a las pulgas"
       ],
       PRONÓSTICO: [
-        "Reservado., porque la curación definitiva es poco probable",
+        "Reservado, porque la curación definitiva es poco probable",
         "Bueno, cuando el animal es sometido a un tratamiento de mantenimiento y de por vida"
       ],
       TRATAMIENTO: [
@@ -917,7 +933,7 @@ export const FullData: FullDataType[] = [
       AREA_INVOLUCRADA_DERMOGRAMA: [
         "Suma las del Estadio I",
         "De Dorsal: área periocular e interdigital",
-        "De Ventral: área perilabial, cara interna de los pabellones auriculares, axilas, abdomen.ingles y periné.Región interdigital"
+        "De Ventral: área perilabial, cara interna de los pabellones auriculares, axilas, abdomen, ingles y periné. Región interdigital"
       ],
       PRURITO: [
         "Intenso"
@@ -926,17 +942,17 @@ export const FullData: FullDataType[] = [
         "Intensa"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Eritema, alopecia, foliculitis, hiperpigmentacion",
-        "b) Pápulas, costras, pústulas",
-        "c) Otitis",
-        "d) Erosiones, excoriaciones"
+        "A) Eritema, alopecia, foliculitis, hiperpigmentacion",
+        "B) Pápulas, costras, pústulas",
+        "C) Otitis",
+        "D) Erosiones, excoriaciones"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "Conjuntivitis, rinitis",
         "Adelgazamiento"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
-        "antes de los 3 años de vida, afecta ambos sexos y todas las razas particularmente a Terriers, Setter irlandes, Caniches, Dálmatas, Schnauzer y Ovejeros alemanes"
+        "Antes de los 3 años de vida, afecta ambos sexos y todas las razas particularmente a Terriers, Setter irlandes, Caniches, Dálmatas, Schnauzer y Ovejeros alemanes"
       ],
       DIAGNÓSTICO: [
         "Anamnesis, reseña",
@@ -958,7 +974,7 @@ export const FullData: FullDataType[] = [
         "Intradermo reacción y pruebas serológicas para alergias(RAST y ELISA), con el fin de realizar inmunoterapia alérgeno especifica",
         "Tratamiento del prurito con corticoides, ciclosporina, oclacitinib, loquivetmab",
         "Tratar las infecciones secundarias bacterianas y por Malassezia",
-        "tratamiento tópico con corticoides(triamcinolona, aceponato de hidrocortisona)",
+        "Tratamiento tópico con corticoides(triamcinolona, aceponato de hidrocortisona)",
         "Baños con shampúes adecuados",
         "Suplementar la nutrición con ácidos grasos omega 3 y 6"
       ]
@@ -977,7 +993,8 @@ export const FullData: FullDataType[] = [
       AREA_INVOLUCRADA_DERMOGRAMA: [
         "Suma las del Estadio II",
         "De Dorsal: área pericoular e interdigital, tórax dorsal y lateral",
-        "De Ventral: área perilabial, cara interna de los pabellones auriculares, axilas, abdomen, ingles y periné.región interdigital"
+        "De Ventral: área perilabial, cara interna de los pabellones auriculares, axilas, abdomen, ingles y periné",
+        "región interdigital"
       ],
       PRURITO: [
         "Intenso"
@@ -986,17 +1003,17 @@ export const FullData: FullDataType[] = [
         "Intensa"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Eritema, alopecia, foliculitis, hiperpigmentacion, liquenificacion",
-        "b) Pápulas, costras, pústulas",
-        "c) Otitis",
-        "d) Erosiones, excoriaciones"
+        "A) Eritema, alopecia, foliculitis, hiperpigmentacion, liquenificacion",
+        "B) Pápulas, costras, pústulas",
+        "C) Otitis",
+        "D) Erosiones, excoriaciones"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "Conjuntivitis, rinitis",
         "Adelgazamiento"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
-        "antes de los 3 años de edad, afecta ambos sexos y todas las razas particularmente a Terriers, Setter irlandes, Caniches, Dálmatas, Schnautzer y Ovejeros alemanes"
+        "Antes de los 3 años de edad, afecta ambos sexos y todas las razas particularmente a Terriers, Setter irlandes, Caniches, Dálmatas, Schnautzer y Ovejeros alemanes"
       ],
       DIAGNÓSTICO: [
         "Anamnesis, reseña",
@@ -1018,7 +1035,7 @@ export const FullData: FullDataType[] = [
         "Intradermo reacción y pruebas serológicas para alergias(RAST y ELISA), con el fin de realizar inmunoterapia alérgeno especifica",
         "Tratamiento del prurito con corticoides, ciclosporina, oclacitinib, loquivetmab",
         "Tratar las infecciones secundarias bacterianas y por Malassezia",
-        "tratamiento tópico con corticoides(triamcinolona, aceponato de hidrocortisona)",
+        "Tratamiento tópico con corticoides(triamcinolona, aceponato de hidrocortisona)",
         "Baños con shampues adecuados",
         "Suplementar la nutrición con ácidos grasos omega 3 y 6"
       ]
@@ -1092,24 +1109,25 @@ export const FullData: FullDataType[] = [
         "Leve a intensa"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Eritema, vesículas, pústulas",
-        "b) Costras, descamaciones",
-        "e) hiperqueratosis de las almohadillas plantares",
-        "d) Signo de Nikolsky positivo"
+        "A) Eritema, vesículas, pústulas",
+        "B) Costras, descamaciones",
+        "E) hiperqueratosis de las almohadillas plantares",
+        "D) Signo de Nikolsky positivo"
       ],
       SIGNOS_CLINICOS_GENERALES: [
-        "En los casos avanzados hay depresión, fiebre, anorexia,",
-        "pérdida de peso",
+        "En los casos avanzados hay depresión, fiebre, anorexia",
+        "Pérdida de peso",
         "Linfoadenopatía",
         "Dolor variable que se manifiesta por lamido"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
-        "En adultos jóvenes no tiene predilección por sexo.Hay razas en la que es frecuente como los Dachshound de pelo corto, Doberman, Akita, Chow chow"
+        "En adultos jóvenes no tiene predilección por sexo",
+        "Hay razas en la que es frecuente como los Dachshound de pelo corto, Doberman, Akita, Chow chow"
       ],
       DIAGNÓSTICO: [
         "Biopsia para:",
-        "histopatología",
-        "inmunofluorescencia directa"
+        "Histopatología",
+        "Inmunofluorescencia directa"
       ],
       DIAGNÓSTICO_DIFERENCIAL: [
         "Los otros tipos de pénfigos",
@@ -1139,7 +1157,7 @@ export const FullData: FullDataType[] = [
     DATA: {
       CODIGO: "4PVUL",
       SINÓNIMO: [
-        "no tiene"
+        "No tiene"
       ],
       ETIOLOGÍA: [
         "Está producido por anticuerpos contra los sitios de unión epidérmica que genera acantolisis con queratinocitos separados"
@@ -1157,26 +1175,28 @@ export const FullData: FullDataType[] = [
         "Intensa"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Erosiones mucocutaneas, alopecia",
-        "b) Eritema, costras, descamaciones",
-        "c) Lesiones rodeadas por collarete epidérmico",
-        "d) Ulceras bucales",
-        "e) Signo de Nikolsky positivo"
+        "A) Erosiones mucocutaneas, alopecia",
+        "B) Eritema, costras, descamaciones",
+        "C) Lesiones rodeadas por collarete epidérmico",
+        "D) Ulceras bucales",
+        "E) Signo de Nikolsky positivo"
       ],
       SIGNOS_CLINICOS_GENERALES: [
-        "En los casos avanzados hay depresión, fiebre, anorexia,",
-        "pérdida de peso",
+        "En los casos avanzados hay depresión, fiebre, anorexia",
+        "Pérdida de peso",
         "Halitosis y salivación excesiva",
         "Linfoadenopatía",
         "Dolor variable manifestado por medio del lamido"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
-        "NO tiene predilección por edad o sexo.Afecta preferentemente adultos jóvenes.Hay razas en la que es más frecuente como los Dachshund de pelo corto, Doberman, Akita, Chow chow"
+        "NO tiene predilección por edad o sexo",
+        "Afecta preferentemente adultos jóvenes",
+        "Hay razas en la que es más frecuente como los Dachshund de pelo corto, Doberman, Akita, Chow chow"
       ],
       DIAGNÓSTICO: [
         "Biopsia para:",
-        "histopatología",
-        "inmunofluorescencia directa"
+        "Histopatología",
+        "Inmunofluorescencia directa"
       ],
       DIAGNÓSTICO_DIFERENCIAL: [
         "Otros tipos de pénfigos",
@@ -1212,7 +1232,7 @@ export const FullData: FullDataType[] = [
         "Está producido por anticuerpos contra los sitios de unión epidérmica que genera acantolisis con queratinocitos separados"
       ],
       AREA_INVOLUCRADA_DERMOGRAMA: [
-        "De Dorsal: nariz.área periocular, cara externa e interna de pabellones"
+        "De Dorsal: nariz, área periocular, cara externa e interna de pabellones"
       ],
       PRURITO: [
         "Leve",
@@ -1222,19 +1242,20 @@ export const FullData: FullDataType[] = [
         "Leve"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Eritema, alopecia, vesículas, pústulas",
-        "b) Costras, descamaciones"
+        "A) Eritema, alopecia, vesículas, pústulas",
+        "B) Costras, descamaciones"
       ],
       SIGNOS_CLINICOS_GENERALES: [
-        "no hay"
+        "No hay"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
-        "En adultos jóvenes no tiene predilección por sexo.Hay razas en la que es frecuente como los Collies"
+        "En adultos jóvenes no tiene predilección por sexo",
+        "Hay razas en la que es frecuente como los Collies"
       ],
       DIAGNÓSTICO: [
         "Biopsia para:",
-        "histopatología",
-        "inmunofluorescencia directa"
+        "Histopatología",
+        "Inmunofluorescencia directa"
       ],
       DIAGNÓSTICO_DIFERENCIAL: [
         "Los otros tipos de pénfigos",
@@ -1267,7 +1288,7 @@ export const FullData: FullDataType[] = [
         "Penfígoide canino"
       ],
       ETIOLOGÍA: [
-        "se forman anticuerpos contra componentes de la membrana basal"
+        "Se forman anticuerpos contra componentes de la membrana basal"
       ],
       AREA_INVOLUCRADA_DERMOGRAMA: [
         "En General: piel sin pelo como abdomen y cara interna de muslos y ocasionales lesiones en las mucosas y bordes mucocutaneos"
@@ -1277,23 +1298,24 @@ export const FullData: FullDataType[] = [
         "Por contaminación bacteriana"
       ],
       SEBORREA_O_DESCAMACIÓN: [
-        "leve"
+        "Leve"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
         "Eritema, alopecia, erosiones, ulceraciones en piel y ulceras bucales"
       ],
       SIGNOS_CLINICOS_GENERALES: [
-        "En los casos avanzados hay depresión, fiebre, anorexia,",
-        "pérdida de peso",
+        "En los casos avanzados hay depresión, fiebre, anorexia",
+        "Pérdida de peso",
         "Dolor variable que se manifiesta a través del lamido"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
-        "Afecta a animales de edad mediana a viejos, sin predisposición por alguno de los sexos.Los Collies y Shetland son las razas más predispuestas"
+        "Afecta a animales de edad mediana a viejos, sin predisposición por alguno de los sexos",
+        "Los Collies y Shetland son las razas más predispuestas"
       ],
       DIAGNÓSTICO: [
         "Biopsia para:",
-        "histopatología",
-        "inmunofluorescencia directa, positiva"
+        "Histopatología",
+        "Inmunofluorescencia directa, positiva"
       ],
       DIAGNÓSTICO_DIFERENCIAL: [
         "Penfigo vulgar",
@@ -1323,7 +1345,7 @@ export const FullData: FullDataType[] = [
         "No tiene"
       ],
       ETIOLOGÍA: [
-        "incluye factores genéticos, hormonales y ambientales",
+        "Incluye factores genéticos, hormonales y ambientales",
         "Alteración imuunológica ultifactorial:",
         "Déficit de celulas T",
         "Hiperactividad de las celulas B",
@@ -1344,25 +1366,27 @@ export const FullData: FullDataType[] = [
         "Intensa"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Cualquier manifestación cutánea puedes ser dada por L.E.S., el LED puede ser una manifestación del LES",
-        "b) Eritema, alopecia, costras, descamaciones",
-        "e) Ulceras e hiperqueratosis de las almohadillas plantaras"
+        "A) Cualquier manifestación cutánea puedes ser dada por L.E.S., el LED puede ser una manifestación del LES",
+        "B) Eritema, alopecia, costras, descamaciones",
+        "E) Ulceras e hiperqueratosis de las almohadillas plantaras"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "Enfermedad sistémica",
-        "glomerulonefropatía",
-        "poliartritis",
-        "anemia",
-        "linfoadenopatia",
-        "hipertermia"
+        "Glomerulonefropatía",
+        "Poliartritis",
+        "Anemia",
+        "Linfoadenopatia",
+        "Hipertermia"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
-        "En los adultos jóvenes.NO tiene predilección por sexo ni razas.Es más frecuente en los Collies y Ovejeros alemanes"
+        "En los adultos jóvenes",
+        "NO tiene predilección por sexo ni razas",
+        "Es más frecuente en los Collies y Ovejeros alemanes"
       ],
       DIAGNÓSTICO: [
         "Biopsia para:",
-        "histopatología, esta puede no ser útil",
-        "inmunofluorescencia directa, positiva",
+        "Histopatología, esta puede no ser útil",
+        "Inmunofluorescencia directa, positiva",
         "Anticuerpos antinucleares positivos(90 % de los casos)",
         "Células LE(60 % de los casos y poco específicos), en sangre"
       ],
@@ -1398,7 +1422,7 @@ export const FullData: FullDataType[] = [
         "Lupus eritematoso cutáneo"
       ],
       ETIOLOGÍA: [
-        "similar al LES pero afecta solo piel",
+        "Similar al LES pero afecta solo piel",
         "La exposición a luz UV juega un rol en la patogenia"
       ],
       AREA_INVOLUCRADA_DERMOGRAMA: [
@@ -1412,21 +1436,21 @@ export const FullData: FullDataType[] = [
         "Leve"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Eritema, alopecia, ulceración y costras",
-        "b) Despigmentación de planum nasal",
-        "c) alisamiento de la trufa"
+        "A) Eritema, alopecia, ulceración y costras",
+        "B) Despigmentación de planum nasal",
+        "C) alisamiento de la trufa"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "NO tiene"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
-        " Aunque no hay predisposición por edad o sexo, es raro en los cachorros",
+        "Aunque no hay predisposición por edad o sexo, es raro en los cachorros",
         "Hay razas en la que es más frecuente como Collies, Ovejeros alemanes, Siberian huskies"
       ],
       DIAGNÓSTICO: [
         "Biopsia para:",
-        "histopatología",
-        "inmunofluorescencia directa"
+        "Histopatología",
+        "Inmunofluorescencia directa"
       ],
       DIAGNÓSTICO_DIFERENCIAL: [
         "Pénfigo eritematoso",
@@ -1442,10 +1466,10 @@ export const FullData: FullDataType[] = [
         "Tetraciclina-niacinamida",
         "Vitamina E",
         "Filtros solares",
-        "micofenolato mofetil",
+        "Micofenolato mofetil",
         "Oclacitinib",
-        "ciclosporina",
-        "tacrolimus tópico"
+        "Ciclosporina",
+        "Tacrolimus tópico"
       ]
     }
   },
@@ -1457,7 +1481,7 @@ export const FullData: FullDataType[] = [
         "Lupus eritematoso cutaneo"
       ],
       ETIOLOGÍA: [
-        "similar al LES pero afecta solo piel en aéreas de conjunción de mucosa y piel",
+        "Similar al LES pero afecta solo piel en aéreas de conjunción de mucosa y piel",
         "La fotosensibilización juega un rol en la patogénia"
       ],
       AREA_INVOLUCRADA_DERMOGRAMA: [
@@ -1471,7 +1495,7 @@ export const FullData: FullDataType[] = [
         "Leve"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Eritema, alopecia, erosión, ulceración y costras"
+        "A) Eritema, alopecia, erosión, ulceración y costras"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "NO tiene"
@@ -1482,8 +1506,8 @@ export const FullData: FullDataType[] = [
       ],
       DIAGNÓSTICO: [
         "Biopsia para:",
-        "histopatología",
-        "inmunofluorescencia directa"
+        "Histopatología",
+        "Inmunofluorescencia directa"
       ],
       DIAGNÓSTICO_DIFERENCIAL: [
         "Pénfigo foliaceo",
@@ -1513,7 +1537,7 @@ export const FullData: FullDataType[] = [
         "No tiene"
       ],
       ETIOLOGÍA: [
-        "similar al LES pero afecta solo piel",
+        "Similar al LES pero afecta solo piel",
         "La fotosensibilización juega un rol en la patogenia"
       ],
       AREA_INVOLUCRADA_DERMOGRAMA: [
@@ -1527,7 +1551,7 @@ export const FullData: FullDataType[] = [
         "Leve"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Eritema, alopecia, collaretes, vesículas, ulceración y costras"
+        "A) Eritema, alopecia, collaretes, vesículas, ulceración y costras"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "NO tiene"
@@ -1538,8 +1562,8 @@ export const FullData: FullDataType[] = [
       ],
       DIAGNÓSTICO: [
         "Biopsia para:",
-        "histopatología",
-        "inmunofluorescencia directa, positiva"
+        "Histopatología",
+        "Inmunofluorescencia directa, positiva"
       ],
       DIAGNÓSTICO_DIFERENCIAL: [
         "Pénfigo foliaceo",
@@ -1568,7 +1592,7 @@ export const FullData: FullDataType[] = [
         "Sindrome de Sheltie / Collie"
       ],
       ETIOLOGÍA: [
-        "cuadro inflamatorio idiopático inmunomediado y hereditario de piel y músculos"
+        "Cuadro inflamatorio idiopático inmunomediado y hereditario de piel y músculos"
       ],
       AREA_INVOLUCRADA_DERMOGRAMA: [
         "De Dorsal: nariz, región periocular, puntas de las orejas, plano nasal, carpos, tarsos, codos, dedos y punta de la cola"
@@ -1581,16 +1605,16 @@ export const FullData: FullDataType[] = [
         "Leve"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Alopecia parcial",
-        "b) Eritema, escamas, costras",
-        "e) Erosiones, ulceraciones",
-        "d) Onicomadesis y onicorrexia"
+        "A) Alopecia parcial",
+        "B) Eritema, escamas, costras",
+        "E) Erosiones, ulceraciones",
+        "D) Onicomadesis y onicorrexia"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "Miositis y dolor en casos severos y avanzados, con todas las manifestaciones clínicas, bioquímicas y electromiográficos"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
-        "antes de los 6 meses de edad, es mas frecuente en Collie y Collie shetiand y sus cruzas, aunque otras razas pueden estar afectadas como Welsh corgi, Ovejero aleman, Chow-Chow, Belga Tervueren, Beauceron, Terrier de Lakeland y Kuvasz de cualquier sexo"
+        "Antes de los 6 meses de edad, es mas frecuente en Collie y Collie shetiand y sus cruzas, aunque otras razas pueden estar afectadas como Welsh corgi, Ovejero aleman, Chow-Chow, Belga Tervueren, Beauceron, Terrier de Lakeland y Kuvasz de cualquier sexo"
       ],
       DIAGNÓSTICO: [
         "Localización de la lesión, edad, raza",
@@ -1612,11 +1636,11 @@ export const FullData: FullDataType[] = [
       ],
       TRATAMIENTO: [
         "Evitar la exposición al sol",
-        "vitamina E",
+        "Vitamina E",
         "Ácidos grasos omega 3 y 6, o alimentos balanceados con estos ácidos grasos en la relación requerida",
         "Corticoides con precaución debido a la acción negativa de estos sobre los músculos",
         "Pentoxifilina",
-        "tetraciclina y niacinamida"
+        "Tetraciclina y niacinamida"
       ]
     }
   },
@@ -1644,9 +1668,9 @@ export const FullData: FullDataType[] = [
         "Puede ser leve cuando hay contaminación"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Alopecia parcial, eritema",
-        "b) Foliculitis",
-        "c) descamación, costras"
+        "A) Alopecia parcial, eritema",
+        "B) Foliculitis",
+        "C) descamación, costras"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "NO llene"
@@ -1656,8 +1680,8 @@ export const FullData: FullDataType[] = [
       ],
       DIAGNÓSTICO: [
         "Observación microscópica de:",
-        "raspado profundo de la piel",
-        "extracción de pelos"
+        "Raspado profundo de la piel",
+        "Extracción de pelos"
       ],
       DIAGNÓSTICO_DIFERENCIAL: [
         "Tiña microspórica",
@@ -1698,9 +1722,9 @@ export const FullData: FullDataType[] = [
         "Leve"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Alopecia, foliculitis",
-        "b) Eritema, secreciones sero-hemorragicas-purulentas",
-        "e) Costras, descamaciones"
+        "A) Alopecia, foliculitis",
+        "B) Eritema, secreciones sero-hemorragicas-purulentas",
+        "E) Costras, descamaciones"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "Dependen del compromiso sistémico",
@@ -1729,10 +1753,10 @@ export const FullData: FullDataType[] = [
       TRATAMIENTO: [
         "Evaluar la necesidad de cortar el pelo",
         "Baños con champú de peróxido de benzoílo, o clohexidina",
-        "Amitraz al12, 5 5 %, 2 cc por litro de agua en forma de baños, cada 7 días y hasta un mes despues de la mejoría clínica.",
-        "lvermectina 0, 4 a 0, 6 mg / kg vía oral, moxidectina igual dosis oral, doramectina igual dosis via SC una vez por semana",
+        "Amitraz al12, 5 5 %, 2 cc por litro de agua en forma de baños, cada 7 días y hasta un mes despues de la mejoría clínica",
+        "Lvermectina 0, 4 a 0, 6 mg / kg vía oral, moxidectina igual dosis oral, doramectina igual dosis via SC una vez por semana",
         "Antibioticos si hay piodermia coexistente",
-        "isoxazolinas"
+        "Isoxazolinas"
       ]
     }
   },
@@ -1745,7 +1769,7 @@ export const FullData: FullDataType[] = [
         "Escabiosis canina"
       ],
       ETIOLOGÍA: [
-        "Sarcoptes scabiei var.canis"
+        "Sarcoptes scabiei var canis"
       ],
       AREA_INVOLUCRADA_DERMOGRAMA: [
         "En los adultos:",
@@ -1764,10 +1788,10 @@ export const FullData: FullDataType[] = [
         "Intensa"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Pápulas, costras",
-        "b) Alopecia parcial",
-        "e) Hiperpigmentación, hiperqueratosis",
-        "d) Reflejo otopruriginoso positivo"
+        "A) Pápulas, costras",
+        "B) Alopecia parcial",
+        "E) Hiperpigmentación, hiperqueratosis",
+        "D) Reflejo otopruriginoso positivo"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "Prurito constante",
@@ -1823,16 +1847,16 @@ export const FullData: FullDataType[] = [
         "Intensa"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Otitis y alopecia cara externa pabellón auricular",
-        "b) Descamación con cerumen seco color marrón",
-        "e) Prurito en cabeza y cuello"
+        "A) Otitis y alopecia cara externa pabellón auricular",
+        "B) Descamación con cerumen seco color marrón",
+        "E) Prurito en cabeza y cuello"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "Rascado constante de las orejas",
         "Posible prurito generalizado"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
-        "más frecuentemente y los signos se manifiestan con más intensidad en los cachorros"
+        "Más frecuentemente y los signos se manifiestan con más intensidad en los cachorros"
       ],
       DIAGNÓSTICO: [
         "Observación directa con lupa, se ven los ácaros móviles",
@@ -1858,7 +1882,7 @@ export const FullData: FullDataType[] = [
         "Tratar a los otros animales y al medio ambiente",
         "Fipronilo dos gotas por oreja(del contenido de la pipeta) cada 15 dias",
         "Fipronilo una aspersión cada 15 dias en orejas",
-        "isoxazolinas"
+        "Isoxazolinas"
       ]
     }
   },
@@ -1894,9 +1918,9 @@ export const FullData: FullDataType[] = [
       ],
       DIAGNÓSTICO: [
         "Examen con lupa o microscopio de:",
-        "las descamaciones",
-        "del material recolectado con una cinta de acetato de celulosa",
-        "del material recolectado con un peine para extraer pulgas"
+        "Las descamaciones",
+        "Del material recolectado con una cinta de acetato de celulosa",
+        "Del material recolectado con un peine para extraer pulgas"
       ],
       DIAGNÓSTICO_DIFERENCIAL: [
         "Seborreas'",
@@ -1910,7 +1934,7 @@ export const FullData: FullDataType[] = [
         "Baños con champú antiseborreico a los fines de eliminar escamas, costras y ácaros",
         "Utilizar cualquier ectoparaciticida para pulgas",
         "Bañar a todo el animal con Amitraz 12.5 %, 2 cc / litro de agua una vez por semana, durante 6 a 8 semanas",
-        "lvermectina 4OOmcg / kg subcutánea cada 15 dias, 2 a 3 dosis",
+        "Lvermectina 4OOmcg / kg subcutánea cada 15 dias, 2 a 3 dosis",
         "Tratar a los otros animales y al medio ambiente, esta medida es muy importante",
         "Isoxazolinas"
       ]
@@ -1924,26 +1948,27 @@ export const FullData: FullDataType[] = [
         "Dermatosis por síndrome de 'Cushing'"
       ],
       ETIOLOGÍA: [
-        "producido por excesiva cantidad de corticoides endógenos o exógenos"
+        "Producido por excesiva cantidad de corticoides endógenos o exógenos"
       ],
       AREA_INVOLUCRADA_DERMOGRAMA: [
         "En General; alopecia difusa parcial o generalizada",
         "De Dorsal: en el tronco llegando hasta los codos, tarsos y cuello",
-        "De Ventral: en todo el area desde las axilas a las ingles; en la cola y el cuello.-Las venas mamarias son claramente visibles"
+        "De Ventral: en todo el area desde las axilas a las ingles; en la cola y el cuello; Las venas mamarias son claramente visibles"
       ],
       PRURITO: [
-        "Leve.Por contaminación bacteriana y / o por Malassezia"
+        "Leve",
+        "Por contaminación bacteriana y / o por Malassezia"
       ],
       SEBORREA_O_DESCAMACIÓN: [
         "Leve"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Alopecia sin inflamación,",
-        "b) piel fina e hipotónica",
-        "c) Venas mamarias visibles,",
-        "d) calcinosis cutis",
-        "e) Pelo opaco y decolorado",
-        "f) Piodermia secundaria, parches seborreicos, comedones"
+        "A) Alopecia sin inflamación",
+        "B) piel fina e hipotónica",
+        "C) Venas mamarias visibles",
+        "D) calcinosis cutis",
+        "E) Pelo opaco y decolorado",
+        "F) Piodermia secundaria, parches seborreicos, comedones"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "Poliuria-polidipsia y posible polifagia",
@@ -1958,10 +1983,10 @@ export const FullData: FullDataType[] = [
       DIAGNÓSTICO: [
         "Análisis de orina con densidad muy baja",
         "Hemograma característico desde el inicio de la enfermedad hormonal, leucocitosis, neutrofilia, linfopenia, eosinopenia",
-        "Fosfatasa alcalina elevada.",
+        "Fosfatasa alcalina elevada",
         "Hiperlipemia",
-        "hiperglucemia",
-        "estimulación con ACTH o de inhibición con Dexametasona",
+        "Hiperglucemia",
+        "Estimulación con ACTH o de inhibición con Dexametasona",
         "Ecografia abdominal",
         "RMN de la cabeza",
         "TAC abdominal",
@@ -1981,7 +2006,7 @@ export const FullData: FullDataType[] = [
         "Trilostano",
         "Ketoconazol",
         "Isotretinoina 9 cis",
-        "cabergolina"
+        "Cabergolina"
       ]
     }
   },
@@ -1997,7 +2022,7 @@ export const FullData: FullDataType[] = [
       ],
       AREA_INVOLUCRADA_DERMOGRAMA: [
         "En General: alopecia parcial",
-        "De Dorsal: en la región torácica en forma de silla de montar; en el cuello; los pelos se mantienen a lo largo de la columna vertebral.Alopecia en la cara externa de los pabellones auriculares, y cola",
+        "De Dorsal: en la región torácica en forma de silla de montar; en el cuello; los pelos se mantienen a lo largo de la columna vertebral; Alopecia en la cara externa de los pabellones auriculares, y cola",
         "De Ventral: del abdomen, tórax y cuello"
       ],
       PRURITO: [
@@ -2005,23 +2030,25 @@ export const FullData: FullDataType[] = [
         "Secundario por contaminación bacteriana o Malassezia"
       ],
       SEBORREA_O_DESCAMACIÓN: [
-        "leve a moderada"
+        "Leve a moderada"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Alopecia parcial sin inflamación",
-        "b) Hiperpigmentación uniforme",
-        "e) El pelo se mantiene en la cabeza, y en las extremidades",
-        "d) Otitis poco frecuente",
-        "e) sobrecrecimiento de Malassezias y bacterias"
+        "A) Alopecia parcial sin inflamación",
+        "B) Hiperpigmentación uniforme",
+        "E) El pelo se mantiene en la cabeza, y en las extremidades",
+        "D) Otitis poco frecuente",
+        "E) sobrecrecimiento de Malassezias y bacterias"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "Para el hipotiroidismo hay una larga lista de signos clínicos, ninguno patognomónico ni correlacionados a las lesiones dérmicas"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
-        "En adultos-jóvenes.En todas las razas aunque más frecuentemente en Cocker spaniel, Dachshund.Doberman, Setter irlandés.Sin predilección por sexo"
+        "En adultos-jóvenes",
+        "En todas las razas aunque más frecuentemente en Cocker spaniel, Dachshund, Doberman, Setter irlandés",
+        "Sin predilección por sexo"
       ],
       DIAGNÓSTICO: [
-        "Hemograma, anemia no regenerativa, normocítica, normocrómica.-Hipercolesterolemia",
+        "Hemograma, anemia no regenerativa, normocítica, normocrómica, Hipercolesterolemia",
         "Biopsia cutánea",
         "Determinación T4 total, T4 libre, TSH especifica canina",
         "Respuesta a la terapia, es un buen método para confirmar el diagnóstico",
@@ -2036,7 +2063,8 @@ export const FullData: FullDataType[] = [
         "Reservado"
       ],
       TRATAMIENTO: [
-        "Levotiroxina: 0, 02-0, 04 mg / kg cada 12 horas al principio y si hay inejoría se puede seguir con una dosis diaria.Los cambios cutáneos tardandesde 1 mes hasta 5 meses en producirse"
+        "Levotiroxina: 0, 02-0, 04 mg / kg cada 12 horas al principio y si hay inejoría se puede seguir con una dosis diaria",
+        "Los cambios cutáneos tardandesde 1 mes hasta 5 meses en producirse"
       ]
     }
   },
@@ -2048,11 +2076,15 @@ export const FullData: FullDataType[] = [
         "Dermatosis por detención del ciclo folicular"
       ],
       ETIOLOGÍA: [
-        "Desconocida.Han sido involucradas varias patologías como la dermatosis sensible a la castración, dermatosis sensible a la hormona de crecimiento, síndrome tipo hiperplasia adrenal, deficiencia de hormona de crecimiento del adulto.Aun hoy es una incógnita pero las nuevas teorías sobre las causa de la detención del ciclo capilar se están centrando en los receptores del folículo piloso"
+        "Desconocida",
+        "Han sido involucradas varias patologías como la dermatosis sensible a la castración, dermatosis sensible a la hormona de crecimiento, síndrome tipo hiperplasia adrenal, deficiencia de hormona de crecimiento del adulto",
+        "Aun hoy es una incógnita pero las nuevas teorías sobre las causa de la detención del ciclo capilar se están centrando en los receptores del folículo piloso"
       ],
       AREA_INVOLUCRADA_DERMOGRAMA: [
         "En General: alopecia parcial o total dependiendo del tiempo de evolución:",
-        "De Dorsal: en la región torácica en forma de silla de montar; en el cuello.Alopecia en la cara externa de los pabellones auriculares, y cola.Posterior de muslos y periné",
+        "De Dorsal: en la región torácica en forma de silla de montar; en el cuello",
+        "Alopecia en la cara externa de los pabellones auriculares, y cola",
+        "Posterior de muslos y periné",
         "De Ventral: del abdomen, tórax, cuello y cola"
       ],
       PRURITO: [
@@ -2060,19 +2092,19 @@ export const FullData: FullDataType[] = [
         "Secundario por contaminación bacteriana y / o Malassezia"
       ],
       SEBORREA_O_DESCAMACIÓN: [
-        "leve a moderada"
+        "Leve a moderada"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Alopecia sin inflamación,",
-        "b) piel fina e hipotónica",
-        "c) Hiperpigmentación",
-        "d) Otitis, foliculitis secundarias"
+        "A) Alopecia sin inflamación",
+        "B) piel fina e hipotónica",
+        "C) Hiperpigmentación",
+        "D) Otitis, foliculitis secundarias"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "No tiene"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
-        "en cualquier raza, aunque particularmente en Malamute, Chow-chow, Caniche miniatura, Pomeranias, de cualquier edad, preferentemente del sexo masculino"
+        "En cualquier raza, aunque particularmente en Malamute, Chow-chow, Caniche miniatura, Pomeranias, de cualquier edad, preferentemente del sexo masculino"
       ],
       DIAGNÓSTICO: [
         "Por exclusión de otras endocrinopatías(hormonas tiroideas, cortisol / creatinina urinarias, estimulación con acth)",
@@ -2081,7 +2113,7 @@ export const FullData: FullDataType[] = [
       DIAGNÓSTICO_DIFERENCIAL: [
         "Hipotiroidismo",
         "Hiperadrenocorticoidismo",
-        "otras endocrinopatías"
+        "Otras endocrinopatías"
       ],
       PRONÓSTICO: [
         "Reservado:",
@@ -2102,7 +2134,8 @@ export const FullData: FullDataType[] = [
         "Hiperestrogenismo de los machos"
       ],
       ETIOLOGÍA: [
-        "Neoplasia testicular secretora de estrógenos.Frecuentemente ocasionado por tumor de células de sértoli y con menor frecuencia el seminoma y el de células intersticiales"
+        "Neoplasia testicular secretora de estrógenos",
+        "Frecuentemente ocasionado por tumor de células de sértoli y con menor frecuencia el seminoma y el de células intersticiales"
       ],
       AREA_INVOLUCRADA_DERMOGRAMA: [
         "Alopecia:",
@@ -2117,14 +2150,14 @@ export const FullData: FullDataType[] = [
         "Ausente a leve"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Alopecia sin inflamación",
-        "b) Hiperpigmentación",
-        "c) Hipertrofia de los pezones",
-        "d) Prepucio péndulo",
-        "e) Otitis",
-        "f) piel engrosada",
-        "g) melanosis macular perineal",
-        "h) eritema e hiperpigmentación del rafe prepucial medial"
+        "A) Alopecia sin inflamación",
+        "B) Hiperpigmentación",
+        "C) Hipertrofia de los pezones",
+        "D) Prepucio péndulo",
+        "E) Otitis",
+        "F) piel engrosada",
+        "G) melanosis macular perineal",
+        "H) eritema e hiperpigmentación del rafe prepucial medial"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "Un testículo agrandado o bien uno ectópico(cualquiera de las dos posibilidades)",
@@ -2133,7 +2166,7 @@ export const FullData: FullDataType[] = [
         "Prostatomegalia ocasionando hematuria, disuria"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
-        "en los machos de cualquier raza, adultos y viejos"
+        "En los machos de cualquier raza, adultos y viejos"
       ],
       DIAGNÓSTICO: [
         "Palpación testicular",
@@ -2164,12 +2197,15 @@ export const FullData: FullDataType[] = [
         "Desbalance ovárico tipo I"
       ],
       ETIOLOGÍA: [
-        "la causa del hiperestrogenismo no se conoce exactamente.Posiblemente se trate de una falla en la conversión de los estrógenos o que haya una producción ectópica.También es probable un defecto en los receptores cutáneos.Es frecuente encontrar ovarios quísticos en estos pacientes"
+        "La causa del hiperestrogenismo no se conoce exactamente",
+        "Posiblemente se trate de una falla en la conversión de los estrógenos o que haya una producción ectópica",
+        "También es probable un defecto en los receptores cutáneos",
+        "Es frecuente encontrar ovarios quísticos en estos pacientes"
       ],
       AREA_INVOLUCRADA_DERMOGRAMA: [
         "De Dorsal: en el periné y los flancos",
         "De Ventral: toda el área desde las ingles hasta las axilas; ginecomastia con pezones hiperpigmentados y agrandados",
-        "conductos auditivos(no constante)"
+        "Conductos auditivos(no constante)"
       ],
       PRURITO: [
         "Ausente",
@@ -2179,10 +2215,10 @@ export const FullData: FullDataType[] = [
         "Leve"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Piel engrosada y alopécica",
-        "b) Hiperpigmentación",
-        "c) Vulva hiperpigmentada y grande",
-        "d) Otitis"
+        "A) Piel engrosada y alopécica",
+        "B) Hiperpigmentación",
+        "C) Vulva hiperpigmentada y grande",
+        "D) Otitis"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "Estros irregulares",
@@ -2190,11 +2226,11 @@ export const FullData: FullDataType[] = [
         "Endometrosis y piometra"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
-        " Se presentan en hembras adultas de edad mediana y sin predisposición racial"
+        "Se presentan en hembras adultas de edad mediana y sin predisposición racial"
       ],
       DIAGNÓSTICO: [
         "Por los diagnósticos diferenciales",
-        "la determinación de estrógenos-progesterona, no es confiable",
+        "La determinación de estrógenos-progesterona, no es confiable",
         "A través de la respuesta a la ovariectomía"
       ],
       DIAGNÓSTICO_DIFERENCIAL: [
@@ -2232,19 +2268,19 @@ export const FullData: FullDataType[] = [
         "Ausente"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) alopecia sin inflamación",
-        "b) Hipopigmentada",
-        "e) Vulva infantil",
-        "d) Pezones infantiles",
-        "e) piel muy delgada"
+        "A) alopecia sin inflamación",
+        "B) Hipopigmentada",
+        "E) Vulva infantil",
+        "D) Pezones infantiles",
+        "E) piel muy delgada"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "Rara vez cursa junto con incontinencia urinaria NO neurogénica"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
-        "NO hay edad, sexo",
-        "o raza.Con mayor frecuencia en adultas, se produce más frecuentemente",
-        "en animales castrados a temprana edad"
+        "NO hay edad, sexo o raza",
+        "Con mayor frecuencia en adultas, se produce más frecuentemente",
+        "En animales castrados a temprana edad"
       ],
       DIAGNÓSTICO: [
         "Por la historia de la ovariectomía a temprana edad",
@@ -2253,14 +2289,14 @@ export const FullData: FullDataType[] = [
         "La biopsia cutánea no es de gran utilidad"
       ],
       DIAGNÓSTICO_DIFERENCIAL: [
-        "con el resto de las dermatopatías de origen hormonal"
+        "Con el resto de las dermatopatías de origen hormonal"
       ],
       PRONÓSTICO: [
         "Bueno"
       ],
       TRATAMIENTO: [
         "Estrógeno oral o inyectable",
-        "si hay incontinencia: citrato de clomifeno"
+        "Si hay incontinencia: citrato de clomifeno"
       ]
     }
   },
@@ -2287,9 +2323,9 @@ export const FullData: FullDataType[] = [
         "Leve"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Alopecia circular y ausencia total de pelo",
-        "b) Descamaciones seborreicas",
-        "e) Foliculitis por contaminación bacteriana"
+        "A) Alopecia circular y ausencia total de pelo",
+        "B) Descamaciones seborreicas",
+        "E) Foliculitis por contaminación bacteriana"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "Ausentes"
@@ -2319,8 +2355,8 @@ export const FullData: FullDataType[] = [
       TRATAMIENTO: [
         "Baños con povidona iodada y clorhexidina",
         "Cuando hay pocas lesiones, lociones antifungicas",
-        "sistémico: Griseofulvina, itraconazol, ketoconazol, terbinafina",
-        "local: miconazol, terbinafina",
+        "Sistémico: Griseofulvina, itraconazol, ketoconazol, terbinafina",
+        "Local: miconazol, terbinafina",
         "Control ambiental"
       ]
     }
@@ -2348,10 +2384,10 @@ export const FullData: FullDataType[] = [
         "Leve a moderada"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Alopecia irregular, expansivo no circular, expansiva",
-        "b) Foliculitis",
-        "e) hiperpigmentación",
-        "d ) Onicomicosis"
+        "A) Alopecia irregular, expansivo no circular, expansiva",
+        "B) Foliculitis",
+        "E) hiperpigmentación",
+        "D ) Onicomicosis"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "Ausentes"
@@ -2360,7 +2396,7 @@ export const FullData: FullDataType[] = [
         "Más frecuente en animales adultos"
       ],
       DIAGNÓSTICO: [
-        "extracción de pelos y escamas y observación directa",
+        "Extracción de pelos y escamas y observación directa",
         "Cultivo",
         "Biopsia e histopatología con tinciones especiales(PAS)"
       ],
@@ -2374,10 +2410,10 @@ export const FullData: FullDataType[] = [
       TRATAMIENTO: [
         "Baños con solución jabonosa de povidona iodada o clorhexidina",
         "Antibióticos vía general si hay contaminación bacteriana",
-        "sistémico: Griseofulvina, itraconazol, ketoconazol, terbinafina",
-        "local: miconazol, terbinafina",
+        "Sistémico: Griseofulvina, itraconazol, ketoconazol, terbinafina",
+        "Local: miconazol, terbinafina",
         "Control ambiental",
-        "lociones en base a clotrimazol o ketoconazol"
+        "Lociones en base a clotrimazol o ketoconazol"
       ]
     }
   },
@@ -2403,11 +2439,11 @@ export const FullData: FullDataType[] = [
         "Leve a moderada"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Piel eritematosa y alopécica",
-        "b) Seborrea oleosa",
-        "e) Olor seborreico",
-        "d) Otitis",
-        "e) costras amarillentas"
+        "A) Piel eritematosa y alopécica",
+        "B) Seborrea oleosa",
+        "E) Olor seborreico",
+        "D) Otitis",
+        "E) costras amarillentas"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "Prurito constante"
@@ -2416,8 +2452,8 @@ export const FullData: FullDataType[] = [
         "En adultos de cualquier raza y sexo"
       ],
       DIAGNÓSTICO: [
-        "citología",
-        "histopatología"
+        "Citología",
+        "Histopatología"
       ],
       DIAGNÓSTICO_DIFERENCIAL: [
         "Dermatitis atópica",
@@ -2444,7 +2480,7 @@ export const FullData: FullDataType[] = [
         "Desorden hereditario de la queratinización y cornificación"
       ],
       AREA_INVOLUCRADA_DERMOGRAMA: [
-        "variable de acuerdo a la causa desencadenante"
+        "Variable de acuerdo a la causa desencadenante"
       ],
       PRURITO: [
         "Leve",
@@ -2454,18 +2490,19 @@ export const FullData: FullDataType[] = [
         "Intensa"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "dependen de la etiología pero En General son:",
-        "a) Descamación",
-        "b) Parches seborreicos en areas circunscriptas",
-        "c) Olor seborreico",
-        "d) Otitis",
-        "e) alopecia"
+        "Dependen de la etiología pero En General son:",
+        "A) Descamación",
+        "B) Parches seborreicos en areas circunscriptas",
+        "C) Olor seborreico",
+        "D) Otitis",
+        "E) alopecia"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "No tiene"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
-        "Son todas de etiología hereditaria.Las razas redispuestas son Cocker, Springer, Westy, Bassett, Setter, Doberman, Dachshund, Labrador, Ovejero alemán"
+        "Son todas de etiología hereditaria",
+        "Las razas redispuestas son Cocker, Springer, Westy, Bassett, Setter, Doberman, Dachshund, Labrador, Ovejero alemán"
       ],
       DIAGNÓSTICO: [
         "Biopsia de áreas afectadas y áreas aparentemente sanas"
@@ -2500,18 +2537,18 @@ export const FullData: FullDataType[] = [
       ],
       ETIOLOGÍA: [
         "Son defectos de la queratinización desencadenados por injurias internas o externas que afectan a la piel, y que por orden de importancia son:",
-        "las hipersensensibilidades",
-        "las endocrinopatías",
-        "factores nutricionales, fundamentalmente falta de ácidos grasos esenciales, grasas, metionina, zinc, vitaminas",
-        "y otros como factores ambientales, falta de corte de pelo, exceso o falta de HÚMEDAd, baños demasiado frecuentes, exceso de cepillado",
-        "excesivo suministro de corticoides",
-        "sarnas",
-        "dermatofitosis",
-        "autoinmunes"
+        "Las hipersensensibilidades",
+        "Las endocrinopatías",
+        "Factores nutricionales, fundamentalmente falta de ácidos grasos esenciales, grasas, metionina, zinc, vitaminas",
+        "Y otros como factores ambientales, falta de corte de pelo, exceso o falta de HÚMEDAd, baños demasiado frecuentes, exceso de cepillado",
+        "Excesivo suministro de corticoides",
+        "Sarnas",
+        "Dermatofitosis",
+        "Autoinmunes"
       ],
       AREA_INVOLUCRADA_DERMOGRAMA: [
         "En General: NO tiene una específica, sigue el patrón de la enfermedad que le dió origen",
-        "De Dorsal: en muchos animales con seborrea se observan unos callos seborreicos como áreas redondeadas y simétricas en relación con cada tuberosidad isquiática.O parches seborreicos",
+        "De Dorsal: en muchos animales con seborrea se observan unos callos seborreicos como áreas redondeadas y simétricas en relación con cada tuberosidad isquiática o parches seborreicos",
         "De Ventral: parches seborreicos o seborrea generalizada"
       ],
       PRURITO: [
@@ -2522,11 +2559,11 @@ export const FullData: FullDataType[] = [
         "Moderado a Intenso"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "van a incluir los de la enfermedad primaria pero En General son:",
-        "a) Descamación y alopecia",
-        "b) Parches seborreicos en áreas circunscriptas",
-        "c) Olor seborreico intenso",
-        "d) Otitis"
+        "Van a incluir los de la enfermedad primaria pero En General son:",
+        "A) Descamación y alopecia",
+        "B) Parches seborreicos en áreas circunscriptas",
+        "C) Olor seborreico intenso",
+        "D) Otitis"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "Dependen de la variada etiología que le da origen"
@@ -2578,17 +2615,17 @@ export const FullData: FullDataType[] = [
         "Leve a moderada"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Descamación y alopecia",
-        "b) Fisuras, Ulceras",
-        "c) Hemorragias",
-        "d) costras"
+        "A) Descamación y alopecia",
+        "B) Fisuras, Ulceras",
+        "C) Hemorragias",
+        "D) costras"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "Sacuden la cabeza y golpean las orejas contra los temporales contrarios, dejándolos manchados con sangre",
         "Rascado de las orejas con las patas"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
-        " preferentemente Dachshund, aunque también afecta a otras razas"
+        "preferentemente Dachshund, aunque también afecta a otras razas"
       ],
       DIAGNÓSTICO: [
         "Por la apariencia clínica",
@@ -2608,9 +2645,9 @@ export const FullData: FullDataType[] = [
       TRATAMIENTO: [
         "El mismo que el de las seborreas",
         "Durante las hemorragias, secar con gasa y poner una gota de cianoacrilato",
-        "tacrolimus topico",
-        "corticoides tópicos",
-        "oclacitinib"
+        "Tacrolimus topico",
+        "Corticoides tópicos",
+        "Oclacitinib"
       ]
     }
   },
@@ -2627,7 +2664,7 @@ export const FullData: FullDataType[] = [
       ],
       AREA_INVOLUCRADA_DERMOGRAMA: [
         "De Dorsal: alopecia ovoidea y total, en el tercio superior y",
-        "dorsal de la cola"
+        "Dorsal de la cola"
       ],
       PRURITO: [
         "Ausente, solo presente si hay contaminación bacteriana secundaria o por Malassezia"
@@ -2636,8 +2673,8 @@ export const FullData: FullDataType[] = [
         "Leve"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Area alopécica circular a ovoide",
-        "b) Descamaciones"
+        "A) Area alopécica circular a ovoide",
+        "B) Descamaciones"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "Eventualmente cursa con adenoma de glándulas circumanales"
@@ -2656,7 +2693,7 @@ export const FullData: FullDataType[] = [
       ],
       TRATAMIENTO: [
         "Champúes antiseborreicos, o con peróxido de benzoilo, clorhexidina",
-        "corticoides, antibióticos y fungicidas de uso topico",
+        "Corticoides, antibióticos y fungicidas de uso topico",
         "Castración"
       ]
     }
@@ -2669,7 +2706,7 @@ export const FullData: FullDataType[] = [
         "No tiene"
       ],
       ETIOLOGÍA: [
-        "ldiopática,"
+        "Ldiopática"
       ],
       AREA_INVOLUCRADA_DERMOGRAMA: [
         "De Dorsal: hocico y almohadillas plantaras",
@@ -2682,14 +2719,14 @@ export const FullData: FullDataType[] = [
         "Leve a intensa"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Hiperqueratosis y alopecia",
-        "b) Fisuras y erosiones"
+        "A) Hiperqueratosis y alopecia",
+        "B) Fisuras y erosiones"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "En los casos avanzados dificultad para caminar"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
-        "más frecuente en adultos-viejos, hay razas predispuestas como Boxer, Terrier de Boston, Bulldog, Dogo de Burdeos"
+        "Más frecuente en adultos-viejos, hay razas predispuestas como Boxer, Terrier de Boston, Bulldog, Dogo de Burdeos"
       ],
       DIAGNÓSTICO: [
         "Signos clínicos y falta de otras lesiones dérmicas",
@@ -2702,7 +2739,7 @@ export const FullData: FullDataType[] = [
         "Lupus eritematoso sistémico",
         "Pénfigo eritematoso",
         "Lupus discoideo",
-        "carencia de zinc"
+        "Carencia de zinc"
       ],
       PRONÓSTICO: [
         "Malo, es un defecto permanente"
@@ -2712,7 +2749,7 @@ export const FullData: FullDataType[] = [
         "Agentes keratolíticos",
         "Cremas humectantes",
         "Quirúrgico, el exceso de queratina",
-        "antibióticos si hay piodermia asociada"
+        "Antibióticos si hay piodermia asociada"
       ]
     }
   },
@@ -2724,7 +2761,7 @@ export const FullData: FullDataType[] = [
         "Dermatosis sensible a la vitamina A"
       ],
       ETIOLOGÍA: [
-        "desconocida"
+        "Desconocida"
       ],
       AREA_INVOLUCRADA_DERMOGRAMA: [
         "De Ventral: en el tórax, abdomen y cuello",
@@ -2738,10 +2775,10 @@ export const FullData: FullDataType[] = [
         "Intensa"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Hiperqueratosis, descamación, alopecia",
-        "b) Olor seborreico",
-        "e) Pelo sin brillo y se enreda fácilmente",
-        "d) Otitis"
+        "A) Hiperqueratosis, descamación, alopecia",
+        "B) Olor seborreico",
+        "E) Pelo sin brillo y se enreda fácilmente",
+        "D) Otitis"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "NOtiene"
@@ -2752,7 +2789,7 @@ export const FullData: FullDataType[] = [
       DIAGNÓSTICO: [
         "Por las placas hiperqueratóticas",
         "Por la gran cantidad de comedones",
-        "por la respuesta al tratamiento",
+        "Por la respuesta al tratamiento",
         "La histopatología es orientadora"
       ],
       DIAGNÓSTICO_DIFERENCIAL: [
@@ -2794,9 +2831,9 @@ export const FullData: FullDataType[] = [
         "Intensa"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Eritema, alopecia, costras, descamaciones",
-        "b) Exudados serosos",
-        "e) Hiperpigmentación, hiperqueratosis"
+        "A) Eritema, alopecia, costras, descamaciones",
+        "B) Exudados serosos",
+        "E) Hiperpigmentación, hiperqueratosis"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "Disminución de olfato y del gusto",
@@ -2818,11 +2855,12 @@ export const FullData: FullDataType[] = [
         "Pénfigo foliáceo"
       ],
       PRONÓSTICO: [
-        "Bueno.La respuesta ocurre dentro de las 6 semanas"
+        "Bueno",
+        "La respuesta ocurre dentro de las 6 semanas"
       ],
       TRATAMIENTO: [
         "El tratamiento con sales de ZINC debe ser de por vida",
-        "Sulfato de ZINC,-ZINC-metionina,",
+        "Sulfato de ZINC,-ZINC-metionina",
         "En caso de que no haya mejoría suministrando ZINC por vía oral, se debe suministrar en forma endovenosa una solución de Sulfato de ZINC",
         "Hidratación de la piel, lavajes con champúes antiseborreicos"
       ]
@@ -2845,41 +2883,44 @@ export const FullData: FullDataType[] = [
       PRURITO: [
         "Ausente",
         "Secundario por piodermia",
-        "y / o por Malassezia de la seborrea"
+        "Y / o por Malassezia de la seborrea"
       ],
       SEBORREA_O_DESCAMACIÓN: [
         "Leve"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Fractura de los pelos, alguno de ellos vuelven a crecer",
-        "y esta tendencia decrece con el tiempo",
-        "b) Alopecia parcial",
-        "e) Descamaciones",
-        "d) Foliculitis bacteriana secundaria"
+        "A) Fractura de los pelos, alguno de ellos vuelven a crecer",
+        "Y esta tendencia decrece con el tiempo",
+        "B) Alopecia parcial",
+        "E) Descamaciones",
+        "D) Foliculitis bacteriana secundaria"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "NO tiene"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
         "En aquellos animales que tienen pelos de un color azul-gris la alopecia comienza a partir de los 5-6 meses de edad",
-        "Cuando el manto tiene otros colores recién se manifiesta después de los 2 años de edad.Afecta pincipalmente a Doberman azules, aunque también en menor porcentaje a marrones.Otras razas con colores diluidos también están afectadas, como Dachshund, Gran danés, Whippet, Galgos italianos, Doberman miniatura, Yorkshire terrier, Chihuahua y muchas otras"
+        "Cuando el manto tiene otros colores recién se manifiesta después de los 2 años de edad",
+        "Afecta pincipalmente a Doberman azules, aunque también en menor porcentaje a marrones",
+        "Otras razas con colores diluidos también están afectadas, como Dachshund, Gran danés, Whippet, Galgos italianos, Doberman miniatura, Yorkshire terrier, Chihuahua y muchas otras"
       ],
       DIAGNÓSTICO: [
         "Por el conocimiento de las razas afectadas",
         "Por el dermograma",
-        "tricografía para observar al microscopio la presencia de macromelanosomas"
+        "Tricografía para observar al microscopio la presencia de macromelanosomas"
       ],
       DIAGNÓSTICO_DIFERENCIAL: [
         "Demodicosis",
         "Hipotiroidismo",
         "Otras endocrinopatías",
-        "foliculitis bacteriana"
+        "Foliculitis bacteriana"
       ],
       PRONÓSTICO: [
         "Reservado a Malo"
       ],
       TRATAMIENTO: [
-        "Verificar que la alimentación sea la correcta para mantener la mejor nutrición de la piel y los pelos.-Evitar prácticas de bañado frecuente",
+        "Verificar que la alimentación sea la correcta para mantener la mejor nutrición de la piel y los pelos",
+        "Evitar prácticas de bañado frecuente",
         "Control de las infecciones secundarias"
       ]
     }
@@ -2915,15 +2956,16 @@ export const FullData: FullDataType[] = [
         "Ausente"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Alopecia central por erosión, ulceras",
-        "b) Borde periférico fibrosos y oscuro"
+        "A) Alopecia central por erosión, ulceras",
+        "B) Borde periférico fibrosos y oscuro"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "NO tiene"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
-        "Adultos, por lo general de razas grandes, como Doberman, Ovejero alemán,",
-        "Gran Danés, Golden retriever, Setter irlandés, y otros.Se presenta 2 veces más en machos que en hembras"
+        "Adultos, por lo general de razas grandes, como Doberman, Ovejero alemán",
+        "Gran Danés, Golden retriever, Setter irlandés, y otros",
+        "Se presenta 2 veces más en machos que en hembras"
       ],
       DIAGNÓSTICO: [
         "Por la localización de la lesión",
@@ -2941,7 +2983,7 @@ export const FullData: FullDataType[] = [
       ],
       TRATAMIENTO: [
         "Comprensión del propietario sobre el componente síquico de la enfermedad y los cambios ambientales a realizar",
-        "Drogas ansiolíticas: Fenobarbital, Diazepam,",
+        "Drogas ansiolíticas: Fenobarbital, Diazepam",
         "Drogas tricíclicas anidepresivas: Fluoxetina, Amitriptilina, Imipramina, Clomipramina",
         "Tratamiento de la enfermedad secundaria que le da origen, considerando a las infecciones"
       ]
@@ -2974,16 +3016,16 @@ export const FullData: FullDataType[] = [
         "Leve a intensa"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Eritema de la cara interna de pabellón auricular, del conducto vertical y horizontal",
-        "b) Descamaciones",
-        "e) Mal olor",
-        "d) Otitis"
+        "A) Eritema de la cara interna de pabellón auricular, del conducto vertical y horizontal",
+        "B) Descamaciones",
+        "E) Mal olor",
+        "D) Otitis"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "Ausentes"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
-        "las mismas que para cada etiología desencadenante"
+        "Las mismas que para cada etiología desencadenante"
       ],
       DIAGNÓSTICO: [
         "Por el conocimiento de las patologías dérmicas que llevan a otitis",
@@ -3014,7 +3056,7 @@ export const FullData: FullDataType[] = [
       CODIGO: "9ANO",
       SINÓNIMO: [
         "Impactación o inflamación de los sacos anales, sacos paraanales o adanales",
-        "abscedación de los sacos anales, sacos paraanales o adanales"
+        "Abscedación de los sacos anales, sacos paraanales o adanales"
       ],
       ETIOLOGÍA: [
         "Impactación aguda o crónica del material propio",
@@ -3030,13 +3072,13 @@ export const FullData: FullDataType[] = [
         "Ausentes"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Edema y alopecia",
-        "b) prurito – dolor manifestado por sentarse y arrastrar el ano contra el piso o por lamido de la región",
-        "c) Abscedación, fístulas",
+        "A) Edema y alopecia",
+        "B) prurito – dolor manifestado por sentarse y arrastrar el ano contra el piso o por lamido de la región",
+        "C) Abscedación, fístulas",
         "Responsable de algunas de las dermatitis erosivas húmedas agudas de la región"
       ],
       SIGNOS_CLINICOS_GENERALES: [
-        "no hay"
+        "No hay"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
         "Es más frecuente en animales adultos, de razas de tamaño pequeño, sin predisposición de sexo"
@@ -3047,7 +3089,7 @@ export const FullData: FullDataType[] = [
         "Por palpación y presión digital, con un dedo dentro del recto y otro afuera",
         "Por observación del material extraído",
         "Por observación de la o las fistulas",
-        "por signo de lamido o frotar el ano contra el piso"
+        "Por signo de lamido o frotar el ano contra el piso"
       ],
       DIAGNÓSTICO_DIFERENCIAL: [
         "Tumores de los sacos anales",
@@ -3061,7 +3103,7 @@ export const FullData: FullDataType[] = [
       TRATAMIENTO: [
         "Segun el proceso presente:",
         "PROCESO COLOR CONSISTENCIA OLOR",
-        "l) Normal Pajizo Liquida Propio",
+        "L) Normal Pajizo Liquida Propio",
         "2) Impactación Arcilloso Pastosa Propio",
         "3) Impactación recidivante Oscuro Pastoso duro Propio",
         "4) lnfeccion aguda(absceso)AmarilloPurulento Fetido",
@@ -3070,7 +3112,8 @@ export const FullData: FullDataType[] = [
         "2) Impactación: extrusión manual desde afuera o con el índice en el recto y pulgar afuera",
         "3) Impactación recidivante: extrusión manual que debe ser repetida varias veces en la semana o tratada como una infección crónica",
         "4) Infección aguda con abscedación: considerar cauterizar desde el orificio del absceso con varias aplicaciones semanales con Acido fénico puro",
-        "5) Infección crónica: Extrusión del contenido del saco.Lavar con solución de Ringer.Antibióticos por vía sistémica.Cauterización desde su conducto, con Acido fénico, día por medio durante una semana"
+        "5) Infección crónica: Extrusión del contenido del saco, lavar con solución de Ringer, antibióticos por vía sistémica",
+        "Cauterización desde su conducto, con Acido fénico, día por medio durante una semana"
       ]
     }
   },
@@ -3082,7 +3125,7 @@ export const FullData: FullDataType[] = [
         "No tiene"
       ],
       ETIOLOGÍA: [
-        "la causa por la que se produce todavía no ha sido determinada"
+        "La causa por la que se produce todavía no ha sido determinada"
       ],
       AREA_INVOLUCRADA_DERMOGRAMA: [
         "De Dorsal: área perianal"
@@ -3098,14 +3141,15 @@ export const FullData: FullDataType[] = [
         "Alopecia",
         "Fístulas",
         "Ulceras",
-        "cicatrices"
+        "Cicatrices"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "Dolor local",
         "Lamido constante"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
-        "En adultos generalmente machos, más frecuentemente en la raza Ovejero alemán y sus cruzas.aunque también en Gran danés, Setter irlandés, y otras"
+        "En adultos generalmente machos, más frecuentemente en la raza Ovejero alemán y sus cruzas",
+        "aunque también en Gran danés, Setter irlandés, y otras"
       ],
       DIAGNÓSTICO: [
         "Por la localización y el aspecto de la lesión",
@@ -3123,11 +3167,12 @@ export const FullData: FullDataType[] = [
         "Reservado a grave"
       ],
       TRATAMIENTO: [
-        "Quirúrgico, pero al ignorarse la causa, es difícil evaluar los resultados.Puede intentarse criocirugía",
+        "Quirúrgico, pero al ignorarse la causa, es difícil evaluar los resultados",
+        "Puede intentarse criocirugía",
         "Corticoides sistémicos",
         "Ciclosporina sistémica",
-        "tracrolimus local",
-        "corticoides local"
+        "Tracrolimus local",
+        "Corticoides local"
       ]
     }
   },
@@ -3153,10 +3198,10 @@ export const FullData: FullDataType[] = [
         "Ausente"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Edema y alopecia",
-        "b) Pápulas y pústulas",
-        "e) Fístulas, supuración hemopurulenta",
-        "d) Costras amarillentas"
+        "A) Edema y alopecia",
+        "B) Pápulas y pústulas",
+        "E) Fístulas, supuración hemopurulenta",
+        "D) Costras amarillentas"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "Linfoadenopatía",
@@ -3196,7 +3241,7 @@ export const FullData: FullDataType[] = [
         "Calvicie Patron"
       ],
       ETIOLOGÍA: [
-        "es un síndrome que tiene un componente genético que se caracteriza por alopecia no inflamatoria y apruriginosa de etiología desconocida"
+        "Es un síndrome que tiene un componente genético que se caracteriza por alopecia no inflamatoria y apruriginosa de etiología desconocida"
       ],
       AREA_INVOLUCRADA_DERMOGRAMA: [
         "En General: alopecia parcial",
@@ -3206,25 +3251,26 @@ export const FullData: FullDataType[] = [
       PRURITO: [
         "Ausente",
         "Secundario por piodermia",
-        "y / o por Malassezia de la seborrea"
+        "Y / o por Malassezia de la seborrea"
       ],
       SEBORREA_O_DESCAMACIÓN: [
         "Ausente"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) alopecia parcial",
-        "b) pelo miniaturizado"
+        "A) alopecia parcial",
+        "B) pelo miniaturizado"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "NO tiene"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
-        "tiene predilección por razas de mando corto como Terrier de Boston, Boxer, Chihuhua, Dachshund, Greyhoun italiano, Poinscher miniatura, Weimaraner y Whippet.Comienza entre los 6 meses y el año de edad y no hay predilección por sexo"
+        "Tiene predilección por razas de mando corto como Terrier de Boston, Boxer, Chihuhua, Dachshund, Greyhoun italiano, Poinscher miniatura, Weimaraner y Whippet",
+        "Comienza entre los 6 meses y el año de edad y no hay predilección por sexo"
       ],
       DIAGNÓSTICO: [
         "Por el conocimiento de las razas afectadas",
         "Por el dermograma",
-        "tricografia para observar los pelos miniaturizados"
+        "Tricografia para observar los pelos miniaturizados"
       ],
       DIAGNÓSTICO_DIFERENCIAL: [
         "Demodicosis",
@@ -3235,7 +3281,8 @@ export const FullData: FullDataType[] = [
         "Bueno, es solo problema estético"
       ],
       TRATAMIENTO: [
-        "Verificar que la alimentación sea la correcta para mantener la mejor nutrición de la piel y los pelos.-Evitar prácticas de bañado frecuente",
+        "Verificar que la alimentación sea la correcta para mantener la mejor nutrición de la piel y los pelos",
+        "Evitar prácticas de bañado frecuente",
         "Control de las infecciones secundarias",
         "Melatonina"
       ]
@@ -3249,7 +3296,7 @@ export const FullData: FullDataType[] = [
         "Forunculosis por picadura de insectos"
       ],
       ETIOLOGÍA: [
-        "picadura de insectos como mosquitos"
+        "Picadura de insectos como mosquitos"
       ],
       AREA_INVOLUCRADA_DERMOGRAMA: [
         "De Dorsal: región lateral de la nariz, planum nasal, alrededor de los ojos y borde interno de pabellones auriculares",
@@ -3262,20 +3309,21 @@ export const FullData: FullDataType[] = [
         "Ausente"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) Forunculosis",
-        "b) Edema y exudado sero-hemo-purulento"
+        "A) Forunculosis",
+        "B) Edema y exudado sero-hemo-purulento"
       ],
       SIGNOS_CLINICOS_GENERALES: [
         "Solamente dolor"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
-        "No hay predilección por edad y sexo.Es más frecuente en la raza Ovejero Alemán pero cualquier",
-        "raza dolicocéfala está predispuesta"
+        "No hay predilección por edad y sexo",
+        "Es más frecuente en la raza Ovejero Alemán pero cualquier",
+        "Raza dolicocéfala está predispuesta"
       ],
       DIAGNÓSTICO: [
         "Por la localización de la lesión",
         "Por los signos clínicos dérmicos",
-        "Impronta de las secreciones., y observación citológica",
+        "Impronta de las secreciones y observación citológica",
         "Cultivo y antibiograma",
         "Biopsia y diagnóstico histopatológico"
       ],
@@ -3300,10 +3348,11 @@ export const FullData: FullDataType[] = [
     DATA: {
       CODIGO: "NO",
       SINÓNIMO: [
-        "necrosis trombovascular proliferativa del pabellón auricular"
+        "Necrosis trombovascular proliferativa del pabellón auricular"
       ],
       ETIOLOGÍA: [
-        "isquemia de origen intederminado.Puede ser desencadenada por vacunas, REACCIÓNes adversas al alimento o simplemente idiopatico"
+        "Isquemia de origen intederminado",
+        "Puede ser desencadenada por vacunas, REACCIÓNes adversas al alimento o simplemente idiopatico"
       ],
       AREA_INVOLUCRADA_DERMOGRAMA: [
         "De Dorsal: borde de pabellones auriculares",
@@ -3316,16 +3365,18 @@ export const FullData: FullDataType[] = [
         "Descamación y costras inicialmente"
       ],
       SIGNOS_CLINICOS_DERMICOS: [
-        "a) inflamación y engrosamiento",
-        "b) úlceras y costras",
-        "c) pérdida de tejido(lesiones en sacabocados)",
-        "d) cicatriz"
+        "A) inflamación y engrosamiento",
+        "B) úlceras y costras",
+        "C) pérdida de tejido(lesiones en sacabocados)",
+        "D) cicatriz"
       ],
       SIGNOS_CLINICOS_GENERALES: [
-        "no hay.Sólo dolor localizado"
+        "No hay",
+        "Sólo dolor localizado"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
-        "No hay predilección por edad y sexo.Es más frecuente en la raza Dachshound pero puede ocasionalmente afectar otras razas o mestizos"
+        "No hay predilección por edad y sexo",
+        "Es más frecuente en la raza Dachshound pero puede ocasionalmente afectar otras razas o mestizos"
       ],
       DIAGNÓSTICO: [
         "Por la localización de la lesión",
@@ -3340,8 +3391,8 @@ export const FullData: FullDataType[] = [
       ],
       TRATAMIENTO: [
         "Corticoides via oral y tópicos",
-        "pentoxifilina, doxiciclina / niacinamida y / o la vitamina E",
-        "tacrolimus tópico"
+        "Pentoxifilina, doxiciclina / niacinamida y / o la vitamina E",
+        "Tacrolimus tópico"
       ]
     }
   }
