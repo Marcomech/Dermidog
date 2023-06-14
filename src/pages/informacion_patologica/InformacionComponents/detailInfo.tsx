@@ -12,8 +12,9 @@ interface detailInfoProps {
 }
 
 const myLoader = ({ src, width, quality }: ImageLoaderProps) => {
+    console.log(`https://marcomech.github.io/Dermidog/Assets/Dermogramas/${src}.jpg`)
     //return `http://localhost:3000/Assets/Dermogramas/${src}.jpg`
-    return `https://marcomech.github.io/Dermidog//Assets/Dermogramas/${src}.jpg`
+    return `https://marcomech.github.io/Dermidog/Assets/Dermogramas/${src}.jpg`
 }
 
 export default function DetailInfo({ title }: detailInfoProps) {
