@@ -100,6 +100,7 @@ function StyleImage(key: string, value: string) {
                     alt={'Dermograma_' + value}
                     width={200}
                     height={200}
+                    unoptimized
                     style={{
                         display: 'block',
                         marginLeft: 'auto',
