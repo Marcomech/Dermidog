@@ -56,7 +56,10 @@ export default function FormDialog() {
           },
         }}
       >
-        <DialogTitle >Ayuda Diagnostica</DialogTitle>
+        {activePage === 5
+          ? <DialogTitle >Enfermedades posibles</DialogTitle>
+          : <DialogTitle >Ayuda Diagnostica</DialogTitle>
+        }
 
         <DialogContent>
           <PageBody actualPage={activePage} />

@@ -16,8 +16,8 @@ export default function EncontrarDiagnostico() {
   const [loading, setLoading] = useState(true);
   const [Diagnostico, setDiagnostico] = useState(enfermedadesPosibles);
   let filteredDiagnostico = Diagnostico;
-  console.log(filteredDiagnostico)
-  console.log(formData)
+  //console.log(filteredDiagnostico)
+  //console.log(formData)
 
   const filterEnfermedades = (formDataFilter: string, datos: any, propiedad: string) => {
     if (formDataFilter !== undefined && formDataFilter !== '') {
@@ -32,63 +32,58 @@ export default function EncontrarDiagnostico() {
   };
 
   useEffect(() => {
-    console.log(filteredDiagnostico)
+    //console.log(filteredDiagnostico)
     filteredDiagnostico = filterEnfermedades(formData.AreaInvolucrada, Area, 'Area');
-    console.log(filteredDiagnostico)
+    //console.log(filteredDiagnostico)
     filteredDiagnostico = filterEnfermedades(formData.Prurito, Prurito, 'Prurito');
-    console.log(filteredDiagnostico)
-    filteredDiagnostico = filterEnfermedades(formData.Seborrea, Seborrea, 'Seborrea');
-    console.log(filteredDiagnostico)
-    filteredDiagnostico = filterEnfermedades(formData.Raza, Raza, 'Raza');
-    console.log(filteredDiagnostico)
-    filteredDiagnostico = filterEnfermedades(formData.Sexo, Sexo, 'Sexo');
-    console.log(filteredDiagnostico)
-    filteredDiagnostico = filterEnfermedades(formData.Edad, Edad, 'Edad');
-    console.log(filteredDiagnostico)
-    filteredDiagnostico = filterEnfermedades(formData.Simetria, Simetria, 'Simetria');
-    console.log(filteredDiagnostico)
-    filteredDiagnostico = filterEnfermedades(formData.LesionesGenerales, LesionesGenerales, 'LesionesGenerales');
-    console.log(filteredDiagnostico)
-    filteredDiagnostico = filterEnfermedades(formData.LesionesDermicas, LesionesDermicas, 'LesionesDermicas');
+    //console.log(filteredDiagnostico)
+    //filteredDiagnostico = filterEnfermedades(formData.Seborrea, Seborrea, 'Seborrea');
+    //console.log(filteredDiagnostico)
+    //filteredDiagnostico = filterEnfermedades(formData.Raza, Raza, 'Raza');
+    //console.log(filteredDiagnostico)
+    //filteredDiagnostico = filterEnfermedades(formData.Sexo, Sexo, 'Sexo');
+    //console.log(filteredDiagnostico)
+    //filteredDiagnostico = filterEnfermedades(formData.Edad, Edad, 'Edad');
+    //console.log(filteredDiagnostico)
+    //filteredDiagnostico = filterEnfermedades(formData.Simetria, Simetria, 'Simetria');
+    //console.log(filteredDiagnostico)
+    //filteredDiagnostico = filterEnfermedades(formData.LesionesGenerales, LesionesGenerales, 'LesionesGenerales');
+    //console.log(filteredDiagnostico)
+    //filteredDiagnostico = filterEnfermedades(formData.LesionesDermicas, LesionesDermicas, 'LesionesDermicas');
 
-    console.log(filteredDiagnostico)
+    //console.log(filteredDiagnostico)
     setDiagnostico(filteredDiagnostico);
     setLoading(false);
   }, [formData]);
 
 
-  return (
-    <>
-      <Typography paddingBottom={3} variant="h6">
-        Enfermedades posibles
-      </Typography>
-      {
-        loading ?
-          (
-            <Image
-              src={gif1}
-              alt=''
-              width="0"
-              height="0"
-              sizes="100vw"
-              style={{
-                width: '36%',
-                height: 'auto',
-                display: 'block',
-                marginLeft: 'auto',
-                marginRight: 'auto',
-              }}
+  return (<>
+    {
+      loading ?
+        (
+          <Image
+            src={gif1}
+            alt=''
+            width="0"
+            height="0"
+            sizes="100vw"
+            style={{
+              width: '36%',
+              height: 'auto',
+              display: 'block',
+              marginLeft: 'auto',
+              marginRight: 'auto',
+            }}
+          />
+        )
+        : (
+          Diagnostico.map((item, index) => (
+            < ListItem
+              key={index}
+              name={item}
             />
-          )
-          : (
-            Diagnostico.map((item, index) => (
-              < ListItem
-                key={index}
-                name={item}
-              />
-            ))
-          )
-      }
-    </>
-  )
+          ))
+        )
+    }
+  </>)
 }

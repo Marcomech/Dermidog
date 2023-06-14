@@ -220,7 +220,7 @@ export const FullData: FullDataType[] = [
         "D) También es posible observar el collarete epidérmico hiperpigmentado en su centro, que le da a la lesión el aspecto de ojo de buey"
       ],
       SIGNOS_CLINICOS_GENERALES: [
-        "NOhay"
+        "No hay"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
         "Más frecuentemente en animales jóvenes, aunque también puede afectar a animales de cualquier edad",
@@ -274,7 +274,7 @@ export const FullData: FullDataType[] = [
         "C) Ojos de buey"
       ],
       SIGNOS_CLINICOS_GENERALES: [
-        "NOtiene"
+        "No tiene"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
         "Similar a la foliculitis bacteriana"
@@ -328,7 +328,7 @@ export const FullData: FullDataType[] = [
         "E) fisuras"
       ],
       SIGNOS_CLINICOS_GENERALES: [
-        "NOtiene"
+        "No tiene"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
         "Se presenta con mayor frecuencia en el Ovejero Aleman pero puede presentarse en cualquier raza principalmente dolicocéfala"
@@ -2781,7 +2781,7 @@ export const FullData: FullDataType[] = [
         "D) Otitis"
       ],
       SIGNOS_CLINICOS_GENERALES: [
-        "NOtiene"
+        "No tiene"
       ],
       EDAD_RAZA_Y_SEXO_DE_PRESENTACION: [
         "Históricamente sólo en la raza Cocker spaniel, aunque también fue descripto en Schnauzer miniatura y Labrador retriever"

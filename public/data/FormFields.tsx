@@ -83,7 +83,7 @@ export const FormFields: formType[] = [
           'No, son asimetricas y/o unilaterales',
           'Si, son simetricas y/o bilaterales',
         ],
-        disabled: false,
+        disabled: true,
       }]
   },
   {
