@@ -5,7 +5,6 @@ import CssBaseline from "@mui/material/CssBaseline";
 import theme from "@/constants/themes";
 import { Typography, Box } from "@mui/material";
 import GlobalMenu from "@/components/globalMenu";
-
 type Props = {
   children: ReactNode;
 };
@@ -16,7 +15,7 @@ export default function GlobalLayout({ children }: Props) {
       <Head>
         <title>Dermidog</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href='../favIcon.ico' />
+        <link rel="icon" href="/Assets/favIcon.ico" />
       </Head>
       <ThemeProvider theme={theme}>
         <div style={{

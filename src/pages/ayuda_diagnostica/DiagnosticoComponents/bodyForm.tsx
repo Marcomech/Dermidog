@@ -3,7 +3,7 @@ import Grid from "@mui/material/Unstable_Grid2"
 import DropDown from './CustomFormFields/DropDown';
 import Text from './CustomFormFields/Text';
 import { FormFields } from '../../../../public/data/index';
-import { gif2, gif3 } from "../../../assets/index"
+import { gif2, gif3 } from "../../../../public/Assets/Gifs"
 import Image from 'next/image';
 
 
@@ -24,6 +24,7 @@ export default function BodyForm({ actualPage }: BodyFormProps) {
     return < div >
         {
             <Image
+                priority
                 src={actualPage < 2 ? gif3 : gif2}
                 alt=''
                 width="0"

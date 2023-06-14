@@ -4,7 +4,7 @@ import { useContext } from "react";
 import { Codigos } from "../../public/data/index"
 import { Prurito, Seborrea, Area, Raza, Sexo, Edad, Simetria, LesionesGenerales, LesionesDermicas } from "../../public/Diagnostico/index";
 import { Typography } from "@mui/material";
-import { gif1 } from "@/assets";
+import { gif1 } from "../../public/Assets/Gifs";
 import Image from "next/image";
 import ListItem from "@/pages/informacion_patologica/InformacionComponents/ListItem";
 
@@ -16,8 +16,7 @@ export default function EncontrarDiagnostico() {
   const [loading, setLoading] = useState(true);
   const [Diagnostico, setDiagnostico] = useState(enfermedadesPosibles);
   let filteredDiagnostico = Diagnostico;
-  //console.log(filteredDiagnostico)
-  //console.log(formData)
+  console.log(formData)
 
   const filterEnfermedades = (formDataFilter: string, datos: any, propiedad: string) => {
     if (formDataFilter !== undefined && formDataFilter !== '') {
@@ -32,11 +31,11 @@ export default function EncontrarDiagnostico() {
   };
 
   useEffect(() => {
-    //console.log(filteredDiagnostico)
+    console.log(filteredDiagnostico)
     filteredDiagnostico = filterEnfermedades(formData.AreaInvolucrada, Area, 'Area');
-    //console.log(filteredDiagnostico)
+    console.log(filteredDiagnostico)
     filteredDiagnostico = filterEnfermedades(formData.Prurito, Prurito, 'Prurito');
-    //console.log(filteredDiagnostico)
+    console.log(filteredDiagnostico)
     //filteredDiagnostico = filterEnfermedades(formData.Seborrea, Seborrea, 'Seborrea');
     //console.log(filteredDiagnostico)
     //filteredDiagnostico = filterEnfermedades(formData.Raza, Raza, 'Raza');

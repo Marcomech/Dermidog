@@ -1,13 +1,21 @@
 import * as React from 'react';
 import { Box, Typography } from '@mui/material';
 import { TreeView, TreeItem } from '@mui/lab';
-import { ExpandMore, ChevronRight } from '@mui/icons-material';
+import { ExpandMore, ChevronRight, RateReviewRounded } from '@mui/icons-material';
 import { FullData } from '../../../../public/data';
 import { Data } from '../../../../public/data/FullData';
+import type { ImageLoaderProps } from 'next/image';
 import Image from 'next/image';
 
 interface detailInfoProps {
     title: string
+}
+
+const myLoader = ({ src, width, quality }: ImageLoaderProps) => {
+    //return `http://localhost:3000/Assets/Dermogramas/${src}.jpg`
+    return `https://marcomech.github.io/Dermidog//Assets/Dermogramas/${src}.jpg`
+
+
 }
 
 export default function DetailInfo({ title }: detailInfoProps) {
@@ -39,7 +47,7 @@ function DataToTree(data: Data) {
 
     Object.entries(data).forEach(([key, value]) => {
         if (key === 'CODIGO') {
-            TreeItems.push(StyleImage(key, value));
+            TreeItems.push(StyleImage(key, value.toString()));
         } else {
             TreeItems.push(
                 <TreeItem key={key} nodeId={key} label=
@@ -76,7 +84,7 @@ function StileContent(value: string[] | string) {
     return contenido
 }
 
-function StyleImage(key: string, value: string | string[]) {
+function StyleImage(key: string, value: string) {
     return <TreeItem
         key={key} nodeId={key}
         label={
@@ -87,8 +95,10 @@ function StyleImage(key: string, value: string | string[]) {
         <TreeItem nodeId="2" label={
             <Box padding={1}>
                 <Image
-                    src={`/Dermogramas/${value}.jpg`}
-                    alt={'Dermograma'}
+                    loading='lazy'
+                    loader={myLoader}
+                    src={value}
+                    alt={'Dermograma_' + value}
                     width={200}
                     height={200}
                     style={{

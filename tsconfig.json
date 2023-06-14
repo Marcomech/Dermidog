@@ -28,7 +28,8 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "src/pages/HomePage.js"
+    "src/pages/HomePage.js",
+    "myImageLoader.js"
   ],
   "exclude": [
     "node_modules"
