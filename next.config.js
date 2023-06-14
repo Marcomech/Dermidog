@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     path: "",
-    loader: "custom"
+    domains: ["marcomech.github.io/"]
   }
 }
 
