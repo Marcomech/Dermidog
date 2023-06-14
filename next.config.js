@@ -3,6 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     path: "",
+    loader: 'static'
   }
 }
 
