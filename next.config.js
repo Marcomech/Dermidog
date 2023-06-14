@@ -4,7 +4,7 @@ const nextConfig = {
   images: {
     path: "",
     domains: ["marcomech.github.io/"],
-    loader: 'Vercel'
+    loader: "default"
   }
 }
 
