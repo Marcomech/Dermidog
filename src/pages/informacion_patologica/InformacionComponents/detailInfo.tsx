@@ -96,7 +96,7 @@ function StyleImage(key: string, value: string) {
                 <Image
                     loading='lazy'
                     loader={myLoader}
-                    src={value}
+                    src={`https:marcomech.github.io/Dermidog/Assets/Dermogramas/${value}.jpg`}
                     alt={'Dermograma_' + value}
                     width={200}
                     height={200}
