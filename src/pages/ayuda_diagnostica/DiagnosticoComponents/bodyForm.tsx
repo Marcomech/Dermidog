@@ -5,6 +5,7 @@ import Text from './CustomFormFields/Text';
 import { FormFields } from '../../../../public/data/index';
 import { gif2, gif3 } from "../../../../public/Assets/Gifs"
 import Image from 'next/image';
+import AutoComplete from './CustomFormFields/AutoComplete';
 
 
 interface BodyFormProps {
@@ -53,15 +54,21 @@ export default function BodyForm({ actualPage }: BodyFormProps) {
             {Fields.map((field) => {
                 return (
                     <Grid key={actualPage + field.id}>
-                        {field.type === 'Text'
-                            ? <Text id={field.id} />
-                            : field.type === 'DropDown' && field.id
-                                ? <DropDown
-                                    id={field.id}
-                                    options={field.options}
-                                    disabled={field.disabled}
-                                />
-                                : null}
+                        {field.type === 'Text' ? (
+                            <Text id={field.id} />
+                        ) : field.type === 'DropDown' && field.id ? (
+                            <DropDown
+                                id={field.id}
+                                options={field.options}
+                                disabled={field.disabled}
+                            />
+                        ) : field.type === 'AutoComplete' && field.id ? (
+                            <AutoComplete
+                                id={field.id}
+                                options={field.options}
+                                disabled={field.disabled}
+                            />) :
+                            null}
                     </Grid>
                 )
             })}

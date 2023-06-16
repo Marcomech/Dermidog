@@ -20,6 +20,7 @@ export default function Text(data: FieldProps) {
 
   return (
     <FormControl
+      sx={{ width: '225px' }}
       focused={true}>
 
       <TextField

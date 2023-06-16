@@ -10,7 +10,7 @@ import {
 type formType = {
   page: number,
   fields: {
-    type: "Text" | "DropDown",
+    type: "Text" | "DropDown" | "AutoComplete",
     id: string,
     options: string[]
     disabled: boolean
@@ -27,7 +27,7 @@ export const FormFields: formType[] = [
         options: [],
         disabled: false,
       }, {
-        type: "DropDown",
+        type: "AutoComplete",
         id: "Raza",
         options: RazaValuesEx,
         disabled: true,
@@ -49,7 +49,7 @@ export const FormFields: formType[] = [
     page: 1,
     fields: [
       {
-        type: "DropDown",
+        type: "AutoComplete",
         id: 'AreaInvolucrada',
         options: AreaValues as unknown as string[],
         disabled: false,
