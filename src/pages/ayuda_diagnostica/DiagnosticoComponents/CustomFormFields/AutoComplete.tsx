@@ -43,6 +43,7 @@ export default function AutoComplete(data: FieldProps) {
         autoHighlight
         openOnFocus
         autoComplete
+        noOptionsText={'Busque un area diferente'}
         isOptionEqualToValue={(option, value) => option.value === value.value}
         componentsProps={{
           paper: { sx: { bgcolor: theme.palette.primary.light, } },
