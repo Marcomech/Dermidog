@@ -2,8 +2,7 @@ import { useState, useEffect } from "react";
 import { FormContext } from "@/context/FormContext";
 import { useContext } from "react";
 import { Codigos } from "../../public/data/index"
-import { Prurito, Seborrea, Area, Raza, Sexo, Edad, Simetria, LesionesGenerales, LesionesDermicas } from "../../public/Diagnostico/index";
-import { Typography } from "@mui/material";
+import { Prurito, Area } from "../../public/Diagnostico/index";
 import { gif1 } from "../../public/Assets/Gifs";
 import Image from "next/image";
 import ListItem from "@/pages/informacion_patologica/InformacionComponents/ListItem";

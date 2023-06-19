@@ -1,9 +1,7 @@
-import React from 'react';
-import { Box, Typography } from '@mui/material';
 import GlobalLayout from "@/layouts";
 import DataList from '@/pages/informacion_patologica/InformacionComponents/dataList';
-import { Capitulos, Codigos } from '../../../public/data/index';
-import Image from 'next/image';
+import { Box, Typography } from '@mui/material';
+import { Capitulos } from '../../../public/data/index';
 export default function InformacionPatologica() {
   return (
     <GlobalLayout>

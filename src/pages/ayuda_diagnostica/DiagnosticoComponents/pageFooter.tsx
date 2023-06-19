@@ -1,10 +1,9 @@
-import React, { useContext, useState } from 'react';
 import Box from '@mui/material/Box';
-import Stepper from '@mui/material/Stepper';
+import Button from '@mui/material/Button';
 import Step from '@mui/material/Step';
 import StepLabel from '@mui/material/StepLabel';
-import Button from '@mui/material/Button';
-import { FormContext } from '@/context/FormContext';
+import Stepper from '@mui/material/Stepper';
+import React, { useState } from 'react';
 
 
 interface PageFooterProps {
