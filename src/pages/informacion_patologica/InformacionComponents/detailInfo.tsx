@@ -25,7 +25,8 @@ export default function DetailInfo({ title }: detailInfoProps) {
     }
 
     return (<Box padding={2}>
-        <Typography variant='h4' align='center' padding={1}>
+
+        <Typography variant='h3' align='center' padding={1}>
             {title}
         </Typography>
         <TreeView
@@ -49,9 +50,11 @@ function DataToTree(data: Data) {
             TreeItems.push(StyleImage(key, value.toString()));
         } else {
             TreeItems.push(
-                <TreeItem key={key} nodeId={key} label=
+                <TreeItem key={key} nodeId={key}
+                    sx={{ 'paddingTop': 1 }}
+                    label=
                     {
-                        <Typography variant='h6' key={key + "Title"}>
+                        <Typography variant='h5' key={key + "Title"}>
                             {key.replaceAll("_", " ")}
                         </Typography>
                     }>
@@ -87,7 +90,7 @@ function StyleImage(key: string, value: string) {
     return <TreeItem
         key={key} nodeId={key}
         label={
-            <Typography variant='h6'>
+            <Typography variant='h5'>
                 DERMOGRAMA
             </Typography>
         }>

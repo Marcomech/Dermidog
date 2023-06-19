@@ -40,7 +40,6 @@ const rawTheme = createTheme({
             '"Segoe UI Emoji"',
             '"Segoe UI Symbol"',
         ].join(','),
-        fontSize: 14,
         fontWeightLight: 300,
         fontWeightRegular: 400,
         fontWeightMedium: 700,
@@ -66,50 +65,55 @@ const theme = {
             ...rawTheme.typography.h1,
             ...fontHeader,
             letterSpacing: 0,
-            fontSize: '3.25rem',
+            fontSize: '5rem',
             '@media (max-width:600px)': {
                 fontSize: '2.5rem',
             },
-            
+
         },
         h2: {
             ...rawTheme.typography.h2,
             ...fontHeader,
-            fontSize: 36,
+            fontSize: '2.5rem',
         },
         h3: {
             ...rawTheme.typography.h3,
             ...fontHeader,
-            fontSize: 32,
+            fontSize: '2rem'
         },
         h4: {
             ...rawTheme.typography.h4,
             ...fontHeader,
-            fontSize: 28,
+            fontSize: '1.5rem',
         },
         h5: {
             ...rawTheme.typography.h5,
             ...fontHeader,
-            fontSize: 24,
+            fontSize: '1.3rem',
         },
         h6: {
             ...rawTheme.typography.h6,
             ...fontHeader,
-            fontSize: 20,
+            fontSize: '1.2rem',
         },
 
         subtitle1: {
             ...rawTheme.typography.subtitle1,
-            fontSize: 18,
+            fontSize: '1rem',
+        },
+        button: {
+            ...rawTheme.typography.body2,
+            ...fontHeader,
+            fontSize: '1.5rem',
         },
         body1: {
             ...rawTheme.typography.body2,
             fontWeight: rawTheme.typography.fontWeightRegular,
-            fontSize: 16,
+            fontSize: '1.25rem',
         },
         body2: {
             ...rawTheme.typography.body1,
-            fontSize: 14,
+            fontSize: '0.8rem',
         },
     },
 };

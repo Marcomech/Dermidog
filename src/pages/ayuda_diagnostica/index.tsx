@@ -7,7 +7,7 @@ import { FormContextProvider } from '@/context/FormContext';
 export default function AyudaDiagnostica() {
   return (
     <GlobalLayout>
-      <Typography align='left' variant='h4' marginTop={1}>
+      <Typography align='left' variant='h2' marginTop={1}>
         Ayuda Diagnostica
       </Typography>
       <Box textAlign='center'>

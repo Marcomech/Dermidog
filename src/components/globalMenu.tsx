@@ -32,14 +32,13 @@ export default function GlobalMenu() {
         marginRight: 1,
         position: 'absolute', top: 0, right: 0,
         '& .MuiFab-primary': {
-          '& .MuiSpeedDialIcon-icon': { fontSize: 26 },
-          '& .MuiSpeedDialIcon-openIcon': { fontSize: 26 }
+          '& .MuiSpeedDialIcon-icon': { fontSize: 30, paddingBottom: 0.7 },
+          '& .MuiSpeedDialIcon-openIcon': { fontSize: 30, paddingBottom: 0.7 }
         }
       }}
       icon={<SpeedDialIcon
         icon={<Menu />}
         openIcon={<Close />}
-      //sx={{ position: 'relative', top: 0, right: 0 }} 
       />}
       onClose={handleClose}
       onOpen={handleOpen}
