@@ -1,8 +1,7 @@
-import React from 'react';
-import { Codigos, FullData } from '../../../../public/data/index'
-import ListItem from './ListItem';
 import { List } from '@mui/material';
 import { FullDataType } from '../../../../public/data/FullData';
+import { FullData } from '../../../../public/data/index';
+import ListItem from './ListItem';
 
 interface DataListProps {
     enfermedades: string[],

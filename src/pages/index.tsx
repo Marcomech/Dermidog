@@ -11,21 +11,21 @@ export default function Home() {
   return (<>
     <GlobalLayout>
       <Typography variant='body1' >
-        Sistema de apoyo al diagnostico y aprendizaje de las enfgermedades mas frecuentes de la piel de los caninos
+        Sistema de apoyo al diagnostico y aprendizaje de las enfermedades mas frecuentes de la piel de los caninos
       </Typography>
       <Grid container direction="row" justifyContent="space-evenly" justifyItems="center"
         style={{ marginTop: '10vh', marginBottom: '15vh', paddingBottom: '20vh' }}
       >
         <Grid >
           <Button variant='contained'
-            style={{ margin: '2vh', width: '25vh', height: '15vh', minWidth: '150px', minHeight: '80px' }}
+            style={{ margin: '3vh', width: '30vh', height: '20vh', minWidth: '150px', minHeight: '80px' }}
             onClick={() => handleClick("/informacion_patologica")}>
             Información Patológica
           </Button>
         </Grid>
         <Grid >
           <Button variant='contained'
-            style={{ margin: '2vh', width: '25vh', height: '15vh', minWidth: '150px', minHeight: '80px' }}
+            style={{ margin: '3vh', width: '30vh', height: '20vh', minWidth: '150px', minHeight: '80px' }}
             onClick={() => handleClick("/ayuda_diagnostica")}>
             Ayuda Diagnóstica
           </Button>

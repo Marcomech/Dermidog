@@ -1,13 +1,11 @@
-import React from 'react';
-import { Box, Typography } from '@mui/material';
 import GlobalLayout from "@/layouts";
 import DataList from '@/pages/informacion_patologica/InformacionComponents/dataList';
-import { Capitulos, Codigos } from '../../../public/data/index';
-import Image from 'next/image';
+import { Box, Typography } from '@mui/material';
+import { Capitulos } from '../../../public/data/index';
 export default function InformacionPatologica() {
   return (
     <GlobalLayout>
-      <Typography align='left' variant='h4' marginTop={1}>
+      <Typography align='left' variant='h2' marginTop={1}>
         Atlas computado de dermatologia canina
       </Typography>
 
@@ -15,7 +13,7 @@ export default function InformacionPatologica() {
         {
           Capitulos.map((capitulos) => (
             <div key={capitulos.Titulo + "Container"}>
-              <Typography variant='h4' marginBottom={1} marginTop={4} key={capitulos.Titulo}>
+              <Typography variant='h3' marginBottom={1} marginTop={4} key={capitulos.Titulo}>
                 {capitulos.Titulo}
               </Typography>
               <DataList key={capitulos.Titulo + "DataList"} enfermedades={capitulos.Items} />

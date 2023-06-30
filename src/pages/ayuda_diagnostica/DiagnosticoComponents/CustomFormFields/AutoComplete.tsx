@@ -1,6 +1,6 @@
 import theme from "@/constants/themes";
 import { FormContext } from "@/context/FormContext";
-import { SelectChangeEvent, MenuItem, FormControl, InputLabel, Select, OutlinedInput, TextField, Autocomplete } from "@mui/material";
+import { FormControl, TextField, Autocomplete } from "@mui/material";
 import { SyntheticEvent, useContext } from "react";
 
 type FieldProps = {

@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Button, Dialog, Card, CardActions } from '@mui/material';
+import { Button, Dialog } from '@mui/material';
+import { useState } from 'react';
 import DetailInfo from './detailInfo';
 
 interface ListItemProps {
