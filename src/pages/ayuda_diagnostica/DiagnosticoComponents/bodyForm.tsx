@@ -23,7 +23,7 @@ export default function BodyForm({ actualPage }: BodyFormProps) {
     const univen = Fields.length % 2 === 0;
 
     return < div >
-        {
+        {/* TODO: ver gifs
             <Image
                 priority
                 src={actualPage < 2 ? gif3 : gif2}
@@ -39,6 +39,7 @@ export default function BodyForm({ actualPage }: BodyFormProps) {
                     marginRight: 'auto',
                 }}
             />
+            */
         }
 
         <Grid

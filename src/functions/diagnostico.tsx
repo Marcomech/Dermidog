@@ -58,21 +58,22 @@ export default function EncontrarDiagnostico() {
   return (<>
     {
       loading ?
-        (
-          <Image
-            src={gif1}
-            alt=''
-            width="0"
-            height="0"
-            sizes="100vw"
-            style={{
-              width: '36%',
-              height: 'auto',
-              display: 'block',
-              marginLeft: 'auto',
-              marginRight: 'auto',
-            }}
-          />
+        (<a>Cargando...</a>
+          //TODO: Ver imagenes
+          // <Image
+          //   src={gif1}
+          //   alt=''
+          //   width="0"
+          //   height="0"
+          //   sizes="100vw"
+          //   style={{
+          //     width: '36%',
+          //     height: 'auto',
+          //     display: 'block',
+          //     marginLeft: 'auto',
+          //     marginRight: 'auto',
+          //   }}
+          // />
         )
         : (
           Diagnostico.map((item, index) => (
