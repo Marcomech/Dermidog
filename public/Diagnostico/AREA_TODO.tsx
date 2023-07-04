@@ -83,7 +83,6 @@ export const AreaValues = [
     'Pabellones auriculares (Cara interna)',
     'Pabellones auriculares (Área convexa)',
     'Pabellones auriculares',
-    'Pabellones',
     'Parches seborreicos',
     'Parpados',
     'Patas',
@@ -360,7 +359,10 @@ export const Area: AreaType[] = [
             'Puede afectar todo el cuerpo de manera explosiva',
             'Nariz',
             'Área periocular',
-            'Pabellones',
+
+            'Pabellones auriculares (Borde interno)',
+            'Pabellones auriculares (Cara externa)',
+            'Pabellones auriculares (Cara interna)',
             'Almohadillas plantares',
             'Uñas',
             'Ingles',
@@ -389,7 +391,10 @@ export const Area: AreaType[] = [
         Area: [
             'Nariz',
             'Área periocular',
-            'Pabellones'
+
+            'Pabellones auriculares (Borde interno)',
+            'Pabellones auriculares (Cara externa)',
+            'Pabellones auriculares (Cara interna)',
         ],
         NAME: 'PÉNFIGO ERITEMATOSO'
     },
