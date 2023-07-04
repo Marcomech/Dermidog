@@ -10,19 +10,16 @@ export const AreaValues = [
     'Ano',
     'Área convexa de pabellones auriculares',
     'Área de los pliegues',
-    'Area interdigital',
+    'Área interdigital',
     'Área perianal',
     'Área periauricular',
     'Área perilabial',
     'Área periocular',
     'Área poplítea',
     'Área umbilical',
-    'Areas alopécicas en cualquier parte de la superficie dérmica',
+    'Áreas alopécicas en cualquier parte de la superficie dérmica',
     'Axilas',
     'Base de la cola',
-    'Borde de pabellones auriculares',
-    'Borde interno de pabellones auriculares',
-    'Bordes de las orejas',
     'Bordes mucocutáneos',
     'Bordes palpebrales',
     'Cabeza',
@@ -34,9 +31,7 @@ export const AreaValues = [
     'Columna dorsal',
     'Conductos auditivos (externos)',
     'Conductos auditivos(no constante)',
-    'Cualquier área pero cabeza',
-    'Cualquier área puede estar afectada',
-    'Cualquiera',
+    'Cualquier área',
     'Cuello',
     'Dedos',
     'Dentro de la cavidad bucal y en las uniones muco-cutaneas',
@@ -75,17 +70,18 @@ export const AreaValues = [
     'Metacarpos',
     'Metatarsos',
     'Miembros',
-    'Muslo (cara externa)',
-    'Muslo (cara interna)',
+    'Muslo (Cara externa)',
+    'Muslo (Cara interna)',
     'Muslos (Posterior)',
     'Nariz',
-    'NO tiene area definida',
     'Orejas (Cara interna)',
     'Orejas (Puntas)',
+    'Orejas (Bordes)',
     'Orejas',
-    'Pabellon auricular',
-    'Pabellones auriculares (cara externa)',
-    'Pabellones auriculares (cara interna)',
+    'Pabellones auriculares (Bordes)',
+    'Pabellones auriculares (Borde interno)',
+    'Pabellones auriculares (Cara externa)',
+    'Pabellones auriculares (Cara interna)',
     'Pabellones auriculares',
     'Pabellones',
     'Parches seborreicos',
@@ -107,17 +103,12 @@ export const AreaValues = [
     'Región del mentón',
     'Región esternal y axilar',
     'Región inguinal y umbilical',
-    'Región interdigital',
     'Región lateral de la Nariz',
     'Región lumbosacra',
-    'Región perianal',
-    'Región periocular',
-    'Región poplítea',
     'Respetando la cabeza y lo miembros',
     'Seborrea generalizada',
     'Sigue el patrón de la enfermedad que le dió origen',
     'Sin lesion dermica',
-    'Sin un area definida y seborrea',
     'Tarsos',
     'Tibias',
     'Regiones con pelos cortos',
@@ -130,6 +121,8 @@ export const AreaValues = [
     'Uñas',
     'Variable de acuerdo a la causa desencadenante',
     'Vulva',
+
+    'NO tiene área definida',
 ] as const;
 
 type AreaDetail = typeof AreaValues[number];
@@ -145,15 +138,16 @@ export const Area: AreaType[] = [
             'Área de los pliegues',
             'Nariz',
             'Cola',
-            'Vulva', 'Labios inferiores',
+            'Vulva',
+            'Labios inferiores',
             'Área de los pliegues'
         ],
         NAME: 'DERMATITIS DE LOS PLIEGUES'
     },
     {
         Area: [
-            'Cualquiera',
-            'Muslo (cara externa)',
+            'Cualquier área',
+            'Muslo (Cara externa)',
             'Base de la cola',
             'Cabeza',
             'Cuello'
@@ -164,26 +158,25 @@ export const Area: AreaType[] = [
         Area: [
             'Ingles',
             'Axilas',
-            'Muslo (cara interna)',
-
+            'Muslo (Cara interna)',
         ],
         NAME: 'IMPÉTIGO'
     },
     {
         Area: [
-            'NO tiene area definida',
+            'NO tiene área definida',
             'Tórax (Lateral)',
             'Cuello',
             'Cabeza',
             'Lateral de miembros',
             'Abdomen',
-            'Muslo (cara interna)',
+            'Muslo (Cara interna)',
         ],
         NAME: 'FOLICULITIS BACTERIANA SUPERFICIAL'
     },
     {
         Area: [
-            'Areas alopécicas en cualquier parte de la superficie dérmica',
+            'Áreas alopécicas en cualquier parte de la superficie dérmica',
             'Ingles',
             'Axilas',
             'Abdomen'
@@ -198,8 +191,8 @@ export const Area: AreaType[] = [
     },
     {
         Area: [
-            'Muslo (cara interna)',
-            'Muslo (cara externa)',
+            'Muslo (Cara interna)',
+            'Muslo (Cara externa)',
             'Base de la cola',
             'Tórax',
             'Espacios interdigitales',
@@ -212,7 +205,6 @@ export const Area: AreaType[] = [
     },
     {
         Area: [
-
             'Cuello',
             'Cabeza',
             'Base de la cola',
@@ -226,9 +218,8 @@ export const Area: AreaType[] = [
             'Región lateral de la Nariz',
             'Plano nasal',
             'Alrededor de los ojos',
-            'Borde interno de pabellones auriculares',
-
-            'Pabellones auriculares (cara interna)',
+            'Pabellones auriculares (Borde interno)',
+            'Pabellones auriculares (Cara interna)',
         ],
         NAME: 'FOLICULITIS Y FORUNCULOSIS NASAL'
     },
@@ -261,7 +252,7 @@ export const Area: AreaType[] = [
         Area: [
             'Base de la cola',
             'Región lumbosacra',
-            'Muslo (cara interna)',
+            'Muslo (Cara interna)',
             'Área umbilical',
         ],
         NAME: 'DERMATITIS ALÉRGICA POR PULGAS EST I'
@@ -270,15 +261,16 @@ export const Area: AreaType[] = [
         Area: [
             'Base de la cola',
             'Región lumbosacra',
-            'Muslo (cara interna)', 'Área umbilical',
+            'Muslo (Cara interna)',
+            'Área umbilical',
             'Desde la región lumbosacra se extiende en forma de triángulo con vértice hacia craneal',
             'Inserción de la cola',
             'Periné',
-            'Región poplítea',
+            'Área poplítea',
             'Abdomen',
             'Región inguinal y umbilical',
             'Cuello',
-            'Pabellones auriculares (cara interna)'
+            'Pabellones auriculares (Cara interna)'
         ],
         NAME: 'DERMATITIS ALÉRGICA POR PULGAS EST II'
     },
@@ -286,19 +278,20 @@ export const Area: AreaType[] = [
         Area: [
             'Base de la cola',
             'Región lumbosacra',
-            'Muslo (cara interna)', 'Área umbilical',
+            'Muslo (Cara interna)',
+            'Área umbilical',
             'Desde la región lumbosacra se extiende en forma de triángulo con vértice hacia craneal',
             'Inserción de la cola',
             'Periné',
-            'Región poplítea',
+            'Área poplítea',
             'Abdomen',
             'Región inguinal y umbilical',
             'Cuello',
-            'Pabellones auriculares (cara interna)',
+            'Pabellones auriculares (Cara interna)',
             'Área periocular',
             'Tórax (Dorsal)',
             'Tórax (Lateral)',
-            'Pabellones auriculares (cara externa)',
+            'Pabellones auriculares (Cara externa)',
             'Abdomen',
             'Región esternal y axilar'
         ],
@@ -308,7 +301,7 @@ export const Area: AreaType[] = [
         Area: [
             'Sin lesion dermica',
             'Área periocular',
-            'Area interdigital',
+            'Área interdigital',
             'Área perilabial'
         ],
         NAME: 'DERMATITIS ATÓPICA CANINA EST I'
@@ -317,45 +310,45 @@ export const Area: AreaType[] = [
         Area: [
             'Sin lesion dermica',
             'Área periocular',
-            'Area interdigital',
+            'Área interdigital',
             'Área perilabial',
             'Área periocular',
-            'Area interdigital',
+            'Área interdigital',
             'Área perilabial',
-            'Pabellones auriculares (cara interna)',
+            'Pabellones auriculares (Cara interna)',
             'Axilas',
             'Abdomen',
             'Ingles',
             'Periné',
-            'Región interdigital'
+            'Área interdigital'
         ],
         NAME: 'DERMATITIS ATÓPICA CANINA EST II'
     },
     {
         Area: ['Sin lesion dermica',
             'Área periocular',
-            'Area interdigital',
+            'Área interdigital',
             'Área perilabial',
             'Área periocular',
-            'Area interdigital',
+            'Área interdigital',
             'Área perilabial',
-            'Pabellones auriculares (cara interna)',
+            'Pabellones auriculares (Cara interna)',
             'Axilas',
             'Abdomen',
             'Ingles',
             'Periné',
-            'Región interdigital',
+            'Área interdigital',
             'Área periocular',
-            'Area interdigital',
+            'Área interdigital',
             'Tórax (Dorsal)',
             'Tórax (Lateral)',
             'Área perilabial',
-            'Pabellones auriculares (cara interna)',
+            'Pabellones auriculares (Cara interna)',
             'Axilas',
             'Abdomen',
             'Ingles',
             'Periné',
-            'Región interdigital'
+            'Área interdigital'
         ],
         NAME: 'DERMATITIS ATÓPICA CANINA EST III'
     },
@@ -405,7 +398,7 @@ export const Area: AreaType[] = [
         Area: [
             'Piel sin pelo',
             'Abdomen',
-            'Muslo (cara interna)',
+            'Muslo (Cara interna)',
             'Bordes mucocutáneos'
         ],
         NAME: 'PENFIGOIDE BULLOSO'
@@ -413,7 +406,7 @@ export const Area: AreaType[] = [
     {
         Area: [
             'Todo el cuerpo',
-            'Sin un area definida y seborrea',
+            'NO tiene área definida',
             'Nariz',
             'Periocular',
             'Almohadillas plantares',
@@ -443,7 +436,7 @@ export const Area: AreaType[] = [
     {
         Area: [
             'Abdomen',
-            'Muslo (cara interna)',
+            'Muslo (Cara interna)',
             'Axilas'
         ],
         NAME: 'LUPUS CUTÁNEO VESICULAR'
@@ -451,27 +444,29 @@ export const Area: AreaType[] = [
     {
         Area: [
             'Nariz',
-            'Región periocular',
+            'Área periocular',
             'Orejas (Puntas)',
             'Plano nasal',
             'Carpos',
             'Tarsos',
             'Codos',
-            'Dedos', 'Punta de la cola',
+            'Dedos',
+            'Punta de la cola',
         ],
         NAME: 'DERMATOMIOSITIS'
     },
     {
         Area: [
             'Alopecia (Parcial)',
-            'Cabeza', 'Miembros', 'Región costal',
-
+            'Cabeza',
+            'Miembros',
+            'Región costal',
         ],
         NAME: 'DEMODICOSIS LOCALIZADA'
     },
     {
         Area: [
-            'Cualquiera',
+            'Cualquier área',
             'Cabeza',
             'Dorso',
             'Miembros',
@@ -482,11 +477,10 @@ export const Area: AreaType[] = [
     },
     {
         Area: [
-            'Bordes de las orejas',
+            'Orejas (Bordes)',
             'Codos',
             'Tarsos',
             'Tórax',
-
             'Abdomen',
         ],
         NAME: 'SARNA SARCÓPTICA'
@@ -494,13 +488,12 @@ export const Area: AreaType[] = [
     {
         Area: [
             'Conductos auditivos (externos)'
-
         ],
         NAME: 'SARNA OTODÉCTICA'
     },
     {
         Area: [
-            'NO tiene area definida',
+            'NO tiene área definida',
             'Cabeza',
             'Cuello',
             'Columna dorsal'
@@ -528,7 +521,7 @@ export const Area: AreaType[] = [
             'En la región torácica en forma de silla de montar',
             'Cuello',
             'Los pelos se mantienen a lo largo de la columna vertebral',
-            'Pabellones auriculares (cara externa)',
+            'Pabellones auriculares (Cara externa)',
             'Cola',
             'Abdomen',
             'Tórax',
@@ -542,7 +535,7 @@ export const Area: AreaType[] = [
             'Alopecia (Total)',
             'En la región torácica en forma de silla de montar',
             'Cuello',
-            'Pabellones auriculares (cara externa)',
+            'Pabellones auriculares (Cara externa)',
             'Cola',
             'Muslos (Posterior)',
             'Periné',
@@ -554,7 +547,6 @@ export const Area: AreaType[] = [
     },
     {
         Area: [
-
             'Flancos (alopecias)',
             'Área poplítea',
             'Cuello',
@@ -566,7 +558,8 @@ export const Area: AreaType[] = [
     },
     {
         Area: [
-            'Periné', 'Flancos',
+            'Periné',
+            'Flancos',
             'Ingles hasta las axilas',
             'Ginecomastia con pezones hiperpigmentados y agrandados',
             'Conductos auditivos(no constante)'
@@ -576,7 +569,9 @@ export const Area: AreaType[] = [
     {
         Area: [
             'Flancos (alopecias)',
-            'Periné', 'Muslos (Posterior)', 'Pabellones auriculares',
+            'Periné',
+            'Muslos (Posterior)',
+            'Pabellones auriculares',
             'Desde las axilas hasta las ingles',
             'Cuello'
         ],
@@ -584,10 +579,11 @@ export const Area: AreaType[] = [
     },
     {
         Area: [
-            'Cualquier área puede estar afectada',
+            'Cualquier área',
             'Regiones con pelos cortos',
             'Orejas',
-            'Cara', 'Miembros',
+            'Cara',
+            'Miembros',
             'Miembros'
         ],
         NAME: 'DERMATOFITOSIS POR MICROSPORUM'
@@ -595,8 +591,10 @@ export const Area: AreaType[] = [
     {
         Area: [
             'Involucra superficies relativamente grandes',
-            'Cualquier área pero cabeza',
-            'Manos', 'Patas'
+            'Cualquier área',
+            'Cabeza',
+            'Manos',
+            'Patas'
         ],
         NAME: 'DERMATOFITOSIS POR TRICOPHYTON'
     },
@@ -604,14 +602,14 @@ export const Area: AreaType[] = [
         Area: [
             'Cuello',
             'Axilas',
-            'Muslo (cara interna)',
+            'Muslo (Cara interna)',
             'Pliegue vulvar',
-            'Región perianal',
-            'Región interdigital',
+            'Área perianal',
+            'Área interdigital',
             'Orejas (Cara interna)',
             'Labios',
             'Cuello',
-            'Area interdigital'
+            'Área interdigital'
         ],
         NAME: 'DERMATITIS POR MALASSEZIA'
     },
@@ -623,10 +621,9 @@ export const Area: AreaType[] = [
     },
     {
         Area: [
-            'NO tiene area definida',
+            'NO tiene área definida',
             'Sigue el patrón de la enfermedad que le dió origen',
             'Callos seborreicos como áreas redondeadas y simétricas en relación con cada tuberosidad isquiática',
-
             'Parches seborreicos',
             'Seborrea generalizada'
         ],
@@ -636,13 +633,14 @@ export const Area: AreaType[] = [
         Area: [
             'Alopecia (Parcial)',
             'Alopecia (Total)',
-            'Bordes de las orejas',
+            'Orejas (Bordes)',
         ],
         NAME: 'SEBORREA DEL BORDE DE LAS OREJAS'
     },
     {
         Area: [
-            'Alopecia (ovoidea)', 'Alopecia (Total)',
+            'Alopecia (ovoidea)',
+            'Alopecia (Total)',
             'En el tercio superior',
             'Dorsal de la cola'
         ],
@@ -661,7 +659,6 @@ export const Area: AreaType[] = [
             'Tórax',
             'Abdomen',
             'Cuello',
-
             'Tórax (Lateral)',
         ],
         NAME: 'DERMATOSIS QUE RESPONDE A LA VITAMINA A'
@@ -673,7 +670,7 @@ export const Area: AreaType[] = [
             'Codos',
             'Almohadillas plantares',
             'Área perilabial',
-            'Pabellones auriculares (cara interna)',
+            'Pabellones auriculares (Cara interna)',
             'Escroto',
             'Prepucio',
             'Vulva',
@@ -705,7 +702,7 @@ export const Area: AreaType[] = [
     },
     {
         Area: [
-            'Pabellones auriculares (cara interna)',
+            'Pabellones auriculares (Cara interna)',
             'Conductos auditivos (externos)',
         ],
         NAME: 'OTITIS EXTERNA'
@@ -728,7 +725,8 @@ export const Area: AreaType[] = [
             'Nariz',
             'Labios superiores',
             'Parpados',
-            'Alrededor de los labios', 'Pabellon auricular'
+            'Alrededor de los labios',
+            'Pabellones auriculares'
         ],
         NAME: 'CELULITIS JUVENIL'
     },
@@ -750,15 +748,15 @@ export const Area: AreaType[] = [
             'Región lateral de la Nariz',
             'Plano nasal',
             'Alrededor de los ojos',
-            'Borde interno de pabellones auriculares',
-            'Pabellones auriculares (cara interna)',
+            'Pabellones auriculares (Borde interno)',
+            'Pabellones auriculares (Cara interna)',
         ],
         NAME: 'FORUNCULOSIS EOSINOFÍLICA'
     },
     {
         Area: [
-            'Borde de pabellones auriculares',
-            'Borde de pabellones auriculares'
+            'Pabellones auriculares (Bordes)',
+            'Pabellones auriculares (Bordes)'
         ],
         NAME: 'VASCULITIS DEL BORDE DE LAS OREJAS'
     }
