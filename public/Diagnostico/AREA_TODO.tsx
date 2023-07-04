@@ -4,11 +4,9 @@ export const AreaValues = [
     'Alopecia (Parcial)',
     'Alopecia (Total)',
     'Alopecia (Difusa)',
-    'Alopecia (ovoidea)',
-    'Alrededor de los labios',
+    'Alopecia (Ovoidea)',
     'Alrededor de los ojos',
     'Ano',
-    'Área convexa de pabellones auriculares',
     'Área de los pliegues',
     'Área interdigital',
     'Área perianal',
@@ -30,7 +28,7 @@ export const AreaValues = [
     'Cola',
     'Columna dorsal',
     'Conductos auditivos (externos)',
-    'Conductos auditivos(no constante)',
+    'Conductos auditivos (no constante)',
     'Cualquier área',
     'Cuello',
     'Dedos',
@@ -61,6 +59,7 @@ export const AreaValues = [
     'Involucra superficies relativamente grandes',
     'Labios inferiores',
     'Labios superiores',
+    'Labios (Alrededores)',
     'Labios',
     'Las venas mamarias son claramente visibles',
     'Lateral de miembros',
@@ -82,6 +81,7 @@ export const AreaValues = [
     'Pabellones auriculares (Borde interno)',
     'Pabellones auriculares (Cara externa)',
     'Pabellones auriculares (Cara interna)',
+    'Pabellones auriculares (Área convexa)',
     'Pabellones auriculares',
     'Pabellones',
     'Parches seborreicos',
@@ -90,7 +90,6 @@ export const AreaValues = [
     'Pecho',
     'Perinasal',
     'Periné',
-    'Periocular',
     'Piel sin pelo',
     'Piel',
     'Pies',
@@ -121,8 +120,8 @@ export const AreaValues = [
     'Uñas',
     'Variable de acuerdo a la causa desencadenante',
     'Vulva',
-
     'NO tiene área definida',
+
 ] as const;
 
 type AreaDetail = typeof AreaValues[number];
@@ -226,7 +225,7 @@ export const Area: AreaType[] = [
     {
         Area: [
             'Región del mentón',
-            'Alrededor de los labios'
+            'Labios (Alrededores)'
         ],
         NAME: 'FOLICULITIS FORUNCULOSIS DEL MENTÓN Y LABIOS'
     },
@@ -408,7 +407,7 @@ export const Area: AreaType[] = [
             'Todo el cuerpo',
             'NO tiene área definida',
             'Nariz',
-            'Periocular',
+            'Área periocular',
             'Almohadillas plantares',
             'Pabellones auriculares'
         ],
@@ -418,7 +417,7 @@ export const Area: AreaType[] = [
         Area: [
             'Nariz',
             'Plano nasal',
-            'Periocular'
+            'Área periocular'
         ],
         NAME: 'LUPUS ERITEMATOSO DISCOIDE'
     },
@@ -562,7 +561,7 @@ export const Area: AreaType[] = [
             'Flancos',
             'Ingles hasta las axilas',
             'Ginecomastia con pezones hiperpigmentados y agrandados',
-            'Conductos auditivos(no constante)'
+            'Conductos auditivos (no constante)'
         ],
         NAME: 'DERMATOSIS POR HIPERESTROGENISMO EN HEMBRAS'
     },
@@ -639,7 +638,7 @@ export const Area: AreaType[] = [
     },
     {
         Area: [
-            'Alopecia (ovoidea)',
+            'Alopecia (Ovoidea)',
             'Alopecia (Total)',
             'En el tercio superior',
             'Dorsal de la cola'
@@ -725,7 +724,7 @@ export const Area: AreaType[] = [
             'Nariz',
             'Labios superiores',
             'Parpados',
-            'Alrededor de los labios',
+            'Labios (Alrededores)',
             'Pabellones auriculares'
         ],
         NAME: 'CELULITIS JUVENIL'
@@ -733,7 +732,7 @@ export const Area: AreaType[] = [
     {
         Area: [
             'Alopecia (Parcial)',
-            'Área convexa de pabellones auriculares',
+            'Pabellones auriculares (Área convexa)',
             'Área periauricular',
             'Muslos (Posterior)',
             'Periné',
