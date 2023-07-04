@@ -17,7 +17,6 @@ export const AreaValues = [
     'Área umbilical',
     'Áreas alopécicas en cualquier parte de la superficie dérmica',
     'Axilas',
-    'Base de la cola',
     'Bordes mucocutáneos',
     'Bordes palpebrales',
     'Cabeza',
@@ -26,6 +25,10 @@ export const AreaValues = [
     'Carpos',
     'Codos',
     'Cola',
+    'Cola (Punta)',
+    'Cola (Base)',
+    'Cola (Inserción)',
+    'Cola (Dorsal)',
     'Columna dorsal',
     'Conductos auditivos (externos)',
     'Conductos auditivos (no constante)',
@@ -35,7 +38,6 @@ export const AreaValues = [
     'Dentro de la cavidad bucal y en las uniones muco-cutaneas',
     'Desde la región lumbosacra se extiende en forma de triángulo con vértice hacia craneal',
     'Desde las axilas hasta las ingles',
-    'Dorsal de la cola',
     'Dorso',
     'Craneal (Carpos)',
     'Craneal (Radios)',
@@ -49,13 +51,11 @@ export const AreaValues = [
     'Flancos (alopecias)',
     'Flancos',
     'Fosas nasales',
-    'Generalizada',
     'Ginecomastia con pezones hiperpigmentados y agrandados',
     'Ginecomastia',
     'Hocico',
     'Ingles hasta las axilas',
     'Ingles',
-    'Inserción de la cola',
     'Involucra superficies relativamente grandes',
     'Labios inferiores',
     'Labios superiores',
@@ -96,7 +96,6 @@ export const AreaValues = [
     'Pliegue vulvar',
     'Prepucio',
     'Puede afectar todo el cuerpo de manera explosiva',
-    'Punta de la cola',
     'Región costal',
     'Región del mentón',
     'Región esternal y axilar',
@@ -146,7 +145,7 @@ export const Area: AreaType[] = [
         Area: [
             'Cualquier área',
             'Muslo (Cara externa)',
-            'Base de la cola',
+            'Cola (Base)',
             'Cabeza',
             'Cuello'
         ],
@@ -191,7 +190,7 @@ export const Area: AreaType[] = [
         Area: [
             'Muslo (Cara interna)',
             'Muslo (Cara externa)',
-            'Base de la cola',
+            'Cola (Base)',
             'Tórax',
             'Espacios interdigitales',
             'Cuello',
@@ -205,7 +204,7 @@ export const Area: AreaType[] = [
         Area: [
             'Cuello',
             'Cabeza',
-            'Base de la cola',
+            'Cola (Base)',
             'Cabeza',
             'Cuello'
         ],
@@ -248,7 +247,7 @@ export const Area: AreaType[] = [
     },
     {
         Area: [
-            'Base de la cola',
+            'Cola (Base)',
             'Región lumbosacra',
             'Muslo (Cara interna)',
             'Área umbilical',
@@ -257,12 +256,12 @@ export const Area: AreaType[] = [
     },
     {
         Area: [
-            'Base de la cola',
+            'Cola (Base)',
             'Región lumbosacra',
             'Muslo (Cara interna)',
             'Área umbilical',
             'Desde la región lumbosacra se extiende en forma de triángulo con vértice hacia craneal',
-            'Inserción de la cola',
+            'Cola (Inserción)',
             'Periné',
             'Área poplítea',
             'Abdomen',
@@ -274,12 +273,12 @@ export const Area: AreaType[] = [
     },
     {
         Area: [
-            'Base de la cola',
+            'Cola (Base)',
             'Región lumbosacra',
             'Muslo (Cara interna)',
             'Área umbilical',
             'Desde la región lumbosacra se extiende en forma de triángulo con vértice hacia craneal',
-            'Inserción de la cola',
+            'Cola (Inserción)',
             'Periné',
             'Área poplítea',
             'Abdomen',
@@ -391,7 +390,6 @@ export const Area: AreaType[] = [
         Area: [
             'Nariz',
             'Área periocular',
-
             'Pabellones auriculares (Borde interno)',
             'Pabellones auriculares (Cara externa)',
             'Pabellones auriculares (Cara interna)',
@@ -455,7 +453,7 @@ export const Area: AreaType[] = [
             'Tarsos',
             'Codos',
             'Dedos',
-            'Punta de la cola',
+            'Cola (Punta)',
         ],
         NAME: 'DERMATOMIOSITIS'
     },
@@ -508,7 +506,7 @@ export const Area: AreaType[] = [
         Area: [
             'Alopecia (Difusa)',
             'Alopecia (Parcial)',
-            'Generalizada',
+            'Alopecia (Total)',
             'Tronco llegando hasta los codos',
             'Tarsos',
             'Cuello',
@@ -646,7 +644,7 @@ export const Area: AreaType[] = [
             'Alopecia (Ovoidea)',
             'Alopecia (Total)',
             'En el tercio superior',
-            'Dorsal de la cola'
+            'Cola (Dorsal)'
         ],
         NAME: 'HIPERPLASIA DE LA GLÁNDULA DE LA COLA'
     },
