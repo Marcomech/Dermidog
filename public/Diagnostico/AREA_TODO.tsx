@@ -43,7 +43,6 @@ export const AreaValues = [
     'Craneal (Radios)',
     'En el tercio superior',
     'Tronco llegando hasta los codos',
-    'En la región torácica en forma de silla de montar',
     'Escroto',
     'Espacios interdigitales y tejidos vecinos',
     'Espacios interdigitales',
@@ -95,31 +94,34 @@ export const AreaValues = [
     'Plano nasal',
     'Pliegue vulvar',
     'Prepucio',
-    'Puede afectar todo el cuerpo de manera explosiva',
     'Región costal',
     'Región del mentón',
     'Región esternal y axilar',
     'Región inguinal y umbilical',
     'Región lateral de la Nariz',
     'Región lumbosacra',
-    'Respetando la cabeza y lo miembros',
+    'Región torácica en forma de silla de montar',
     'Seborrea generalizada',
-    'Sigue el patrón de la enfermedad que le dió origen',
     'Sin lesion dermica',
     'Tarsos',
     'Tibias',
     'Regiones con pelos cortos',
-    'Toda la superficie cutánea',
-    'Todo el cuerpo',
     'Tórax (Dorsal)',
     'Tórax (Lateral)',
     'Tórax',
     'Uniones mucocutaneas de ano',
     'Uñas',
-    'Variable de acuerdo a la causa desencadenante',
     'Vulva',
+
     'NO tiene área definida',
 
+    'Variable de acuerdo a la causa desencadenante',
+    'Sigue el patrón de la enfermedad que le dió origen',
+
+    'Toda la superficie cutánea',
+    'Puede afectar todo el cuerpo de manera explosiva',
+    'Todo el cuerpo',
+    //'Respetando la cabeza y lo miembros', //ALOPECIA POR MUTACION DE COLOR
 ] as const;
 
 type AreaDetail = typeof AreaValues[number];
@@ -520,7 +522,7 @@ export const Area: AreaType[] = [
     {
         Area: [
             'Alopecia (Parcial)',
-            'En la región torácica en forma de silla de montar',
+            'Región torácica en forma de silla de montar',
             'Cuello',
             'Los pelos se mantienen a lo largo de la columna vertebral',
             'Pabellones auriculares (Cara externa)',
@@ -535,7 +537,7 @@ export const Area: AreaType[] = [
         Area: [
             'Alopecia (Parcial)',
             'Alopecia (Total)',
-            'En la región torácica en forma de silla de montar',
+            'Región torácica en forma de silla de montar',
             'Cuello',
             'Pabellones auriculares (Cara externa)',
             'Cola',
@@ -687,7 +689,7 @@ export const Area: AreaType[] = [
             'Alopecia (Parcial)',
             'Dorso',
             'Toda la superficie cutánea',
-            'Respetando la cabeza y lo miembros'
+            //'Respetando la cabeza y lo miembros'
         ],
         NAME: 'ALOPECÍA POR MUTACION DE COLOR'
     },

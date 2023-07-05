@@ -1,89 +1,41 @@
 export const EdadValues = [
-  "", ,
-  "Perros menores a 3 añ1os",
+  "",
   "A cualquier edad",
-  "Adultos jóvenes",
   "Adultos",
-  ,
-  "mayor incidencia en animales adultos"
-  ,
-  "Preferentemente cachorros ,hasta la pubertad"
-  ,
-  "Más frecuentemente en animales jóvenes, aunque también puede afectar a animales de cualquier edad."
-  ,
-  "En animales jóvenes hasta el añ1o de edad"
-  ,
-  "No existe predisposición por edad, "
-  ,
-  "Comienza en los animales jóvenes"
-  ,
-  "Afecta preferentemente adultos jóvenes"
-  ,
-  "Afecta a animales de edad mediana a viejos, sin predisposición por alguno de los sexos.Los Collies y Shetland son las razas más predispuestas"
-  ,
-  "En los adultos jóvenes.NO tiene predilección por sexo ni razas.Es más frecuente en los Collies y Ovejeros alemanes"
-  ,
-  "Aunque no hay predisposición por edad o sexo, es raro en los cachorros"
-  ,
-  "Aunque no hay predisposición por edad o sexo, es raro en los cachorros"
-  ,
-  "Aunque no hay predisposición por edad o sexo, es raro en los cachorros"
-  ,
-  "antes de los 6 meses de edad, es mas frecuente en Collie y Collie shetiand y sus cruzas, aunque otras razas pueden estar afectadas como Welsh corgi, Ovejero aleman, Chow-Chow, Belga Tervueren, Beauceron, Terrier de Lakeland y Kuvasz de cualquier sexo"
-  ,
-  "Generalmente en cachorros y jóvenes antes de alcanzar la madurez sexual"
-  ,
-  "Preferentemente en cachorros y jóvenes, de todas las razas aunque hay algunas en que tiene mayor incidencia, como en Pit bull, Doberman, Boxer, Collies, Gran danés, etc"
-  ,
-  "La presencia de demodicosis en los animales adultos hace necesario investigar aquellas patologías que alteran la inmunidad como determinado tipo de tumores"
-  ,
-  "No tiene predilección por edad, raza o sexo"
-  ,
-  "más frecuentemente y los signos se manifiestan con más intensidad en los cachorros"
-  ,
-  "Adultos y viejos, sin predisposición por un sexo y más frecuente en Dachshund, Caniches, Beagles, aunque cualquier otra raza puede estar afectada"
-  ,
-  "Adultos-jóvenes.En todas las razas aunque más frecuentemente en Cocker spaniel, Dachshund.Doberman, Setter irlandés.Sin predilección por sexo"
-  ,
-  "en cualquier raza, aunque particularmente en Malamute, Chow-chow, Caniche miniatura, Pomeranias, de cualquier edad, preferentemente del sexo masculino"
-  ,
-  "en los machos de cualquier raza, adultos y viejos"
-  ,
-  "Se presentan en hembras adultas de edad mediana y sin predisposición racial"
-  ,
-  ,
-  "Con mayor frecuencia en adultas"
-  ,
-  "temprana edad"
-  ,
-  "Jovenes"
-  ,
-  "Adultos (mas freq)"
-  ,
-  "Adultos"
-  ,
-  "Son todas de etiología hereditaria.Las razas redispuestas son Cocker, Springer, Westy, Bassett, Setter, Doberman, Dachshund, Labrador, Ovejero alemán"
+  "Adultos (mas freq)",
+  "Adultos (mas incidencia)",
+  "Adultos jóvenes",
+  "Adultos jóvenes (preferentemente)",
+  "Adultos jóvenes (1 a 3 años de edad)",
 
-  ,
-  "más frecuente en adultos-viejos"
-  ,
-  "Adultos jóvenes de 1 a 3 añ1os de edad",
-  "aunque puede comenzar en edad adulta"
-  ,
-  "a partir de los 5-6 meses de edad"
-  ,
-  "Cuando el manto tiene otros colores recién se manifiesta después de los 2 añ1os de edad.Afecta pincipalmente a "
-  ,
-  "Adultos"
-  ,
-  "las mismas que para cada etiología desencadenante"
-  ,
-  "Adultos (mas freq)"
-  ,
-  "Cachorros de 3 semanas a 4 meses de edad"
-  ,
-  "Comienza entre los 6 meses y el añ1o de edad"
-  ,
+  "Menos de los 6 meses de edad",
+  "Comienza entre los 6 meses y el año de edad",
+  "Menores a 3 años",
+  "a partir de los 5-6 meses de edad",
+  "Mayores de 2 años",//Cuando el manto tiene otros colores
+
+  "Adultos y viejos (más frecuente)",
+  "Adultos (menos frecuente)",
+  "Cachorros (más frecuentemente y más intensidad)",
+  "Cachorros (3 semanas a 4 meses de edad)",
+  "Cachorros (Raro)",
+  "Cachorros y jóvenes (preferentemente)",
+  "Cachorros y jóvenes antes de alcanzar la madurez sexual (Generalmente)",
+  "Cachorros, hasta la pubertad (Preferentemente)",
+  "Comienza en los animales jóvenes",
+  "Cualquier edad",
+  "Edad mediana a viejos",
+  "Jóvenes",
+  "Jóvenes (mas incidencia)",
+  "Jóvenes (hasta el año de edad)",
+  "Viejos",
+
+  "La presencia de demodicosis en los animales Adultos hace necesario investigar aquellas patologías que alteran la inmunidad como determinado tipo de tumores",
+  "las mismas que para cada etiología desencadenante",
+  "Son todas de etiología hereditaria",
+
+  "Mediana edad",
+  "Temprana edad",
 ] as const;
 
 type EdadDetail = typeof EdadValues[number];
@@ -101,25 +53,25 @@ export const Edad: EdadType[] = [
   },
   {
     Edad: [
-      "mayor incidencia en animales adultos"
+      "Adultos (mas incidencia)"
     ],
     NAME: "DERMATITIS HÚMEDA AGUDA"
   },
   {
     Edad: [
-      "Preferentemente cachorros ,hasta la pubertad"
+      "Cachorros, hasta la pubertad (Preferentemente)"
     ],
     NAME: "IMPÉTIGO"
   },
   {
     Edad: [
-      "Más frecuentemente en animales jóvenes, aunque también puede afectar a animales de cualquier edad."
+      "Jóvenes (mas incidencia)"
     ],
     NAME: "FOLICULITIS BACTERIANA SUPERFICIAL"
   },
   {
     Edad: [
-      "Más frecuentemente en animales jóvenes, aunque también puede afectar a animales de cualquier edad."
+      "Jóvenes (mas incidencia)"
     ],
     NAME: "PIODERMIA SUPERFICIAL DISEMINADA"
   },
@@ -145,13 +97,13 @@ export const Edad: EdadType[] = [
   },
   {
     Edad: [
-      "En animales jóvenes hasta el añ1o de edad"
+      "Jóvenes (hasta el año de edad)",
     ],
     NAME: "FOLICULITIS FORUNCULOSIS DEL MENTÓN Y LABIOS"
   },
   {
     Edad: [
-      "No existe predisposición por edad, "
+      "Cualquier edad"
     ],
     NAME: "FOLICULITIS Y FORUNCULOSIS PODAL"
   },
@@ -181,111 +133,106 @@ export const Edad: EdadType[] = [
   },
   {
     Edad: [
-      "Perros menores a 3 añ1os"
+      "Menores a 3 años"
     ],
     NAME: "DERMATITIS ATÓPICA CANINA EST. I"
   },
   {
     Edad: [
-      "Perros menores a 3 añ1os"
-      ,
+      "Menores a 3 años",
     ],
     NAME: "DERMATITIS ATÓPICA CANINA EST. II"
   },
   {
     Edad: [
-      "Perros menores a 3 añ1os"
-      ,
+      "Menores a 3 años",
     ],
     NAME: "DERMATITIS ATÓPICA CANINA EST. III"
   },
   {
     Edad: [
-      "A cualquier edad",
+      "A cualquier edad"
     ],
     NAME: "REACCIÓN ADVERSA A LOS ALIMENTOS"
   },
   {
     Edad: [
       "Adultos jóvenes",
-      ,
     ],
     NAME: "PÉNFIGO FOLIÁCEO"
   },
   {
     Edad: [
-      "Afecta preferentemente adultos jóvenes"
-      ,
+      "Adultos jóvenes (preferentemente)",
     ],
     NAME: "PÉNFIGO VULGAR"
   },
   {
     Edad: [
       "Adultos jóvenes",
-      ,
     ],
     NAME: "PÉNFIGO ERITEMATOSO"
   },
   {
     Edad: [
-      "Afecta a animales de edad mediana a viejos, sin predisposición por alguno de los sexos.Los Collies y Shetland son las razas más predispuestas"
+      "Edad mediana a viejos"
     ],
     NAME: "PENFIGOIDE BULLOSO"
   },
   {
     Edad: [
-      "En los adultos jóvenes.NO tiene predilección por sexo ni razas.Es más frecuente en los Collies y Ovejeros alemanes"
+      "Adultos jóvenes"
     ],
     NAME: "LUPUS ERITEMATOSO SISTÉMICO"
   },
   {
     Edad: [
-      "Aunque no hay predisposición por edad o sexo, es raro en los cachorros"
+      "Cualquier edad",
+      "Cachorros (Raro)"
     ],
     NAME: "LUPUS ERITEMATOSO DISCOIDE"
   },
   {
     Edad: [
-      "Aunque no hay predisposición por edad o sexo, es raro en los cachorros"
-      ,
+      "Cualquier edad",
+      "Cachorros (Raro)",
     ],
     NAME: "LUPUS MUCOCUTÁNEO"
   },
   {
     Edad: [
-      "Aunque no hay predisposición por edad o sexo, es raro en los cachorros"
-      ,
+      "Cualquier edad",
+      "Cachorros (Raro)",
     ],
     NAME: "LUPUS CUTÁNEO VESICULAR"
   },
   {
     Edad: [
-      "antes de los 6 meses de edad, es mas frecuente en Collie y Collie shetiand y sus cruzas, aunque otras razas pueden estar afectadas como Welsh corgi, Ovejero aleman, Chow-Chow, Belga Tervueren, Beauceron, Terrier de Lakeland y Kuvasz de cualquier sexo"
+      "Menos de los 6 meses de edad"
     ],
     NAME: "DERMATOMIOSITIS"
   },
   {
     Edad: [
-      "Generalmente en cachorros y jóvenes antes de alcanzar la madurez sexual"
+      "Cachorros y jóvenes antes de alcanzar la madurez sexual (Generalmente)"
     ],
     NAME: "DEMODICOSIS LOCALIZADA"
   },
   {
     Edad: [
-      "Preferentemente en cachorros y jóvenes, de todas las razas aunque hay algunas en que tiene mayor incidencia, como en Pit bull, Doberman, Boxer, Collies, Gran danés, etc"
-      , "La presencia de demodicosis en los animales adultos hace necesario investigar aquellas patologías que alteran la inmunidad como determinado tipo de tumores"
+      "Cachorros y jóvenes (preferentemente)", "La presencia de demodicosis en los animales Adultos hace necesario investigar aquellas patologías que alteran la inmunidad como determinado tipo de tumores"
     ],
     NAME: "DEMODICOSIS GENERALIZADA"
   },
   {
     Edad: [
-      "No tiene predilección por edad, raza o sexo"
+      "Cualquier edad"
     ],
     NAME: "SARNA SARCÓPTICA"
   },
   {
     Edad: [
-      "más frecuentemente y los signos se manifiestan con más intensidad en los cachorros"
+      "Cachorros (más frecuentemente y más intensidad)"
     ],
     NAME: "SARNA OTODÉCTICA"
   },
@@ -296,45 +243,45 @@ export const Edad: EdadType[] = [
   },
   {
     Edad: [
-      "Adultos y viejos, sin predisposición por un sexo y más frecuente en Dachshund, Caniches, Beagles, aunque cualquier otra raza puede estar afectada"
+      "Adultos",
+      "Viejos",
     ],
     NAME: "DERMATOSIS POR HIPERADRENOCORTISISMO"
   },
   {
     Edad: [
-      "Adultos-jóvenes.En todas las razas aunque más frecuentemente en Cocker spaniel, Dachshund.Doberman, Setter irlandés.Sin predilección por sexo"
+      "Jóvenes", "Adultos"
     ],
     NAME: "DERMATOSIS POR HIPOTIROIDISMO"
   },
   {
     Edad: [
-      "en cualquier raza, aunque particularmente en Malamute, Chow-chow, Caniche miniatura, Pomeranias, de cualquier edad, preferentemente del sexo masculino"
+      "Cualquier edad"
     ],
     NAME: "ALOPECÍA X"
   },
   {
     Edad: [
-      "en los machos de cualquier raza, adultos y viejos"
+      "Adultos",
+      "Viejos",
     ],
     NAME: "DERMATOSIS POR NEOPLASIA TESTICULAR"
   },
   {
     Edad: [
-      "Se presentan en hembras adultas de edad mediana y sin predisposición racial"
+      "Mediana edad", "Adultos"
     ],
     NAME: "DERMATOSIS POR HIPERESTROGENISMO EN HEMBRAS"
   },
   {
     Edad: [
-      , "Con mayor frecuencia en adultas"
-      , "temprana edad"
+      "Adultos (mas freq)", "Temprana edad"
     ],
     NAME: "DERMATOSIS QUE RESPONDE A LOS ESTRÓGENOS"
   },
   {
     Edad: [
-      "Jovenes"
-      ,
+      "Jóvenes",
     ],
     NAME: "DERMATOFITOSIS POR MICROSPORUM"
   },
@@ -352,7 +299,7 @@ export const Edad: EdadType[] = [
   },
   {
     Edad: [
-      "Son todas de etiología hereditaria.Las razas redispuestas son Cocker, Springer, Westy, Bassett, Setter, Doberman, Dachshund, Labrador, Ovejero alemán"
+      "Son todas de etiología hereditaria"
     ],
     NAME: "SEBORREA PRIMARIA"
   },
@@ -374,7 +321,7 @@ export const Edad: EdadType[] = [
   },
   {
     Edad: [
-      "más frecuente en adultos-viejos"
+      "Adultos y viejos (más frecuente)"
     ],
     NAME: "HIPERQUERATOSIS NASO - DIGITAL IDIOPÁTICA"
   },
@@ -385,21 +332,21 @@ export const Edad: EdadType[] = [
   },
   {
     Edad: [
-      , "Adultos jóvenes de 1 a 3 añ1os de edad", "aunque puede comenzar en edad adulta"
+      "Adultos jóvenes (1 a 3 años de edad)",
+      "Adultos (menos frecuente)"
     ],
     NAME: "DERMATOSIS QUE RESPONDE AL ZINC"
   },
   {
     Edad: [
-      "a partir de los 5-6 meses de edad"
-      , "Cuando el manto tiene otros colores recién se manifiesta después de los 2 añ1os de edad.Afecta pincipalmente a "
+      "a partir de los 5-6 meses de edad",
+      "Mayores de 2 años",//Cuando el manto tiene otros colores
     ],
     NAME: "ALOPECÍA POR MUTACION DE COLOR"
   },
   {
     Edad: [
-      "Adultos"
-      ,
+      "Adultos",
     ],
     NAME: "DERMATITIS ACRAL POR LAMIDO"
   },
@@ -423,13 +370,13 @@ export const Edad: EdadType[] = [
   },
   {
     Edad: [
-      "Cachorros de 3 semanas a 4 meses de edad"
+      "Cachorros (3 semanas a 4 meses de edad)"
     ],
     NAME: "CELULITIS JUVENIL"
   },
   {
     Edad: [
-      "Comienza entre los 6 meses y el añ1o de edad"
+      "Comienza entre los 6 meses y el año de edad"
     ],
     NAME: "ALOPECÍA O CALVICIE PATRÓN"
   },

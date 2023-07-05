@@ -8,15 +8,15 @@ export const RazaValues = [
   " Afecta animales adultos, de raza Ovejero alemán, y sus cruzas.Sin predilección de sexo",
   "aparece con más frecuencia en Labrador, Golden y San Bernardo",
   "No hay predilección por edad y sexo.Es más frecuente en la raza Ovejero Alemán",
-  "En animales jóvenes hasta el añ1o de edad.Principalmente en razas de pelo corto, como Doberman, Bulldog, Gran danés, Weimaraner, Rotweiler, Pointer, etc.de ambos sexos.Puede observarse ocasionalmente en animales de pelo largo",
+  "En animales jóvenes hasta el año de edad.Principalmente en razas de pelo corto, como Doberman, Bulldog, Gran danés, Weimaraner, Rotweiler, Pointer, etc.de ambos sexos.Puede observarse ocasionalmente en animales de pelo largo",
   "No existe predisposición por edad, raza o sexo aunque se presenta más corrientemente en animales de pelo corto",
   "Comienza en los animales jóvenes", "Hay mayor predisposición en razas grandes y gigantes como el Gran danés y San Bemardo en los codos y tarsos.En Dachshund, Setter, Boxer, Doberman, el callo suele estar en relación al esternón",
   "A toda edad, en todas las razas y en ambos sexos",
   "A toda edad, en todas las razas y en ambos sexos",
   "A toda edad, en todas las razas y en ambos sexos",
-  "Perros menores a 3 añ1os, afecta ambos sexos y todas las razas particularmente a Terriers, Setter irlandes, Caniches.Dálmatas, Schnauzer y Ovejeros alemanes",
-  "antes de los 3 añ1os de vida, afecta ambos sexos y todas las razas particularmente a Terriers, Setter irlandes, Caniches, Dálmatas, Schnauzer y Ovejeros alemanes",
-  "antes de los 3 añ1os de edad, afecta ambos sexos y todas las razas particularmente a Terriers, Setter irlandes, Caniches, Dálmatas, Schnautzer y Ovejeros alemanes",
+  "Perros menores a 3 años, afecta ambos sexos y todas las razas particularmente a Terriers, Setter irlandes, Caniches.Dálmatas, Schnauzer y Ovejeros alemanes",
+  "antes de los 3 años de vida, afecta ambos sexos y todas las razas particularmente a Terriers, Setter irlandes, Caniches, Dálmatas, Schnauzer y Ovejeros alemanes",
+  "antes de los 3 años de edad, afecta ambos sexos y todas las razas particularmente a Terriers, Setter irlandes, Caniches, Dálmatas, Schnautzer y Ovejeros alemanes",
   "A cualquier edad, raza y sexo",
   "En adultos jóvenes no tiene predilección por sexo.Hay razas en la que es frecuente como los Dachshound de pelo corto, Doberman, Akita, Chow chow",
   "NO tiene predilección por edad o sexo.Afecta preferentemente adultos jóvenes.Hay razas en la que es más frecuente como los Dachshund de pelo corto, Doberman, Akita, Chow chow",
@@ -47,14 +47,14 @@ export const RazaValues = [
   "Machos adultos",
   "más frecuente en adultos-viejos, hay razas predispuestas como Boxer, Terrier de Boston, Bulldog, Dogo de Burdeos",
   "Históricamente sólo en la raza Cocker spaniel, aunque también fue descripto en Schnauzer miniatura y Labrador retriever",
-  "En las razas Siberian husky, Alaskan malamutes y Bull terriers", "En adultos jóvenes de 1 a 3 añ1os de edad, aunque puede comenzar en edad adulta de la raza Siberian husky, Alaskan malamute y de cualquier sexo",
-  "En aquellos animales que tienen pelos de un color azul-gris la alopecia comienza a partir de los 5-6 meses de edad", "Cuando el manto tiene otros colores recién se manifiesta después de los 2 añ1os de edad.Afecta pincipalmente a Doberman azules, aunque también en menor porcentaje a marrones.Otras razas con colores diluidos también están afectadas, como Dachshund, Gran danés, Whippet, Galgos italianos, Doberman miniatura, Yorkshire terrier, Chihuahua y muchas otras",
+  "En las razas Siberian husky, Alaskan malamutes y Bull terriers", "En adultos jóvenes de 1 a 3 años de edad, aunque puede comenzar en edad adulta de la raza Siberian husky, Alaskan malamute y de cualquier sexo",
+  "En aquellos animales que tienen pelos de un color azul-gris la alopecia comienza a partir de los 5-6 meses de edad", "Cuando el manto tiene otros colores recién se manifiesta después de los 2 años de edad.Afecta pincipalmente a Doberman azules, aunque también en menor porcentaje a marrones.Otras razas con colores diluidos también están afectadas, como Dachshund, Gran danés, Whippet, Galgos italianos, Doberman miniatura, Yorkshire terrier, Chihuahua y muchas otras",
   "Adultos, por lo general de razas grandes, como Doberman, Ovejero alemán,", "Gran Danés, Golden retriever, Setter irlandés, y otros.Se presenta 2 veces más en machos que en hembras",
   "las mismas que para cada etiología desencadenante",
-  "Es más frecuente en animales adultos, de razas de tamañ1o pequeñ1o, sin predisposición de sexo",
+  "Es más frecuente en animales adultos, de razas de tamaño pequeño, sin predisposición de sexo",
   "En adultos generalmente machos, más frecuentemente en la raza Ovejero alemán y sus cruzas.aunque también en Gran danés, Setter irlandés, y otras",
   "Cachorros de 3 semanas a 4 meses de edad, de cualquier raza aunque más frecuente en Dachshund y Golden retriever",
-  "tiene predilección por razas de mando corto como Terrier de Boston, Boxer, Chihuhua, Dachshund, Greyhoun italiano, Poinscher miniatura, Weimaraner y Whippet.Comienza entre los 6 meses y el añ1o de edad y no hay predilección por sexo",
+  "tiene predilección por razas de mando corto como Terrier de Boston, Boxer, Chihuhua, Dachshund, Greyhoun italiano, Poinscher miniatura, Weimaraner y Whippet.Comienza entre los 6 meses y el año de edad y no hay predilección por sexo",
   "No hay predilección por edad y sexo.Es más frecuente en la raza Ovejero Alemán pero cualquier", "raza dolicocéfala está predispuesta",
   "No hay predilección por edad y sexo.Es más frecuente en la raza Dachshound pero puede ocasionalmente afectar otras razas o mestizos",
 ] as const;
@@ -124,7 +124,7 @@ export const Raza: RazaType[] = [
   },
   {
     Raza: [
-      "En animales jóvenes hasta el añ1o de edad.Principalmente en razas de pelo corto, como Doberman, Bulldog, Gran danés, Weimaraner, Rotweiler, Pointer, etc.de ambos sexos.Puede observarse ocasionalmente en animales de pelo largo"
+      "En animales jóvenes hasta el año de edad.Principalmente en razas de pelo corto, como Doberman, Bulldog, Gran danés, Weimaraner, Rotweiler, Pointer, etc.de ambos sexos.Puede observarse ocasionalmente en animales de pelo largo"
     ],
     NAME: "FOLICULITIS FORUNCULOSIS DEL MENTÓN Y LABIOS"
   },
@@ -161,19 +161,19 @@ export const Raza: RazaType[] = [
   },
   {
     Raza: [
-      "Perros menores a 3 añ1os, afecta ambos sexos y todas las razas particularmente a Terriers, Setter irlandes, Caniches.Dálmatas, Schnauzer y Ovejeros alemanes"
+      "Perros menores a 3 años, afecta ambos sexos y todas las razas particularmente a Terriers, Setter irlandes, Caniches.Dálmatas, Schnauzer y Ovejeros alemanes"
     ],
     NAME: "DERMATITIS ATÓPICA CANINA EST. I"
   },
   {
     Raza: [
-      "antes de los 3 añ1os de vida, afecta ambos sexos y todas las razas particularmente a Terriers, Setter irlandes, Caniches, Dálmatas, Schnauzer y Ovejeros alemanes"
+      "antes de los 3 años de vida, afecta ambos sexos y todas las razas particularmente a Terriers, Setter irlandes, Caniches, Dálmatas, Schnauzer y Ovejeros alemanes"
     ],
     NAME: "DERMATITIS ATÓPICA CANINA EST. II"
   },
   {
     Raza: [
-      "antes de los 3 añ1os de edad, afecta ambos sexos y todas las razas particularmente a Terriers, Setter irlandes, Caniches, Dálmatas, Schnautzer y Ovejeros alemanes"
+      "antes de los 3 años de edad, afecta ambos sexos y todas las razas particularmente a Terriers, Setter irlandes, Caniches, Dálmatas, Schnautzer y Ovejeros alemanes"
     ],
     NAME: "DERMATITIS ATÓPICA CANINA EST. III"
   },
@@ -367,14 +367,14 @@ export const Raza: RazaType[] = [
   {
     Raza: [
       "En las razas Siberian husky, Alaskan malamutes y Bull terriers",
-      "En adultos jóvenes de 1 a 3 añ1os de edad, aunque puede comenzar en edad adulta de la raza Siberian husky, Alaskan malamute y de cualquier sexo"
+      "En adultos jóvenes de 1 a 3 años de edad, aunque puede comenzar en edad adulta de la raza Siberian husky, Alaskan malamute y de cualquier sexo"
     ],
     NAME: "DERMATOSIS QUE RESPONDE AL ZINC"
   },
   {
     Raza: [
       "En aquellos animales que tienen pelos de un color azul-gris la alopecia comienza a partir de los 5-6 meses de edad",
-      "Cuando el manto tiene otros colores recién se manifiesta después de los 2 añ1os de edad.Afecta pincipalmente a Doberman azules, aunque también en menor porcentaje a marrones.Otras razas con colores diluidos también están afectadas, como Dachshund, Gran danés, Whippet, Galgos italianos, Doberman miniatura, Yorkshire terrier, Chihuahua y muchas otras"
+      "Cuando el manto tiene otros colores recién se manifiesta después de los 2 años de edad.Afecta pincipalmente a Doberman azules, aunque también en menor porcentaje a marrones.Otras razas con colores diluidos también están afectadas, como Dachshund, Gran danés, Whippet, Galgos italianos, Doberman miniatura, Yorkshire terrier, Chihuahua y muchas otras"
     ],
     NAME: "ALOPECÍA POR MUTACION DE COLOR"
   },
@@ -393,7 +393,7 @@ export const Raza: RazaType[] = [
   },
   {
     Raza: [
-      "Es más frecuente en animales adultos, de razas de tamañ1o pequeñ1o, sin predisposición de sexo"
+      "Es más frecuente en animales adultos, de razas de tamaño pequeño, sin predisposición de sexo"
     ],
     NAME: "ENFERMEDAD DE LOS SACOS ANALES"
   },
@@ -411,7 +411,7 @@ export const Raza: RazaType[] = [
   },
   {
     Raza: [
-      "tiene predilección por razas de mando corto como Terrier de Boston, Boxer, Chihuhua, Dachshund, Greyhoun italiano, Poinscher miniatura, Weimaraner y Whippet.Comienza entre los 6 meses y el añ1o de edad y no hay predilección por sexo"
+      "tiene predilección por razas de mando corto como Terrier de Boston, Boxer, Chihuhua, Dachshund, Greyhoun italiano, Poinscher miniatura, Weimaraner y Whippet.Comienza entre los 6 meses y el año de edad y no hay predilección por sexo"
     ],
     NAME: "ALOPECÍA O CALVICIE PATRÓN"
   },
