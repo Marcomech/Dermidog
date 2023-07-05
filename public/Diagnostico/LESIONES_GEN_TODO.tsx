@@ -15,7 +15,7 @@ export const LesionesGeneralesValues = [
   'Dependen del compromiso sistémico',
   'Depresión',
   'Diabetes mellitus con insulinoresistencia',
-  'Disminución de olfato',
+  'Disminución del olfato',
   'Disminución del gusto',
   'Dolor',
   'Dolor localizado',
@@ -40,7 +40,7 @@ export const LesionesGeneralesValues = [
   'Lamido compulsivo',
   'Lamido constante',
   'Linfoadenopatía',
-  'Miositis y dolor',
+  'Miositis',
   'No hay',
   'Conjuntivitis',
   'Olor desagradable (particularmente en los pliegues labiales)',
@@ -260,7 +260,7 @@ export const LesionesGenerales: LesionesGeneralesType[] = [
   {
     NAME: 'DERMATOMIOSITIS',
     LesionesGenerales: [
-      'Miositis y dolor',
+      'Miositis', 'Dolor',
       'Todas las manifestaciones clínicas, bioquímicas y electromiográficos'
     ]
   },
@@ -399,7 +399,7 @@ export const LesionesGenerales: LesionesGeneralesType[] = [
   {
     NAME: 'DERMATOSIS QUE RESPONDE AL ZINC',
     LesionesGenerales: [
-      'Disminución de olfato', 'Disminución del gusto',
+      'Disminución del olfato', 'Disminución del gusto',
       'El estrés y el estro precipitan los signos clínicos dérmicos'
     ]
   },
