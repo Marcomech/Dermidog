@@ -1,5 +1,5 @@
-import { RazaValuesEx } from "../Diagnostico/Listas/Razas";
 import {
+  RazaValues,
   AreaValues,
   LesionesDermicasValues,
   LesionesGeneralesValues,
@@ -29,7 +29,7 @@ export const FormFields: formType[] = [
       }, {
         type: "AutoComplete",
         id: "Raza",
-        options: RazaValuesEx,
+        options: RazaValues as unknown as string[],
         disabled: true,
       },
       {
