@@ -20,7 +20,7 @@ export const AreaValues = [
     'Bordes mucocutáneos',
     'Bordes palpebrales',
     'Cabeza',
-    'Callos seborreicos como áreas redondeadas y simétricas en relación con cada tuberosidad isquiática',
+    'Callos en puntos de apoyo',
     'Cara',
     'Carpos',
     'Codos',
@@ -60,11 +60,11 @@ export const AreaValues = [
     'Labios superiores',
     'Labios (Alrededores)',
     'Labios',
-    'Las venas mamarias son claramente visibles',
     'Lateral de miembros',
     'Lesiones únicas',
     'Los pelos se mantienen a lo largo de la columna vertebral',
     'Manos',
+    'Mentón',
     'Metacarpos',
     'Metatarsos',
     'Miembros',
@@ -95,13 +95,12 @@ export const AreaValues = [
     'Pliegue vulvar',
     'Prepucio',
     'Región costal',
-    'Región del mentón',
     'Región esternal y axilar',
     'Región inguinal y umbilical',
     'Región lateral de la Nariz',
     'Región lumbosacra',
     'Región torácica en forma de silla de montar',
-    'Seborrea generalizada',
+    'Seborrea',
     'Sin lesion dermica',
     'Tarsos',
     'Tibias',
@@ -109,8 +108,9 @@ export const AreaValues = [
     'Tórax (Dorsal)',
     'Tórax (Lateral)',
     'Tórax',
-    'Uniones mucocutaneas de ano',
+    'Union mucocutanea del ano',
     'Uñas',
+    'Venas mamarias visibles',
     'Vulva',
 
     'NO tiene área definida',
@@ -224,7 +224,7 @@ export const Area: AreaType[] = [
     },
     {
         Area: [
-            'Región del mentón',
+            'Mentón',
             'Labios (Alrededores)'
         ],
         NAME: 'FOLICULITIS FORUNCULOSIS DEL MENTÓN Y LABIOS'
@@ -431,7 +431,7 @@ export const Area: AreaType[] = [
             'Perinasal',
             'Área perilabial',
             'Área periocular',
-            'Uniones mucocutaneas de ano',
+            'Union mucocutanea del ano',
             'Vulva',
             'Prepucio'
         ],
@@ -515,7 +515,7 @@ export const Area: AreaType[] = [
             'Ingles hasta las axilas',
             'Cola',
             'Cuello',
-            'Las venas mamarias son claramente visibles'
+            'Venas mamarias visibles'
         ],
         NAME: 'DERMATOSIS POR HIPERADRENOCORTISISMO'
     },
@@ -604,7 +604,6 @@ export const Area: AreaType[] = [
     },
     {
         Area: [
-            'Cuello',
             'Axilas',
             'Muslo (Cara interna)',
             'Pliegue vulvar',
@@ -627,9 +626,9 @@ export const Area: AreaType[] = [
         Area: [
             'NO tiene área definida',
             'Sigue el patrón de la enfermedad que le dió origen',
-            'Callos seborreicos como áreas redondeadas y simétricas en relación con cada tuberosidad isquiática',
+            'Callos en puntos de apoyo',
             'Parches seborreicos',
-            'Seborrea generalizada'
+            'Seborrea'
         ],
         NAME: 'SEBORREA SECUNDARIA'
     },
