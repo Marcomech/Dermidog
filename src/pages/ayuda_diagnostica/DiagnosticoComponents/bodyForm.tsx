@@ -1,16 +1,14 @@
 import * as React from 'react';
 import Grid from '@mui/material/Unstable_Grid2';
-import DropDown from '../../../components/CustomFormFields/DropDown';
-import Text from '../../../components/CustomFormFields/Text';
+import { AutoComplete, DropDown, Text } from '../../../components/CustomFormFields';
 import { FormFields } from '../../../../public/data';
-import AutoComplete from '../../../components/CustomFormFields/AutoComplete';
+import { FormControl } from '@mui/material';
 
 
 interface BodyFormProps {
   actualPage: number
 }
 export default function BodyForm({ actualPage }: BodyFormProps) {
-
 
   const pageFields = FormFields.find((formField) => formField.page === actualPage);
   if (!pageFields) {
@@ -37,26 +35,33 @@ export default function BodyForm({ actualPage }: BodyFormProps) {
             key={actualPage + field.id}
             xs={par ? 4 : 4}
             md={par ? 4 : 8}
-
           >
-            {
-              field.type === 'Text'
-                ? <Text id={field.id} />
-                : field.type === 'DropDown' && field.id
-                  ? <DropDown
+            <FormControl
+              sx={{ width: '100%', height: '100%' }}
+              focused={true}
+            >
+              {
+                field.type === 'Text'
+                  ? <Text
                     id={field.id}
-                    options={field.options}
                     disabled={field.disabled}
                   />
-                  : field.type === 'AutoComplete' && field.id
-                    ?
-                    <AutoComplete
+                  : field.type === 'DropDown' && field.id
+                    ? <DropDown
                       id={field.id}
                       options={field.options}
                       disabled={field.disabled}
                     />
-                    : null
-            }
+                    : field.type === 'AutoComplete' && field.id
+                      ?
+                      <AutoComplete
+                        id={field.id}
+                        options={field.options}
+                        disabled={field.disabled}
+                      />
+                      : null
+              }
+            </FormControl>
           </Grid>
         );
       })}

@@ -1,14 +1,8 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import theme from '@/constants/themes';
 import { FormContext } from '@/context/FormContext';
-import { FormControl, TextField, Autocomplete } from '@mui/material';
-import { SyntheticEvent, useContext } from 'react';
-
-type FieldProps = {
-  id: string;
-  options?: string[];
-  disabled: boolean,
-}
+import { TextField, Autocomplete } from '@mui/material';
+import { FieldProps } from '.';
 
 export default function AutoComplete(data: FieldProps) {
   const { id, options, disabled } = data;
@@ -18,10 +12,8 @@ export default function AutoComplete(data: FieldProps) {
     return <div>No id</div>;
   }
 
-  const handleChange = (event: SyntheticEvent<Element, Event>, fieldId: string, newValue: string) => {
-
+  const handleChange = (fieldId: string, newValue: string) => {
     setFormData({ ...formData, [fieldId]: newValue });
-    console.log(formData);
   };
 
   let menuOptions = [
@@ -37,37 +29,30 @@ export default function AutoComplete(data: FieldProps) {
   }
 
   return (
-    <FormControl
-      sx={{ width: '100%', height: '100%' }}
-      focused={true}>
-      <Autocomplete
-        //VEr
-        //sx={{
-        //  "& .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline": {
-        //    borderWidth: 4,
-        //    borderRadius: 2,
-        //  },
-        //}}
-        autoHighlight
-        openOnFocus
-        autoComplete
-        noOptionsText={'Busque un area diferente'}
-        isOptionEqualToValue={(option, value) => option.value === value.value}
-        componentsProps={{
-          paper: { sx: { bgcolor: theme.palette.primary.light, } },
-        }}
-        options={menuOptions}
-        id={id}
-        renderInput={(params) =>
-          <TextField {...params} focused={true}
-            label={id.replace(/([a-z])([A-Z])/g, '$1 $2')} />
-        }
-        disabled={disabled}
-        onChange={(event, newValue) => {
-          const value = newValue?.value ?? '';
-          handleChange(event, id, value);
-        }}
-      />
-    </FormControl >
+    <Autocomplete
+      componentsProps={{
+        paper: { sx: { bgcolor: theme.palette.primary.light, } },
+      }}
+      autoHighlight
+      openOnFocus
+      autoComplete
+      noOptionsText={'No se encontro ningún área'}
+      isOptionEqualToValue={(option, value) => option.value === value.value}
+
+      options={menuOptions}
+      id={id}
+      renderInput={(params) =>
+        <TextField
+          {...params}
+          focused={true}
+
+          label={id.replace(/([a-z])([A-Z])/g, '$1 $2')} />
+      }
+      disabled={disabled}
+      onChange={(_event, newValue) => {
+        const value = newValue?.value ?? '';
+        handleChange(id, value);
+      }}
+    />
   );
 }

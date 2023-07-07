@@ -1,14 +1,8 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import theme from '@/constants/themes';
 import { FormContext } from '@/context/FormContext';
-import { SelectChangeEvent, MenuItem, FormControl, InputLabel, Select, OutlinedInput } from '@mui/material';
-import { useContext } from 'react';
-
-type FieldProps = {
-  id: string;
-  options?: string[];
-  disabled: boolean,
-}
+import { SelectChangeEvent, MenuItem, InputLabel, Select, OutlinedInput } from '@mui/material';
+import { FieldProps } from '.';
 
 export default function DropDown(data: FieldProps) {
   const { id, options, disabled } = data;
@@ -24,7 +18,7 @@ export default function DropDown(data: FieldProps) {
   };
 
   let menuOptions = [
-    <MenuItem key='default' value="">
+    <MenuItem key='default' value=''>
       <em>No Definido</em>
     </MenuItem>,
   ];
@@ -39,32 +33,30 @@ export default function DropDown(data: FieldProps) {
     ));
   }
 
+
   return (
-    <FormControl
-      sx={{ width: '100%', height: '100%' }}
-      focused={true} >
-      <InputLabel id="DropDown">{id.replace(/([a-z])([A-Z])/g, '$1 $2')}</InputLabel>
+    <>
+      <InputLabel id="DropDown">
+        {id.replace(/([a-z])([A-Z])/g, '$1 $2')}
+      </InputLabel>
       <Select
         MenuProps={{
           PaperProps: { sx: { bgcolor: theme.palette.primary.light, } },
         }}
-        //VEr
-        //sx={{
-        //  '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
-        //    borderWidth: 4,
-        //    borderRadius: 2,
-        //  },
-        //}}
         id={id}
         value={(typeof formData[id] == 'undefined'
           ? '' : formData[id])}
+        input={
+          <OutlinedInput label={id} />
+        }
+        disabled={disabled}
         onChange={(event: SelectChangeEvent<string>) =>
           handleChange(event, id)}
-        input={<OutlinedInput label={id} />}
-        disabled={disabled}
       >
         {menuOptions}
       </Select>
-    </FormControl >
+    </ >
+
+
   );
 }

@@ -49,7 +49,7 @@ const rawTheme = createTheme({
 const fontHeader = {
   color: rawTheme.palette.text.primary,
   fontWeight: rawTheme.typography.fontWeightMedium,
-  fontFamily: '"Roboto Condensed", sans-serif',//ver
+  fontFamily: '"Roboto Condensed", sans-serif',
   textTransform: 'uppercase',
 };
 

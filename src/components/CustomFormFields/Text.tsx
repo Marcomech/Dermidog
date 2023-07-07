@@ -1,17 +1,17 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { FormContext } from '@/context/FormContext';
-import { FormControl, TextField } from '@mui/material';
-import { useContext } from 'react';
+import { TextField, Input, makeStyles } from '@mui/material';
+import { FieldProps } from '.';
+import theme from '@/constants/themes';
 
-type FieldProps = {
-  id: string;
-  options?: string[];
-}
 
 export default function Text(data: FieldProps) {
   const { id } = data;
-
   const { formData, setFormData } = useContext(FormContext);
+
+  if (!id) {
+    return <div>No id</div>;
+  }
 
   const handleChange = (event: React.FocusEvent<HTMLInputElement>, fieldId: string) => {
     const newValue = event.target.value;
@@ -19,17 +19,13 @@ export default function Text(data: FieldProps) {
   };
 
   return (
-    <FormControl
-      sx={{ width: '100%', height: '100%' }}
-      focused={true}>
+    <TextField
 
-      <TextField
-
-        id={id}
-        focused={true}
-        label='Nombre'
-        onBlur={(event: React.FocusEvent<HTMLInputElement>) =>
-          handleChange(event, id)
-        } />
-    </FormControl >);
+      id={id}
+      focused={true}
+      label='Nombre'
+      onBlur={(event: React.FocusEvent<HTMLInputElement>) =>
+        handleChange(event, id)
+      } />
+  );
 }
