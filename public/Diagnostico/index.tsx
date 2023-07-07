@@ -1,12 +1,12 @@
 import { Prurito, PruritoValues } from "./PRURITO";
 import { Seborrea, SeborreaValues } from "./SEBORREA";
-import { Simetria, SimetriaValues } from "./SIMETRIA_TODO";
-import { Area, AreaValues } from "./AREA_TODO";
-import { Raza, RazaValues } from "./RAZA_TODO";
+import { Simetria, SimetriaValues } from "./SIMETRIA";
+import { Area, AreaValues } from "./AREA";
+import { Raza, RazaValues } from "./RAZA";
 import { Sexo, SexoValues } from "./SEXO";
-import { Edad, EdadValues } from "./EDAD_TODO";
-import { LesionesDermicas, LesionesDermicasValues } from "./LESIONES_DERM_TODO";
-import { LesionesGenerales, LesionesGeneralesValues } from "./LESIONES_GEN_TODO";
+import { Edad, EdadValues } from "./EDAD";
+import { LesionesDermicas, LesionesDermicasValues } from "./LESIONES_DERM";
+import { LesionesGenerales, LesionesGeneralesValues } from "./LESIONES_GEN";
 
 export {
   Prurito,

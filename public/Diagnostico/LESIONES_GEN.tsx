@@ -1,4 +1,6 @@
 export const LesionesGeneralesValues = [
+  /*TODO*/
+
   'Adelgazamiento',
   'Algunos animales tienen al mismo tiempo vómitos, diarreas y cólicos',
   'Anemia',

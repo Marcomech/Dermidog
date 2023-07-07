@@ -1,4 +1,5 @@
 export const SimetriaValues = [
+    /*TODO*/
     'No resulta claro o concluytente',
     'Mas bien, diria que esta "al medio"',
     'No, son asimetricas y/o unilaterales',

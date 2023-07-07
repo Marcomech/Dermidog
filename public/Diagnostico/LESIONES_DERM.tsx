@@ -1,4 +1,6 @@
 export const LesionesDermicasValues = [
+  /*TODO*/
+
   '"Escamas" grisaceas cubriendo el manto piloso',
   /*'Dependen de la etiología pero En General son: ',*/
   /*'Van a incluir los de la enfermedad primaria pero En General son:',*/

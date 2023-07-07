@@ -1,4 +1,5 @@
 export const AreaValues = [
+    /*TODO*/
     'Abdomen',
     'Almohadillas plantares',
     'Alopecia (Parcial)',
