@@ -1,9 +1,7 @@
 import React, { useContext } from 'react';
 import { FormContext } from '@/context/FormContext';
-import { TextField, Input, makeStyles } from '@mui/material';
+import { TextField } from '@mui/material';
 import { FieldProps } from '.';
-import theme from '@/constants/themes';
-
 
 export default function Text(data: FieldProps) {
   const { id } = data;
