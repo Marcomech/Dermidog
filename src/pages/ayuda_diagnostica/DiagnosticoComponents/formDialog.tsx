@@ -1,19 +1,17 @@
 import React, { useContext, useState } from 'react';
-import Button from '@mui/material/Button';
-import Dialog from '@mui/material/Dialog';
-import DialogActions from '@mui/material/DialogActions';
-import DialogContent from '@mui/material/DialogContent';
-import DialogTitle from '@mui/material/DialogTitle';
+import { Button, Dialog } from '@mui/material';
+import { DialogActions, DialogContent, DialogTitle } from '@mui/material';
 import theme from '@/constants/themes';
-import PageBody from './pageBody';
 import PageFooter from './pageFooter';
 import { FormContext } from '@/context/FormContext';
+import BodyForm from './bodyForm';
+import EncontrarDiagnostico from '@/functions/diagnostico';
 
 export default function FormDialog() {
 
   const [open, setOpen] = useState(false);
   const [activePage, setActivePage] = useState(0);
-  const { formData, setFormData } = useContext(FormContext);
+  const { setFormData } = useContext(FormContext);
 
   const handleClickOpen = () => {
     setOpen(true);
@@ -47,23 +45,36 @@ export default function FormDialog() {
         open={open}
         fullWidth={true}
         onClose={handleClose}
-        style={{
-          height: '100vh'
-        }}
         PaperProps={{
           style: {
+            height: '80%',
+            width: '80%',
+            maxHeight: '100%',
+            maxWidth: '100%',
             backgroundColor: theme.palette.background.default,
           },
         }}
       >
-        {activePage === 5
-          ? <DialogTitle variant='h3' >Enfermedades posibles</DialogTitle>
-          : <DialogTitle variant='h3' >Ayuda Diagnostica</DialogTitle>
-        }
+        {
+          activePage < 5
+            ? <>
+              <DialogTitle variant='h3'>
+                Ayuda Diagnostica
+              </DialogTitle>
+              <DialogContent>
+                <BodyForm actualPage={activePage} />
+              </DialogContent>
+            </>
 
-        <DialogContent>
-          <PageBody actualPage={activePage} />
-        </DialogContent>
+            : <>
+              <DialogTitle variant='h3'>
+                Enfermedades posibles
+              </DialogTitle>
+              <DialogContent>
+                <EncontrarDiagnostico />
+              </DialogContent>
+            </>
+        }
 
         <DialogActions>
           <PageFooter

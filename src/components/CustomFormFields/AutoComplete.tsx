@@ -1,7 +1,8 @@
-import theme from "@/constants/themes";
-import { FormContext } from "@/context/FormContext";
-import { FormControl, TextField, Autocomplete } from "@mui/material";
-import { SyntheticEvent, useContext } from "react";
+import React from 'react';
+import theme from '@/constants/themes';
+import { FormContext } from '@/context/FormContext';
+import { FormControl, TextField, Autocomplete } from '@mui/material';
+import { SyntheticEvent, useContext } from 'react';
 
 type FieldProps = {
   id: string;
@@ -20,26 +21,33 @@ export default function AutoComplete(data: FieldProps) {
   const handleChange = (event: SyntheticEvent<Element, Event>, fieldId: string, newValue: string) => {
 
     setFormData({ ...formData, [fieldId]: newValue });
-    console.log(formData)
+    console.log(formData);
   };
 
-  var menuOptions = [
-    { label: "No Definido", value: "" },
-  ]
+  let menuOptions = [
+    { label: 'No Definido', value: '' },
+  ];
 
   if (options && Array.isArray(options)) {
     options.map((option) => (
       menuOptions = menuOptions.concat(
         { label: option, value: option }
       )
-    ))
+    ));
   }
 
   return (
     <FormControl
-      sx={{ width: '225px' }}
+      sx={{ width: '100%', height: '100%' }}
       focused={true}>
       <Autocomplete
+        //VEr
+        //sx={{
+        //  "& .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline": {
+        //    borderWidth: 4,
+        //    borderRadius: 2,
+        //  },
+        //}}
         autoHighlight
         openOnFocus
         autoComplete
@@ -52,12 +60,12 @@ export default function AutoComplete(data: FieldProps) {
         id={id}
         renderInput={(params) =>
           <TextField {...params} focused={true}
-            label={id.replace(/([a-z])([A-Z])/g, "$1 $2")} />
+            label={id.replace(/([a-z])([A-Z])/g, '$1 $2')} />
         }
         disabled={disabled}
         onChange={(event, newValue) => {
-          var value = newValue?.value ?? ""
-          handleChange(event, id, value)
+          const value = newValue?.value ?? '';
+          handleChange(event, id, value);
         }}
       />
     </FormControl >

@@ -1,4 +1,4 @@
-import { ReactNode, createContext, useState } from "react";
+import React, { ReactNode, createContext, useState } from 'react';
 
 interface FormData {
   [key: string]: string;
@@ -11,21 +11,21 @@ interface FormContextValue {
 
 export const FormContext = createContext<FormContextValue>({
   formData: {},
-  setFormData: () => { },
+  setFormData: () => { }
 });
 
 export function FormContextProvider({ children }: { children: ReactNode }) {
   const [formData, setFormData] = useState<FormData>({
-    'Nombre': "",
-    'Raza': "",
-    'Sexo': "",
-    'Edad': "",
-    'AreaInvolurada': "",
-    'Prurito': "",
-    'Seborrea': "",
-    'Simetria': "",
-    'LesionesGenerales': "",
-    'LesionesDermicas': "",
+    'Nombre': '',
+    'Raza': '',
+    'Sexo': '',
+    'Edad': '',
+    'AreaInvolurada': '',
+    'Prurito': '',
+    'Seborrea': '',
+    'Simetria': '',
+    'LesionesGenerales': '',
+    'LesionesDermicas': '',
   });
 
   return (

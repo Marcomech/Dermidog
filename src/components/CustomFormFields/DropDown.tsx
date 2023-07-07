@@ -1,7 +1,8 @@
-import theme from "@/constants/themes";
-import { FormContext } from "@/context/FormContext";
-import { SelectChangeEvent, MenuItem, FormControl, InputLabel, Select, OutlinedInput } from "@mui/material";
-import { useContext } from "react";
+import React from 'react';
+import theme from '@/constants/themes';
+import { FormContext } from '@/context/FormContext';
+import { SelectChangeEvent, MenuItem, FormControl, InputLabel, Select, OutlinedInput } from '@mui/material';
+import { useContext } from 'react';
 
 type FieldProps = {
   id: string;
@@ -22,11 +23,11 @@ export default function DropDown(data: FieldProps) {
     setFormData({ ...formData, [fieldId]: newValue });
   };
 
-  var menuOptions = [
+  let menuOptions = [
     <MenuItem key='default' value="">
       <em>No Definido</em>
     </MenuItem>,
-  ]
+  ];
 
   if (options && Array.isArray(options)) {
     options.map((option) => (
@@ -35,17 +36,25 @@ export default function DropDown(data: FieldProps) {
           {option}
         </MenuItem>
       )
-    ))
+    ));
   }
 
   return (
     <FormControl
-      sx={{ width: '225px' }}
-      focused={true}>
-      <InputLabel id="DropDown">{id.replace(/([a-z])([A-Z])/g, "$1 $2")}</InputLabel>
+      sx={{ width: '100%', height: '100%' }}
+      focused={true} >
+      <InputLabel id="DropDown">{id.replace(/([a-z])([A-Z])/g, '$1 $2')}</InputLabel>
       <Select
-        MenuProps={{ PaperProps: { sx: { bgcolor: theme.palette.primary.light, } } }}
-        labelId="SelectLabelId"
+        MenuProps={{
+          PaperProps: { sx: { bgcolor: theme.palette.primary.light, } },
+        }}
+        //VEr
+        //sx={{
+        //  '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
+        //    borderWidth: 4,
+        //    borderRadius: 2,
+        //  },
+        //}}
         id={id}
         value={(typeof formData[id] == 'undefined'
           ? '' : formData[id])}

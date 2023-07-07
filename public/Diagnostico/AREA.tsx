@@ -17,6 +17,7 @@ export const AreaValues = [
     'Área poplítea',
     'Área umbilical',
     'Áreas alopécicas en cualquier parte de la superficie dérmica',
+    'Areas de piel delgada',
     'Axilas',
     'Bordes mucocutáneos',
     'Bordes palpebrales',
@@ -34,7 +35,9 @@ export const AreaValues = [
     'Conductos auditivos (externos)',
     'Conductos auditivos (no constante)',
     'Cualquier área',
-    'Cuello',
+    'Cuello (Dorsal)',
+    'Cuello (Lateral)',
+    'Cuello (Ventral)',
     'Dedos',
     'Dentro de la cavidad bucal y en las uniones muco-cutaneas',
     'Desde la región lumbosacra se extiende en forma de triángulo con vértice hacia craneal',
@@ -94,6 +97,8 @@ export const AreaValues = [
     'Pies',
     'Plano nasal',
     'Pliegue vulvar',
+    'Pliegue facial',
+    'Pliegue labial',
     'Prepucio',
     'Región costal',
     'Región esternal y axilar',
@@ -135,11 +140,13 @@ export type AreaType = {
 export const Area: AreaType[] = [
     {
         Area: [
-            'Área de los pliegues',
-            'Nariz',
+            'Pliegue facial',
             'Cola',
-            'Vulva',
+            'Pliegue vulvar',
             'Labios inferiores',
+            'Pliegue labial',
+            'Nariz',
+            'Vulva',
             'Área de los pliegues'
         ],
         NAME: 'DERMATITIS DE LOS PLIEGUES'
@@ -150,15 +157,15 @@ export const Area: AreaType[] = [
             'Muslo (Cara externa)',
             'Cola (Base)',
             'Cabeza',
-            'Cuello'
+            'Cuello (Ventral)',
         ],
         NAME: 'DERMATITIS HÚMEDA AGUDA'
     },
     {
         Area: [
-            'Ingles',
             'Axilas',
             'Muslo (Cara interna)',
+            'Ingles'
         ],
         NAME: 'IMPÉTIGO'
     },
@@ -166,20 +173,21 @@ export const Area: AreaType[] = [
         Area: [
             'NO tiene área definida',
             'Tórax (Lateral)',
-            'Cuello',
-            'Cabeza',
             'Lateral de miembros',
-            'Abdomen',
             'Muslo (Cara interna)',
+            'Abdomen',
+            'Cabeza',
+            'Cuello (Dorsal)',
+            'Cuello (Lateral)',
         ],
         NAME: 'FOLICULITIS BACTERIANA SUPERFICIAL'
     },
     {
         Area: [
-            'Áreas alopécicas en cualquier parte de la superficie dérmica',
-            'Ingles',
             'Axilas',
-            'Abdomen'
+            'Abdomen',
+            'Áreas alopécicas en cualquier parte de la superficie dérmica',
+            'Ingles'
         ],
         NAME: 'PIODERMIA SUPERFICIAL DISEMINADA'
     },
@@ -191,166 +199,144 @@ export const Area: AreaType[] = [
     },
     {
         Area: [
-            'Muslo (Cara interna)',
-            'Muslo (Cara externa)',
-            'Cola (Base)',
-            'Tórax',
             'Espacios interdigitales',
-            'Cuello',
-            'Abdomen',
+            'Muslo (Cara externa)',
             'Tórax',
-            'Espacios interdigitales'
+            'Cola (Base)',
+            'Muslo (Cara interna)',
+            'Abdomen',
+            'Cuello (Dorsal)',
         ],
         NAME: 'PIODERMIA PROFUNDA DEL OVEJERO ALEMÁN'
     },
     {
         Area: [
-            'Cuello',
             'Cabeza',
             'Cola (Base)',
-            'Cabeza',
-            'Cuello'
+            'Cuello (Dorsal)',
+            'Cuello (Ventral)',
         ],
         NAME: 'FOLICULITIS-FORUNCULOSIS PIOTRAUMATICA'
     },
     {
         Area: [
-            'Región lateral de la Nariz',
-            'Plano nasal',
-            'Alrededor de los ojos',
-            'Pabellones auriculares (Borde interno)',
             'Pabellones auriculares (Cara interna)',
+            'Pabellones auriculares (Borde interno)',
+            'Región lateral de la Nariz',
+            'Alrededor de los ojos',
+            'Plano nasal'
         ],
         NAME: 'FOLICULITIS Y FORUNCULOSIS NASAL'
     },
     {
         Area: [
-            'Mentón',
-            'Labios (Alrededores)'
+            'Labios (Alrededores)',
+            'Mentón'
         ],
         NAME: 'FOLICULITIS FORUNCULOSIS DEL MENTÓN Y LABIOS'
     },
     {
         Area: [
             'Espacios interdigitales y tejidos vecinos',
-            'Manos',
-            'Pies'
+            'Pies',
+            'Manos'
         ],
         NAME: 'FOLICULITIS Y FORUNCULOSIS PODAL'
     },
     {
         Area: [
+            'Esternón',
             'Codos',
-            'Tarsos',
-            'Codos',
-            'Tarsos',
-            'Esternón'
+            'Tarsos'
         ],
         NAME: 'FOLICULITIS FORUNCULOSIS DE LOS CALLOS'
     },
     {
         Area: [
-            'Cola (Base)',
-            'Región lumbosacra',
-            'Muslo (Cara interna)',
             'Área umbilical',
+            'Muslo (Cara interna)',
+            'Región lumbosacra',
+            'Cola (Base)'
         ],
-        NAME: 'DERMATITIS ALÉRGICA POR PULGAS EST I'
+        NAME: 'DERMATITIS ALÉRGICA POR PULGAS EST. I'
     },
     {
         Area: [
-            'Cola (Base)',
-            'Región lumbosacra',
-            'Muslo (Cara interna)',
             'Área umbilical',
-            'Desde la región lumbosacra se extiende en forma de triángulo con vértice hacia craneal',
-            'Cola (Inserción)',
-            'Periné',
-            'Área poplítea',
-            'Abdomen',
-            'Región inguinal y umbilical',
-            'Cuello',
-            'Pabellones auriculares (Cara interna)'
-        ],
-        NAME: 'DERMATITIS ALÉRGICA POR PULGAS EST II'
-    },
-    {
-        Area: [
-            'Cola (Base)',
-            'Región lumbosacra',
-            'Muslo (Cara interna)',
-            'Área umbilical',
-            'Desde la región lumbosacra se extiende en forma de triángulo con vértice hacia craneal',
-            'Cola (Inserción)',
-            'Periné',
-            'Área poplítea',
-            'Abdomen',
-            'Región inguinal y umbilical',
-            'Cuello',
             'Pabellones auriculares (Cara interna)',
-            'Área periocular',
-            'Tórax (Dorsal)',
-            'Tórax (Lateral)',
-            'Pabellones auriculares (Cara externa)',
+            'Desde la región lumbosacra se extiende en forma de triángulo con vértice hacia craneal',
+            'Cola (Base)',
+            'Periné',
+            'Muslo (Cara interna)',
+            'Cola (Inserción)',
+            'Área poplítea',
+            'Cuello (Ventral)',
             'Abdomen',
-            'Región esternal y axilar'
+            'Región inguinal y umbilical',
+            'Región lumbosacra'
         ],
-        NAME: 'DERMATITIS ALÉRGICA POR PULGAS EST III'
+        NAME: 'DERMATITIS ALÉRGICA POR PULGAS EST. II'
     },
     {
         Area: [
-            'Sin lesion dermica',
+            'Área umbilical',
+            'Pabellones auriculares (Cara externa)',
+            'Tórax (Dorsal)',
+            'Pabellones auriculares (Cara interna)',
+            'Tórax (Lateral)',
+            'Desde la región lumbosacra se extiende en forma de triángulo con vértice hacia craneal',
+            'Cola (Base)',
+            'Periné',
+            'Región esternal y axilar',
+            'Muslo (Cara interna)',
+            'Cola (Inserción)',
+            'Área poplítea',
+            'Cuello (Ventral)',
+            'Abdomen',
+            'Región inguinal y umbilical',
+            'Área periocular',
+            'Región lumbosacra'
+        ],
+        NAME: 'DERMATITIS ALÉRGICA POR PULGAS EST. III'
+    },
+    {
+        Area: [
             'Área periocular',
             'Área interdigital',
+            'Sin lesion dermica',
             'Área perilabial'
         ],
-        NAME: 'DERMATITIS ATÓPICA CANINA EST I'
+        NAME: 'DERMATITIS ATÓPICA CANINA EST. I'
     },
     {
         Area: [
-            'Sin lesion dermica',
-            'Área periocular',
             'Área interdigital',
-            'Área perilabial',
-            'Área periocular',
-            'Área interdigital',
-            'Área perilabial',
             'Pabellones auriculares (Cara interna)',
+            'Área perilabial',
             'Axilas',
-            'Abdomen',
+            'Sin lesion dermica',
             'Ingles',
             'Periné',
-            'Área interdigital'
+            'Abdomen',
+            'Área periocular'
         ],
-        NAME: 'DERMATITIS ATÓPICA CANINA EST II'
+        NAME: 'DERMATITIS ATÓPICA CANINA EST. II'
     },
     {
-        Area: ['Sin lesion dermica',
-            'Área periocular',
-            'Área interdigital',
-            'Área perilabial',
-            'Área periocular',
-            'Área interdigital',
-            'Área perilabial',
-            'Pabellones auriculares (Cara interna)',
-            'Axilas',
-            'Abdomen',
-            'Ingles',
-            'Periné',
-            'Área interdigital',
-            'Área periocular',
+        Area: [
             'Área interdigital',
             'Tórax (Dorsal)',
-            'Tórax (Lateral)',
-            'Área perilabial',
             'Pabellones auriculares (Cara interna)',
+            'Área perilabial',
             'Axilas',
-            'Abdomen',
+            'Tórax (Lateral)',
+            'Sin lesion dermica',
             'Ingles',
             'Periné',
-            'Área interdigital'
+            'Abdomen',
+            'Área periocular'
         ],
-        NAME: 'DERMATITIS ATÓPICA CANINA EST III'
+        NAME: 'DERMATITIS ATÓPICA CANINA EST. III'
     },
     {
         Area: [],
@@ -358,64 +344,61 @@ export const Area: AreaType[] = [
     },
     {
         Area: [
-            'Puede afectar todo el cuerpo de manera explosiva',
-            'Nariz',
-            'Área periocular',
-
-            'Pabellones auriculares (Borde interno)',
             'Pabellones auriculares (Cara externa)',
             'Pabellones auriculares (Cara interna)',
+            'Puede afectar todo el cuerpo de manera explosiva',
+            'Ingles',
+            'Nariz',
             'Almohadillas plantares',
             'Uñas',
-            'Ingles',
-            'Almohadillas plantares'
+            'Pabellones auriculares (Borde interno)',
+            'Área periocular'
         ],
         NAME: 'PÉNFIGO FOLIÁCEO'
     },
     {
         Area: [
-            'Dentro de la cavidad bucal y en las uniones muco-cutaneas',
-            'Bordes palpebrales',
-            'Almohadillas plantares',
-            'Labios',
-            'Piel',
-            'Fosas nasales',
-            'Prepucio',
-            'Vulva',
             'Ano',
-            'Ingles',
+            'Fosas nasales',
+            'Bordes palpebrales',
+            'Piel',
             'Axilas',
-            'Almohadillas plantares'
+            'Prepucio',
+            'Ingles',
+            'Dentro de la cavidad bucal y en las uniones muco-cutaneas',
+            'Almohadillas plantares',
+            'Vulva',
+            'Labios'
         ],
         NAME: 'PÉNFIGO VULGAR'
     },
     {
         Area: [
-            'Nariz',
-            'Área periocular',
-            'Pabellones auriculares (Borde interno)',
             'Pabellones auriculares (Cara externa)',
             'Pabellones auriculares (Cara interna)',
+            'Nariz',
+            'Pabellones auriculares (Borde interno)',
+            'Área periocular'
         ],
         NAME: 'PÉNFIGO ERITEMATOSO'
     },
     {
         Area: [
-            'Piel sin pelo',
             'Abdomen',
             'Muslo (Cara interna)',
-            'Bordes mucocutáneos'
+            'Bordes mucocutáneos',
+            'Piel sin pelo'
         ],
         NAME: 'PENFIGOIDE BULLOSO'
     },
     {
         Area: [
+            'Pabellones auriculares',
             'Todo el cuerpo',
             'NO tiene área definida',
             'Nariz',
-            'Área periocular',
             'Almohadillas plantares',
-            'Pabellones auriculares'
+            'Área periocular'
         ],
         NAME: 'LUPUS ERITEMATOSO SISTÉMICO'
     },
@@ -429,64 +412,65 @@ export const Area: AreaType[] = [
     },
     {
         Area: [
-            'Perinasal',
             'Área perilabial',
-            'Área periocular',
+            'Prepucio',
             'Union mucocutanea del ano',
             'Vulva',
-            'Prepucio'
+            'Área periocular',
+            'Perinasal'
         ],
         NAME: 'LUPUS MUCOCUTÁNEO'
     },
     {
         Area: [
             'Abdomen',
-            'Muslo (Cara interna)',
-            'Axilas'
+            'Areas de piel delgada',
+            'Axilas',
+            'Muslo (Cara interna)'
         ],
         NAME: 'LUPUS CUTÁNEO VESICULAR'
     },
     {
         Area: [
             'Nariz',
-            'Área periocular',
-            'Orejas (Puntas)',
-            'Plano nasal',
-            'Carpos',
-            'Tarsos',
-            'Codos',
             'Dedos',
-            'Cola (Punta)',
+            'Orejas (Puntas)',
+            'Codos',
+            'Carpos',
+            'Plano nasal',
+            'Área periocular',
+            'Tarsos',
+            'Cola (Punta)'
         ],
         NAME: 'DERMATOMIOSITIS'
     },
     {
         Area: [
-            'Alopecia (Parcial)',
             'Cabeza',
-            'Miembros',
             'Región costal',
+            'Miembros',
+            'Alopecia (Parcial)'
         ],
         NAME: 'DEMODICOSIS LOCALIZADA'
     },
     {
         Area: [
             'Cualquier área',
-            'Cabeza',
-            'Dorso',
+            'Espacios interdigitales',
             'Miembros',
-            'Cuello',
-            'Espacios interdigitales'
+            'Dorso',
+            'Cabeza',
+            'Cuello (Ventral)',
         ],
         NAME: 'DEMODICOSIS GENERALIZADA'
     },
     {
         Area: [
             'Orejas (Bordes)',
-            'Codos',
-            'Tarsos',
             'Tórax',
             'Abdomen',
+            'Codos',
+            'Tarsos'
         ],
         NAME: 'SARNA SARCÓPTICA'
     },
@@ -498,87 +482,89 @@ export const Area: AreaType[] = [
     },
     {
         Area: [
-            'NO tiene área definida',
+            'Columna dorsal',
             'Cabeza',
-            'Cuello',
-            'Columna dorsal'
+            'NO tiene área definida',
+            'Cuello (Dorsal)',
+            //'Cuello (Lateral)',//VER
+            //'Cuello (Ventral)',//VER
         ],
         NAME: 'CHEILETIELOSIS'
     },
     {
         Area: [
             'Alopecia (Difusa)',
-            'Alopecia (Parcial)',
-            'Alopecia (Total)',
-            'Tronco llegando hasta los codos',
-            'Tarsos',
-            'Cuello',
-            'Ingles hasta las axilas',
             'Cola',
-            'Cuello',
-            'Venas mamarias visibles'
+            'Alopecia (Total)',
+            'Venas mamarias visibles',
+            'Ingles hasta las axilas',
+            'Tronco llegando hasta los codos',
+            'Cuello (Dorsal)',
+            'Cuello (Ventral)',
+            'Alopecia (Parcial)',
+            'Tarsos'
         ],
         NAME: 'DERMATOSIS POR HIPERADRENOCORTISISMO'
     },
     {
         Area: [
-            'Alopecia (Parcial)',
-            'Región torácica en forma de silla de montar',
-            'Cuello',
-            'Los pelos se mantienen a lo largo de la columna vertebral',
             'Pabellones auriculares (Cara externa)',
             'Cola',
-            'Abdomen',
             'Tórax',
-            'Cuello'
+            'Región torácica en forma de silla de montar',
+            'Alopecia (Parcial)',
+            'Abdomen',
+            'Los pelos se mantienen a lo largo de la columna vertebral',
+            'Cuello (Dorsal)',
+            'Cuello (Ventral)',
         ],
         NAME: 'DERMATOSIS POR HIPOTIROIDISMO'
     },
     {
         Area: [
-            'Alopecia (Parcial)',
-            'Alopecia (Total)',
-            'Región torácica en forma de silla de montar',
-            'Cuello',
             'Pabellones auriculares (Cara externa)',
-            'Cola',
             'Muslos (Posterior)',
-            'Periné',
-            'Abdomen',
+            'Cola',
+            'Alopecia (Total)',
             'Tórax',
-            'Cuello',
+            'Periné',
+            'Región torácica en forma de silla de montar',
+            'Alopecia (Parcial)',
+            'Abdomen',
+            'Cuello (Dorsal)',
+            'Cuello (Ventral)',
         ],
         NAME: 'ALOPECÍA X'
     },
     {
         Area: [
-            'Flancos (alopecias)',
-            'Área poplítea',
-            'Cuello',
-            'Ingles hasta las axilas',
-            'Ginecomastia',
             'Orejas (Cara interna)',
+            'Ingles hasta las axilas',
+            'Área poplítea',
+            'Ginecomastia',
+            'Flancos (alopecias)',
+            'Cuello (Dorsal)',
         ],
         NAME: 'DERMATOSIS POR NEOPLASIA TESTICULAR'
     },
     {
         Area: [
-            'Periné',
             'Flancos',
+            'Conductos auditivos (no constante)',
             'Ingles hasta las axilas',
-            'Ginecomastia con pezones hiperpigmentados y agrandados',
-            'Conductos auditivos (no constante)'
+            'Periné',
+            'Ginecomastia con pezones hiperpigmentados y agrandados'
         ],
         NAME: 'DERMATOSIS POR HIPERESTROGENISMO EN HEMBRAS'
     },
     {
         Area: [
-            'Flancos (alopecias)',
-            'Periné',
-            'Muslos (Posterior)',
             'Pabellones auriculares',
             'Desde las axilas hasta las ingles',
-            'Cuello'
+            'Periné',
+            'Muslos (Posterior)',
+            'Flancos (alopecias)',
+            'Cuello (Ventral)',
         ],
         NAME: 'DERMATOSIS QUE RESPONDE A LOS ESTRÓGENOS'
     },
@@ -586,34 +572,33 @@ export const Area: AreaType[] = [
         Area: [
             'Cualquier área',
             'Regiones con pelos cortos',
-            'Orejas',
-            'Cara',
             'Miembros',
-            'Miembros'
+            'Cara',
+            'Orejas'
         ],
         NAME: 'DERMATOFITOSIS POR MICROSPORUM'
     },
     {
         Area: [
-            'Involucra superficies relativamente grandes',
             'Cualquier área',
-            'Cabeza',
             'Manos',
-            'Patas'
+            'Patas',
+            'Cabeza',
+            'Involucra superficies relativamente grandes'
         ],
         NAME: 'DERMATOFITOSIS POR TRICOPHYTON'
     },
     {
         Area: [
-            'Axilas',
-            'Muslo (Cara interna)',
-            'Pliegue vulvar',
             'Área perianal',
             'Área interdigital',
+            'Pliegue vulvar',
+            'Axilas',
             'Orejas (Cara interna)',
+            'Muslo (Cara interna)',
             'Labios',
-            'Cuello',
-            'Área interdigital'
+            'Cuello (Dorsal)',
+            'Cuello (Ventral)',
         ],
         NAME: 'DERMATITIS POR MALASSEZIA'
     },
@@ -626,88 +611,85 @@ export const Area: AreaType[] = [
     {
         Area: [
             'NO tiene área definida',
-            'Sigue el patrón de la enfermedad que le dió origen',
             'Callos en puntos de apoyo',
+            'Seborrea',
             'Parches seborreicos',
-            'Seborrea'
+            'Sigue el patrón de la enfermedad que le dió origen'
         ],
         NAME: 'SEBORREA SECUNDARIA'
     },
     {
         Area: [
-            'Alopecia (Parcial)',
-            'Alopecia (Total)',
             'Orejas (Bordes)',
+            'Alopecia (Total)',
+            'Alopecia (Parcial)'
         ],
         NAME: 'SEBORREA DEL BORDE DE LAS OREJAS'
     },
     {
         Area: [
-            'Alopecia (Ovoidea)',
-            'Alopecia (Total)',
             'En el tercio superior',
+            'Alopecia (Total)',
+            'Alopecia (Ovoidea)',
             'Cola (Dorsal)'
         ],
         NAME: 'HIPERPLASIA DE LA GLÁNDULA DE LA COLA'
     },
     {
         Area: [
-            'Hocico',
             'Almohadillas plantares',
-            'Almohadillas plantares'
+            'Hocico'
         ],
         NAME: 'HIPERQUERATOSIS NASO - DIGITAL IDIOPÁTICA'
     },
     {
         Area: [
-            'Tórax',
             'Abdomen',
-            'Cuello',
+            'Tórax',
             'Tórax (Lateral)',
+            'Cuello (Ventral)',
         ],
         NAME: 'DERMATOSIS QUE RESPONDE A LA VITAMINA A'
     },
     {
         Area: [
-            'Hocico',
-            'Alrededor de los ojos',
-            'Codos',
-            'Almohadillas plantares',
-            'Área perilabial',
             'Pabellones auriculares (Cara interna)',
-            'Escroto',
+            'Área perilabial',
             'Prepucio',
+            'Hocico',
+            'Almohadillas plantares',
+            'Alrededor de los ojos',
+            'Escroto',
             'Vulva',
             'Codos',
-            'Tarsos',
-            'Almohadillas plantares'
+            'Tarsos'
         ],
         NAME: 'DERMATOSIS QUE RESPONDE AL ZINC'
     },
     {
         Area: [
-            'Alopecia (Parcial)',
-            'Dorso',
+            //'Respetando la cabeza y lo miembros',
             'Toda la superficie cutánea',
-            //'Respetando la cabeza y lo miembros'
+            'Dorso',
+            'Alopecia (Parcial)'
         ],
         NAME: 'ALOPECÍA POR MUTACION DE COLOR'
     },
     {
         Area: [
-            'Lesiones únicas',
-            'Craneal (Carpos)',
-            'Metacarpos',
             'Craneal (Radios)',
+            'Lesiones únicas',
             'Metatarsos',
-            'Tibias'
+            'Tibias',
+            'Metacarpos',
+            'Craneal (Carpos)'
         ],
         NAME: 'DERMATITIS ACRAL POR LAMIDO'
     },
     {
         Area: [
-            'Pabellones auriculares (Cara interna)',
             'Conductos auditivos (externos)',
+            'Pabellones auriculares (Cara interna)'
         ],
         NAME: 'OTITIS EXTERNA'
     },
@@ -725,41 +707,40 @@ export const Area: AreaType[] = [
     },
     {
         Area: [
+            'Parpados',
+            'Pabellones auriculares',
             'Hocico',
             'Nariz',
-            'Labios superiores',
-            'Parpados',
             'Labios (Alrededores)',
-            'Pabellones auriculares'
+            'Labios superiores'
         ],
         NAME: 'CELULITIS JUVENIL'
     },
     {
         Area: [
+            'Pecho',
             'Alopecia (Parcial)',
+            'Periné',
             'Pabellones auriculares (Área convexa)',
             'Área periauricular',
             'Muslos (Posterior)',
-            'Periné',
-            'Cuello',
-            'Pecho',
-            'Abdomen'
+            'Abdomen',
+            'Cuello (Ventral)',
         ],
         NAME: 'ALOPECÍA O CALVICIE PATRÓN'
     },
     {
         Area: [
-            'Región lateral de la Nariz',
-            'Plano nasal',
-            'Alrededor de los ojos',
-            'Pabellones auriculares (Borde interno)',
             'Pabellones auriculares (Cara interna)',
+            'Pabellones auriculares (Borde interno)',
+            'Región lateral de la Nariz',
+            'Alrededor de los ojos',
+            'Plano nasal'
         ],
         NAME: 'FORUNCULOSIS EOSINOFÍLICA'
     },
     {
         Area: [
-            'Pabellones auriculares (Bordes)',
             'Pabellones auriculares (Bordes)'
         ],
         NAME: 'VASCULITIS DEL BORDE DE LAS OREJAS'

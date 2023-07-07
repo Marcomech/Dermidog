@@ -1,22 +1,18 @@
 import React, { useState } from 'react';
-import { useRouter } from "next/router";
-import { Box } from '@mui/material';
+import { useRouter } from 'next/router';
 import SpeedDial from '@mui/material/SpeedDial';
 
 import { SpeedDialIcon, SpeedDialAction } from '@mui/material';
-import {
-  HomeOutlined, MenuBookOutlined,
-  LocalHospitalOutlined, HealingOutlined, Menu, MenuOpen, CropSharp, Close
-} from '@mui/icons-material';
+import { HomeOutlined, MenuBookOutlined, HealingOutlined, Menu, Close } from '@mui/icons-material';
 
 const actions = [
-  { icon: <HomeOutlined />, path: "/", name: 'Inicio' },
-  { icon: <MenuBookOutlined />, path: "/informacion_patologica", name: 'Información Patológica' },
-  { icon: <HealingOutlined />, path: "/ayuda_diagnostica", name: 'Ayuda Diagnóstica' },
+  { icon: <HomeOutlined />, path: '/', name: 'Inicio' },
+  { icon: <MenuBookOutlined />, path: '/informacion_patologica', name: 'Información Patológica' },
+  { icon: <HealingOutlined />, path: '/ayuda_diagnostica', name: 'Ayuda Diagnóstica' },
 ];
 
 export default function GlobalMenu() {
-  const router = useRouter()
+  const router = useRouter();
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -26,7 +22,7 @@ export default function GlobalMenu() {
   };
   return (
     <SpeedDial
-      ariaLabel="SpeedDial"
+      ariaLabel='SpeedDial'
       sx={{
         marginTop: 2,
         marginRight: 1,

@@ -1,14 +1,15 @@
-import GlobalLayout from '@/layouts'
-import { Typography, Box, Grid, Button } from '@mui/material'
-import { useRouter } from 'next/router'
+import GlobalLayout from '@/layouts';
+import { Typography, Box, Grid, Button } from '@mui/material';
+import { useRouter } from 'next/router';
+import React from 'react';
 
 export default function Home() {
-  const router = useRouter()
+  const router = useRouter();
   function handleClick(page: string) {
-    router.push(page)
+    router.push(page);
   }
 
-  return (<>
+  return (
     <GlobalLayout>
       <Typography variant='body1' >
         Sistema de apoyo al diagnostico y aprendizaje de las enfermedades mas frecuentes de la piel de los caninos
@@ -19,14 +20,14 @@ export default function Home() {
         <Grid >
           <Button variant='contained'
             style={{ margin: '3vh', width: '30vh', height: '20vh', minWidth: '150px', minHeight: '80px' }}
-            onClick={() => handleClick("/informacion_patologica")}>
+            onClick={() => handleClick('/informacion_patologica')}>
             Información Patológica
           </Button>
         </Grid>
         <Grid >
           <Button variant='contained'
             style={{ margin: '3vh', width: '30vh', height: '20vh', minWidth: '150px', minHeight: '80px' }}
-            onClick={() => handleClick("/ayuda_diagnostica")}>
+            onClick={() => handleClick('/ayuda_diagnostica')}>
             Ayuda Diagnóstica
           </Button>
         </Grid>
@@ -40,11 +41,10 @@ export default function Home() {
         right={0}
         margin={2}
       >
-        <Typography variant="body1">
+        <Typography variant="body2">
           Creado por F. Fogel y E. Hutter, 1997
         </Typography>
       </Box>
     </GlobalLayout >
-  </>
-  )
+  );
 }

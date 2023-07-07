@@ -20,8 +20,8 @@ export default function PageFooter({ onClose, setActivePage, steps, activePage }
     return skipped.has(step);
   };
 
-  steps = steps ?? []
-  activePage = activePage ?? 0
+  steps = steps ?? [];
+  activePage = activePage ?? 0;
 
 
   const handleNext = () => {
@@ -58,7 +58,7 @@ export default function PageFooter({ onClose, setActivePage, steps, activePage }
         return (
           <Step key={label} {...stepProps}>
             <StepLabel>
-              {(activePage === index) ? label : ""}
+              {(activePage === index) ? label : ''}
             </StepLabel>
           </Step>
         );
@@ -92,5 +92,5 @@ export default function PageFooter({ onClose, setActivePage, steps, activePage }
           </Box>
         </React.Fragment>
       )}
-  </Box>
+  </Box>;
 }

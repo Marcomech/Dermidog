@@ -1,6 +1,7 @@
-import { FormContext } from "@/context/FormContext";
-import { FormControl, TextField } from "@mui/material";
-import { useContext } from "react";
+import React from 'react';
+import { FormContext } from '@/context/FormContext';
+import { FormControl, TextField } from '@mui/material';
+import { useContext } from 'react';
 
 type FieldProps = {
   id: string;
@@ -19,15 +20,16 @@ export default function Text(data: FieldProps) {
 
   return (
     <FormControl
-      sx={{ width: '225px' }}
+      sx={{ width: '100%', height: '100%' }}
       focused={true}>
 
       <TextField
+
         id={id}
         focused={true}
         label='Nombre'
         onBlur={(event: React.FocusEvent<HTMLInputElement>) =>
           handleChange(event, id)
         } />
-    </FormControl >)
+    </FormControl >);
 }

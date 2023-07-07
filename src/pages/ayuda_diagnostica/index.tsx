@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Typography } from '@mui/material';
-import GlobalLayout from "@/layouts";
+import GlobalLayout from '@/layouts';
 import FormDialog from '@/pages/ayuda_diagnostica/DiagnosticoComponents/formDialog';
 import { FormContextProvider } from '@/context/FormContext';
 
