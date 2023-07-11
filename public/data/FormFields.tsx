@@ -33,13 +33,13 @@ export const FormFields: formType[] = [
         disabled: true,
       },
       {
-        type: "DropDown",
+        type: "AutoComplete",
         id: "Sexo",
         options: ['Macho', 'Hembra'],
         disabled: true,
       },
       {
-        type: "DropDown",
+        type: "AutoComplete",
         id: "Edad",
         options: ['Cachorro', 'Joven', 'Adulto'],
         disabled: true,
@@ -65,7 +65,7 @@ export const FormFields: formType[] = [
         disabled: false,
       },
       {
-        type: "DropDown",
+        type: "AutoComplete",
         id: 'Seborrea',
         options: SeborreaValues as unknown as string[],
         disabled: true,
@@ -75,7 +75,7 @@ export const FormFields: formType[] = [
     page: 3,
     fields: [
       {
-        type: "DropDown",
+        type: "AutoComplete",
         id: 'Simetria',
         options: [
           'No resulta claro o concluytente',
@@ -90,13 +90,13 @@ export const FormFields: formType[] = [
     page: 4,
     fields: [
       {
-        type: "DropDown",
+        type: "AutoComplete",
         id: 'LesionesGenerales',
         options: LesionesGeneralesValues as unknown as string[],
         disabled: true,
       },
       {
-        type: "DropDown",
+        type: "AutoComplete",
         id: 'LesionesDermicas',
         options: LesionesDermicasValues as unknown as string[],
         disabled: true,

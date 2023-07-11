@@ -41,21 +41,19 @@ export default function BodyForm({ actualPage }: BodyFormProps) {
               focused={true}
               sx={{
                 width: '100%', height: '100%',
-                '.css-11ku7qt-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline': {
-                  borderWidth: 4
-                },
-                '.css-1kg8qmb-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline': {
-                  borderWidth: 4
-                },
-                '.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon': {
+                '.MuiSvgIcon-root': {
                   color: theme.palette.primary.main,
                 },
-                '.css-bpeome-MuiSvgIcon-root-MuiSelect-icon': {
-                  color: theme.palette.primary.main,
+                '& .MuiOutlinedInput-root': {
+                  '&.Mui-focused fieldset': {
+                    borderRadius: 2,
+                    borderWidth: 4,
+                    borderColor: theme.palette.primary.main,
+                  },
+                  '&:hover fieldset': {
+                    borderWidth: 5,
+                  },
                 },
-                '.css-i4bv87-MuiSvgIcon-root': {
-                  color: theme.palette.primary.main,
-                }
               }}
             >
               {
