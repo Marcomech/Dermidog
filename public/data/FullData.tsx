@@ -1155,7 +1155,7 @@ export const FullData: FullDataType[] = [
   {
     NAME: "PÉNFIGO VULGAR",
     DATA: {
-      CODIGO: "4PVUL",
+      CODIGO: "1PVUL",
       SINÓNIMO: [
         "No tiene"
       ],

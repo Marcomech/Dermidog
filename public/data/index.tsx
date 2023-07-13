@@ -9,3 +9,7 @@ export {
   FormFields,
   Capitulos,
 };
+
+//6 cachorro
+//6 a 12 joven
+//12 adulto

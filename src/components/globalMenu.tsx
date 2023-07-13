@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/navigation';
 import SpeedDial from '@mui/material/SpeedDial';
 
 import { SpeedDialIcon, SpeedDialAction } from '@mui/material';
@@ -26,7 +26,8 @@ export default function GlobalMenu() {
       sx={{
         marginTop: 2,
         marginRight: 1,
-        position: 'absolute', top: 0, right: 0,
+        position: 'absolute',
+        top: 0, right: 0,
         '& .MuiFab-primary': {
           '& .MuiSpeedDialIcon-icon': { fontSize: 30, paddingBottom: 0.7 },
           '& .MuiSpeedDialIcon-openIcon': { fontSize: 30, paddingBottom: 0.7 }

@@ -1,6 +1,6 @@
-import AutoComplete from "./AutoComplete";
-import DropDown from "./DropDown";
-import Text from "./Text";
+import AutoComplete from './AutoComplete';
+import DropDown from './DropDown';
+import Text from './Text';
 
 export type FieldProps = {
   id: string;
